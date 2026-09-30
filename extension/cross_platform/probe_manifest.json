@@ -1,0 +1,23 @@
+{
+  "requests": [
+    {
+      "name": "polymarket_core_cpi_market",
+      "url": "https://polymarket.com/event/core-cpi-yoy-september-2026/will-core-cpi-yoy-be-2pt3-in-september-2026",
+      "requested_at_utc": "2026-09-28T21:18:42.008021+00:00",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+    },
+    {
+      "name": "polymarket_core_cpi_event",
+      "url": "https://polymarket.com/event/core-cpi-yoy-september-2026",
+      "requested_at_utc": "2026-09-28T21:18:42.008503+00:00",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+    },
+    {
+      "name": "polymarket_macro",
+      "url": "https://polymarket.com/economy/macro-indicators",
+      "requested_at_utc": "2026-09-28T21:18:42.008695+00:00",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+    }
+  ],
+  "request_count": 3
+}

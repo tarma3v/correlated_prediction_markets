@@ -1,0 +1,350 @@
+{
+  "created_at_utc": "2026-09-29T23:00:21.394173+00:00",
+  "status": "complete",
+  "script_sha256": "73d6004f57b10e82e992f11f932a825355dbc2ca7db2167f8e0c0f06e9164d7f",
+  "inputs_sha256": {
+    "redesign/retrieval/markets.json": "730b5a504dae16ea5fe620e1354aa2120c97b5ad5770095f2fa529cc9b90e152",
+    "redesign/retrieval/reference_pairs.json": "424400dd5cfb0735aea1e6f777ae7367ca2235c1992ac63c1147da66b3687629",
+    "redesign/run_retrieval.py": "6889d69f6828dfbf6fd986232630e529f0ee29dd35d2f35257cbdebbdf9185ab"
+  },
+  "old_artifacts_sha256": {
+    "redesign/retrieval/summary.json": "01d07f886afa9048d03597f60b936f5d60fe10d99ffcad6dc3e4b4e00a8a43ea",
+    "redesign/retrieval/reference_pairs.json": "424400dd5cfb0735aea1e6f777ae7367ca2235c1992ac63c1147da66b3687629",
+    "redesign/retrieval/embeddings.npz": "51fa3f0399101d4f5c96ecc30b300f2bbb0f46de6831ad14014c8b8c5cdfb239",
+    "redesign/retrieval/dense_title_pair_ranks.json": "b51250101f9fd92c982d0f5ce2b69847069654e272cb3ac5a2f30168bac581fa",
+    "redesign/retrieval/lexical_event_title_pair_ranks.json": "5b1bb1816bb60e9b4a1e3bf9d0963379495cdd26e28c7a0b93ed849dda42713e",
+    "redesign/retrieval/results.json": "d1cb7df68a428515e60f61d259080d5669a6ab5d5697656777256c067a4a54fc",
+    "redesign/retrieval/dense_event_title_pair_ranks.json": "6ace02fff16a76360aa57be6edb28889c27a6a29da260672b1e7079249ff83a7",
+    "redesign/retrieval/markets.json": "730b5a504dae16ea5fe620e1354aa2120c97b5ad5770095f2fa529cc9b90e152",
+    "redesign/retrieval/environment.json": "2f5d9b317b597abb78d80f2140fac61fc59c571b1507ff54e027c471a0dfc38f",
+    "redesign/retrieval/lexical_title_pair_ranks.json": "2994bd5ac5c240ed5fcef376ea758ad79254bcd010972fa8dcfb22b855b4e851",
+    "redesign/retrieval/run_manifest.json": "43dca69e3c35fbf723e158a6c6a079eafc200c4880b58265bbfbad1369ba33b5"
+  },
+  "python": "3.11.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "dependencies": {
+    "torch": "2.0.1",
+    "transformers": "4.44.2",
+    "numpy": "1.25.1",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.19.1",
+    "safetensors": "0.8.0",
+    "scikit-learn": "1.3.0"
+  },
+  "settings": {
+    "device": "cpu",
+    "threads": 4,
+    "batch_size": 32,
+    "seed": 0,
+    "model_eval": true,
+    "gradients": false,
+    "views": [
+      "event_title",
+      "title"
+    ],
+    "models": [
+      "e5_small_v2",
+      "bge_small_en_v1_5"
+    ],
+    "offline": true,
+    "cosine": "L2-normalized dot product",
+    "tie_break": "stable argsort; frozen input order"
+  },
+  "text_views": {
+    "event_title": "event_title + '\\n' + title",
+    "title": "title"
+  },
+  "candidate_pool": {
+    "poly": 493,
+    "kalshi": 493,
+    "filtering": "none; all opposite-venue markets"
+  },
+  "evaluation": "Existing frozen evaluate(), explicit OUT redirection; k=1,3,5,10; both retrieval directions.",
+  "primary_view": "event_title",
+  "secondary_view": "title",
+  "reference_labels": {
+    "same": 461,
+    "different": 27,
+    "unsure": 5
+  },
+  "warning": "External author-audit known links, not independently adjudicated exhaustive gold. No precision, population recall, payoff-equivalence or resolution-rule accuracy claim. No model selection/tuning beyond this descriptive comparison.",
+  "models": {
+    "e5_small_v2": {
+      "repo": "intfloat/e5-small-v2",
+      "revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "weights_sha256": "45bfa60070649aae2244fbc9d508537779b93b6f353c17b0f95ceccb1c5116c1",
+      "prefix": "query: ",
+      "pooling": "masked_mean",
+      "max_length": 512,
+      "instruction_reason": "Official card recommends query: on both sides for symmetric semantic similarity / paraphrase retrieval. This is market-to-market matching, not short-query to long-passage search.",
+      "official_model_card_url": "https://huggingface.co/intfloat/e5-small-v2/blob/ffb93f3bd4047442299a41ebb6fa998a38507c52/README.md",
+      "snapshot_path": "tmp/hf_cache/models--intfloat--e5-small-v2/snapshots/ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "files": {
+        "README.md": {
+          "sha256": "0d57eda4766cc7ac045f2bf7e700286ea5a8360bb9b57278f67f9b8ef60b0b24",
+          "bytes": 67791
+        },
+        "config.json": {
+          "sha256": "5dfb0363cd0243be179c03bcaafd1542d0fbb95e8cbcf575fff3e229342adc2f",
+          "bytes": 615
+        },
+        "model.safetensors": {
+          "sha256": "45bfa60070649aae2244fbc9d508537779b93b6f353c17b0f95ceccb1c5116c1",
+          "bytes": 133466304
+        },
+        "tokenizer.json": {
+          "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+          "bytes": 711396
+        },
+        "tokenizer_config.json": {
+          "sha256": "ae83fa6ca0333117ff12606020af925d648667ef70d92ff7f27d781ba0ca4544",
+          "bytes": 314
+        },
+        "special_tokens_map.json": {
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+          "bytes": 125
+        },
+        "vocab.txt": {
+          "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+          "bytes": 231508
+        },
+        "modules.json": {
+          "sha256": "c6e29747481e8b5dd2b58401966aeac910de39092f90cda9a704b1545f902b04",
+          "bytes": 387
+        },
+        "1_Pooling/config.json": {
+          "sha256": "987f7a67a38fa564c849bb5d277c52ab9088a84368fc0be31a354125aebb12a0",
+          "bytes": 200
+        }
+      },
+      "normalization": "L2 after pooling",
+      "dtype": "float32",
+      "embedding_dimensions": 384,
+      "parameter_count": 33360000,
+      "setup_wall_seconds": 0.4642685829894617
+    },
+    "bge_small_en_v1_5": {
+      "repo": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "weights_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "prefix": "",
+      "pooling": "cls",
+      "max_length": 512,
+      "instruction_reason": "Official card permits no instruction; recommends query instruction for short-query to long-passage search. Here both sides are short market descriptors.",
+      "official_model_card_url": "https://huggingface.co/BAAI/bge-small-en-v1.5/blob/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md",
+      "snapshot_path": "tmp/hf_cache/models--BAAI--bge-small-en-v1.5/snapshots/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "files": {
+        "README.md": {
+          "sha256": "ddb964361a55c6e5dfca6361615854b260c9c960205d04c7520151aaa1d75837",
+          "bytes": 94783
+        },
+        "config.json": {
+          "sha256": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+          "bytes": 743
+        },
+        "model.safetensors": {
+          "sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+          "bytes": 133466304
+        },
+        "tokenizer.json": {
+          "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+          "bytes": 711396
+        },
+        "tokenizer_config.json": {
+          "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+          "bytes": 366
+        },
+        "special_tokens_map.json": {
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+          "bytes": 125
+        },
+        "vocab.txt": {
+          "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+          "bytes": 231508
+        },
+        "modules.json": {
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+          "bytes": 349
+        },
+        "1_Pooling/config.json": {
+          "sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+          "bytes": 190
+        }
+      },
+      "normalization": "L2 after pooling",
+      "dtype": "float32",
+      "embedding_dimensions": 384,
+      "parameter_count": 33360000,
+      "setup_wall_seconds": 0.16334133403142914
+    }
+  },
+  "completed_at_utc": "2026-09-29T23:00:40.553454+00:00",
+  "wall_seconds": 19.15930462500546,
+  "frozen_artifacts_unchanged": true,
+  "output_files": {
+    "README.md": {
+      "sha256": "e753568870a52bdd90521cad4a6695196b9b9de67cbea5b535c558a23b4cdfcb",
+      "bytes": 10408
+    },
+    "analyze_error_overlap.py": {
+      "sha256": "f365360d7d7f929bd17e385d8581f50d3432f3b7d965d75c437f9862f3b7a2d3",
+      "bytes": 6387
+    },
+    "bge_small_en_v1_5_event_title_embeddings.npz": {
+      "sha256": "64935b6c3253b9289a55fc6b58cec4118f09a04c90a108c2458fbe3393b4a403",
+      "bytes": 1407033
+    },
+    "bge_small_en_v1_5_event_title_pair_ranks.json": {
+      "sha256": "a70a3c8187c024c575a999e04383b6f0a9994b001907d2331313c31f84a0e63e",
+      "bytes": 146905
+    },
+    "bge_small_en_v1_5_event_title_scores.npy": {
+      "sha256": "cc9706097b4122fc80f43d6099f34c8a9075009f27dd85f90b5e6b3bfdae872b",
+      "bytes": 972324
+    },
+    "bge_small_en_v1_5_title_embeddings.npz": {
+      "sha256": "cc43587c6e1b7de50e1f853d02899348f7c51f39643641d26a766183e9a91a0a",
+      "bytes": 1393315
+    },
+    "bge_small_en_v1_5_title_pair_ranks.json": {
+      "sha256": "01d9d258f95e034e2930a3807a7aea0c275ade4f875c6ee37d40ba7e821ea4b6",
+      "bytes": 146906
+    },
+    "bge_small_en_v1_5_title_scores.npy": {
+      "sha256": "2786be59c25c684f32f4f932d044ffb8a605ef8bfbc1ee1e7a15339716dd8c9b",
+      "bytes": 972324
+    },
+    "e5_small_v2_event_title_embeddings.npz": {
+      "sha256": "2fa0265940d8af7dd0912acb0c460b76309be14de59085477c311243b912efd1",
+      "bytes": 1403144
+    },
+    "e5_small_v2_event_title_pair_ranks.json": {
+      "sha256": "5e7bad6bc701a8c472d2f0653d54d2e906fc721c7cf09a24ae6634e735dee59e",
+      "bytes": 146898
+    },
+    "e5_small_v2_event_title_scores.npy": {
+      "sha256": "c44f0921c51531e5341347d10bd540cd75077a9d241420231354c0aaf2bd227c",
+      "bytes": 972324
+    },
+    "e5_small_v2_title_embeddings.npz": {
+      "sha256": "832a282b0a7117bb0011d083606444d69aea6bb4f7d0e6cb1d0e0981ae56587b",
+      "bytes": 1389160
+    },
+    "e5_small_v2_title_pair_ranks.json": {
+      "sha256": "b4654571b1b2f8eb829b4b74429244947e6c204da7c41dd28d56cf44ba2c28e3",
+      "bytes": 146919
+    },
+    "e5_small_v2_title_scores.npy": {
+      "sha256": "62aeae6c57a588da06ed974632bb7bdd0591a5f71f7f023a838c8e096e2f31fd",
+      "bytes": 972324
+    },
+    "embedding_row_ids.json": {
+      "sha256": "644a43b34205038f5a0f0ed06ebdbca51dd6e3f7a29a96b70b8ac7f85a5d84e3",
+      "bytes": 51216
+    },
+    "encoding_metadata.json": {
+      "sha256": "3659c5e335ab11c4312237f727d43dd063b96faa851f60d286cf9de3bba0d5c6",
+      "bytes": 59411
+    },
+    "error_overlap.json": {
+      "sha256": "988b394fc4757a410a0fc216dccb0b8995544bb83a55ed11006f66dd781f7e83",
+      "bytes": 39689
+    },
+    "model_sources/bge_small_en_v1_5/1_Pooling/config.json": {
+      "sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+      "bytes": 190
+    },
+    "model_sources/bge_small_en_v1_5/README.md": {
+      "sha256": "ddb964361a55c6e5dfca6361615854b260c9c960205d04c7520151aaa1d75837",
+      "bytes": 94783
+    },
+    "model_sources/bge_small_en_v1_5/config.json": {
+      "sha256": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+      "bytes": 743
+    },
+    "model_sources/bge_small_en_v1_5/modules.json": {
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "bytes": 349
+    },
+    "model_sources/bge_small_en_v1_5/special_tokens_map.json": {
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "bytes": 125
+    },
+    "model_sources/bge_small_en_v1_5/tokenizer.json": {
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "bytes": 711396
+    },
+    "model_sources/bge_small_en_v1_5/tokenizer_config.json": {
+      "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "bytes": 366
+    },
+    "model_sources/bge_small_en_v1_5/vocab.txt": {
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508
+    },
+    "model_sources/e5_small_v2/1_Pooling/config.json": {
+      "sha256": "987f7a67a38fa564c849bb5d277c52ab9088a84368fc0be31a354125aebb12a0",
+      "bytes": 200
+    },
+    "model_sources/e5_small_v2/README.md": {
+      "sha256": "0d57eda4766cc7ac045f2bf7e700286ea5a8360bb9b57278f67f9b8ef60b0b24",
+      "bytes": 67791
+    },
+    "model_sources/e5_small_v2/config.json": {
+      "sha256": "5dfb0363cd0243be179c03bcaafd1542d0fbb95e8cbcf575fff3e229342adc2f",
+      "bytes": 615
+    },
+    "model_sources/e5_small_v2/modules.json": {
+      "sha256": "c6e29747481e8b5dd2b58401966aeac910de39092f90cda9a704b1545f902b04",
+      "bytes": 387
+    },
+    "model_sources/e5_small_v2/special_tokens_map.json": {
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "bytes": 125
+    },
+    "model_sources/e5_small_v2/tokenizer.json": {
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "bytes": 711396
+    },
+    "model_sources/e5_small_v2/tokenizer_config.json": {
+      "sha256": "ae83fa6ca0333117ff12606020af925d648667ef70d92ff7f27d781ba0ca4544",
+      "bytes": 314
+    },
+    "model_sources/e5_small_v2/vocab.txt": {
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508
+    },
+    "requirements.txt": {
+      "sha256": "77815a26f00265655ebaff7a935cdf8be081ad41defcd151b345dc478f4dc0ce",
+      "bytes": 130
+    },
+    "results.json": {
+      "sha256": "c14ed4d5d3c2e258549a54625c8fdb77a82bc165e03e82f738af76254c8bdc72",
+      "bytes": 6003523
+    },
+    "summary.json": {
+      "sha256": "d998b3ec366982947e607a72c0af3fe49c67ad6c9d0ff0404bf99efdc04b46c2",
+      "bytes": 6875
+    },
+    "verification.json": {
+      "sha256": "bbbaa531ee872fbdb88d431b52bfb6d10b9b6e14e3a7c2993cecf60111d1ac41",
+      "bytes": 1269
+    },
+    "verify_outputs.py": {
+      "sha256": "bd40111792c5458cfb36bc0714de64c912ab06ba04417977b87eb955911dc6f6",
+      "bytes": 3164
+    }
+  },
+  "post_run_verification": {
+    "completed_at_utc": "2026-09-29T23:02:12.509594+00:00",
+    "report": "verification.json",
+    "all_passed": true
+  },
+  "posthoc_error_overlap": {
+    "created_at_utc": "2026-09-29T23:08:11.008303+00:00",
+    "analysis": "error_overlap.json",
+    "script": "analyze_error_overlap.py",
+    "new_inference": false
+  },
+  "publication_note": "Cache paths made repository-relative after the run. Historical hashes describe the original run; large regenerated outputs and upstream model files are not distributed."
+}

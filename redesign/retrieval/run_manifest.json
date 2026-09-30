@@ -1,0 +1,39 @@
+{
+  "started_at_utc": "2026-09-29T22:39:14.416768+00:00",
+  "source_sha256": "c61e60b667ea59d14b9f247c3ba268249dfb38682389ecf56fb306d688840141",
+  "script_sha256": "6889d69f6828dfbf6fd986232630e529f0ee29dd35d2f35257cbdebbdf9185ab",
+  "plan": "No tuning. Compare lexical and MiniLM; title vs event+title; both cross-venue directions.",
+  "metrics": "Known-link hit/recall at k=1,3,5,10; event-macro query hit rate. Unlabelled cross-pairs are not negatives.",
+  "reference": "External project author audit labels, not independent human gold or contract proof.",
+  "candidate_scope": "All unique opposite-venue markets occurring in this enriched audit fixture.",
+  "primary_contrast": "Adding parent event context to the same model, at fixed k.",
+  "excluded_inputs": [
+    "reference labels and reasons",
+    "prices and outcomes",
+    "close timestamps"
+  ],
+  "model": {
+    "repo": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_length": 256
+  },
+  "device": "cpu",
+  "seed": 0,
+  "pair_count": 493,
+  "market_counts": {
+    "poly": 493,
+    "kalshi": 493
+  },
+  "completed_at_utc": "2026-09-29T22:39:19.167417+00:00",
+  "inference_and_scoring_seconds": 4.31430570903467,
+  "tokenizer_stats": {
+    "title": {
+      "max_tokens": 44,
+      "truncated_inputs": 0
+    },
+    "event_title": {
+      "max_tokens": 53,
+      "truncated_inputs": 0
+    }
+  }
+}

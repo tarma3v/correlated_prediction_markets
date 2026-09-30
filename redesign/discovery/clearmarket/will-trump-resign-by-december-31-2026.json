@@ -1,0 +1,113 @@
+{
+  "_notice": {
+    "type": "free_key_offer",
+    "message": "Free and anonymous access is staying. If this endpoint is in your pipeline, a free key adds advance notice before any schema change or deprecation. POST /v1/keys {\"email\": \"you@firm.com\"} — nothing else required. Something broken or missing? hello@clearmarket.fyi reaches a human.",
+    "docs": "https://clearmarket.fyi/for-data/",
+    "policy": "This field is additive and its shape will not change."
+  },
+  "event_id": "CM-EVT-LN7QRGTWK3",
+  "slug": "will-trump-resign-by-december-31-2026",
+  "question": "Will Trump resign by December 31, 2026?",
+  "category": "politics",
+  "event_type": "BINARY",
+  "ladder_distribution": null,
+  "tags": [
+    "trump",
+    "politics",
+    "us-presidential",
+    "resignation",
+    "2026",
+    "political-event"
+  ],
+  "catalyst_types": [],
+  "catalyst_dates": [],
+  "editorial_notes": "This market tracks whether Donald Trump will voluntarily resign the presidency before December 31, 2026. Only one platform structures this event, as a binary outcome contract. Resolution requires a public announcement from Trump or his official representatives confirming resignation. Polymarket's UMA Optimistic Oracle governs settlement.",
+  "venues_covered": [
+    "polymarket"
+  ],
+  "primary_market_id": "CM-MKT-PLWFT42L08",
+  "current_primary_mark": {
+    "last_price": 0.03,
+    "implied_probability": 0.03,
+    "as_of": "2026-09-29T19:00:42.977Z"
+  },
+  "created_at": "2026-08-04T20:03:51.865287+00:00",
+  "updated_at": "2026-08-04T20:03:51.865287+00:00",
+  "markets": [
+    {
+      "market_id": "CM-MKT-PLWFT42L08",
+      "event_id": "CM-EVT-LN7QRGTWK3",
+      "platform": "polymarket",
+      "platform_market_id": "0x448f73e89890ae9d0e42ad0b592f63b53c0ae05d1ca3fa8d80b30027781f1be7",
+      "question": "Will Trump resign by December 31, 2026?",
+      "description": "This market will resolve to \"Yes\" if President of the United States Donald Trump announces he has resigned or will resign the presidency by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nIf it becomes impossible for Donald Trump to resign or to announce his resignation (e.g., due to his removal from office by other means, etc.), this market will immediately resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" it is only necessary that Trump announce that he has resigned or will resign. Whether he actually resigns will have no bearing on the resolution of this m",
+      "contract_type": "binary",
+      "settlement_currency": "USDC",
+      "underlying_reference": "A public announcement by Donald Trump or his official representatives stating he has resigned or will resign the presidency, confirmed by major news outlets by December 31, 2026, 11:59 PM ET.",
+      "close_at": "2026-12-31T00:00:00Z",
+      "resolve_at": "2026-12-31T00:00:00Z",
+      "status": "open",
+      "resolution": {
+        "rules_raw": "This market will resolve to \"Yes\" if President of the United States Donald Trump announces he has resigned or will resign the presidency by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nIf it becomes impossible for Donald Trump to resign or to announce his resignation (e.g., due to his removal from office by other means, etc.), this market will immediately resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" it is only necessary that Trump announce that he has resigned or will resign. Whether he actually resigns will have no bearing on the resolution of this market.\n\nThe primary resolution source for this market will be official information from the US federal government; however, a consensus of credible reporting will also be used.",
+        "arbitration_model": "uma_oracle",
+        "proposer": "managed_whitelist",
+        "source": null,
+        "source_status": "no_committed_source",
+        "source_citation": null,
+        "sources": [
+          {
+            "name": "official information from the US federal government",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          },
+          {
+            "name": "a consensus of credible reporting",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          }
+        ],
+        "source_of_record": null,
+        "source_mechanism": null,
+        "source_type": null,
+        "source_quality": null,
+        "source_commitment": "uncommitted",
+        "source_commitment_subtype": "uncommitted_placeholder",
+        "source_hedge_text": null
+      },
+      "rcg": {
+        "grade": "C",
+        "score": 52,
+        "caps": [
+          "multi_source_no_conflict_rule",
+          "commitment_uncommitted_placeholder"
+        ],
+        "applied_factors": 7
+      },
+      "last_price": 0.03,
+      "implied_probability": 0.03,
+      "price_as_of": "2026-09-29T19:00:42.977Z",
+      "volume_24h_usd": 0,
+      "volume_total_usd": 541253.837688,
+      "settlement_style": "occurrence",
+      "direction": "occurrence",
+      "threshold": null,
+      "question_id": null,
+      "also_on": null,
+      "tags": [
+        "donald trump resignation",
+        "resignation",
+        "trump",
+        "us-politics"
+      ],
+      "eligibility_screens": null,
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "reconciled_at": null
+    }
+  ],
+  "resolution_log": [],
+  "_provenance": {
+    "source": "clearmarket.fyi",
+    "ref": "CM-EVT-LN7QRGTWK3",
+    "terms": "Attribution required. clearmarket.fyi"
+  }
+}

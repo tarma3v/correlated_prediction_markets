@@ -1,0 +1,7 @@
+{
+  "request_url": "https://gamma-api.polymarket.com/markets?limit=100&closed=false&order=volumeNum&ascending=false",
+  "requested_at_utc": "2026-09-28T21:01:40.992684+00:00",
+  "file": "raw/polymarket_open.json",
+  "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+  "fetched_at_utc": "2026-09-28T21:01:41.231720+00:00"
+}

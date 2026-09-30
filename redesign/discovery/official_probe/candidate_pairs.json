@@ -1,0 +1,113 @@
+[
+  {
+    "case_id": "macro_recession_definition",
+    "domain": "macroeconomics",
+    "a": "kalshi:KXRECSSNBER-26",
+    "b": "kalshi:KXNBERRECESSQ-Q1-2026",
+    "pair_scope": "cross_event",
+    "question_ru": "Одно слово recession, разные операционные определения: два отрицательных GDP-квартала против квартала business-cycle peak по NBER.",
+    "research_note_ru": "Не выводить логическую связь из названия или тикера. KXRECSSNBER-26 несмотря на NBER в ID использует GDP в primary; второй контракт использует решение NBER и quarter clarification.",
+    "challenge_tags": [
+      "definition_mismatch",
+      "source_mismatch",
+      "event_time_vs_announcement_time"
+    ],
+    "relation_hypothesis_for_review": "no_deterministic_relation_established_from_available_text",
+    "adjudicated_label": null,
+    "annotation_status": "UNADJUDICATED_DISCOVERY_CANDIDATE",
+    "do_not_use_as_gold": true
+  },
+  {
+    "case_id": "macro_hike_unit_and_window",
+    "domain": "macroeconomics",
+    "a": "kalshi:KXFEDHIKE-2-26DEC31",
+    "b": "kalshi:KXRATEHIKE-2026-1",
+    "pair_scope": "cross_event",
+    "question_ru": "Хотя оба контракта о Fed hike, один спрашивает наличие повышения после issuance, другой — ровно одну единицу повышения за календарный год.",
+    "research_note_ru": "Secondary второго считает 26–50 bp как два hikes. Нельзя заменить числом заседаний. Primary первого отсчитывает окно от issuance, не от начала 2026.",
+    "challenge_tags": [
+      "counting_unit",
+      "time_window",
+      "existence_vs_exact_count"
+    ],
+    "relation_hypothesis_for_review": "relation_requires_event_window_and_unit_reasoning",
+    "adjudicated_label": null,
+    "annotation_status": "UNADJUDICATED_DISCOVERY_CANDIDATE",
+    "do_not_use_as_gold": true
+  },
+  {
+    "case_id": "gaming_release_vs_postponement",
+    "domain": "gaming",
+    "a": "kalshi:KXGTA6ONTIME-26MAY26",
+    "b": "polymarket:poly_gta_postponed",
+    "pair_scope": "cross_platform",
+    "question_ru": "Кажущиеся противоположности: выпущена к May26 и postponed byMay26.",
+    "research_note_ru": "Polymarket имеет OR: официальное объявление переноса ИЛИ фактический невыпуск. Объявление, позже отозванное, допускает иной результат, чем чистое отрицание факта выпуска. Kalshi ограничивает major platforms, Polymarket определяет публичные purchase/download и исключает early access.",
+    "challenge_tags": [
+      "announcement_vs_realization",
+      "disjunction",
+      "apparent_complement",
+      "platform_scope"
+    ],
+    "relation_hypothesis_for_review": "do_not_assume_complements",
+    "adjudicated_label": null,
+    "annotation_status": "UNADJUDICATED_DISCOVERY_CANDIDATE",
+    "do_not_use_as_gold": true
+  },
+  {
+    "case_id": "gaming_base_game_vs_online",
+    "domain": "gaming",
+    "a": "polymarket:poly_gta_release_oct31::October 31",
+    "b": "kalshi:KXGTAONLINE-GTA6ONLINE-27",
+    "pair_scope": "cross_platform",
+    "question_ru": "Похожие названия GTA VI release: base-game release в октябре против онлайн-сервиса до2027.",
+    "research_note_ru": "Kalshi явно допускает bundled или separately distributed multiplayer service, независимо от имени. Polymarket basegame покупка/загрузка вUS, исключены early access/beta/leaks; даты также различаются. Не подменять different product тематической похожестью.",
+    "challenge_tags": [
+      "different_product",
+      "release_definition",
+      "time_window"
+    ],
+    "relation_hypothesis_for_review": "no_deterministic_relation_established_from_available_text",
+    "adjudicated_label": null,
+    "annotation_status": "UNADJUDICATED_DISCOVERY_CANDIDATE",
+    "do_not_use_as_gold": true
+  },
+  {
+    "case_id": "sports_world_to_league",
+    "domain": "sports",
+    "a": "polymarket:poly_dodgers_ws2026::Los Angeles Dodgers",
+    "b": "polymarket:poly_nlcs2026::Los Angeles Dodgers",
+    "pair_scope": "cross_event",
+    "question_ru": "Dodgers World Series champion против Dodgers National League champion.",
+    "research_note_ru": "Ожидаемая спортивная вложенность зависит от структуры турнира; payout rules содержат разные deadline/cancellation clauses. В NLCS опубликовано November31,2026 — несуществующая дата: сохранить и отправить на уточнение.",
+    "challenge_tags": [
+      "tournament_hierarchy",
+      "deadline_mismatch",
+      "invalid_calendar_date",
+      "other_outcome"
+    ],
+    "relation_hypothesis_for_review": "conditional_implication_candidate_but_abstain_until_date_and_format_verified",
+    "adjudicated_label": null,
+    "annotation_status": "UNADJUDICATED_DISCOVERY_CANDIDATE",
+    "do_not_use_as_gold": true
+  },
+  {
+    "case_id": "sports_world_vs_other_league_winner",
+    "domain": "sports",
+    "a": "polymarket:poly_dodgers_ws2026::Los Angeles Dodgers",
+    "b": "polymarket:poly_nlcs2026::Atlanta Braves",
+    "pair_scope": "cross_event",
+    "question_ru": "Dodgers World Series champion против Atlanta Braves National League champion.",
+    "research_note_ru": "При стандартном маршруте MLB кандидат на несовместимость, но это требует внешней структуры турнира и проверки exceptions. Не объявлять независимость и не исправлять November31 из NLCS rules.",
+    "challenge_tags": [
+      "tournament_constraint",
+      "mutual_exclusion_candidate",
+      "invalid_calendar_date",
+      "other_outcome"
+    ],
+    "relation_hypothesis_for_review": "conditional_exclusion_candidate_but_abstain_until_date_and_format_verified",
+    "adjudicated_label": null,
+    "annotation_status": "UNADJUDICATED_DISCOVERY_CANDIDATE",
+    "do_not_use_as_gold": true
+  }
+]

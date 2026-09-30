@@ -1,0 +1,40 @@
+{
+  "built_at_utc": "2026-09-29T22:43:53.935878+00:00",
+  "source_type_warning": "No Polymarket Gamma data obtained. Official Kalshi current/historical API plus official-site web index/render. Primary prose is separated from AI context.",
+  "candidate_count": 6,
+  "domains": [
+    "gaming",
+    "macroeconomics",
+    "sports"
+  ],
+  "gold_labels": 0,
+  "sha256": {
+    "web_sports_search.txt": "14631bd91441b426b971c6c8909ea72668a28937550ad4de16d00731da719b15",
+    "web_search_second_batch.txt": "0b359bed2e28fd74c9b58463431da0abe40bcdb983c82ef7a8148a1580b3a270",
+    "gta_historical_response.json": "0c572a1ab8289f7ce3fba5c404c4c99b570258cbf32ae067704cb1e355832c35",
+    "markets_KXRECSSNBER.json": "480e9a82440dd80a24ff9091806e295a3d1fa23fecac5fe5fc0512ef1d699db3",
+    "gta_online.json": "b7bb0029b798bc22463afb494fecac60255e481ff58a3b48315a02f34c2e2329",
+    "build_candidates.py": "3e449d4dbd37f84927e2e420f7ea1fec77f31e3c7d1af1050043011b69cb0b35",
+    "source_records.json": "afe117aeecd15b1780fcb7b1461a7f098b84f70759e210b34cc7dc68fd248231",
+    "polymarket_rule_sources.json": "65a86516dbad79bc345dafa4fc6ee7f5edbeb86cfbb190030d7f75a396534e69",
+    "web_domains_search.txt": "5829fe8ec71491974da14c14ee90de68cb9ac02ec435bb9ae7a942312563cade",
+    "gta_historical_manifest.json": "312dc7b308f7b67018f75dda4d0bdb36e0324eecdbc99ea296fc11b7a945663f",
+    "markets_KXQRECESS.json": "50699ea1db13415ea46ec367dcfa58decd9660083271c5dc061561f38337fbac",
+    "web_open_batch.txt": "d6f5af6222384697929ff7da3cb012657ccc1651146cdf6c2196a791b7f8cd7a",
+    "gaming_manifest.json": "d98d27ccf8d14a804f657edc4e3cfddf630fd1ec3558f4db16149fe7e54ef599",
+    "PAIR_CARDS.md": "9a91293fc9c1c81569bfd08af50069f9198fe1d1f3b259e912f887292fb50e74",
+    "markets_KXCANRECESSION.json": "50699ea1db13415ea46ec367dcfa58decd9660083271c5dc061561f38337fbac",
+    "markets_KXFEDHIKE.json": "2b4ed787387ca9ebc1746b7ebe5e5aa608974edbc7713f2f218c0576030f16b7",
+    "markets_KXU3MAX.json": "face46d2538938782f161456027c2d9a8c296cf304ce794fa85bd7cc7100b982",
+    "fetch_kalshi.py": "383c596fa1620214763848ee6b2702da90d1ca2b63e4950a463cc65834aa369f",
+    "manifest.json": "e4b13431ff59750fbd4a4fb36a17df2e3056829845e1d79047cd4e2da50942e8",
+    "market_KXU3-26SEP-T4.5.json": "b94c1fc1aebb3ece6341b49e5e998a7eba0176f8157bc673e7b58cd3ce040668",
+    "pairs_blind.jsonl": "0dfa472df53a2d4b5e15d9aad0ada3e2d16fc89c4dcd08c77ae8b10929e4f474",
+    "markets_KXRATEHIKE.json": "e2d80c2eee7af09ab9bf196baffd29f3df9440adac7a17cf6b2fd8a0fa94f95f",
+    "kalshi_market_manifest.json": "5d4174f976a238986350d3a7bc82cf33465e78e670291e74d21dcd1627d6fb9f",
+    "candidate_pairs.json": "cdf9e195b7c699c46feba221c36d861a1502addd114ef7a06a82b51cb4b7b31a",
+    "markets_KXNBERRECESSQ.json": "2f7fdd48fc0eafb52b7072200ff87862f188fdd4d0e70e36596b7abfc63577f8",
+    "monthly_u3_manifest.json": "c6c9cb7307a89a557c9037db6763efa8b90a5690434a9c4676e40e1f3b4ea1b4",
+    "kalshi_economics_series.json": "1765bb7aaeaf5eb5af59ce0321a4400fb04ac108e1f7cad3ea565afa9e1c444f"
+  }
+}

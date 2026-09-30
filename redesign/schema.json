@@ -1,0 +1,430 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/prediction-market-research/evidence-card.schema.json",
+  "title": "Source-grounded prediction-market evidence card",
+  "description": "One real pair. The four-world table applies only to the explicitly stated binary regime. AI-assisted annotations are provisional, not human gold.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "pair_id",
+    "domain",
+    "mechanism",
+    "selection",
+    "contracts",
+    "sources",
+    "scope",
+    "comparison",
+    "worlds",
+    "conclusion",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "pair_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "enum": [
+        "weather",
+        "sports",
+        "politics",
+        "financial_prices",
+        "macroeconomics",
+        "other"
+      ]
+    },
+    "mechanism": {
+      "type": "string",
+      "description": "Selection rationale or mechanism sought; not a required relation label."
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "selected_at_utc",
+        "selection_reason",
+        "template_family",
+        "within_event_control",
+        "prior_model_output_seen"
+      ],
+      "properties": {
+        "selected_at_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "selection_reason": {
+          "type": "string"
+        },
+        "template_family": {
+          "type": "string"
+        },
+        "within_event_control": {
+          "type": "boolean"
+        },
+        "prior_model_output_seen": {
+          "type": "boolean",
+          "description": "True cases are exploratory and excluded from the newly frozen comparison."
+        }
+      }
+    },
+    "contracts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "A",
+        "B"
+      ],
+      "properties": {
+        "A": {
+          "$ref": "#/$defs/contract"
+        },
+        "B": {
+          "$ref": "#/$defs/contract"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "binary_regime",
+        "assumptions",
+        "excluded_branches",
+        "source_coverage",
+        "missing_information"
+      ],
+      "properties": {
+        "binary_regime": {
+          "type": "string",
+          "description": "Exact regime in which A,B mean binary YES payouts; do not silently assume all contractual branches are binary."
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "excluded_branches": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_coverage": {
+          "enum": [
+            "full_applicable_packet",
+            "resolution_text_only",
+            "partial_or_conflicting"
+          ]
+        },
+        "missing_information": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "comparison": {
+      "type": "array",
+      "description": "Material matches/differences; no need to fill irrelevant fields.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "dimension",
+          "finding",
+          "evidence"
+        ],
+        "properties": {
+          "dimension": {
+            "enum": [
+              "entity",
+              "predicate",
+              "threshold",
+              "time",
+              "source",
+              "aggregation",
+              "rounding",
+              "revision",
+              "cancellation",
+              "fallback",
+              "other"
+            ]
+          },
+          "finding": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/evidence"
+            }
+          }
+        }
+      }
+    },
+    "worlds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ],
+      "description": "First digit is A. These are knowledge statuses, not estimated event probabilities. No witness may be inferred merely from absence of a prohibition.",
+      "properties": {
+        "00": {
+          "$ref": "#/$defs/world"
+        },
+        "01": {
+          "$ref": "#/$defs/world"
+        },
+        "10": {
+          "$ref": "#/$defs/world"
+        },
+        "11": {
+          "$ref": "#/$defs/world"
+        }
+      }
+    },
+    "conclusion": {
+      "type": "string",
+      "description": "Scope-qualified relation or unresolved issue; no strict-subset claim without a reverse-direction witness."
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "method",
+        "counterexample_search"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "ai_assisted_provisional",
+            "human_reviewed"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "description": "Who/what prepared and reviewed the card; do not call repeated AI annotation human gold."
+        },
+        "counterexample_search": {
+          "type": "string",
+          "description": "Attempted counterexample and result, or explicitly not performed."
+        }
+      }
+    }
+  },
+  "$defs": {
+    "contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "platform",
+        "market_id",
+        "title",
+        "market_url",
+        "source_ids",
+        "yes_proposition",
+        "proposition_status"
+      ],
+      "properties": {
+        "platform": {
+          "enum": [
+            "kalshi",
+            "polymarket"
+          ]
+        },
+        "market_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "market_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "yes_proposition": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Affirmative YES condition under declared scope, not a question or bare contract-pays-YES statement. Null when faithful normalization cannot be made."
+        },
+        "proposition_status": {
+          "enum": [
+            "faithful_under_scope",
+            "incomplete",
+            "unavailable"
+          ]
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "provenance",
+        "url",
+        "retrieved_at_utc",
+        "upstream_timestamp",
+        "local_path",
+        "sha256",
+        "locator",
+        "coverage_note"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance": {
+          "enum": [
+            "official_api",
+            "official_gamma",
+            "official_contract_document",
+            "official_market_page",
+            "curated_snapshot"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "retrieved_at_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "upstream_timestamp": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Timestamp/version from the provider, if supplied. Retrieval time is not proof of contract currency."
+        },
+        "local_path": {
+          "type": "string",
+          "description": "Path relative to redesign directory."
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "locator": {
+          "type": "string",
+          "description": "JSON pointer/record ID, PDF pages, or text lines identifying this contract or applicable terms."
+        },
+        "coverage_note": {
+          "type": "string",
+          "description": "For curated data, name upstream provenance and unresolved currentness/completeness. Do not relabel a third-party Gamma copy official_gamma."
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "locator",
+        "support"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "support": {
+          "type": "string",
+          "description": "Short exact clause or faithful description of the specific condition used."
+        }
+      }
+    },
+    "world": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "reason",
+        "evidence"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "forbidden",
+            "witness",
+            "unknown"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "description": "For forbidden: derivation; for witness: explicit scenario and why permitted under scope; for unknown: exact missing premise."
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "forbidden",
+                  "witness"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

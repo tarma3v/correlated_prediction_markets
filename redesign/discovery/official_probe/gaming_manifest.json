@@ -1,0 +1,19 @@
+[
+  {
+    "name": "gta_release_historical",
+    "url": "https://external-api.kalshi.com/trade-api/v2/markets/KXGTA6ONTIME-26MAY26",
+    "requested_at_utc": "2026-09-29T22:40:06.945477+00:00",
+    "status_code": 404,
+    "fetched_at_utc": "2026-09-29T22:40:08.604378+00:00",
+    "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/markets/KXGTA6ONTIME-26MAY26"
+  },
+  {
+    "name": "gta_online",
+    "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXGTAONLINE&limit=5",
+    "requested_at_utc": "2026-09-29T22:40:06.945782+00:00",
+    "status_code": 200,
+    "fetched_at_utc": "2026-09-29T22:40:08.607944+00:00",
+    "file": "gta_online.json",
+    "sha256": "b7bb0029b798bc22463afb494fecac60255e481ff58a3b48315a02f34c2e2329"
+  }
+]

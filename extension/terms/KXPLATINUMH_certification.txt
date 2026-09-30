@@ -1,0 +1,376 @@
+
+--- PDF PAGE 1 ---
+KalshiEX LLC 
+February 19, 2026 
+SUBMITTED VIA CFTC PORTAL  
+Secretary of the Commission 
+Office of the Secretariat   
+U.S. Commodity Futures Trading Commission  
+Three Lafayette Centre  
+1155 21st Street, N.W.  
+Washington, D.C. 20581  
+Re: KalshiEX LLC – CFTC Regulation 40.2(a) Notification Regarding the Initial Listing 
+of the “Will the <price type> price of <commodity> be <above/below/between/exactly/at 
+least> <value> <in/at> <time period>?” Contract 
+Dear Sir or Madam,  
+Pursuant to Section 5c(c) of the Commodity Exchange Act and Section 40.2(a) of the regulations of the 
+Commodity Futures Trading Commission, KalshiEX LLC (Kalshi), a registered DCM, hereby notifies 
+the Commission that it is self-certifying the “Will the <price type> price of <commodity> be 
+<above/below/between/exactly/at least> <value> <in/at> <time period>?” contract (Contract). The 
+Contract will initially be listed after close-of-business on February 19, 2026; it is listed as the day after 
+because of limitations of the Commission's online submission portal. The Exchange intends to list the 
+contract on a  basis. The Contract’s terms and conditions (Appendix A) includes the following custom
+strike conditions: 
+● <price type>  
+● <commodity> 
+● <above/below/between/exactly/at least>  
+● <value> 
+● <unit> 
+● <currency> 
+● <in/at> 
+● <time period> 
+Along with this letter, Kalshi submits the following documents: 
+● A concise explanation and analysis of the Contract; 
+● Certification; 
+● Appendix A with the Contract’s Terms and Conditions;  
+● Confidential Appendices with further information; and 
+● A request for FOIA confidential treatment. 
+If you have any questions, please do not hesitate to contact me.  
+Sincerely,  
+KalshiEX LLC 
+
+--- PDF PAGE 2 ---
+KalshiEX LLC 
+Xavier Sottile 
+Head of Markets  
+KalshiEX LLC  
+xsottile@kalshi.com 
+ 
+ 
+ 
+ 
+KalshiEX LLC 
+
+--- PDF PAGE 3 ---
+KalshiEX LLC 
+KalshiEX LLC 
+Official Product Name: “Will the <price type> price of <commodity> be <above/below/between/exactly/at 
+least> <value> <in/at> <time period>?” 
+Rulebook: COMMODITIES 
+Summary: Commodity price predictions 
+Kalshi Contract Category:  Commodity
+Kalshi Internal Category:  Financials
+February 19, 2026 
+ 
+ 
+CONCISE EXPLANATION AND ANALYSIS OF THE PRODUCT AND ITS 
+COMPLIANCE WITH APPLICABLE PROVISIONS OF THE ACT, INCLUDING CORE 
+PRINCIPLES AND THE COMMISSION'S REGULATIONS THEREUNDER 
+Pursuant to Commission Rule 40.2(a)(3)(v), the following is a concise explanation and analysis 
+of the product and its compliance with the Act, including the relevant Core Principles (discussed 
+in Appendix D), and the Commission's regulations thereunder. 
+I. Introduction 
+  
+The “Will the <price type> price of <commodity> be <above/below/between/exactly/at 
+least> <value> <in/at> <time period>?” Contract is a contract relating to . Financials
+ 
+Further information about the Contract, including an analysis of its risk mitigation and 
+price basing utility, as well as additional considerations related to the Contract, is 
+included in Confidential Appendices C, D, and E. 
+ 
+Pursuant to Section 5c(c) of the Act and CFTC Regulations 40.2(a), the Exchange hereby 
+certifies that the listing of the Contract complies with the Act and Commission 
+regulations under the Act. 
+ 
+General Contract Terms and Conditions: The Contract operates similar to other event 
+contracts that the Exchange lists for trading. The minimum price fluctuation is $0.01 (one 
+cent). Price bands will apply so that Contracts may only be listed at values of at least 
+$0.01 and at most $0.99. Further, the Contract is sized with a one-dollar notional value 
+and has a minimum price fluctuation of $0.01 to enable Members to match the size of the 
+contracts purchased to their economic risks. As outlined in Rule 5.16 of the Rulebook, 
+trading shall be available at all times outside of any maintenance windows, which will be 
+announced in advance by the Exchange. Members will be charged fees in accordance 
+with Rule 3.13 of the Rulebook. Fees, if they are charged, are charged in such amounts as 
+may be revised from time to time to be reflected on the Exchange’s Website. A new 
+Source Agency can be added via a Part 40 amendment. All instructions on how to access 
+KalshiEX LLC 
+
+--- PDF PAGE 4 ---
+KalshiEX LLC 
+the Underlying are non-binding and are provided for convenience only and are not part of 
+the binding Terms and Conditions of the Contract. They may be clarified at any time. 
+Furthermore, the Contract’s payout structure is characterized by the payment of an 
+absolute amount to the holder of one side of the option and no payment to the 
+counterparty. During the time that trading on the Contract is open, Members are able to 
+adjust their positions and trade freely. The Expiration Value and Market Outcome are 
+determined at or after Market Close. The market is then settled by the Exchange, and the 
+long position holders and short position holders are paid according to the Market 
+Outcome. In this case, “long position holders” refers to Members who purchased the 
+“Yes” side of the Contract and “short position holders” refers to Members who purchased 
+the “No” side of the Contract. If the Market Outcome is “Yes,” meaning that an event 
+occurs that is encompassed within the Payout Criterion, then the long position holders are 
+paid an absolute amount proportional to the size of their position and the short position 
+holders receive no payment. If the Market Outcome is “No,” then the short position 
+holders are paid an absolute amount proportional to the size of their position and the long 
+position holders receive no payment. Specification of the circumstances that would 
+trigger a Market Outcome of “Yes” are included below in the section titled “Payout 
+Criterion” in Appendix A.   
+ 
+ 
+  
+ 
+KalshiEX LLC 
+
+--- PDF PAGE 5 ---
+KalshiEX LLC 
+CERTIFICATIONS PURSUANT TO SECTION 5c OF THE COMMODITY EXCHANGE 
+ACT, 7 U.S.C. § 7A-2 AND COMMODITY FUTURES TRADING COMMISSION RULE 
+40.2, 17 C.F.R. § 40.2 
+ 
+Based on the above analysis, the Exchange certifies that: 
+❏ The Contract complies with the Act and Commission regulations thereunder. 
+❏ This submission (other than those appendices for which confidential treatment has been 
+requested) has been concurrently posted on the Exchange’s website at 
+https://kalshi.com/regulatory/filings.  
+ 
+Should you have any questions concerning the above, please contact the exchange at 
+ProductFilings@kalshi.com.  
+ 
+ 
+ 
+ 
+______________________ 
+ 
+By: Xavier Sottile 
+Title: Head of Markets  
+Date: February 19, 2026  
+KalshiEX LLC 
+
+
+--- PDF PAGE 6 ---
+KalshiEX LLC 
+Attachments: 
+Appendix A - Contract Terms and Conditions 
+Appendix B - Trading Prohibitions 
+Appendix C (Confidential) - Further Considerations 
+Appendix D (Confidential) - Source Agency 
+Appendix E (Confidential) - Compliance with Core Principles 
+ 
+ 
+ 
+KalshiEX LLC 
+
+--- PDF PAGE 7 ---
+KalshiEX LLC 
+APPENDIX A – CONTRACT TERMS AND CONDITIONS 
+ 
+Official Product Name: “Will the <price type> price of <commodity> be 
+<above/below/between/exactly/at least> <value> <in/at> <time period>?” 
+Rulebook: COMMODITIES 
+ 
+ 
+KalshiEX LLC 
+
+--- PDF PAGE 8 ---
+KalshiEX LLC 
+COMMODITIES 
+Scope: These rules shall apply to this contract. 
+Underlying: The Underlying for this Contract is the <price type> price of <commodity> as 
+published by <source agency> <in/at> <time period>. The Underlying is denominated in 
+<currency> per <unit>. Revisions, corrections, or adjustments to the Underlying made after 
+Expiration will not be accounted for in determining the Expiration Value.  
+Source Agency: The Source Agency is <source agency>. <source agency> refers to a 
+commodity pricing data provider specified by the Exchange. This may include, for example, ICE 
+Data Services or TradingView. If the specified <source agency> permanently ceases to publish 
+the relevant <price type> for <commodity>, Kalshi shall designate an alternative Source Agency 
+from the foregoing list that publishes a comparable price, at its sole discretion. If no comparable 
+price is available from any listed Source Agency, Kalshi has the right to determine payouts 
+pursuant to Rule 7.1 in the Rulebook. 
+Type: The type of Contract is an Event Contract. 
+Issuance: The Contract is based on the outcome of a recurrent data release, which is issued on a 
+daily basis. Contract iterations will be issued on a recurring basis, and future Contract iterations 
+will generally correspond to the next <time period>. 
+<commodity>: <commodity> refers to a physical commodity or commodity futures contract 
+specified by the Exchange. It may include, but is not limited to, gold, silver, platinum, palladium, 
+copper, crude oil (WTI or Brent), natural gas, heating oil, gasoline, wheat, corn, soybeans, 
+coffee, sugar, cocoa, cotton, or any other commodity for which the specified <source agency> 
+publishes pricing data. <commodity> shall be identified by its standard exchange ticker symbol 
+or recognized industry name as used by the <source agency>. If <commodity> refers to a futures 
+contract, the specific contract month (e.g., "front-month," "March 2026," or "nearest active") 
+shall be specified by the Exchange (including, if specified, resolving based on the next available 
+month if the target date is within, e.g., two days of the futures contract’s Last Trading Date). The 
+Exchange may list iterations of the Contract corresponding to variations of <commodity>. 
+<source agency>: <source agency> refers to the specific commodity pricing data provider 
+designated by the Exchange from the list specified in the Source Agency section above. It may 
+also refer to multiple Source Agencies. The Exchange may list iterations of the Contract 
+corresponding to variations of <source agency>. 
+<price type>: <price type> refers to the specific category of price data used to resolve the 
+Contract, as specified by the Exchange. <price type> may include, but is not limited to: (a) 
+"settlement price" - the official daily settlement or closing price as determined by the specified 
+KalshiEX LLC 
+
+--- PDF PAGE 9 ---
+KalshiEX LLC 
+<source agency>'s standard methodology; (b) "opening price" -  the official opening price or first 
+trade price of the trading session as published by the <source agency>; (c) "closing price" - the 
+official closing price or last trade price of the trading session as published by the <source 
+agency>; (d) "high price" - the highest traded price during the specified trading session; (e) "low 
+price" - the lowest traded price during the specified trading session; (f) "last trade price" - the 
+price of the most recent trade executed at or before the specified <time period>; (g) "spot price" - 
+the price for immediate delivery as published by the <source agency> at the specified <time 
+period>; (h) "fix price" - a benchmark price determined through a fixing process (e.g., LBMA 
+Gold Fix, LBMA Silver Fix); (i) "TWAP" (time-weighted average price) - the arithmetic average 
+of prices sampled at regular intervals over a specified period, as calculated and published by the 
+<source agency>; or (j) "VWAP" (volume-weighted average price) - the average price weighted 
+by trading volume over a specified period, as calculated and published by the <source agency>. 
+The calculation methodology, sampling intervals, and constituent data for TWAP and VWAP 
+shall be as defined by the <source agency>'s published methodology. If the <source agency> 
+does not publish a TWAP or VWAP and the Exchange specifies one of these as the <price type>, 
+the Exchange shall publish the calculation methodology and data source when the Contract is 
+listed. The Exchange may list iterations of the Contract corresponding to variations of <price 
+type>. 
+<value>: <value> refers to a numerical price level specified by the Exchange, denominated in 
+<currency> per <unit>. Due to the potential for variability in the Underlying, the Exchange may 
+modify <value> levels at any time and in response to suggestions by Members. <value> may 
+also take the form of a percentage change relative to a given reference price at a given date and 
+time. 
+<above/below/between/exactly/at least>: Refers to comparison operators as specified by the 
+Exchange. "Above X" means strictly greater than X (>X). "Below X" means strictly less than X 
+(<X). "Exactly X" means equal to X (=X), measured to the precision specified elsewhere in the 
+Contract. "At least X" means greater than or equal to X (≥X). "Between X and Y" means greater 
+than or equal to X and less than or equal to Y (≥X and ≤Y), i.e., inclusive of both endpoints, 
+unless otherwise specified. Where the Underlying value is rounded or reported to a specific 
+number of decimal places, the comparison shall be applied to the value as reported by the Source 
+Agency. The Exchange may specify rounding or truncation, including the applicable extent and 
+number of decimal places, at Issuance. The Exchange may list iterations of the Contract 
+corresponding to variations of <above/below/between/exactly/at least>. 
+<currency>: <currency> refers to the denomination of the commodity price, specified by the 
+Exchange. Unless otherwise specified, this is U.S. dollars (USD). The Exchange may specify 
+other currencies (e.g., EUR, GBP, JPY) as appropriate to the <source agency> and 
+<commodity>. 
+KalshiEX LLC 
+
+--- PDF PAGE 10 ---
+KalshiEX LLC 
+<unit>: <unit> refers to the standard unit of measurement for the commodity price, as specified 
+by the Exchange. Examples include troy ounce (for gold, silver, platinum, palladium), barrel (for 
+crude oil), MMBtu (for natural gas), bushel (for wheat, corn, soybeans), pound (for coffee, sugar, 
+cotton, copper), or metric ton (for base metals on the LME). <unit> shall conform to the standard 
+unit used by the specified <source agency> for the specified <commodity> unless otherwise 
+specified. 
+<time period>: <time period> refers to a specific duration, range of time, or discrete date and 
+time specified by the Exchange. <time period> may be expressed as, but is not limited to 
+expression as, a calendar year (e.g., "2025"), a calendar month and year (e.g., "January 2025"), a 
+calendar quarter (e.g., "Q1 2025"), a specific week, a single trading day (e.g., "the trading 
+session of February 17, 2026"), or other time period as appropriate to the contract subject matter, 
+including a discrete date and time. All time periods are interpreted in Eastern Time (ET) unless 
+otherwise specified. Unless otherwise specified, the end of <time period> is defined as 11:59:59 
+PM ET on the final day of the specified period. The Exchange may list iterations of the Contract 
+corresponding to variations of <time period>. It may also refer to a specific time in addition to 
+dates, e.g., a specific clock time (e.g., "1:30 PM ET"), the official open or close of a trading 
+session as defined by the <source agency>, or a fixing time as defined by the <source agency>.  
+<in/at>: <in/at> refers to whether the Contracts will be determined on the basis of whether a 
+given threshold is hit or maintained within <time period> (<in>) or at a certain discrete time in 
+<time period> (e.g. 5pm on the 27th of September) (<at>).  
+Payout Criterion: The Payout Criterion for the Contract encompasses the Expiration Values 
+where the <price type> price of <commodity>, as published by the <source agency>, is 
+<above/below/between/exactly/at least> <value> (denominated in <currency> per <unit>) 
+<in/at> <time period>. 
+Additional clarification(s):  
+● If no data is published by the <source agency> at the specified <time period> on a given 
+day within <time period> for any reason, and is not published (or not anticipated to be 
+published) within a week, then the most recently available data will be used to resolve the 
+market.  
+● For Contracts specifying “above,” “below,” or “at least,” and “in” (in conjunction), it 
+shall be sufficient that the Expiration Value crosses or meets the specified threshold at 
+any point during the relevant <time period>. One such crossing (in the case of 
+above/below) or meeting (in the case of at least) shall validate the Contract condition for 
+settlement.  
+● In the case of “exactly” and “at” (in conjunction), the Expiration Value must match the 
+specified <value> “at” <time period> to the level of precision specified by the Exchange. 
+KalshiEX LLC 
+
+--- PDF PAGE 11 ---
+KalshiEX LLC 
+● For Contracts specifying “between” and “in” (in conjunction), the Exchange may 
+additionally specify at Issuance whether the Expiration Value is required to remain 
+continuously within the specified range throughout the entire <time period>, or whether it 
+is sufficient for it to appear within the specified range at any point within <time period>. 
+If the former is specified, any instance of the price moving outside the range during the 
+<time period> shall cause the Contract to resolve to “No”.    
+● If the <source agency> publishes a price that it subsequently identifies as erroneous due 
+to a system fault, data feed malfunction, or technical error, and issues a formal correction 
+within twenty-four (24) hours of the original publication, the corrected price shall be used 
+to determine the Expiration Value. If no formal correction is issued by the <source 
+agency> within twenty-four (24) hours of the original publication, the originally 
+published price shall be considered final for purposes of this Contract. If the <source 
+agency> publicly acknowledges a system fault that caused a delay in publication within 
+24-hours but ultimately publishes the relevant <price type> price within the one-week 
+period following <time period>, that delayed publication shall be used, if not already 
+corrected by that point in time. If no publication occurs within that one-week period, the 
+most recently available data prior to the fault shall be used. 
+Minimum Tick: The Minimum Tick size for the Contract shall be $0.01. 
+Position Accountability Level: The Position Accountability Level for the Contract shall be 
+$25,000 per strike, per Member. 
+Last Trading Date: The latest Last Trading Date and Time of the Contract will be the end of 
+<time period>.  
+Settlement Date: The Settlement Date of the Contract shall be no later than the day after the 
+Expiration Date, unless the Market Outcome is under review pursuant to Rule 7.1. 
+Expiration Date: The latest Expiration Date of the Contract shall be one week after the end of 
+<time period>. If an event described in the Payout Criterion occurs, expiration will be moved to 
+an earlier date and time in accordance with Rule 7.2. 
+Expiration time: The Expiration time of the Contract shall be 10:00 AM ET. 
+Settlement Value: The Settlement Value for this Contract is $1.00. 
+Expiration Value: The Expiration Value is the value of the Underlying as documented by the 
+Source Agency on the Expiration Date at the Expiration time. 
+Contingencies: Before Settlement, Kalshi may, at its sole discretion, initiate the Market 
+Outcome Review Process pursuant to Rule 7.1 of the Rulebook. If an Expiration Value cannot be 
+KalshiEX LLC 
+
+--- PDF PAGE 12 ---
+KalshiEX LLC 
+determined on the Expiration Date, Kalshi has the right to determine payouts pursuant to Rule 
+7.1 in the Rulebook. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KalshiEX LLC 
+
+--- PDF PAGE 13 ---
+KalshiEX LLC - Confidential 
+ 
+APPENDIX B (CONFIDENTIAL) – TRADING PROHIBITIONS 
+ 
+In addition to the general prohibition against trading on material nonpublic information, the 
+Exchange will institute additional prohibitions for trading the contract. Persons under 18 years of 
+age are not permitted to create Kalshi accounts. The following individuals will be prohibited 
+from trading: 
+ 
+● Employees, officers, directors, and contractors of the specified <source agency> who 
+have access to pre-publication pricing data, settlement calculation methodologies, or 
+systems that determine the <price type> price before it is publicly released. 
+● Members of exchange settlement committees or pricing panels (e.g., LBMA Gold Fix 
+panel bank participants, LME Ring members participating in official pricing) who have 
+advance knowledge of fix prices or settlement prices before public dissemination. 
+● Exchange technology and operations personnel at the relevant commodity exchange who 
+have knowledge of planned system outages, data feed interruptions, margin requirement 
+changes, or trade bust decisions that could affect the published price. 
+● Persons with material non-public information about government actions that would 
+directly and immediately impact the specific commodity price (e.g., officials at the U.S. 
+Strategic Petroleum Reserve with advance knowledge of reserve releases for crude oil 
+contracts; officials at central banks with advance knowledge of gold reserve transactions). 
+● Commodity exchange market surveillance and compliance personnel who have access to 
+large trader position data or knowledge of pending enforcement actions that could affect 
+the commodity's price. 
+ 
+KalshiEX LLC - Confidential Treatment Under Regulations 40.8 and 145.9 Requested 
+ 

@@ -1,0 +1,330 @@
+Internal Error ()
+citeturn47view0 [wordlim: 200] Source: open({"ref_id":"https://polymarket.com/event/us-recession-by-end-of-2026?outcomeIndex=0","lineno":null}); Total lines: 1
+L0: Failed to fetch https://polymarket.com/event/us-recession-by-end-of-2026?outcomeIndex=0: Failed to fetch restricted URL
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn47view1 [wordlim: 200] Source: open({"ref_id":"https://polymarket.com/event/another-fed-rate-hike-in-2026?r=kaeoss","lineno":null}); Total lines: 1
+L0: Failed to fetch https://polymarket.com/event/another-fed-rate-hike-in-2026?r=kaeoss: Failed to fetch restricted URL
+--------------------------------------------------------------------------------
+September Unemployment Rate Trading Odds & Predictions 2026 | Polymarket (https://polymarket.com/event/september-unemployment-rate-2026?marketSlug=will-the-september-2026-unemployment-rate-be-3pt8&outcomeIndex=0)
+citeturn47view2 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({"ref_id":"https://polymarket.com/event/september-unemployment-rate-2026?marketSlug=will-the-september-2026-unemployment-rate-be-3pt8&outcomeIndex=0","lineno":null}); Total lines: 339
+L0: cite0†Image L1: ## It looks like you’re in the US
+L2: 
+L3: Trading is blocked in the United States on polymarket.com. Switch to cite1†polymarket.us†polymarket.us to trade prediction markets.
+L4: 
+L5: cite1†Go to polymarket.us†polymarket.us [Button: Continue in view only mode]
+L6: 
+L7: cite2†Skip to main content L8: 
+L9: cite3†Trending cite4†Combos cite5†Perps cite6†Breaking cite7†New cite8†Politics cite9†Sports cite10†Crypto cite11†Esports cite12†Iran cite13†Finance cite14†Geopolitics cite15†Tech cite16†Culture cite17†Economy cite18†Weather cite19†Mentions cite20†Elections cite21†Art L10: cite22†Image: icon for September Unemployment Rate L11: 
+L12: cite17†Economy ·cite23†Jobs L13: # September Unemployment Rate
+L14: 
+L15: Pastcite24†Oct 2 L16: 
+L17: Pastcite24†Oct 2 L18: 
+L19: 4.1% 39%
+L20: 
+L21: 4.2% 35%
+L22: 
+L23: 4.0% 16%
+L24: 
+L25: 4.3% 11%
+L26: 
+L27: $14,693 Vol.
+L28: 
+L29: [Button: 1H][Button: 6H][Button: 1D][Button: 1W][Button: Max]
+L30: 
+L31: ≤3.8%
+L32: 
+L33: $1,799 Vol.
+L34: 
+L35: 2%
+L36: 
+L37: Buy Yes 2.0¢Buy No 99.0¢
+L38: 
+L39: 3.9%
+L40: 
+L41: $533 Vol.
+L42: 
+L43: 4%
+L44: 
+L45: Buy Yes 5.1¢Buy No 98.0¢
+L46: 
+L47: 4.0%
+L48: 
+L49: $1,089 Vol.
+L50: 
+L51: 16%
+L52: 
+L53: Buy Yes 17¢Buy No 85¢
+L54: 
+L55: 4.1%
+L56: 
+L57: $4,394 Vol.
+L58: 
+L59: 39%
+L60: 
+L61: Buy Yes 40¢Buy No 62¢
+L62: 
+L63: 4.2%
+L64: 
+L65: $3,013 Vol.
+L66: 
+L67: 35%
+L68: 
+L69: Buy Yes 36¢Buy No 66¢
+L70: 
+L71: 4.3%
+L72: 
+L73: $1,866 Vol.
+L74: 
+L75: 11%
+L76: 
+L77: Buy Yes 12¢Buy No 90¢
+L78: 
+L79: 4.4%
+L80: 
+L81: $502 Vol.
+L82: 
+L83: <1%
+L84: Buy Yes 0.6¢Buy No 99.8¢
+L85: 
+L86: 4.5%
+L87: 
+L88: $736 Vol.
+L89: 
+L90: 1%
+L91: 
+L92: Buy Yes 1.9¢Buy No 99.9¢
+L93: 
+L94: ≥4.6%
+L95: 
+L96: $761 Vol.
+L97: 
+L98: <1%
+L99: 
+L100: Buy Yes 0.4¢Buy No 99.9¢
+L101: 
+L102: 4.1% 39%
+L103: 
+L104: 4.2% 35%
+L105: 
+L106: 4.0% 16%
+L107: 
+L108: 4.3% 11%
+L109: 
+L110: $14,693 Vol.
+L111: 
+L112: [Button: 1H][Button: 6H][Button: 1D][Button: 1W][Button: Max]
+L113: 
+L114: ≤3.8%
+L115: 
+L116: $1,799 Vol.
+L117: 
+L118: 2%
+L119: 
+L120: [Button: Buy Yes 2.0¢][Button: Buy No 99.0¢]
+L121: 
+L122: 3.9%
+L123: 
+L124: $533 Vol.
+L125: 
+L126: 4%
+L127: 
+L128: [Button: Buy Yes 5.1¢][Button: Buy No 98.0¢]
+L129: 
+L130: 4.0%
+L131: 
+L132: $1,089 Vol.
+L133: 
+L134: 16%
+L135: 
+L136: [Button: Buy Yes 17¢][Button: Buy No 85¢]
+L137: 
+L138: 4.1%
+L139: 
+L140: $4,394 Vol.
+L141: 
+L142: 39%
+L143: 
+L144: [Button: Buy Yes 40¢][Button: Buy No 62¢]
+L145: 4.2%
+L146: 
+L147: $3,013 Vol.
+L148: 
+L149: 35%
+L150: 
+L151: [Button: Buy Yes 36¢][Button: Buy No 66¢]
+L152: 
+L153: 4.3%
+L154: 
+L155: $1,866 Vol.
+L156: 
+L157: 11%
+L158: 
+L159: [Button: Buy Yes 12¢][Button: Buy No 90¢]
+L160: 
+L161: 4.4%
+L162: 
+L163: $502 Vol.
+L164: 
+L165: <1%
+L166: 
+L167: [Button: Buy Yes 0.6¢][Button: Buy No 99.8¢]
+L168: 
+L169: 4.5%
+L170: 
+L171: $736 Vol.
+L172: 
+L173: 1%
+L174: 
+L175: [Button: Buy Yes 1.9¢][Button: Buy No 99.9¢]
+L176: 
+L177: ≥4.6%
+L178: 
+L179: $761 Vol.
+L180: 
+L181: <1%
+L182: 
+L183: [Button: Buy Yes 0.4¢][Button: Buy No 99.9¢]
+L184: This market will resolve according to the seasonally adjusted unemployment rate (total unemployed, as a percent of the civilian labor force, official unemployment rate denoted as U-3) reported by the Bureau of Labor Statistics in the Employment Situation Report for September 2026.
+L185: The resolution source for this market is the Monthly Employment Situation Report, published by the BLS every month at https://www.bls.gov/bls/news-release/empsit.htm, specifically the U-3 measure in Table A-15 for the month in question. The relevant data release is scheduled for October 2, 2026, at 8:30 AM ET. This market will resolve as soon as the relevant data is issued. Any revisions to the data after the first release will not count toward this market's resolution.
+L186: If no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month. Note: the resolution source for this market reports unemployment to one decimal point.
+L187: Thus, this is the level of precision that will be used when resolving the market.Recent August employment data, showing the unemployment rate holding at 4.1% alongside 162,000 nonfarm payroll gains that exceeded consensus, has anchored trader expectations near current levels while highlighting labor market resilience. The Federal Reserve's September 16 rate hike to the 3.75-4% target range cited stable job conditions and low claims as supportive of a balanced but not overly tight market.
+L188: With the September report due October 2, market-implied odds cluster tightly around 4.1% and 4.2% due to uncertainty over whether participation gains and modest hiring momentum will sustain the rate or allow a modest uptick. FOMC projections reinforce a 4.1% baseline for year-end, though softer revisions or seasonal factors could shift outcomes.
+L189: ## [Button: Rules]
+L190: ## [Button: Market Context]
+L191: This market will resolve according to the seasonally adjusted unemployment rate (total unemployed, as a percent of the civilian labor force, official unemployment rate denoted as U-3) reported by the Bureau of Labor Statistics in the Employment Situation Report for September 2026.
+L192: The resolution source for this market is the Monthly Employment Situation Report, published by the BLS every month at cite25†https://www.bls.gov/bls/news-release/empsit.htm†www.bls.gov , specifically the U-3 measure in Table A-15 for the month in question.
+L193: The relevant data release is scheduled for October 2, 2026, at 8:30 AM ET. This market will resolve as soon as the relevant data is issued. Any revisions to the data after the first release will not count toward this market's resolution.
+L194: If no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month.
+L195: Note: the resolution source for this market reports unemployment to one decimal point. Thus, this is the level of precision that will be used when resolving the market.This market will resolve according to the seasonally adjusted unemployment rate (total unemployed, as a percent of the civilian labor force, official unemployment rate denoted as U-3) reported by the Bureau of Labor Statistics in the Employment Situation Report for September 2026.
+L196: The resolution source for this market is the Monthly Employment Situation Report, published by the BLS every month at https://www.bls.gov/bls/news-release/empsit.htm, specifically the U-3 measure in Table A-15 for the month in question. The relevant data release is scheduled for October 2, 2026, at 8:30 AM ET. This market will resolve as soon as the relevant data is issued. Any revisions to the data after the first release will not count toward this market's resolution.
+L197: If no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month. Note: the resolution source for this market reports unemployment to one decimal point. Thus, this is the level of precision that will be used when resolving the market.
+L198: Volume
+L199: 
+L200: $14,693
+L201: 
+L202: End Date
+L203: 
+L204: Oct 2, 2026
+L205: 
+L206: Market Opened
+L207: 
+L208: Sep 4, 2026, 12:35 PM ET
+L209: 
+L210: Resolution Source
+L211: 
+L212: cite25†https://www.bls.gov/bls/news-release/empsit.htm†www.bls.gov L213: 
+L214: Resolver
+L215: 
+L216: cite26†0x69c47De9D...†polygonscan.com L217: 
+L218: cite27†Propose resolution†oracle.uma.xyz L219: Recent August employment data, showing the unemployment rate holding at 4.1% alongside 162,000 nonfarm payroll gains that exceeded consensus, has anchored trader expectations near current levels while highlighting labor market resilience. The Federal Reserve's September 16 rate hike to the 3.75-4% target range cited stable job conditions and low claims as supportive of a balanced but not overly tight market.
+L220: With the September report due October 2, market-implied odds cluster tightly around 4.1% and 4.2% due to uncertainty over whether participation gains and modest hiring momentum will sustain the rate or allow a modest uptick. FOMC projections reinforce a 4.1% baseline for year-end, though softer revisions or seasonal factors could shift outcomes.
+L221: Experimental AI-generated summary referencing Polymarket data. This is not trading advice and plays no role in how this market resolves. · Updated Sep 21, 2026, 7:32 PM UTC
+L222: This market will resolve according to the seasonally adjusted unemployment rate (total unemployed, as a percent of the civilian labor force, official unemployment rate denoted as U-3) reported by the Bureau of Labor Statistics in the Employment Situation Report for September 2026.
+L223: The resolution source for this market is the Monthly Employment Situation Report, published by the BLS every month at https://www.bls.gov/bls/news-release/empsit.htm, specifically the U-3 measure in Table A-15 for the month in question. The relevant data release is scheduled for October 2, 2026, at 8:30 AM ET. This market will resolve as soon as the relevant data is issued. Any revisions to the data after the first release will not count toward this market's resolution.
+L224: If no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month. Note: the resolution source for this market reports unemployment to one decimal point.
+L225: Thus, this is the level of precision that will be used when resolving the market.Recent August employment data, showing the unemployment rate holding at 4.1% alongside 162,000 nonfarm payroll gains that exceeded consensus, has anchored trader expectations near current levels while highlighting labor market resilience. The Federal Reserve's September 16 rate hike to the 3.75-4% target range cited stable job conditions and low claims as supportive of a balanced but not overly tight market.
+L226: With the September report due October 2, market-implied odds cluster tightly around 4.1% and 4.2% due to uncertainty over whether participation gains and modest hiring momentum will sustain the rate or allow a modest uptick. FOMC projections reinforce a 4.1% baseline for year-end, though softer revisions or seasonal factors could shift outcomes.
+L227: ## [Button: Rules]
+L228: ## [Button: Market Context]
+L229: This market will resolve according to the seasonally adjusted unemployment rate (total unemployed, as a percent of the civilian labor force, official unemployment rate denoted as U-3) reported by the Bureau of Labor Statistics in the Employment Situation Report for September 2026.
+L230: The resolution source for this market is the Monthly Employment Situation Report, published by the BLS every month at cite25†https://www.bls.gov/bls/news-release/empsit.htm†www.bls.gov , specifically the U-3 measure in Table A-15 for the month in question.
+L231: The relevant data release is scheduled for October 2, 2026, at 8:30 AM ET. This market will resolve as soon as the relevant data is issued. Any revisions to the data after the first release will not count toward this market's resolution.
+L232: If no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month.
+L233: Note: the resolution source for this market reports unemployment to one decimal point. Thus, this is the level of precision that will be used when resolving the market.This market will resolve according to the seasonally adjusted unemployment rate (total unemployed, as a percent of the civilian labor force, official unemployment rate denoted as U-3) reported by the Bureau of Labor Statistics in the Employment Situation Report for September 2026.
+L234: The resolution source for this market is the Monthly Employment Situation Report, published by the BLS every month at https://www.bls.gov/bls/news-release/empsit.htm, specifically the U-3 measure in Table A-15 for the month in question. The relevant data release is scheduled for October 2, 2026, at 8:30 AM ET. This market will resolve as soon as the relevant data is issued. Any revisions to the data after the first release will not count toward this market's resolution.
+L235: If no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month. Note: the resolution source for this market reports unemployment to one decimal point. Thus, this is the level of precision that will be used when resolving the market.
+L236: Volume
+L237: 
+L238: $14,693
+L239: 
+L240: End Date
+L241: 
+L242: Oct 2, 2026
+L243: 
+L244: Market Opened
+L245: 
+L246: Sep 4, 2026, 12:35 PM ET
+L247: 
+L248: Resolution Source
+L249: 
+L250: cite25†https://www.bls.gov/bls/news-release/empsit.htm†www.bls.gov L251: 
+L252: Resolver
+L253: 
+L254: cite26†0x69c47De9D...†polygonscan.com L255: Recent August employment data, showing the unemployment rate holding at 4.1% alongside 162,000 nonfarm payroll gains that exceeded consensus, has anchored trader expectations near current levels while highlighting labor market resilience. The Federal Reserve's September 16 rate hike to the 3.75-4% target range cited stable job conditions and low claims as supportive of a balanced but not overly tight market.
+L256: With the September report due October 2, market-implied odds cluster tightly around 4.1% and 4.2% due to uncertainty over whether participation gains and modest hiring momentum will sustain the rate or allow a modest uptick. FOMC projections reinforce a 4.1% baseline for year-end, though softer revisions or seasonal factors could shift outcomes.
+L257: Experimental AI-generated summary referencing Polymarket data. This is not trading advice and plays no role in how this market resolves. · Updated Sep 21, 2026, 7:32 PM UTC
+L258: ### Related
+L259: 
+L260: [Button: All][Button: CPI][Button: Weather]
+L261: 
+L262: cite28†Will US unemployment reach at least 5.0% in 2026?5% cite29†Will the US add between 50k and 100k jobs in September?38% cite30†Will monthly inflation increase by 0.6% in September?40% L263: 
+L264: ## Comments
+L265: 
+L266: ## [Button: Top Holders]
+L267: 
+L268: ## [Button: Positions]
+L269: 
+L270: ## [Button: Activity]
+L271: 
+L272: [Button: Post]
+L273: 
+L274: Beware of external links.
+L275: 
+L276: Newest
+L277: 
+L278: ## Frequently Asked Questions
+L279: ### What is the "September Unemployment Rate" prediction market?
+L280: "September Unemployment Rate" is a prediction market on Polymarket with 9 possible outcomes where traders buy and sell shares based on what they believe will happen. The current leading outcome is "4.1%" at 39%, followed by "4.2%" at 35%. Prices reflect real-time crowd-sourced probabilities. For example, a share priced at 39¢ implies that the market collectively assigns a 39% chance to that outcome. These odds shift continuously as traders react to new developments and information.
+L281: Shares in the correct outcome are redeemable for $1 each upon market resolution.
+L282: ### How much trading activity has "September Unemployment Rate" generated on Polymarket?
+L283: 
+L284: As of today, "September Unemployment Rate" has generated $14.7K in total trading volume since the market launched on Sep 4, 2026. This level of trading activity reflects strong engagement from the Polymarket community and helps ensure that the current odds are informed by a deep pool of market participants. You can track live price movements and trade on any outcome directly on this page.
+L285: ### How do I trade on "September Unemployment Rate"?
+L286: To trade on "September Unemployment Rate," browse the 9 available outcomes listed on this page. Each outcome displays a current price representing the market's implied probability. To take a position, select the outcome you believe is most likely, choose "Yes" to trade in favor of it or "No" to trade against it, enter your amount, and click "Trade." If your chosen outcome is correct when the market resolves, your "Yes" shares pay out $1 each. If it's incorrect, they pay out $0.
+L287: You can also sell your shares at any time before resolution if you want to lock in a profit or cut a loss.
+L288: ### What are the current odds for "September Unemployment Rate"?
+L289: 
+L290: The current frontrunner for "September Unemployment Rate" is "4.1%" at 39%, meaning the market assigns a 39% chance to that outcome. The next closest outcome is "4.2%" at 35%. These odds update in real-time as traders buy and sell shares, so they reflect the latest collective view of what's most likely to happen. Check back frequently or bookmark this page to follow how the odds shift as new information emerges.
+L291: ### How will "September Unemployment Rate" be resolved?
+L292: The resolution rules for "September Unemployment Rate" define exactly what needs to happen for each outcome to be declared a winner — including the official data sources used to determine the result. You can review the complete resolution criteria in the "Rules" section on this page above the comments. We recommend reading the rules carefully before trading, as they specify the precise conditions, edge cases, and sources that govern how this market is settled.
+L293: ### Can I follow "September Unemployment Rate" without placing a trade?
+L294: Yes. You don't need to trade to stay informed. This page serves as a live tracker for "September Unemployment Rate." The outcome probabilities update in real-time as new trades come in. You can bookmark this page and check the comments section to see what other traders are saying. You can also use the time-range filters on the chart to see how the odds have shifted over time. It's a free, real-time window into what the market expects to happen.
+L295: ### Why are Polymarket's odds for "September Unemployment Rate" considered reliable?
+L296: Polymarket odds are set by real traders putting real money behind their beliefs, which tends to surface accurate predictions. With $14.7K traded on “September Unemployment Rate,” these prices aggregate the collective knowledge and conviction of thousands of participants — often outperforming polls, expert forecasts, and traditional surveys. Prediction markets like Polymarket have a strong track record of accuracy, especially as events approach their resolution date.
+L297: For example, Polymarket has a one month accuracy score of 94%. For the latest stats on Polymarket’s prediction accuracy, visit the cite31†accuracy page on Polymarket.
+L298: ### How do I start trading on "September Unemployment Rate"?
+L299: To place your first trade on "September Unemployment Rate," sign up for a free Polymarket account and fund it using crypto, a credit or debit card, or a bank transfer. Once your account is funded, return to this page, select the outcome you want to trade, enter your amount, and click "Trade." If you're new to prediction markets, click the "How it works" link at the top of any Polymarket page for a quick step-by-step walkthrough of how trading works.
+L300: ### What does a price of 39¢ for "4.1%" mean?
+L301: 
+L302: On Polymarket, the price of each outcome represents the market's implied probability. A price of 39¢ for "4.1%" in the "September Unemployment Rate" market means traders collectively believe there is roughly a 39% chance that "4.1%" will be the correct result. If you buy "Yes" shares at 39¢ and the outcome is correct, you receive $1.00 per share — a profit of 61¢ per share. If incorrect, those shares are worth $0.
+L303: ### When does the "September Unemployment Rate" market close?
+L304: 
+L305: The "September Unemployment Rate" market is scheduled to resolve on or around Oct 2, 2026. This means trading will remain open and the odds will continue to shift as new information emerges until that date. The exact resolution timing depends on when the official result becomes available, as outlined in the "Rules" section on this page.
+L306: ### What are traders saying about "September Unemployment Rate"?
+L307: 
+L308: The "September Unemployment Rate" market has an active community of 61 comments where traders share their analysis, debate outcomes, and discuss breaking developments. Scroll down to the comments section below to read what other participants think. You can also filter by "Top Holders" to see what the market's biggest traders are positioned on, or check the "Activity" tab for a real-time feed of trades.
+L309: ### What is Polymarket?
+L310: Polymarket is the world's largest prediction market, where you can stay informed and profit from your knowledge of real-world events. Traders buy and sell shares on outcomes for topics ranging from politics and elections to crypto, finance, sports, tech, and culture, including markets like "September Unemployment Rate." Prices reflect real-time, crowd-sourced probabilities backed by financial conviction, often providing faster and more accurate signals than polls, pundits, or traditional surveys.
+L311: View more
+L312: 
+L313: The World's Largest Prediction Market™
+L314: ### Related topics
+L315: 
+L316: cite32†InflationPredictions & odds cite33†JapanPredictions & odds cite34†BOJPredictions & odds cite35†CPIPredictions & odds cite36†DavosPredictions & odds cite37†JeromePredictions & odds cite38†GDPPredictions & odds cite39†EurozonePredictions & odds cite40†HousingPredictions & odds cite41†TariffsPredictions & odds L317: cite42†MacroPredictions & odds cite43†UnemploymentPredictions & odds cite44†ColombiaPredictions & odds cite45†OPECPredictions & odds cite46†NFPPredictions & odds cite47†AusPredictions & odds cite48†RBAPredictions & odds cite49†BlsPredictions & odds cite50†SNBPredictions & odds cite51†EnergyPredictions & odds L318: 
+L319: View more
+L320: ### Popular Economy markets
+L321: 
+L322: cite52†JOLTS Job Openings: August 2026 L323: ### New Economy markets
+L324: 
+L325: cite52†JOLTS Job Openings: August 2026 L326: 
+L327: hello@polymarket.com
+L328: 
+L329: Adventure One QSS Inc. © 2026·cite53†Privacy ·cite54†Terms of Use ·cite55†Market Integrity†integrity.polymarket.com ·cite56†Transparency ·cite57†Help Center†help.polymarket.com ·cite58†Docs†docs.polymarket.com L330: Polymarket operates globally through separate legal entities. cite59†Polymarket US†polymarket.us is operated by QCX LLC d/b/a Polymarket US, a CFTC-regulated Designated Contract Market. This international platform is not regulated by the CFTC and operates independently. Trading involves substantial risk of loss. See our cite54†Terms of Service & cite53†Privacy Policy .
+L331: 
+L332: cite3†Home L333: 
+L334: Search
+L335: 
+L336: cite6†Breaking L337: 
+L338: More
+

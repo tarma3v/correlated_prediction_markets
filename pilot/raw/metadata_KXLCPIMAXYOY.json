@@ -1,0 +1,40 @@
+{
+  "request_url": "https://external-api.kalshi.com/trade-api/v2/series/KXLCPIMAXYOY",
+  "requested_at_utc": "2026-09-28T21:02:51.694680+00:00",
+  "file": "raw/metadata_KXLCPIMAXYOY.json",
+  "status_code": 200,
+  "fetched_at_utc": "2026-09-28T21:02:52.354644+00:00",
+  "response": {
+    "series": {
+      "additional_prohibitions": [
+        "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+        "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+      ],
+      "categories": [
+        "Economics"
+      ],
+      "category": "Economics",
+      "contract_terms_url": "https://assets.kalshi.com/contract_terms/LCPIYOY.pdf",
+      "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/LCPIYOY.pdf",
+      "exchange_index": 0,
+      "fee_multiplier": 1,
+      "fee_type": "quadratic",
+      "frequency": "one_off",
+      "last_updated_ts": "2026-03-25T21:24:09.549133Z",
+      "product_metadata": {
+        "important_info": null
+      },
+      "settlement_sources": [
+        {
+          "name": "Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/cpi/"
+        }
+      ],
+      "tags": [
+        "Inflation"
+      ],
+      "ticker": "KXLCPIMAXYOY",
+      "title": "Inflation surge this year"
+    }
+  }
+}

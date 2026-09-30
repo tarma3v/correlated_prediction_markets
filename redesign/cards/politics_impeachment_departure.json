@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "pair_id": "politics_impeachment_departure",
+  "domain": "politics",
+  "mechanism": "Similar political event, but impeachment and removal are distinct predicates.",
+  "selection": {
+    "selected_at_utc": "2026-09-29T22:44:02.071676+00:00",
+    "selection_reason": "Similar political event, but impeachment and removal are distinct predicates.",
+    "template_family": "politics_impeachment_departure",
+    "within_event_control": false,
+    "prior_model_output_seen": false
+  },
+  "contracts": {
+    "A": {
+      "platform": "polymarket",
+      "market_id": "0x4c8ceef9b9c0a27b6b4efa7c398ece4a5eeda76502f722de398c232abefe2ede",
+      "title": "Will Trump be impeached by end of 2026?",
+      "market_url": "https://polymarket.com/event/will-trump-be-impeached-by-december-31-2026",
+      "source_ids": [
+        "impeach"
+      ],
+      "yes_proposition": "Between July 24, 2025 and December 31, 2026, 11:59 PM ET, the US House passes at least one article of impeachment of Donald Trump by a simple majority.",
+      "proposition_status": "faithful_under_scope"
+    },
+    "B": {
+      "platform": "polymarket",
+      "market_id": "0x48b0b0bca515f68fccf95af4793dbd0edbfec1f8ec6e8df2c0f69ba74f8c4722",
+      "title": "Trump out as President before 2027?",
+      "market_url": "https://polymarket.com/event/trump-out-as-president-before-2027",
+      "source_ids": [
+        "out"
+      ],
+      "yes_proposition": "By December 31, 2026, 11:59 PM ET, Donald Trump permanently ceases to be US President, or his resignation or permanent removal is announced; sustained Section 4 removal qualifies and impeachment without removal does not.",
+      "proposition_status": "faithful_under_scope"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "impeach",
+      "provenance": "curated_snapshot",
+      "url": "https://api.clearmarket.fyi/v1/events/will-trump-be-impeached-by-december-31-2026",
+      "retrieved_at_utc": "2026-09-29T22:40:27.483812+00:00",
+      "upstream_timestamp": "2026-09-29T22:00:32.399Z",
+      "local_path": "discovery/political/impeachment.json",
+      "sha256": "d43d023c00df7e8d0fe163963f13bab49ad797584e311cbc0b64aa00215d6250",
+      "locator": "/markets/0/resolution/rules_raw",
+      "coverage_note": "Public ClearMarket copy of venue rules_raw. Editorial fields are excluded. Direct Gamma version not verified; fetched time derived from saved-file mtime."
+    },
+    {
+      "source_id": "out",
+      "provenance": "curated_snapshot",
+      "url": "https://api.clearmarket.fyi/v1/events/trump-out-as-president-before-2027",
+      "retrieved_at_utc": "2026-09-29T22:37:55.839643+00:00",
+      "upstream_timestamp": "2026-09-29T22:00:32.399Z",
+      "local_path": "discovery/clearmarket/trump-out-as-president-before-2027.json",
+      "sha256": "d47dfa909ba58086cb95c6d18985272ff7eda031a1dd3a98338ec5b1858178b9",
+      "locator": "/markets/0/resolution/rules_raw",
+      "coverage_note": "Public ClearMarket copy of venue rules_raw. Editorial fields are excluded. Direct Gamma version not verified; fetched time derived from saved-file mtime."
+    }
+  ],
+  "scope": {
+    "binary_regime": "Logical reading of the saved resolution texts with mutually consistent reports; ordinary binary settlement only.",
+    "assumptions": [
+      "The saved rules apply unchanged.",
+      "Reports agree on stipulated facts and announcements.",
+      "The deadline is interpreted identically as written."
+    ],
+    "excluded_branches": [
+      "Oracle disputes and subsequent rule changes."
+    ],
+    "source_coverage": "resolution_text_only",
+    "missing_information": [
+      "Direct current Gamma confirmation of the third-party copy."
+    ]
+  },
+  "comparison": [
+    {
+      "dimension": "predicate",
+      "finding": "House impeachment and permanent departure do not imply one another.",
+      "evidence": [
+        {
+          "source_id": "impeach",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Senate trial, conviction and removal are not necessary for YES."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Impeachment without removal does not count; resignation and other permanent departures do."
+        }
+      ]
+    }
+  ],
+  "worlds": {
+    "00": {
+      "status": "witness",
+      "reason": "Neither impeachment nor a qualifying departure occurs.",
+      "evidence": [
+        {
+          "source_id": "impeach",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Senate trial, conviction and removal are not necessary for YES."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Impeachment without removal does not count; resignation and other permanent departures do."
+        }
+      ]
+    },
+    "01": {
+      "status": "witness",
+      "reason": "A resignation is announced; no House article of impeachment is passed in the specified window.",
+      "evidence": [
+        {
+          "source_id": "impeach",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Senate trial, conviction and removal are not necessary for YES."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Impeachment without removal does not count; resignation and other permanent departures do."
+        }
+      ]
+    },
+    "10": {
+      "status": "witness",
+      "reason": "The House passes impeachment; Trump remains President without a qualifying departure announcement.",
+      "evidence": [
+        {
+          "source_id": "impeach",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Senate trial, conviction and removal are not necessary for YES."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Impeachment without removal does not count; resignation and other permanent departures do."
+        }
+      ]
+    },
+    "11": {
+      "status": "witness",
+      "reason": "Impeachment is followed by a qualifying permanent removal, both within the window.",
+      "evidence": [
+        {
+          "source_id": "impeach",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Senate trial, conviction and removal are not necessary for YES."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Impeachment without removal does not count; resignation and other permanent departures do."
+        }
+      ]
+    }
+  },
+  "conclusion": "All four states have textual witnesses in the declared scope: no strict logical relation. This says nothing about statistical correlation.",
+  "review": {
+    "status": "ai_assisted_provisional",
+    "method": "AI-assisted clause reading; not independent human gold. No learned pair classifier used for card selection.",
+    "counterexample_search": "Both implication directions have explicit scenarios; the two contracts can also both resolve YES."
+  }
+}

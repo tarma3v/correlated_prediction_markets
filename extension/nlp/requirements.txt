@@ -1,0 +1,9 @@
+# Versions used in the local CPU diagnostic (Python 3.11).
+torch==2.0.1
+transformers==4.44.2
+tokenizers==0.19.1
+numpy==1.25.1
+sentencepiece==0.2.0
+protobuf==5.29.5
+safetensors==0.8.0
+huggingface-hub==0.36.2

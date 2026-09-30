@@ -1,0 +1,386 @@
+[
+  {
+    "case_id": "same_title_thresholds",
+    "review_status": "AI-assisted exploratory interpretation; not independently annotated gold",
+    "provisional_relation": "A_implies_B",
+    "note_ru": "Одинаковые title скрывают разные пороги ≥7.0% и ≥6.5% для любого месяца одного года. При одинаковой интерпретации CPI истинность A влечёт B; обратное неверно. Это positive control внутри известного event, а не обнаруженная неизвестная связь.",
+    "a": {
+      "venue": "kalshi",
+      "id": "KXLCPIMAXYOY-27-P7.0",
+      "event_id": "KXLCPIMAXYOY-27",
+      "title": "Inflation surge in 2026?",
+      "primary": "If year-over-year CPI inflation is at least 7.0% in any month in 2026, then the market resolves to Yes.",
+      "secondary": "",
+      "subtitle": "At least 7.0%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXLCPIMAXYOY-27-P7.0",
+      "close_time": "2027-02-14T13:29:00Z",
+      "expected_expiration_time": "2027-02-14T15:00:00Z",
+      "floor_strike": 7,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXLCPIMAXYOY.json",
+      "fetched_at_utc": "2026-09-28T21:01:40.988396+00:00",
+      "text_sha256": "2e7858048e7b3b4211c6960ba6f6f2766fc92541af9d7bf405c6eb4b6abd7751",
+      "input_sha256": "823b57bec663709a02f26bcd044a18064d3b322a44d215ffcb7b0a6c87163c72"
+    },
+    "b": {
+      "venue": "kalshi",
+      "id": "KXLCPIMAXYOY-27-P6.5",
+      "event_id": "KXLCPIMAXYOY-27",
+      "title": "Inflation surge in 2026?",
+      "primary": "If year-over-year CPI inflation is at least 6.5% in any month in 2026, then the market resolves to Yes.",
+      "secondary": "",
+      "subtitle": "At least 6.5%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXLCPIMAXYOY-27-P6.5",
+      "close_time": "2027-02-14T13:29:00Z",
+      "expected_expiration_time": "2027-02-14T15:00:00Z",
+      "floor_strike": 6.5,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXLCPIMAXYOY.json",
+      "fetched_at_utc": "2026-09-28T21:01:40.988396+00:00",
+      "text_sha256": "fcdaee25054ff1b70687f8b0c571894806f7f0b9928ea8aa40844ca831891131",
+      "input_sha256": "60070d0f270b29d1a40b8402ec0168e6726de90b7adbf4a4caeb60cae44c139e"
+    },
+    "retrieval": {
+      "title": {
+        "similarity": 1.0,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 1,
+        "in_top5_union": true
+      },
+      "rules": {
+        "similarity": 0.851597,
+        "rank_b_for_a": 5,
+        "rank_a_for_b": 5,
+        "in_top5_union": true
+      },
+      "title_rules": {
+        "similarity": 0.857672,
+        "rank_b_for_a": 5,
+        "rank_a_for_b": 5,
+        "in_top5_union": true
+      }
+    }
+  },
+  {
+    "case_id": "strict_thresholds",
+    "review_status": "AI-assisted exploratory interpretation; not independently annotated gold",
+    "provisional_relation": "A_implies_B",
+    "note_ru": "Одинаковый показатель, месяц и secondary rules. Строгое >0.9% влечёт >0.8%, но не наоборот. Десятичные числа и строгость сравнения нельзя удалять как noise.",
+    "a": {
+      "venue": "kalshi",
+      "id": "KXCPI-26OCT-T0.9",
+      "event_id": "KXCPI-26OCT",
+      "title": "Will CPI rise more than 0.9% in October 2026?",
+      "primary": "If the Consumer Price Index (CPI) increases by more than 0.9% (single-decimal) in October 2026, then the market resolves to Yes.",
+      "secondary": "The market will always close at 8:25 AM ET on the scheduled day of the data release (November 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+      "subtitle": "Above 0.9%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXCPI-26OCT-T0.9",
+      "close_time": "2026-11-10T13:25:00Z",
+      "expected_expiration_time": "2026-11-10T14:56:00Z",
+      "floor_strike": 0.9,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXCPI.json",
+      "fetched_at_utc": "2026-09-28T21:01:37.014920+00:00",
+      "text_sha256": "6190008bb45ac414bca2d1d888d9c2723361447887016e2ebc452de20367220b",
+      "input_sha256": "96e331a73992428bb0b30afb38a7d1d5eaaa56503801db8091cd215d53edf5f5"
+    },
+    "b": {
+      "venue": "kalshi",
+      "id": "KXCPI-26OCT-T0.8",
+      "event_id": "KXCPI-26OCT",
+      "title": "Will CPI rise more than 0.8% in October 2026?",
+      "primary": "If the Consumer Price Index (CPI) increases by more than 0.8% (single-decimal) in October 2026, then the market resolves to Yes.",
+      "secondary": "The market will always close at 8:25 AM ET on the scheduled day of the data release (November 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+      "subtitle": "Above 0.8%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXCPI-26OCT-T0.8",
+      "close_time": "2026-11-10T13:25:00Z",
+      "expected_expiration_time": "2026-11-10T14:56:00Z",
+      "floor_strike": 0.8,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXCPI.json",
+      "fetched_at_utc": "2026-09-28T21:01:37.014920+00:00",
+      "text_sha256": "fdeefa9f9907ad65daba058afed56672c598a783d4f446d006265568e5bae9d9",
+      "input_sha256": "cf20c6f26f3d25c6e4b71ca4b2e8b40996652cd3ee5deed31a237f3a165c5303"
+    },
+    "retrieval": {
+      "title": {
+        "similarity": 0.674246,
+        "rank_b_for_a": 14,
+        "rank_a_for_b": 14,
+        "in_top5_union": false
+      },
+      "rules": {
+        "similarity": 0.946437,
+        "rank_b_for_a": 7,
+        "rank_a_for_b": 8,
+        "in_top5_union": false
+      },
+      "title_rules": {
+        "similarity": 0.894755,
+        "rank_b_for_a": 7,
+        "rank_a_for_b": 9,
+        "in_top5_union": false
+      }
+    }
+  },
+  {
+    "case_id": "different_periods",
+    "review_status": "AI-assisted exploratory interpretation; not independently annotated gold",
+    "provisional_relation": "no_deterministic_relation_established",
+    "note_ru": "Различаются двенадцатимесячные периоды: заканчивающийся в декабре и в ноябре. Высокая близость текстов не доказывает эквивалентность или импликацию. Это не утверждение статистической независимости.",
+    "a": {
+      "venue": "kalshi",
+      "id": "KXCPICOREYOY-26DEC-T2.6",
+      "event_id": "KXCPICOREYOY-26DEC",
+      "title": "Will the rate of core CPI inflation be above 2.6% for the year ending in December 2026?",
+      "primary": "If the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.",
+      "secondary": "In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+      "subtitle": "Above 2.6%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXCPICOREYOY-26DEC-T2.6",
+      "close_time": "2027-01-13T13:25:00Z",
+      "expected_expiration_time": "2027-01-13T15:00:00Z",
+      "floor_strike": 2.6,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXCPICOREYOY.json",
+      "fetched_at_utc": "2026-09-28T21:01:38.995041+00:00",
+      "text_sha256": "5a3f97c7f3801e63da6975d937f5ffa3fc8f5cf289f9014afb26e1c95f2a3237",
+      "input_sha256": "575cc5feb3910c12f5e687ca53baa158f93474427e71f3c7f4464e53abd9f257"
+    },
+    "b": {
+      "venue": "kalshi",
+      "id": "KXCPICOREYOY-26NOV-T2.6",
+      "event_id": "KXCPICOREYOY-26NOV",
+      "title": "Will the rate of core CPI inflation be above 2.6% for the year ending in November 2026?",
+      "primary": "If the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending November 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.",
+      "secondary": "In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+      "subtitle": "Above 2.6%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXCPICOREYOY-26NOV-T2.6",
+      "close_time": "2026-12-10T13:25:00Z",
+      "expected_expiration_time": "2026-12-10T15:00:00Z",
+      "floor_strike": 2.6,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXCPICOREYOY.json",
+      "fetched_at_utc": "2026-09-28T21:01:38.995041+00:00",
+      "text_sha256": "83667704d451df7bd3752a4bb3bb63a4e42152a7d206e9123362eda11660d94d",
+      "input_sha256": "48e99ff551482f76ebcdb04537ffcdc9c11560d0bd33a18091bdc4009fca14c4"
+    },
+    "retrieval": {
+      "title": {
+        "similarity": 0.905468,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 1,
+        "in_top5_union": true
+      },
+      "rules": {
+        "similarity": 0.973437,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 1,
+        "in_top5_union": true
+      },
+      "title_rules": {
+        "similarity": 0.95089,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 1,
+        "in_top5_union": true
+      }
+    }
+  },
+  {
+    "case_id": "headline_vs_core",
+    "review_status": "AI-assisted exploratory interpretation; not independently annotated gold",
+    "provisional_relation": "no_deterministic_relation_established",
+    "note_ru": "Одинаковый порог и месяц; однако CPI и CPI All Items less Food and Energy — разные показатели. Из текста не следует знак эмпирической корреляции или детерминированная связь.",
+    "a": {
+      "venue": "kalshi",
+      "id": "KXCPI-26NOV-T0.2",
+      "event_id": "KXCPI-26NOV",
+      "title": "Will CPI rise more than 0.2% in November 2026?",
+      "primary": "If the Consumer Price Index (CPI) increases by more than 0.2% (single-decimal) in November 2026, then the market resolves to Yes.",
+      "secondary": "The market will always close at 8:25 AM ET on the scheduled day of the data release (December 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+      "subtitle": "Above 0.2%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXCPI-26NOV-T0.2",
+      "close_time": "2026-12-10T13:25:00Z",
+      "expected_expiration_time": "2026-12-10T14:56:00Z",
+      "floor_strike": 0.2,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXCPI.json",
+      "fetched_at_utc": "2026-09-28T21:01:37.014920+00:00",
+      "text_sha256": "e5aa6d91404fc94d8739d8a1338b0390f03da826a313be432a70530e00b779d8",
+      "input_sha256": "a67937c9203f3676688242e04992155ba10fe6249955f49cd717b0e8930d683d"
+    },
+    "b": {
+      "venue": "kalshi",
+      "id": "KXCPICORE-26NOV-T0.2",
+      "event_id": "KXCPICORE-26NOV",
+      "title": "Will CPI Core rise more than 0.2% in November?",
+      "primary": "If the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for November 2026, as published by the Bureau of Labor Statistics, increases by above 0.2%, then the market resolves to Yes.",
+      "secondary": "Please note that the value of the Underlying is the single-decimal value reported by the BLS.\n\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+      "subtitle": "Above 0.2%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXCPICORE-26NOV-T0.2",
+      "close_time": "2026-12-10T13:25:00Z",
+      "expected_expiration_time": "2026-12-10T15:00:00Z",
+      "floor_strike": 0.2,
+      "cap_strike": 0.2,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXCPICORE.json",
+      "fetched_at_utc": "2026-09-28T21:01:38.328363+00:00",
+      "text_sha256": "afeb43f34515b8d48f7c4310bdc7eaacfd01a2d0ce33c6adba9e955866c27f1d",
+      "input_sha256": "1535abf809859145785511c34d8afcaa95b522b560bb1ec4b25485282f856e21"
+    },
+    "retrieval": {
+      "title": {
+        "similarity": 0.860176,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 2,
+        "in_top5_union": true
+      },
+      "rules": {
+        "similarity": 0.54471,
+        "rank_b_for_a": 50,
+        "rank_a_for_b": 131,
+        "in_top5_union": false
+      },
+      "title_rules": {
+        "similarity": 0.607387,
+        "rank_b_for_a": 40,
+        "rank_a_for_b": 57,
+        "in_top5_union": false
+      }
+    }
+  },
+  {
+    "case_id": "month_to_any_month",
+    "review_status": "AI-assisted exploratory interpretation; not independently annotated gold",
+    "provisional_relation": "conditional_A_implies_B_pending_terms_review",
+    "note_ru": "Если используются одна версия ряда CPI, одинаковая политика ревизий и трактовка месяца, декабрьский YoY >5.0% влечёт наличие месяца 2026 года с YoY ≥5%. В обоих series metadata указан BLS, но полные contract_terms PDFs ещё не сверены. Поэтому условный кандидат, не подтверждённая контрактная гарантия.",
+    "a": {
+      "venue": "kalshi",
+      "id": "KXCPIYOY-26DEC-T5.0",
+      "event_id": "KXCPIYOY-26DEC",
+      "title": "Will the rate of CPI inflation be above 5.0% for the year ending in December 2026?",
+      "primary": "If the Consumer Price Index (CPI) increases by more than 5.0% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.",
+      "secondary": "In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown",
+      "subtitle": "Above 5.0%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXCPIYOY-26DEC-T5.0",
+      "close_time": "2027-01-13T13:29:00Z",
+      "expected_expiration_time": "2027-01-13T15:00:00Z",
+      "floor_strike": 5,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXCPIYOY.json",
+      "fetched_at_utc": "2026-09-28T21:01:37.664100+00:00",
+      "text_sha256": "5f33e6a2c26ba40b7aa62fb78ba75cb046af8aa66fba11fd468c30173840f423",
+      "input_sha256": "eeffb0a12fe7f372b3e73910df81af87d110628d9785b5699576798466a09511"
+    },
+    "b": {
+      "venue": "kalshi",
+      "id": "KXLCPIMAXYOY-27-P5",
+      "event_id": "KXLCPIMAXYOY-27",
+      "title": "Inflation surge in 2026?",
+      "primary": "If year-over-year CPI inflation is at least 5% in any month in 2026, then the market resolves to Yes.",
+      "secondary": "",
+      "subtitle": "At least 5.0%",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXLCPIMAXYOY-27-P5",
+      "close_time": "2027-02-14T13:29:00Z",
+      "expected_expiration_time": "2027-02-14T15:00:00Z",
+      "floor_strike": 5,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_KXLCPIMAXYOY.json",
+      "fetched_at_utc": "2026-09-28T21:01:40.988396+00:00",
+      "text_sha256": "879af03dc6139e8f943fa286ae550d96bd7b74d6488d2934e3bc337878f1d265",
+      "input_sha256": "340417fdaa1e7ea96f0781f961b2fc230c4a21a78e16619ce80da30d9e3b4ce2"
+    },
+    "retrieval": {
+      "title": {
+        "similarity": 0.163561,
+        "rank_b_for_a": 109,
+        "rank_a_for_b": 44,
+        "in_top5_union": false
+      },
+      "rules": {
+        "similarity": 0.077912,
+        "rank_b_for_a": 283,
+        "rank_a_for_b": 59,
+        "in_top5_union": false
+      },
+      "title_rules": {
+        "similarity": 0.141047,
+        "rank_b_for_a": 203,
+        "rank_a_for_b": 16,
+        "in_top5_union": false
+      }
+    }
+  },
+  {
+    "case_id": "different_assets_shared_boilerplate",
+    "review_status": "AI-assisted exploratory interpretation; not independently annotated gold",
+    "provisional_relation": "no_deterministic_relation_established",
+    "note_ru": "Одинаковая структура времени и fallback rules, но разные базовые активы: platinum и palladium. Общий boilerplate не превращает их в эквивалентные контракты. Эмпирическая связь здесь не измерена.",
+    "a": {
+      "venue": "kalshi",
+      "id": "KXPLATINUMH-26SEP2819-T1724.49",
+      "event_id": "KXPLATINUMH-26SEP2819",
+      "title": "Will the platinum close price be above 1724.49 USD/ounce on September 28, 2026 at 7:00 PM ET?",
+      "primary": "If the close price of the 1-minute candlestick for platinum on September 28, 2026 at 7:00 PM EDT is above 1724.49 USD/ounce, then the market resolves to Yes.",
+      "secondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interval. For example, the candlestick timestamped 4:59 PM reflects trading during 4:59:00 PM to 4:59:59 PM and closes at 5:00:00 PM. If no data is published by the specified source agency for the specified time, then the most recently available published data will be used to resolve the market.\n\nNA",
+      "subtitle": "Above $1724.49",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXPLATINUMH-26SEP2819-T1724.49",
+      "close_time": "2026-09-28T23:00:00Z",
+      "expected_expiration_time": "2026-09-28T23:00:00Z",
+      "floor_strike": 1724.49,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_recent.json",
+      "fetched_at_utc": "2026-09-28T21:01:36.358052+00:00",
+      "text_sha256": "4edc67ac930c811346b9166884446d19e7f05ed9c8ea5c7dc9ad3c84afa1c9de",
+      "input_sha256": "204eca2db03ff8a0dba3855c9450213b6d5041af90a9b3d5b780501dc1cec59a"
+    },
+    "b": {
+      "venue": "kalshi",
+      "id": "KXPALLADIUMH-26SEP2819-T1219.49",
+      "event_id": "KXPALLADIUMH-26SEP2819",
+      "title": "Will the palladium close price be above 1219.49 USD/ounce on September 28, 2026 at 7:00 PM ET?",
+      "primary": "If the close price of the 1-minute candlestick for palladium on September 28, 2026 at 7:00 PM EDT is above 1219.49 USD/ounce, then the market resolves to Yes.",
+      "secondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interval. For example, the candlestick timestamped 4:59 PM reflects trading during 4:59:00 PM to 4:59:59 PM and closes at 5:00:00 PM. If no data is published by the specified source agency for the specified time, then the most recently available published data will be used to resolve the market.\n\nNA",
+      "subtitle": "Above $1219.49",
+      "source_api_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXPALLADIUMH-26SEP2819-T1219.49",
+      "close_time": "2026-09-28T23:00:00Z",
+      "expected_expiration_time": "2026-09-28T23:00:00Z",
+      "floor_strike": 1219.49,
+      "cap_strike": null,
+      "strike_type": "greater",
+      "raw_file": "raw/kalshi_recent.json",
+      "fetched_at_utc": "2026-09-28T21:01:36.358052+00:00",
+      "text_sha256": "06b133cc6bca65df4c103ce2a658793075e3de8b65818e54261da43267bd1e5f",
+      "input_sha256": "feabdd7cc544cc2871036b510fa4dd9a55f9fe6c369999bc525e46c700a68514"
+    },
+    "retrieval": {
+      "title": {
+        "similarity": 0.50775,
+        "rank_b_for_a": 59,
+        "rank_a_for_b": 59,
+        "in_top5_union": false
+      },
+      "rules": {
+        "similarity": 0.899552,
+        "rank_b_for_a": 59,
+        "rank_a_for_b": 59,
+        "in_top5_union": false
+      },
+      "title_rules": {
+        "similarity": 0.787375,
+        "rank_b_for_a": 59,
+        "rank_a_for_b": 59,
+        "in_top5_union": false
+      }
+    }
+  }
+]

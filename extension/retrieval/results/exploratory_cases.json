@@ -1,0 +1,158 @@
+[
+  {
+    "case_id": "same_title_thresholds",
+    "a": "KXLCPIMAXYOY-27-P7.0",
+    "b": "KXLCPIMAXYOY-27-P6.5",
+    "provisional_relation": "A_implies_B",
+    "used_as_positive_control": true,
+    "threshold_candidate_present": true,
+    "source_review_note": "Одинаковые title скрывают разные пороги ≥7.0% и ≥6.5% для любого месяца одного года. При одинаковой интерпретации CPI истинность A влечёт B; обратное неверно. Это positive control внутри известного event, а не обнаруженная неизвестная связь.",
+    "retrieval": {
+      "title": {
+        "similarity": 1.0,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 1
+      },
+      "rules": {
+        "similarity": 0.851597,
+        "rank_b_for_a": 5,
+        "rank_a_for_b": 5
+      },
+      "title_rules": {
+        "similarity": 0.857672,
+        "rank_b_for_a": 5,
+        "rank_a_for_b": 5
+      }
+    }
+  },
+  {
+    "case_id": "strict_thresholds",
+    "a": "KXCPI-26OCT-T0.9",
+    "b": "KXCPI-26OCT-T0.8",
+    "provisional_relation": "A_implies_B",
+    "used_as_positive_control": true,
+    "threshold_candidate_present": true,
+    "source_review_note": "Одинаковый показатель, месяц и secondary rules. Строгое >0.9% влечёт >0.8%, но не наоборот. Десятичные числа и строгость сравнения нельзя удалять как noise.",
+    "retrieval": {
+      "title": {
+        "similarity": 0.674246,
+        "rank_b_for_a": 14,
+        "rank_a_for_b": 14
+      },
+      "rules": {
+        "similarity": 0.946437,
+        "rank_b_for_a": 7,
+        "rank_a_for_b": 8
+      },
+      "title_rules": {
+        "similarity": 0.894755,
+        "rank_b_for_a": 7,
+        "rank_a_for_b": 9
+      }
+    }
+  },
+  {
+    "case_id": "different_periods",
+    "a": "KXCPICOREYOY-26DEC-T2.6",
+    "b": "KXCPICOREYOY-26NOV-T2.6",
+    "provisional_relation": "no_deterministic_relation_established",
+    "used_as_positive_control": false,
+    "threshold_candidate_present": false,
+    "source_review_note": "Различаются двенадцатимесячные периоды: заканчивающийся в декабре и в ноябре. Высокая близость текстов не доказывает эквивалентность или импликацию. Это не утверждение статистической независимости.",
+    "retrieval": {
+      "title": {
+        "similarity": 0.905468,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 1
+      },
+      "rules": {
+        "similarity": 0.973437,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 1
+      },
+      "title_rules": {
+        "similarity": 0.95089,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 1
+      }
+    }
+  },
+  {
+    "case_id": "headline_vs_core",
+    "a": "KXCPI-26NOV-T0.2",
+    "b": "KXCPICORE-26NOV-T0.2",
+    "provisional_relation": "no_deterministic_relation_established",
+    "used_as_positive_control": false,
+    "threshold_candidate_present": false,
+    "source_review_note": "Одинаковый порог и месяц; однако CPI и CPI All Items less Food and Energy — разные показатели. Из текста не следует знак эмпирической корреляции или детерминированная связь.",
+    "retrieval": {
+      "title": {
+        "similarity": 0.860176,
+        "rank_b_for_a": 1,
+        "rank_a_for_b": 2
+      },
+      "rules": {
+        "similarity": 0.54471,
+        "rank_b_for_a": 50,
+        "rank_a_for_b": 131
+      },
+      "title_rules": {
+        "similarity": 0.607387,
+        "rank_b_for_a": 40,
+        "rank_a_for_b": 57
+      }
+    }
+  },
+  {
+    "case_id": "month_to_any_month",
+    "a": "KXCPIYOY-26DEC-T5.0",
+    "b": "KXLCPIMAXYOY-27-P5",
+    "provisional_relation": "conditional_A_implies_B_pending_terms_review",
+    "used_as_positive_control": false,
+    "threshold_candidate_present": false,
+    "source_review_note": "Если используются одна версия ряда CPI, одинаковая политика ревизий и трактовка месяца, декабрьский YoY >5.0% влечёт наличие месяца 2026 года с YoY ≥5%. В обоих series metadata указан BLS, но полные contract_terms PDFs ещё не сверены. Поэтому условный кандидат, не подтверждённая контрактная гарантия.",
+    "retrieval": {
+      "title": {
+        "similarity": 0.163561,
+        "rank_b_for_a": 109,
+        "rank_a_for_b": 44
+      },
+      "rules": {
+        "similarity": 0.077912,
+        "rank_b_for_a": 283,
+        "rank_a_for_b": 59
+      },
+      "title_rules": {
+        "similarity": 0.141047,
+        "rank_b_for_a": 203,
+        "rank_a_for_b": 16
+      }
+    }
+  },
+  {
+    "case_id": "different_assets_shared_boilerplate",
+    "a": "KXPLATINUMH-26SEP2819-T1724.49",
+    "b": "KXPALLADIUMH-26SEP2819-T1219.49",
+    "provisional_relation": "no_deterministic_relation_established",
+    "used_as_positive_control": false,
+    "threshold_candidate_present": false,
+    "source_review_note": "Одинаковая структура времени и fallback rules, но разные базовые активы: platinum и palladium. Общий boilerplate не превращает их в эквивалентные контракты. Эмпирическая связь здесь не измерена.",
+    "retrieval": {
+      "title": {
+        "similarity": 0.50775,
+        "rank_b_for_a": 59,
+        "rank_a_for_b": 59
+      },
+      "rules": {
+        "similarity": 0.899552,
+        "rank_b_for_a": 59,
+        "rank_a_for_b": 59
+      },
+      "title_rules": {
+        "similarity": 0.787375,
+        "rank_b_for_a": 59,
+        "rank_a_for_b": 59
+      }
+    }
+  }
+]

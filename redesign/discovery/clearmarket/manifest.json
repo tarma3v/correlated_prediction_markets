@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/JDSource/clearmarket/main/eval/README.md",
+    "status": 200,
+    "file": "eval_readme.txt",
+    "sha256": "d53b792a23aedc9dbe21dade35e95225b15a0fd1d5547d4fed0e805cb48d2d89",
+    "fetched_at_utc": "2026-09-29T22:37:15.082872+00:00"
+  },
+  {
+    "url": "https://api.clearmarket.fyi/v1/events?q=fed",
+    "status": 200,
+    "file": "events_fed.txt",
+    "sha256": "7fe8fad0ab1c260056aa9935d78e0ee55859723b9fee5f81e3f80b0065ffacdf",
+    "fetched_at_utc": "2026-09-29T22:37:16.714640+00:00"
+  },
+  {
+    "url": "https://api.clearmarket.fyi/v1/events?q=trump",
+    "status": 200,
+    "file": "events_trump.txt",
+    "sha256": "01a54b6978d07c7f34a2c0f27d915d63ca29ee18207878ff17691cac0d732fd6",
+    "fetched_at_utc": "2026-09-29T22:37:17.945700+00:00"
+  }
+]

@@ -1,0 +1,24 @@
+.venv/
+.venv*/
+.env
+.env.*
+!.env.example
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+tmp/
+sources/
+notes/passport-pages/
+notes/group_passport.txt
+
+# Reconstructible external inputs and verbose generated/cache files
+redesign/datasets/rawsamples/
+comparison/retrieval/model_sources/
+redesign/retrieval/results.json
+comparison/retrieval/results.json
+redesign/retrieval/markets.json
+redesign/retrieval/reference_pairs.json
+redesign/datasets/author_audit_pairs_unique.json
+redesign/datasets/polymarket_author_audit_markets.json
+redesign/datasets/kalshi_author_audit_markets.json
+redesign/datasets/author_audit_negative_pairs.json

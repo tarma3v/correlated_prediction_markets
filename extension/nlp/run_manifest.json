@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-09-28T21:16:51.331175+00:00",
+  "purpose": "Exploratory local diagnostic, not a preregistered external benchmark",
+  "input_hash": "b563a9b5948e5c7a485db0919d54739afdbed5e6e7cd491620db4a69d7dada97",
+  "synthetic_hash": "34f6c7acbaf361c12127eec0c5ddc03a57f8e3d21dd4f001b4233d5f66586930",
+  "script_hash": "f86e2049452d75ce95016291a80e5995135135a5d53f07d5072e64d1bb91c736",
+  "models": {
+    "dense": {
+      "repo": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "max_length": 256
+    },
+    "nli": {
+      "repo": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+      "max_length": 512
+    }
+  },
+  "device": "cpu",
+  "threads": 4,
+  "seed": 0,
+  "python": "3.11.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "dependencies": {
+    "torch": "2.0.1",
+    "transformers": "4.44.2",
+    "numpy": "1.25.1",
+    "tokenizers": "0.19.1",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "0.36.2",
+    "sentencepiece": "0.2.0"
+  },
+  "views": "Dense: title/rules/title_rules; real NLI: title/title_rules/event_clause; both NLI directions",
+  "scope": "No training, no paid API, no remote inference, no independent real-market gold",
+  "completed_at_utc": "2026-09-28T21:17:07.283709+00:00",
+  "stage": "all"
+}

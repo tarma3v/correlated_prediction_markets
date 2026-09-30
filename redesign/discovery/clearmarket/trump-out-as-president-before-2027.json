@@ -1,0 +1,108 @@
+{
+  "_notice": {
+    "type": "free_key_offer",
+    "message": "Free and anonymous access is staying. If this endpoint is in your pipeline, a free key adds advance notice before any schema change or deprecation. POST /v1/keys {\"email\": \"you@firm.com\"} — nothing else required. Something broken or missing? hello@clearmarket.fyi reaches a human.",
+    "docs": "https://clearmarket.fyi/for-data/",
+    "policy": "This field is additive and its shape will not change."
+  },
+  "event_id": "CM-EVT-ZW6ZK09DB1",
+  "slug": "trump-out-as-president-before-2027",
+  "question": "Will Donald Trump cease to be President before 2027?",
+  "category": "geopolitics",
+  "event_type": "BINARY",
+  "ladder_distribution": null,
+  "tags": [
+    "politics",
+    "trump",
+    "geopolitics",
+    "us-presidency",
+    "2026",
+    "political-transition"
+  ],
+  "catalyst_types": [],
+  "catalyst_dates": [],
+  "editorial_notes": "This market tracks whether Donald Trump exits the presidency before January 1, 2027, via resignation, removal, or any other departure. Resolution follows Polymarket's UMA Optimistic Oracle, which evaluates whether Trump ceased serving as President of the United States. No Kalshi equivalent is listed, so no cross-platform structural contrast applies here. The binary outcome resolves at end of 2026.",
+  "venues_covered": [
+    "polymarket"
+  ],
+  "primary_market_id": "CM-MKT-D9Y0XQ45K6",
+  "current_primary_mark": {
+    "last_price": 0.05,
+    "implied_probability": 0.05,
+    "as_of": "2026-09-29T22:00:32.399Z"
+  },
+  "created_at": "2026-08-04T20:03:51.865287+00:00",
+  "updated_at": "2026-08-04T20:03:51.865287+00:00",
+  "markets": [
+    {
+      "market_id": "CM-MKT-D9Y0XQ45K6",
+      "event_id": "CM-EVT-ZW6ZK09DB1",
+      "platform": "polymarket",
+      "platform_market_id": "0x48b0b0bca515f68fccf95af4793dbd0edbfec1f8ec6e8df2c0f69ba74f8c4722",
+      "question": "Trump out as President before 2027?",
+      "description": "This market will resolve to “Yes” if Donald Trump resigns or is removed as President or otherwise ceases to be the President of the United States for any period of time by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nAn announcement of Donald Trump's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nOnly permanent removal from office will qualify. Temporary removal (e.g. temporary invocation of the 25th Amendment under Section 3 or a Section 4 ",
+      "contract_type": "binary",
+      "settlement_currency": "USDC",
+      "underlying_reference": "UMA Optimistic Oracle determines whether Trump resigned, was removed, or otherwise ceased being President of the United States by December 31, 2026.",
+      "close_at": "2026-12-31T00:00:00Z",
+      "resolve_at": "2026-12-31T00:00:00Z",
+      "status": "open",
+      "resolution": {
+        "rules_raw": "This market will resolve to “Yes” if Donald Trump resigns or is removed as President or otherwise ceases to be the President of the United States for any period of time by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nAn announcement of Donald Trump's resignation/removal before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nOnly permanent removal from office will qualify. Temporary removal (e.g. temporary invocation of the 25th Amendment under Section 3 or a Section 4 invocation not sustained by both Houses of Congress) or impeachment without removal will not count.\n\nA sustained invocation of the Twenty-Fifth Amendment, Section 4 (i.e., if both Houses of Congress, by two-thirds vote, uphold the Vice President and Cabinet’s determination of presidential inability) will qualify for a \"Yes\" resolution. \n\nThe resolution source for this market will be a consensus of credible reporting.",
+        "arbitration_model": "uma_oracle",
+        "proposer": "managed_whitelist",
+        "source": null,
+        "source_status": "no_committed_source",
+        "source_citation": null,
+        "sources": [
+          {
+            "name": "a consensus of credible reporting",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          }
+        ],
+        "source_of_record": null,
+        "source_mechanism": null,
+        "source_type": null,
+        "source_quality": null,
+        "source_commitment": "uncommitted",
+        "source_commitment_subtype": "uncommitted_placeholder",
+        "source_hedge_text": null
+      },
+      "rcg": {
+        "grade": "C",
+        "score": 46,
+        "caps": [
+          "multi_source_no_conflict_rule",
+          "commitment_uncommitted_placeholder"
+        ],
+        "applied_factors": 7
+      },
+      "last_price": 0.05,
+      "implied_probability": 0.05,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "volume_24h_usd": 2308.786668,
+      "volume_total_usd": 11997976.199517999,
+      "settlement_style": "occurrence",
+      "direction": "occurrence",
+      "threshold": null,
+      "question_id": null,
+      "also_on": null,
+      "tags": [
+        "politics",
+        "trump",
+        "trump presidency",
+        "us"
+      ],
+      "eligibility_screens": null,
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "reconciled_at": null
+    }
+  ],
+  "resolution_log": [],
+  "_provenance": {
+    "source": "clearmarket.fyi",
+    "ref": "CM-EVT-ZW6ZK09DB1",
+    "terms": "Attribution required. clearmarket.fyi"
+  }
+}

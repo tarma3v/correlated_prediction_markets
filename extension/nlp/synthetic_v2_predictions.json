@@ -1,0 +1,1145 @@
+[
+  {
+    "id": 1,
+    "origin_ids": [
+      "cpi_strict_nested:a_to_b"
+    ],
+    "slice": "strict_nested",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.3%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.6701403856277466,
+      "neutral": 0.2810984253883362,
+      "contradiction": 0.048761237412691116
+    }
+  },
+  {
+    "id": 2,
+    "origin_ids": [
+      "cpi_strict_nested:b_to_a"
+    ],
+    "slice": "strict_nested",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.3%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.017732694745063782,
+      "neutral": 0.23297962546348572,
+      "contradiction": 0.7492876648902893
+    }
+  },
+  {
+    "id": 3,
+    "origin_ids": [
+      "cpi_inclusive_nested:a_to_b"
+    ],
+    "slice": "inclusive_nested",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.3%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.2%.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.057706572115421295,
+      "neutral": 0.1713501662015915,
+      "contradiction": 0.7709432244300842
+    }
+  },
+  {
+    "id": 4,
+    "origin_ids": [
+      "cpi_inclusive_nested:b_to_a"
+    ],
+    "slice": "inclusive_nested",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.3%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.0015041986480355263,
+      "neutral": 0.00927530974149704,
+      "contradiction": 0.9892205595970154
+    }
+  },
+  {
+    "id": 5,
+    "origin_ids": [
+      "cpi_strict_to_inclusive:a_to_b",
+      "cpi_inclusive_to_strict:b_to_a"
+    ],
+    "slice": "strict_to_inclusive",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.2%.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9644730091094971,
+      "neutral": 0.0288669653236866,
+      "contradiction": 0.00665999623015523
+    }
+  },
+  {
+    "id": 6,
+    "origin_ids": [
+      "cpi_strict_to_inclusive:b_to_a",
+      "cpi_inclusive_to_strict:a_to_b"
+    ],
+    "slice": "strict_to_inclusive",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.8356389403343201,
+      "neutral": 0.1461581587791443,
+      "contradiction": 0.018202906474471092
+    }
+  },
+  {
+    "id": 7,
+    "origin_ids": [
+      "cpi_complement_strict:a_to_b"
+    ],
+    "slice": "complement_strict",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at most 0.2%.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.014503004029393196,
+      "neutral": 0.11068834364414215,
+      "contradiction": 0.8748087286949158
+    }
+  },
+  {
+    "id": 8,
+    "origin_ids": [
+      "cpi_complement_strict:b_to_a"
+    ],
+    "slice": "complement_strict",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at most 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.018636083230376244,
+      "neutral": 0.1832573562860489,
+      "contradiction": 0.7981066107749939
+    }
+  },
+  {
+    "id": 9,
+    "origin_ids": [
+      "cpi_complement_inclusive:a_to_b"
+    ],
+    "slice": "complement_inclusive",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is less than 0.2%.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.02191048115491867,
+      "neutral": 0.04839855059981346,
+      "contradiction": 0.929690957069397
+    }
+  },
+  {
+    "id": 10,
+    "origin_ids": [
+      "cpi_complement_inclusive:b_to_a"
+    ],
+    "slice": "complement_inclusive",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is less than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.2%.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.011577209457755089,
+      "neutral": 0.021014176309108734,
+      "contradiction": 0.9674085974693298
+    }
+  },
+  {
+    "id": 11,
+    "origin_ids": [
+      "cpi_exclusion_with_gap:a_to_b"
+    ],
+    "slice": "exclusion_with_gap",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is less than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.3%.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.000670698587782681,
+      "neutral": 0.0020472256001085043,
+      "contradiction": 0.9972820281982422
+    }
+  },
+  {
+    "id": 12,
+    "origin_ids": [
+      "cpi_exclusion_with_gap:b_to_a"
+    ],
+    "slice": "exclusion_with_gap",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.3%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is less than 0.2%.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.0007687772740609944,
+      "neutral": 0.0014224097831174731,
+      "contradiction": 0.9978088736534119
+    }
+  },
+  {
+    "id": 13,
+    "origin_ids": [
+      "cpi_inclusive_overlap:a_to_b"
+    ],
+    "slice": "inclusive_overlap",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at most 0.2%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.010686482302844524,
+      "neutral": 0.016953090205788612,
+      "contradiction": 0.9723604321479797
+    }
+  },
+  {
+    "id": 14,
+    "origin_ids": [
+      "cpi_inclusive_overlap:b_to_a"
+    ],
+    "slice": "inclusive_overlap",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at most 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is at least 0.2%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.0425318107008934,
+      "neutral": 0.022911373525857925,
+      "contradiction": 0.934556782245636
+    }
+  },
+  {
+    "id": 15,
+    "origin_ids": [
+      "cpi_identical:a_to_b",
+      "cpi_identical:b_to_a"
+    ],
+    "slice": "identical",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9919562339782715,
+      "neutral": 0.0071249473839998245,
+      "contradiction": 0.0009187692194245756
+    }
+  },
+  {
+    "id": 16,
+    "origin_ids": [
+      "cpi_strict_overlap:a_to_b"
+    ],
+    "slice": "strict_overlap",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is less than 0.3%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "neutral",
+    "probabilities": {
+      "entailment": 0.11765766143798828,
+      "neutral": 0.4430590867996216,
+      "contradiction": 0.439283162355423
+    }
+  },
+  {
+    "id": 17,
+    "origin_ids": [
+      "cpi_strict_overlap:b_to_a"
+    ],
+    "slice": "strict_overlap",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is less than 0.3%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "neutral",
+    "probabilities": {
+      "entailment": 0.07096709311008453,
+      "neutral": 0.703047513961792,
+      "contradiction": 0.22598537802696228
+    }
+  },
+  {
+    "id": 18,
+    "origin_ids": [
+      "cpi_different_period:a_to_b"
+    ],
+    "slice": "different_period",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for November 2026 is more than 0.2%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.06676091253757477,
+      "neutral": 0.296527236700058,
+      "contradiction": 0.636711835861206
+    }
+  },
+  {
+    "id": 19,
+    "origin_ids": [
+      "cpi_different_period:b_to_a"
+    ],
+    "slice": "different_period",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for November 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.036079686135053635,
+      "neutral": 0.15980538725852966,
+      "contradiction": 0.8041149377822876
+    }
+  },
+  {
+    "id": 20,
+    "origin_ids": [
+      "cpi_different_source:a_to_b"
+    ],
+    "slice": "different_source",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Beta for October 2026 is more than 0.2%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.02851276285946369,
+      "neutral": 0.28442269563674927,
+      "contradiction": 0.687064528465271
+    }
+  },
+  {
+    "id": 21,
+    "origin_ids": [
+      "cpi_different_source:b_to_a"
+    ],
+    "slice": "different_source",
+    "domain": "cpi",
+    "premise": "The value of a hypothetical continuous inflation indicator reported by Source Beta for October 2026 is more than 0.2%.",
+    "hypothesis": "The value of a hypothetical continuous inflation indicator reported by Source Alpha for October 2026 is more than 0.2%.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.042740099132061005,
+      "neutral": 0.25398531556129456,
+      "contradiction": 0.7032746076583862
+    }
+  },
+  {
+    "id": 22,
+    "origin_ids": [
+      "temperature_strict_nested:a_to_b"
+    ],
+    "slice": "strict_nested",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 21 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.8321328163146973,
+      "neutral": 0.1027526780962944,
+      "contradiction": 0.06511441618204117
+    }
+  },
+  {
+    "id": 23,
+    "origin_ids": [
+      "temperature_strict_nested:b_to_a"
+    ],
+    "slice": "strict_nested",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 21 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.02101241610944271,
+      "neutral": 0.34024348855018616,
+      "contradiction": 0.638744056224823
+    }
+  },
+  {
+    "id": 24,
+    "origin_ids": [
+      "temperature_inclusive_nested:a_to_b"
+    ],
+    "slice": "inclusive_nested",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 21 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.058573849499225616,
+      "neutral": 0.07162682712078094,
+      "contradiction": 0.8697993159294128
+    }
+  },
+  {
+    "id": 25,
+    "origin_ids": [
+      "temperature_inclusive_nested:b_to_a"
+    ],
+    "slice": "inclusive_nested",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 21 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.0018004743615165353,
+      "neutral": 0.013231311924755573,
+      "contradiction": 0.9849682450294495
+    }
+  },
+  {
+    "id": 26,
+    "origin_ids": [
+      "temperature_strict_to_inclusive:a_to_b",
+      "temperature_inclusive_to_strict:b_to_a"
+    ],
+    "slice": "strict_to_inclusive",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9849535226821899,
+      "neutral": 0.013848974369466305,
+      "contradiction": 0.001197513658553362
+    }
+  },
+  {
+    "id": 27,
+    "origin_ids": [
+      "temperature_strict_to_inclusive:b_to_a",
+      "temperature_inclusive_to_strict:a_to_b"
+    ],
+    "slice": "strict_to_inclusive",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9020411372184753,
+      "neutral": 0.09199690818786621,
+      "contradiction": 0.005961979273706675
+    }
+  },
+  {
+    "id": 28,
+    "origin_ids": [
+      "temperature_complement_strict:a_to_b"
+    ],
+    "slice": "complement_strict",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is at most 20 degrees Celsius.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.01996835507452488,
+      "neutral": 0.16371098160743713,
+      "contradiction": 0.8163207173347473
+    }
+  },
+  {
+    "id": 29,
+    "origin_ids": [
+      "temperature_complement_strict:b_to_a"
+    ],
+    "slice": "complement_strict",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is at most 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.05369115620851517,
+      "neutral": 0.28032299876213074,
+      "contradiction": 0.6659858822822571
+    }
+  },
+  {
+    "id": 30,
+    "origin_ids": [
+      "temperature_complement_inclusive:a_to_b"
+    ],
+    "slice": "complement_inclusive",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is less than 20 degrees Celsius.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.01080016978085041,
+      "neutral": 0.017048632726073265,
+      "contradiction": 0.9721511602401733
+    }
+  },
+  {
+    "id": 31,
+    "origin_ids": [
+      "temperature_complement_inclusive:b_to_a"
+    ],
+    "slice": "complement_inclusive",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is less than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.0166817307472229,
+      "neutral": 0.024776602163910866,
+      "contradiction": 0.9585416316986084
+    }
+  },
+  {
+    "id": 32,
+    "origin_ids": [
+      "temperature_exclusion_with_gap:a_to_b"
+    ],
+    "slice": "exclusion_with_gap",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is less than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 21 degrees Celsius.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.0005895465728826821,
+      "neutral": 0.0014907465083524585,
+      "contradiction": 0.9979197382926941
+    }
+  },
+  {
+    "id": 33,
+    "origin_ids": [
+      "temperature_exclusion_with_gap:b_to_a"
+    ],
+    "slice": "exclusion_with_gap",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 21 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is less than 20 degrees Celsius.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.000620380393229425,
+      "neutral": 0.0009614653536118567,
+      "contradiction": 0.9984180927276611
+    }
+  },
+  {
+    "id": 34,
+    "origin_ids": [
+      "temperature_inclusive_overlap:a_to_b"
+    ],
+    "slice": "inclusive_overlap",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is at most 20 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.009644134901463985,
+      "neutral": 0.020751602947711945,
+      "contradiction": 0.9696042537689209
+    }
+  },
+  {
+    "id": 35,
+    "origin_ids": [
+      "temperature_inclusive_overlap:b_to_a"
+    ],
+    "slice": "inclusive_overlap",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is at most 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.04665908217430115,
+      "neutral": 0.030917160212993622,
+      "contradiction": 0.9224237203598022
+    }
+  },
+  {
+    "id": 36,
+    "origin_ids": [
+      "temperature_identical:a_to_b",
+      "temperature_identical:b_to_a"
+    ],
+    "slice": "identical",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9890781044960022,
+      "neutral": 0.009785110130906105,
+      "contradiction": 0.0011367808328941464
+    }
+  },
+  {
+    "id": 37,
+    "origin_ids": [
+      "temperature_strict_overlap:a_to_b"
+    ],
+    "slice": "strict_overlap",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is less than 21 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.4315764307975769,
+      "neutral": 0.18049933016300201,
+      "contradiction": 0.3879241943359375
+    }
+  },
+  {
+    "id": 38,
+    "origin_ids": [
+      "temperature_strict_overlap:b_to_a"
+    ],
+    "slice": "strict_overlap",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is less than 21 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "neutral",
+    "probabilities": {
+      "entailment": 0.22600769996643066,
+      "neutral": 0.7257975339889526,
+      "contradiction": 0.048194777220487595
+    }
+  },
+  {
+    "id": 39,
+    "origin_ids": [
+      "temperature_different_period:a_to_b"
+    ],
+    "slice": "different_period",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for November 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.03962685540318489,
+      "neutral": 0.3014282286167145,
+      "contradiction": 0.6589449048042297
+    }
+  },
+  {
+    "id": 40,
+    "origin_ids": [
+      "temperature_different_period:b_to_a"
+    ],
+    "slice": "different_period",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for November 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.024645565077662468,
+      "neutral": 0.15789127349853516,
+      "contradiction": 0.8174631595611572
+    }
+  },
+  {
+    "id": 41,
+    "origin_ids": [
+      "temperature_different_source:a_to_b"
+    ],
+    "slice": "different_source",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Beta for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "neutral",
+    "probabilities": {
+      "entailment": 0.017782272771000862,
+      "neutral": 0.5143361687660217,
+      "contradiction": 0.46788153052330017
+    }
+  },
+  {
+    "id": 42,
+    "origin_ids": [
+      "temperature_different_source:b_to_a"
+    ],
+    "slice": "different_source",
+    "domain": "temperature",
+    "premise": "The continuous temperature measurement reported by Station Beta for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The continuous temperature measurement reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.023848671466112137,
+      "neutral": 0.3979088068008423,
+      "contradiction": 0.5782424807548523
+    }
+  },
+  {
+    "id": 43,
+    "origin_ids": [
+      "price_strict_nested:a_to_b"
+    ],
+    "slice": "strict_nested",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 150 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9463124871253967,
+      "neutral": 0.0423198863863945,
+      "contradiction": 0.01136750541627407
+    }
+  },
+  {
+    "id": 44,
+    "origin_ids": [
+      "price_strict_nested:b_to_a"
+    ],
+    "slice": "strict_nested",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 150 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.01145449373871088,
+      "neutral": 0.17422343790531158,
+      "contradiction": 0.8143219947814941
+    }
+  },
+  {
+    "id": 45,
+    "origin_ids": [
+      "price_inclusive_nested:a_to_b"
+    ],
+    "slice": "inclusive_nested",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 150 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 100 USD.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.2495073527097702,
+      "neutral": 0.10520432889461517,
+      "contradiction": 0.645288348197937
+    }
+  },
+  {
+    "id": 46,
+    "origin_ids": [
+      "price_inclusive_nested:b_to_a"
+    ],
+    "slice": "inclusive_nested",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 150 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.001091644517146051,
+      "neutral": 0.007552214432507753,
+      "contradiction": 0.9913561344146729
+    }
+  },
+  {
+    "id": 47,
+    "origin_ids": [
+      "price_strict_to_inclusive:a_to_b",
+      "price_inclusive_to_strict:b_to_a"
+    ],
+    "slice": "strict_to_inclusive",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 100 USD.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9834614992141724,
+      "neutral": 0.01494727935642004,
+      "contradiction": 0.001591218402609229
+    }
+  },
+  {
+    "id": 48,
+    "origin_ids": [
+      "price_strict_to_inclusive:b_to_a",
+      "price_inclusive_to_strict:a_to_b"
+    ],
+    "slice": "strict_to_inclusive",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9410123229026794,
+      "neutral": 0.05515896901488304,
+      "contradiction": 0.0038286715280264616
+    }
+  },
+  {
+    "id": 49,
+    "origin_ids": [
+      "price_complement_strict:a_to_b"
+    ],
+    "slice": "complement_strict",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at most 100 USD.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.012264803051948547,
+      "neutral": 0.10905327647924423,
+      "contradiction": 0.8786819577217102
+    }
+  },
+  {
+    "id": 50,
+    "origin_ids": [
+      "price_complement_strict:b_to_a"
+    ],
+    "slice": "complement_strict",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at most 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.020825456827878952,
+      "neutral": 0.20107197761535645,
+      "contradiction": 0.7781025767326355
+    }
+  },
+  {
+    "id": 51,
+    "origin_ids": [
+      "price_complement_inclusive:a_to_b"
+    ],
+    "slice": "complement_inclusive",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is less than 100 USD.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.023861950263381004,
+      "neutral": 0.07787256687879562,
+      "contradiction": 0.8982654213905334
+    }
+  },
+  {
+    "id": 52,
+    "origin_ids": [
+      "price_complement_inclusive:b_to_a"
+    ],
+    "slice": "complement_inclusive",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is less than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 100 USD.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.011163532733917236,
+      "neutral": 0.017595291137695312,
+      "contradiction": 0.9712411761283875
+    }
+  },
+  {
+    "id": 53,
+    "origin_ids": [
+      "price_exclusion_with_gap:a_to_b"
+    ],
+    "slice": "exclusion_with_gap",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is less than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 150 USD.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.00031648651929572225,
+      "neutral": 0.0013267470058053732,
+      "contradiction": 0.9983567595481873
+    }
+  },
+  {
+    "id": 54,
+    "origin_ids": [
+      "price_exclusion_with_gap:b_to_a"
+    ],
+    "slice": "exclusion_with_gap",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 150 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is less than 100 USD.",
+    "gold": "contradiction",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.00046070292592048645,
+      "neutral": 0.0009270526352338493,
+      "contradiction": 0.9986121654510498
+    }
+  },
+  {
+    "id": 55,
+    "origin_ids": [
+      "price_inclusive_overlap:a_to_b"
+    ],
+    "slice": "inclusive_overlap",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at most 100 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.011706521734595299,
+      "neutral": 0.022355690598487854,
+      "contradiction": 0.9659378528594971
+    }
+  },
+  {
+    "id": 56,
+    "origin_ids": [
+      "price_inclusive_overlap:b_to_a"
+    ],
+    "slice": "inclusive_overlap",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at most 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is at least 100 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.04255545139312744,
+      "neutral": 0.020096926018595695,
+      "contradiction": 0.9373476505279541
+    }
+  },
+  {
+    "id": 57,
+    "origin_ids": [
+      "price_identical:a_to_b",
+      "price_identical:b_to_a"
+    ],
+    "slice": "identical",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "gold": "entailment",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.9900166392326355,
+      "neutral": 0.008909137919545174,
+      "contradiction": 0.0010742639424279332
+    }
+  },
+  {
+    "id": 58,
+    "origin_ids": [
+      "price_strict_overlap:a_to_b"
+    ],
+    "slice": "strict_overlap",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is less than 150 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "entailment",
+    "probabilities": {
+      "entailment": 0.7105474472045898,
+      "neutral": 0.20030143857002258,
+      "contradiction": 0.08915118128061295
+    }
+  },
+  {
+    "id": 59,
+    "origin_ids": [
+      "price_strict_overlap:b_to_a"
+    ],
+    "slice": "strict_overlap",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is less than 150 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "neutral",
+    "probabilities": {
+      "entailment": 0.2455439418554306,
+      "neutral": 0.7222220301628113,
+      "contradiction": 0.0322340689599514
+    }
+  },
+  {
+    "id": 60,
+    "origin_ids": [
+      "price_different_period:a_to_b"
+    ],
+    "slice": "different_period",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for November 2026 is more than 100 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.03998134285211563,
+      "neutral": 0.2576506733894348,
+      "contradiction": 0.7023679614067078
+    }
+  },
+  {
+    "id": 61,
+    "origin_ids": [
+      "price_different_period:b_to_a"
+    ],
+    "slice": "different_period",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for November 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.01939067430794239,
+      "neutral": 0.11813847720623016,
+      "contradiction": 0.8624708652496338
+    }
+  },
+  {
+    "id": 62,
+    "origin_ids": [
+      "price_different_source:a_to_b"
+    ],
+    "slice": "different_source",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Beta for October 2026 is more than 100 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.02082609198987484,
+      "neutral": 0.3451862633228302,
+      "contradiction": 0.6339876055717468
+    }
+  },
+  {
+    "id": 63,
+    "origin_ids": [
+      "price_different_source:b_to_a"
+    ],
+    "slice": "different_source",
+    "domain": "price",
+    "premise": "The value of a hypothetical continuous price indicator reported by Source Beta for October 2026 is more than 100 USD.",
+    "hypothesis": "The value of a hypothetical continuous price indicator reported by Source Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral",
+    "world_assumption": "Continuous real scalar for same context; unconstrained different contexts. Fictional.",
+    "prediction": "contradiction",
+    "probabilities": {
+      "entailment": 0.02730466052889824,
+      "neutral": 0.29161325097084045,
+      "contradiction": 0.6810820698738098
+    }
+  }
+]

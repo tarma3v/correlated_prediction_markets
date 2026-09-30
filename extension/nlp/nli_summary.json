@@ -1,0 +1,105 @@
+{
+  "model": {
+    "repo": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+    "max_length": 512
+  },
+  "label_mapping": {
+    "0": "entailment",
+    "1": "neutral",
+    "2": "contradiction"
+  },
+  "synthetic_directional_examples": 72,
+  "synthetic_correct": 40,
+  "synthetic_label_counts": {
+    "entailment": 18,
+    "neutral": 36,
+    "contradiction": 18
+  },
+  "synthetic_confusion": [
+    {
+      "gold": "contradiction",
+      "predicted": "contradiction",
+      "count": 18
+    },
+    {
+      "gold": "entailment",
+      "predicted": "contradiction",
+      "count": 2
+    },
+    {
+      "gold": "entailment",
+      "predicted": "entailment",
+      "count": 16
+    },
+    {
+      "gold": "neutral",
+      "predicted": "contradiction",
+      "count": 20
+    },
+    {
+      "gold": "neutral",
+      "predicted": "entailment",
+      "count": 10
+    },
+    {
+      "gold": "neutral",
+      "predicted": "neutral",
+      "count": 6
+    }
+  ],
+  "by_slice": {
+    "complement_inclusive": {
+      "n": 6,
+      "correct": 6
+    },
+    "complement_strict": {
+      "n": 6,
+      "correct": 6
+    },
+    "different_period": {
+      "n": 6,
+      "correct": 0
+    },
+    "different_source": {
+      "n": 6,
+      "correct": 3
+    },
+    "exclusion_with_gap": {
+      "n": 6,
+      "correct": 6
+    },
+    "identical": {
+      "n": 6,
+      "correct": 6
+    },
+    "inclusive_nested": {
+      "n": 6,
+      "correct": 1
+    },
+    "inclusive_overlap": {
+      "n": 6,
+      "correct": 0
+    },
+    "inclusive_to_strict": {
+      "n": 6,
+      "correct": 3
+    },
+    "strict_nested": {
+      "n": 6,
+      "correct": 3
+    },
+    "strict_overlap": {
+      "n": 6,
+      "correct": 3
+    },
+    "strict_to_inclusive": {
+      "n": 6,
+      "correct": 3
+    }
+  },
+  "real_directional_inputs": 36,
+  "truncated_inputs": 0,
+  "wall_seconds": 7.485464250028599,
+  "warning": "Synthetic diagnostic templates only; no real-market accuracy estimate, no human gold, no LLM evaluation."
+}

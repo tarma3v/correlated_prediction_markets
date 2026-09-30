@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "pair_id": "politics_resignation_departure",
+  "domain": "politics",
+  "mechanism": "Narrow event versus broader event, including announcement clauses.",
+  "selection": {
+    "selected_at_utc": "2026-09-29T22:44:02.071676+00:00",
+    "selection_reason": "Narrow event versus broader event, including announcement clauses.",
+    "template_family": "politics_resignation_departure",
+    "within_event_control": false,
+    "prior_model_output_seen": false
+  },
+  "contracts": {
+    "A": {
+      "platform": "polymarket",
+      "market_id": "0x448f73e89890ae9d0e42ad0b592f63b53c0ae05d1ca3fa8d80b30027781f1be7",
+      "title": "Will Trump resign by December 31, 2026?",
+      "market_url": "https://polymarket.com/event/will-trump-resign-by-december-31-2026",
+      "source_ids": [
+        "resign"
+      ],
+      "yes_proposition": "By December 31, 2026, 11:59 PM ET, Donald Trump announces that he has resigned or will resign the presidency, before an event makes such an announcement impossible.",
+      "proposition_status": "faithful_under_scope"
+    },
+    "B": {
+      "platform": "polymarket",
+      "market_id": "0x48b0b0bca515f68fccf95af4793dbd0edbfec1f8ec6e8df2c0f69ba74f8c4722",
+      "title": "Trump out as President before 2027?",
+      "market_url": "https://polymarket.com/event/trump-out-as-president-before-2027",
+      "source_ids": [
+        "out"
+      ],
+      "yes_proposition": "By December 31, 2026, 11:59 PM ET, Donald Trump permanently ceases to be US President, or his resignation or permanent removal is announced; sustained Section 4 removal qualifies and impeachment without removal does not.",
+      "proposition_status": "faithful_under_scope"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "resign",
+      "provenance": "curated_snapshot",
+      "url": "https://api.clearmarket.fyi/v1/events/will-trump-resign-by-december-31-2026",
+      "retrieved_at_utc": "2026-09-29T22:37:56.951025+00:00",
+      "upstream_timestamp": "2026-09-29T22:00:32.399Z",
+      "local_path": "discovery/clearmarket/will-trump-resign-by-december-31-2026.json",
+      "sha256": "006d358863d9554088e05582c8ceaf72cc6d80c402a0ef8ed9bb721bc7009a94",
+      "locator": "/markets/0/resolution/rules_raw",
+      "coverage_note": "Public ClearMarket copy of venue rules_raw. Editorial fields are excluded. Direct Gamma version not verified; fetched time derived from saved-file mtime."
+    },
+    {
+      "source_id": "out",
+      "provenance": "curated_snapshot",
+      "url": "https://api.clearmarket.fyi/v1/events/trump-out-as-president-before-2027",
+      "retrieved_at_utc": "2026-09-29T22:37:55.839643+00:00",
+      "upstream_timestamp": "2026-09-29T22:00:32.399Z",
+      "local_path": "discovery/clearmarket/trump-out-as-president-before-2027.json",
+      "sha256": "d47dfa909ba58086cb95c6d18985272ff7eda031a1dd3a98338ec5b1858178b9",
+      "locator": "/markets/0/resolution/rules_raw",
+      "coverage_note": "Public ClearMarket copy of venue rules_raw. Editorial fields are excluded. Direct Gamma version not verified; fetched time derived from saved-file mtime."
+    }
+  ],
+  "scope": {
+    "binary_regime": "Logical reading of the saved resolution texts with mutually consistent reports; ordinary binary settlement only.",
+    "assumptions": [
+      "The saved rules apply unchanged.",
+      "Reports agree on stipulated facts and announcements.",
+      "The deadline is interpreted identically as written."
+    ],
+    "excluded_branches": [
+      "Oracle disputes and subsequent rule changes."
+    ],
+    "source_coverage": "resolution_text_only",
+    "missing_information": [
+      "Direct current Gamma confirmation of the third-party copy."
+    ]
+  },
+  "comparison": [
+    {
+      "dimension": "predicate",
+      "finding": "Both cover announced resignation; departure also covers other permanent removal.",
+      "evidence": [
+        {
+          "source_id": "resign",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement is sufficient even if resignation never takes effect."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement of resignation/removal by the deadline immediately qualifies."
+        }
+      ]
+    }
+  ],
+  "worlds": {
+    "00": {
+      "status": "witness",
+      "reason": "No qualifying resignation announcement, departure, or removal by the deadline.",
+      "evidence": [
+        {
+          "source_id": "resign",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement is sufficient even if resignation never takes effect."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement of resignation/removal by the deadline immediately qualifies."
+        }
+      ]
+    },
+    "01": {
+      "status": "witness",
+      "reason": "Permanent removal by other means occurs with no resignation announcement; resignation then becomes impossible.",
+      "evidence": [
+        {
+          "source_id": "resign",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement is sufficient even if resignation never takes effect."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement of resignation/removal by the deadline immediately qualifies."
+        }
+      ]
+    },
+    "10": {
+      "status": "forbidden",
+      "reason": "A qualifying resignation announcement under A is explicitly a qualifying announcement under B, within the declared common-report scope.",
+      "evidence": [
+        {
+          "source_id": "resign",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement is sufficient even if resignation never takes effect."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement of resignation/removal by the deadline immediately qualifies."
+        }
+      ]
+    },
+    "11": {
+      "status": "witness",
+      "reason": "Trump announces a permanent resignation before the deadline while still able to do so.",
+      "evidence": [
+        {
+          "source_id": "resign",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement is sufficient even if resignation never takes effect."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement of resignation/removal by the deadline immediately qualifies."
+        }
+      ]
+    }
+  },
+  "conclusion": "Conditional A⇒B, not equivalence. The conclusion applies to the saved textual predicates under the stated reporting assumptions.",
+  "review": {
+    "status": "ai_assisted_provisional",
+    "method": "AI-assisted clause reading; not independent human gold. No learned pair classifier used for card selection.",
+    "counterexample_search": "Resignation announced for a later effective date does not defeat implication because B also expressly counts announcements."
+  }
+}

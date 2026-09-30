@@ -1,0 +1,56 @@
+{
+  "purpose": "Independent checks from stored score matrices and pair ranks; no further inference",
+  "checks": [
+    {
+      "model": "e5_small_v2",
+      "view": "event_title",
+      "score_shape": [
+        493,
+        493
+      ],
+      "norms_valid": true,
+      "stored_pair_scores_checked": 493,
+      "directional_pair_ranks_checked": 986,
+      "metrics_verified": true
+    },
+    {
+      "model": "e5_small_v2",
+      "view": "title",
+      "score_shape": [
+        493,
+        493
+      ],
+      "norms_valid": true,
+      "stored_pair_scores_checked": 493,
+      "directional_pair_ranks_checked": 986,
+      "metrics_verified": true
+    },
+    {
+      "model": "bge_small_en_v1_5",
+      "view": "event_title",
+      "score_shape": [
+        493,
+        493
+      ],
+      "norms_valid": true,
+      "stored_pair_scores_checked": 493,
+      "directional_pair_ranks_checked": 986,
+      "metrics_verified": true
+    },
+    {
+      "model": "bge_small_en_v1_5",
+      "view": "title",
+      "score_shape": [
+        493,
+        493
+      ],
+      "norms_valid": true,
+      "stored_pair_scores_checked": 493,
+      "directional_pair_ranks_checked": 986,
+      "metrics_verified": true
+    }
+  ],
+  "retained_old_artifacts_unchanged": true,
+  "omitted_historical_artifacts": [],
+  "all_passed": true
+}

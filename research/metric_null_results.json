@@ -1,0 +1,281 @@
+{
+  "analysis_type": "published_aggregate_reconstruction_and_mathematical_null",
+  "source": {
+    "url": "https://arxiv.org/html/2512.02436v2",
+    "version": "v2",
+    "date": "2026-08-08",
+    "locations": [
+      "section 4, equation (3)",
+      "section 5.2, Table 3 and adjacent prose"
+    ]
+  },
+  "archive": {
+    "requested": "pm_relations_code.zip",
+    "found_in_accessible_home": false,
+    "raw_E1_reproduced": false,
+    "search_scope": "accessible local files; some OS-protected directories were inaccessible"
+  },
+  "unverified_external_claim": {
+    "TF_IDF_percent": "72.9",
+    "status": "not found in v2 text; archive unavailable"
+  },
+  "inputs": {
+    "AAI": {
+      "resolved_edges": 1039,
+      "compatible_edges": 653,
+      "positive_edges": 893,
+      "positive_percent_displayed": "66.7"
+    },
+    "NLI": {
+      "resolved_edges": 113198,
+      "compatible_edges": 45997,
+      "positive_edges": 662,
+      "positive_percent_displayed": "60.6"
+    }
+  },
+  "reconstruction_assumptions": [
+    "Published totals and positive-only denominators refer to the same pooled resolved selected-edge populations.",
+    "Positive percentages are rounded to nearest 0.1 percentage point; the compatible numerators are inferred, not provided raw data.",
+    "A positive sign is compatible exactly for equal binary outcomes and a negative sign exactly for unequal binary outcomes."
+  ],
+  "methods": {
+    "AAI": {
+      "resolved_edges": 1039,
+      "compatible_edges": 653,
+      "positive_edges": 893,
+      "positive_percent_displayed": "66.7",
+      "positive_compatible_edges_inferred_from_rounding": 596,
+      "negative_edges_derived": 146,
+      "negative_compatible_edges_derived": 57,
+      "same_outcome_edges_derived": 685,
+      "positive_share": {
+        "exact": "893/1039",
+        "value": 0.8594802694898941
+      },
+      "positive_score": {
+        "exact": "596/893",
+        "value": 0.6674132138857782
+      },
+      "negative_score": {
+        "exact": "57/146",
+        "value": 0.3904109589041096
+      },
+      "observed_score": {
+        "exact": "653/1039",
+        "value": 0.6284889316650626
+      },
+      "constant_positive_score_on_own_selected_edges": {
+        "exact": "685/1039",
+        "value": 0.6592877767083735
+      },
+      "constant_negative_score_on_own_selected_edges": {
+        "exact": "354/1039",
+        "value": 0.34071222329162654
+      },
+      "uniform_fixed_count_sign_shuffle_mean": {
+        "exact": "663389/1079521",
+        "value": 0.6145216257951444
+      },
+      "uniform_fixed_count_sign_shuffle_variance": {
+        "exact": "21076907480/201608246973293",
+        "value": 0.00010454387554290898
+      },
+      "observed_minus_shuffle_mean_pp": {
+        "exact": "1507800/1079521",
+        "value": 1.3967305869918232
+      }
+    },
+    "NLI": {
+      "resolved_edges": 113198,
+      "compatible_edges": 45997,
+      "positive_edges": 662,
+      "positive_percent_displayed": "60.6",
+      "positive_compatible_edges_inferred_from_rounding": 401,
+      "negative_edges_derived": 112536,
+      "negative_compatible_edges_derived": 45596,
+      "same_outcome_edges_derived": 67341,
+      "positive_share": {
+        "exact": "331/56599",
+        "value": 0.005848159861481652
+      },
+      "positive_score": {
+        "exact": "401/662",
+        "value": 0.6057401812688822
+      },
+      "negative_score": {
+        "exact": "11399/28134",
+        "value": 0.4051681239781048
+      },
+      "observed_score": {
+        "exact": "45997/113198",
+        "value": 0.4063411014328875
+      },
+      "constant_positive_score_on_own_selected_edges": {
+        "exact": "67341/113198",
+        "value": 0.5948956695347974
+      },
+      "constant_negative_score_on_own_selected_edges": {
+        "exact": "45857/113198",
+        "value": 0.40510433046520256
+      },
+      "uniform_fixed_count_sign_shuffle_mean": {
+        "exact": "2602571547/6406893602",
+        "value": 0.40621426055640625
+      },
+      "uniform_fixed_count_sign_shuffle_variance": {
+        "exact": "8216306528814828/165947956719963287461771",
+        "value": 4.9511344949427865e-08
+      },
+      "observed_minus_shuffle_mean_pp": {
+        "exact": "40632800/3203446801",
+        "value": 0.012684087648128232
+      }
+    }
+  },
+  "observed_AAI_minus_NLI_pp": {
+    "exact": "1306370550/58806361",
+    "value": 22.214783023217507
+  },
+  "descriptive_decompositions_pp": {
+    "NLI_stratum_rates_reference": {
+      "composition": {
+        "exact": "4688079403320200/273812825541897",
+        "value": 17.12147483976371
+      },
+      "within_sign": {
+        "exact": "24640242850/4837767903",
+        "value": 5.093308183453794
+      }
+    },
+    "AAI_stratum_rates_reference": {
+      "composition": {
+        "exact": "90646840638500/3833527867229",
+        "value": 23.645801929182927
+      },
+      "within_sign": {
+        "exact": "-5279933450/3689632211",
+        "value": -1.4310189059654217
+      }
+    },
+    "symmetric_reference": {
+      "composition": {
+        "exact": "363839471363344766150/17849584284250723533",
+        "value": 20.38363838447332
+      },
+      "within_sign": {
+        "exact": "32685170565918193000/17849584284250723533",
+        "value": 1.831144638744186
+      }
+    }
+  },
+  "equal_half_sign_weights_AAI_minus_NLI_pp": {
+    "exact": "712022235125/303531522453",
+    "value": 2.3457933771450454
+  },
+  "shuffle_mean_AAI_minus_NLI_pp": {
+    "exact": "72036605037409550/3458188094062321",
+    "value": 20.83073652387381
+  },
+  "excess_over_own_shuffle_AAI_minus_NLI_pp": {
+    "exact": "4786293125659000/3458188094062321",
+    "value": 1.384046499343695
+  },
+  "independent_common_probability_toys": [
+    {
+      "event_probability": {
+        "exact": "1/20",
+        "value": 0.05
+      },
+      "equal_outcome_probability": {
+        "exact": "181/200",
+        "value": 0.905
+      },
+      "expected_score_by_published_resolved_sign_mix": {
+        "AAI": {
+          "exact": "164407/207800",
+          "value": 0.7911790182868143
+        },
+        "NLI": {
+          "exact": "1129003/11319800",
+          "value": 0.09973700948780014
+        }
+      }
+    },
+    {
+      "event_probability": {
+        "exact": "1/10",
+        "value": 0.1
+      },
+      "equal_outcome_probability": {
+        "exact": "41/50",
+        "value": 0.82
+      },
+      "expected_score_by_published_resolved_sign_mix": {
+        "AAI": {
+          "exact": "37927/51950",
+          "value": 0.7300673724735323
+        },
+        "NLI": {
+          "exact": "519983/2829950",
+          "value": 0.18374282231134825
+        }
+      }
+    },
+    {
+      "event_probability": {
+        "exact": "1/5",
+        "value": 0.2
+      },
+      "equal_outcome_probability": {
+        "exact": "17/25",
+        "value": 0.68
+      },
+      "expected_score_by_published_resolved_sign_mix": {
+        "AAI": {
+          "exact": "16349/25975",
+          "value": 0.6294128970163619
+        },
+        "NLI": {
+          "exact": "455771/1414975",
+          "value": 0.3221053375501334
+        }
+      }
+    },
+    {
+      "event_probability": {
+        "exact": "1/2",
+        "value": 0.5
+      },
+      "equal_outcome_probability": {
+        "exact": "1/2",
+        "value": 0.5
+      },
+      "expected_score_by_published_resolved_sign_mix": {
+        "AAI": {
+          "exact": "1/2",
+          "value": 0.5
+        },
+        "NLI": {
+          "exact": "1/2",
+          "value": 0.5
+        }
+      }
+    }
+  ],
+  "checks": {
+    "exact_mixture_identity": true,
+    "exact_decomposition_identity": true,
+    "rounding_counts_unique": true,
+    "toy_sign_shuffle": {
+      "enumerated_assignments": 15,
+      "expectation_verified": true,
+      "variance_verified": true
+    }
+  },
+  "limits": [
+    "No raw-data replication, human semantic accuracy estimate, causal attribution, confidence interval or p-value.",
+    "The methods select different endpoint sets, including within each sign stratum.",
+    "Global sign exchangeability is a diagnostic stipulation, not justified by the aggregates; block-aware resampling requires pair-level data.",
+    "Uniform-shuffle variance is mathematical under that null and is not a graph-aware sampling uncertainty estimate."
+  ]
+}

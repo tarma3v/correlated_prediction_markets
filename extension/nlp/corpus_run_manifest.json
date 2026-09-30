@@ -1,0 +1,33 @@
+{
+  "started_at_utc": "2026-09-28T21:18:20.405010+00:00",
+  "input_hash": "b563a9b5948e5c7a485db0919d54739afdbed5e6e7cd491620db4a69d7dada97",
+  "candidate_hash": "82eb1fbd580a8c03032f1e283d873583afda3d2a6e4a4a88beb2ac1c15f7015b",
+  "script_hash": "b513866cd4c063c7ee2aefed6997b4fdace3ab64c8780f0e4076aedda10684a0",
+  "model": {
+    "repo": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+    "max_length": 512
+  },
+  "view": "title + primary + secondary",
+  "threshold": 0.8,
+  "dominance_margin": 0.1,
+  "purpose": "Descriptive output distribution; no gold labels; not reproduction of article.",
+  "completed_at_utc": "2026-09-28T21:24:42.914177+00:00",
+  "wall_seconds": 383.00100708397804,
+  "n_pairs": 1188,
+  "directional_inferences": 2376,
+  "truncated_inputs": 0,
+  "output_counts": {
+    "b_implies_a_candidate": 54,
+    "equivalence_candidate": 148,
+    "a_implies_b_candidate": 58,
+    "exclusion_candidate": 443,
+    "abstain": 485
+  },
+  "cross_event_counts": {
+    "exclusion_candidate": 118,
+    "abstain": 201,
+    "b_implies_a_candidate": 30
+  },
+  "warning": "None of these model labels is a verified payoff relation. No precision/recall measured."
+}

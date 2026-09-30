@@ -1,0 +1,419 @@
+{
+  "_notice": {
+    "type": "free_key_offer",
+    "message": "Free and anonymous access is staying. If this endpoint is in your pipeline, a free key adds advance notice before any schema change or deprecation. POST /v1/keys {\"email\": \"you@firm.com\"} — nothing else required. Something broken or missing? hello@clearmarket.fyi reaches a human.",
+    "docs": "https://clearmarket.fyi/for-data/",
+    "policy": "This field is additive and its shape will not change."
+  },
+  "event_id": "CM-EVT-YC6V96JMH7",
+  "slug": "fed-decision-in-october-20260617190323537",
+  "question": "Will the Federal Reserve make a decision in October?",
+  "category": "economics",
+  "event_type": "BINARY",
+  "ladder_distribution": null,
+  "tags": [
+    "economics",
+    "fed",
+    "fomc",
+    "fed-rates",
+    "october-2026",
+    "monetary-policy"
+  ],
+  "catalyst_types": [],
+  "catalyst_dates": [],
+  "editorial_notes": "These markets track the Federal Reserve Board of Governors' target rate decision following the October 2026 FOMC meeting. Five mutually exclusive Polymarket contracts span the full outcome distribution: 50+ bps cut, 25 bps cut, hold, 25 bps hike, and 50+ bps hike. Together they imply a complete probability mass over all discrete policy outcomes. Resolution follows Polymarket's UMA Optimistic Oracle against the Federal Reserve Board of Governors' official upper bound announcement.",
+  "venues_covered": [
+    "polymarket"
+  ],
+  "primary_market_id": "CM-MKT-J7D1ZL9BR6",
+  "current_primary_mark": {
+    "last_price": 0.22,
+    "implied_probability": 0.22,
+    "as_of": null
+  },
+  "created_at": "2026-08-04T20:03:51.865287+00:00",
+  "updated_at": "2026-08-04T20:03:51.865287+00:00",
+  "markets": [
+    {
+      "market_id": "CM-MKT-THCQBLC552",
+      "event_id": "CM-EVT-YC6V96JMH7",
+      "platform": "polymarket",
+      "platform_market_id": "0xa69ef420d8b4075ad8ba8611d02c63cb2ece46f5c8c643af223c272689b0c96f",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
+      "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.",
+      "contract_type": "binary",
+      "settlement_currency": "USDC",
+      "underlying_reference": "50+ bps decrease: The Federal Reserve Board of Governors' announcement of the upper bound change to the target federal funds range following the October 2026 FOMC meeting, rounded to nearest 25 basis points, resolves by October 28, 2026.",
+      "close_at": "2026-10-28T23:59:00Z",
+      "resolve_at": "2026-10-28T23:59:00Z",
+      "status": "open",
+      "resolution": {
+        "rules_raw": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+        "arbitration_model": "uma_oracle",
+        "proposer": "managed_whitelist",
+        "source": null,
+        "source_status": "platform_named",
+        "source_citation": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "sources": [
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          }
+        ],
+        "source_of_record": "federalreserve.gov",
+        "source_mechanism": "single_authority",
+        "source_type": null,
+        "source_quality": null,
+        "source_commitment": "named",
+        "source_commitment_subtype": "named",
+        "source_hedge_text": null
+      },
+      "rcg": {
+        "grade": "A",
+        "score": 93,
+        "caps": [],
+        "applied_factors": 6
+      },
+      "last_price": 0.014,
+      "implied_probability": 0.014,
+      "price_as_of": null,
+      "volume_24h_usd": 145,
+      "volume_total_usd": 99899.48580900002,
+      "settlement_style": "terminal",
+      "direction": "below",
+      "threshold": -50,
+      "question_id": "CMX-05B3D1BDC0",
+      "also_on": null,
+      "tags": [
+        "federal reserve",
+        "federal reserve funds rate",
+        "monetary policy"
+      ],
+      "eligibility_screens": null,
+      "last_checked_at": null,
+      "reconciled_at": "2026-09-29T06:00:54.772Z"
+    },
+    {
+      "market_id": "CM-MKT-WRG6CRBS20",
+      "event_id": "CM-EVT-YC6V96JMH7",
+      "platform": "polymarket",
+      "platform_market_id": "0x9cf563d7b55aa9aa876d5d7e55126347eee473f0ae56d799e325fdef2bf25297",
+      "question": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+      "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.",
+      "contract_type": "binary",
+      "settlement_currency": "USDC",
+      "underlying_reference": "25 bps decrease: The Federal Reserve Board of Governors' announcement of the upper bound change to the target federal funds range following the October 2026 FOMC meeting, rounded to nearest 25 basis points, resolves by October 28, 2026.",
+      "close_at": "2026-10-28T23:59:00Z",
+      "resolve_at": "2026-10-28T23:59:00Z",
+      "status": "open",
+      "resolution": {
+        "rules_raw": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+        "arbitration_model": "uma_oracle",
+        "proposer": "managed_whitelist",
+        "source": null,
+        "source_status": "platform_named",
+        "source_citation": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "sources": [
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          }
+        ],
+        "source_of_record": "federalreserve.gov",
+        "source_mechanism": "single_authority",
+        "source_type": null,
+        "source_quality": null,
+        "source_commitment": "named",
+        "source_commitment_subtype": "named",
+        "source_hedge_text": null
+      },
+      "rcg": {
+        "grade": "A",
+        "score": 93,
+        "caps": [],
+        "applied_factors": 6
+      },
+      "last_price": 0.06,
+      "implied_probability": 0.06,
+      "price_as_of": null,
+      "volume_24h_usd": 3134.539997,
+      "volume_total_usd": 96400.228431,
+      "settlement_style": "terminal",
+      "direction": "below",
+      "threshold": -25,
+      "question_id": "CMX-2A6D297810",
+      "also_on": null,
+      "tags": [
+        "federal reserve",
+        "federal reserve funds rate",
+        "monetary policy"
+      ],
+      "eligibility_screens": null,
+      "last_checked_at": null,
+      "reconciled_at": "2026-09-29T06:00:54.772Z"
+    },
+    {
+      "market_id": "CM-MKT-XL8V0VDXF9",
+      "event_id": "CM-EVT-YC6V96JMH7",
+      "platform": "polymarket",
+      "platform_market_id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.",
+      "contract_type": "binary",
+      "settlement_currency": "USDC",
+      "underlying_reference": "No change: The Federal Reserve Board of Governors' announcement of the upper bound change to the target federal funds range following the October 2026 FOMC meeting, rounded to nearest 25 basis points, resolves by October 28, 2026.",
+      "close_at": "2026-10-28T23:59:00Z",
+      "resolve_at": "2026-10-28T23:59:00Z",
+      "status": "open",
+      "resolution": {
+        "rules_raw": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+        "arbitration_model": "uma_oracle",
+        "proposer": "managed_whitelist",
+        "source": null,
+        "source_status": "platform_named",
+        "source_citation": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "sources": [
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          }
+        ],
+        "source_of_record": "federalreserve.gov",
+        "source_mechanism": "single_authority",
+        "source_type": null,
+        "source_quality": null,
+        "source_commitment": "named",
+        "source_commitment_subtype": "named",
+        "source_hedge_text": null
+      },
+      "rcg": {
+        "grade": "A",
+        "score": 93,
+        "caps": [],
+        "applied_factors": 6
+      },
+      "last_price": 0.68,
+      "implied_probability": 0.68,
+      "price_as_of": null,
+      "volume_24h_usd": 28.976374999999997,
+      "volume_total_usd": 102353.44811900002,
+      "settlement_style": "terminal",
+      "direction": "between",
+      "threshold": 0,
+      "question_id": "CMX-4E72BF9C61",
+      "also_on": null,
+      "tags": [
+        "federal reserve",
+        "federal reserve funds rate",
+        "monetary policy"
+      ],
+      "eligibility_screens": null,
+      "last_checked_at": null,
+      "reconciled_at": "2026-09-29T06:00:54.772Z"
+    },
+    {
+      "market_id": "CM-MKT-J7D1ZL9BR6",
+      "event_id": "CM-EVT-YC6V96JMH7",
+      "platform": "polymarket",
+      "platform_market_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.",
+      "contract_type": "binary",
+      "settlement_currency": "USDC",
+      "underlying_reference": "25 bps increase: The Federal Reserve Board of Governors' announcement of the upper bound change to the target federal funds range following the October 2026 FOMC meeting, rounded to nearest 25 basis points, resolves by October 28, 2026.",
+      "close_at": "2026-10-28T23:59:00Z",
+      "resolve_at": "2026-10-28T23:59:00Z",
+      "status": "open",
+      "resolution": {
+        "rules_raw": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+        "arbitration_model": "uma_oracle",
+        "proposer": "managed_whitelist",
+        "source": null,
+        "source_status": "platform_named",
+        "source_citation": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "sources": [
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          }
+        ],
+        "source_of_record": "federalreserve.gov",
+        "source_mechanism": "single_authority",
+        "source_type": null,
+        "source_quality": null,
+        "source_commitment": "named",
+        "source_commitment_subtype": "named",
+        "source_hedge_text": null
+      },
+      "rcg": {
+        "grade": "A",
+        "score": 93,
+        "caps": [],
+        "applied_factors": 6
+      },
+      "last_price": 0.22,
+      "implied_probability": 0.22,
+      "price_as_of": null,
+      "volume_24h_usd": 558.429564,
+      "volume_total_usd": 106097.526057,
+      "settlement_style": "terminal",
+      "direction": "above",
+      "threshold": 25,
+      "question_id": "CMX-3C99E00DC1",
+      "also_on": null,
+      "tags": [
+        "federal reserve",
+        "federal reserve funds rate",
+        "monetary policy"
+      ],
+      "eligibility_screens": null,
+      "last_checked_at": null,
+      "reconciled_at": "2026-09-29T06:00:54.772Z"
+    },
+    {
+      "market_id": "CM-MKT-GBM0CV4BM3",
+      "event_id": "CM-EVT-YC6V96JMH7",
+      "platform": "polymarket",
+      "platform_market_id": "0xde5d75ab7702875623ba509bc923241e1211da74a113521b3b70ddac930d7316",
+      "question": "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
+      "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.",
+      "contract_type": "binary",
+      "settlement_currency": "USDC",
+      "underlying_reference": "50+ bps increase: The Federal Reserve Board of Governors' announcement of the upper bound change to the target federal funds range following the October 2026 FOMC meeting, rounded to nearest 25 basis points, resolves by October 28, 2026.",
+      "close_at": "2026-10-28T23:59:00Z",
+      "resolve_at": "2026-10-28T23:59:00Z",
+      "status": "open",
+      "resolution": {
+        "rules_raw": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+        "arbitration_model": "uma_oracle",
+        "proposer": "managed_whitelist",
+        "source": null,
+        "source_status": "platform_named",
+        "source_citation": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "sources": [
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "federalreserve.gov",
+            "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "provenance": "platform_api"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          },
+          {
+            "name": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          }
+        ],
+        "source_of_record": "federalreserve.gov",
+        "source_mechanism": "single_authority",
+        "source_type": null,
+        "source_quality": null,
+        "source_commitment": "named",
+        "source_commitment_subtype": "named",
+        "source_hedge_text": null
+      },
+      "rcg": {
+        "grade": "A",
+        "score": 93,
+        "caps": [],
+        "applied_factors": 6
+      },
+      "last_price": 0.019,
+      "implied_probability": 0.019,
+      "price_as_of": null,
+      "volume_24h_usd": null,
+      "volume_total_usd": 41192.35538200001,
+      "settlement_style": "terminal",
+      "direction": "above",
+      "threshold": 50,
+      "question_id": "CMX-9D41E88869",
+      "also_on": null,
+      "tags": [
+        "federal reserve",
+        "federal reserve funds rate",
+        "monetary policy"
+      ],
+      "eligibility_screens": null,
+      "last_checked_at": null,
+      "reconciled_at": "2026-09-29T06:00:54.772Z"
+    }
+  ],
+  "resolution_log": [],
+  "_provenance": {
+    "source": "clearmarket.fyi",
+    "ref": "CM-EVT-YC6V96JMH7",
+    "terms": "Attribution required. clearmarket.fyi"
+  }
+}

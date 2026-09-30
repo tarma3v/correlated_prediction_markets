@@ -1,0 +1,96 @@
+{
+  "collected_at_utc": "2026-09-28T21:01:41.232191+00:00",
+  "selection": "convenience sample: latest 80 non-combo open Kalshi markets and first 40 open markets for seven named economic series; first 100 Polymarket open markets by volume if reachable. No full pagination.",
+  "requests": [
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=80&status=open&mve_filter=exclude",
+      "requested_at_utc": "2026-09-28T21:01:35.487366+00:00",
+      "file": "raw/kalshi_recent.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:01:36.358052+00:00",
+      "sha256": "51a276d6a9afdd37243a2651b825109bd48b3696a37606fb6369227cac203eb2"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXCPI",
+      "requested_at_utc": "2026-09-28T21:01:36.363687+00:00",
+      "file": "raw/kalshi_KXCPI.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:01:37.014920+00:00",
+      "sha256": "564e8382f2843e21d528a5170c302cec700e931363c4f1ecb8448fc72887c73c"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXCPIYOY",
+      "requested_at_utc": "2026-09-28T21:01:37.017968+00:00",
+      "file": "raw/kalshi_KXCPIYOY.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:01:37.664100+00:00",
+      "sha256": "2511e1270aa8a865fed1fa99aaa22a7455aa62b65444f7ce3f561640876b5f86"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXCPICORE",
+      "requested_at_utc": "2026-09-28T21:01:37.669738+00:00",
+      "file": "raw/kalshi_KXCPICORE.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:01:38.328363+00:00",
+      "sha256": "529fa1f0fb272ce5bf230a7d885f580c70d73236cfa4e9f5b94a4145fb06759e"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXCPICOREYOY",
+      "requested_at_utc": "2026-09-28T21:01:38.338688+00:00",
+      "file": "raw/kalshi_KXCPICOREYOY.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:01:38.995041+00:00",
+      "sha256": "93d50d6a23fbf81f544d1fc6a48674f8583ceb02b03f7cc323b5014512e01740"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXU3",
+      "requested_at_utc": "2026-09-28T21:01:39.000776+00:00",
+      "file": "raw/kalshi_KXU3.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:01:39.642956+00:00",
+      "sha256": "7f098dac0ce61274f1e46bf866fe07f5d68b7459786a7def263f33ffc946c77f"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXFEDRATEMIN",
+      "requested_at_utc": "2026-09-28T21:01:39.649199+00:00",
+      "file": "raw/kalshi_KXFEDRATEMIN.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:01:40.357086+00:00",
+      "sha256": "cda2c4a204fecd760c72d3414d57443ff94bca8be4e681178676bf88a3f55b8c"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXLCPIMAXYOY",
+      "requested_at_utc": "2026-09-28T21:01:40.361337+00:00",
+      "file": "raw/kalshi_KXLCPIMAXYOY.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:01:40.988396+00:00",
+      "sha256": "8660b71f60af973fce078590e8b3d0d03824031b71e8f678bf43fae379a2bf49"
+    },
+    {
+      "request_url": "https://gamma-api.polymarket.com/markets?limit=100&closed=false&order=volumeNum&ascending=false",
+      "requested_at_utc": "2026-09-28T21:01:40.992684+00:00",
+      "file": "raw/polymarket_open.json",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+      "fetched_at_utc": "2026-09-28T21:01:41.231720+00:00",
+      "sha256": "f12b1fe74f941eb18c21ecf0b854bae8818d51a2469e4b3a46b3da880e705341"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/series/KXCPIYOY",
+      "requested_at_utc": "2026-09-28T21:02:50.855780+00:00",
+      "file": "raw/metadata_KXCPIYOY.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:02:51.691524+00:00",
+      "sha256": "c11ae991e13287ae664a2db52dc57a9f13936fbe2db6251fbd2fd624ea4e8318"
+    },
+    {
+      "request_url": "https://external-api.kalshi.com/trade-api/v2/series/KXLCPIMAXYOY",
+      "requested_at_utc": "2026-09-28T21:02:51.694680+00:00",
+      "file": "raw/metadata_KXLCPIMAXYOY.json",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-28T21:02:52.354644+00:00",
+      "sha256": "b849b10d26e8d4cf1af13f703be127b25f000d36b507edc868a59907476b234c"
+    }
+  ],
+  "normalized_file": "markets.json",
+  "markets_sha256": "b563a9b5948e5c7a485db0919d54739afdbed5e6e7cd491620db4a69d7dada97"
+}

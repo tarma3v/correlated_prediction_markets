@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-09-29T22:36:40.015203+00:00",
+  "requests": [
+    {
+      "name": "clearmarket_repo",
+      "url": "https://api.github.com/repos/JDSource/clearmarket",
+      "http": "200",
+      "bytes": 5956,
+      "sha256": "79040fe70a1f328b7cd337fdc715a994dc886a3958bd825f67718344b8934a89",
+      "error": ""
+    },
+    {
+      "name": "clearmarket_tree",
+      "url": "https://api.github.com/repos/JDSource/clearmarket/git/trees/main?recursive=1",
+      "http": "200",
+      "bytes": 825405,
+      "sha256": "27b86a73cb470699f3d0d2ad12635c35bf065f9bcb571986045ed1192642ec7d",
+      "error": ""
+    },
+    {
+      "name": "foresight_tree",
+      "url": "https://api.github.com/repos/ForesightFlow/datasets/git/trees/main?recursive=1",
+      "http": "200",
+      "bytes": 49836,
+      "sha256": "44a2602f1f1a2858d4d904cede95d10b0e8ffbdf25aba2b811129edac253ccda",
+      "error": ""
+    },
+    {
+      "name": "kalshibench_hf",
+      "url": "https://huggingface.co/api/datasets/2084Collective/kalshibench-v2",
+      "http": "200",
+      "bytes": 1218,
+      "sha256": "f5173fc9e5b2a573ae30c40fbdd6ea753e148fa7ef781636e7b78d24ed1e2ef1",
+      "error": ""
+    },
+    {
+      "name": "kalshibench_readme",
+      "url": "https://huggingface.co/datasets/2084Collective/kalshibench-v2/raw/main/README.md",
+      "http": "200",
+      "bytes": 587,
+      "sha256": "a87adb45f55f76465e9b068c3198b9208d57b832e4dee8afa28bce6b52e9cd5e",
+      "error": ""
+    },
+    {
+      "name": "becker_schema",
+      "url": "https://raw.githubusercontent.com/Jon-Becker/prediction-market-analysis/main/docs/SCHEMAS.md",
+      "http": "200",
+      "bytes": 6328,
+      "sha256": "5e2746fe38c0e2e871fe0806bb5ac49af409cb4387fb5f09e2e12fd07ec6547a",
+      "error": ""
+    },
+    {
+      "name": "becker_makefile",
+      "url": "https://raw.githubusercontent.com/Jon-Becker/prediction-market-analysis/main/Makefile",
+      "http": "200",
+      "bytes": 429,
+      "sha256": "29cefb3abf437ee3e31671ba7e67b746c54b0c0c72de4db8369e1b0ce69aa27c",
+      "error": ""
+    },
+    {
+      "name": "polymonitor",
+      "url": "https://www.polymonitor.club/",
+      "http": "200",
+      "bytes": 2370,
+      "sha256": "7c0b93d364ca2fb55d917defb1a014830bac4ca320ced67b509733a0d27dfe34",
+      "error": ""
+    }
+  ]
+}

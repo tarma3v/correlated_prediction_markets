@@ -1,0 +1,119 @@
+
+--- PDF PAGE 1 ---
+YOYCPICORE
+Scope:
+	These	rules	shall	apply	to	this	contract.
+Underlying:
+	The	Underlying	for	this	Contract	is	the	one-decimal	12-month	percent	change	in	the
+	
+Consumer	Price	Index	for	All	Urban	Consumers	less	food	and	energy,	before	seasonal
+	
+adjustment,	according	to	the	Bureau	of	Labor	Statistics	for	the	12-month	period	ending	in
+	
+<month>.	Revisions	to	the	Underlying	made	after	Expiration	will	not	be	accounted	for	in
+	
+determining	the	Expiration	Value.
+Instructions:	
+The	Underlying	can	be	accessed	at	https://www.bls.gov/cpi/.	A	schedule	of	release
+	
+dates	is	available	on	the	BLS	website	(https://www.bls.gov/schedule/news_release/cpi.htm),	and
+	
+the	data	is	released	at	8:30am	ET.	Each	month’s	report	is	available	at	the	following	stable	URL,
+	
+which	automatically	displays	the	latest	available	report:
+	
+https://www.bls.gov/news.release/pdf/cpi.pdf.	Table	A	will	have	a	row	labeled	“All	items	less	food
+	
+and	energy”.	The	value	of	“Un-adjusted	12-mos.	ended	[month]	2022”	is	the	value	of	the
+	
+Underlying.	Historical	reports	from	prior	months	are	available	on	the	Bureau	of	Labor	Statistics
+	
+website	at	the	following	link:	https://www.bls.gov/bls/news-release/cpi.htm.	If	you	select	the	year
+	
+in	question,	links	to	CPI	reports	from	months	in	that	year	will	be	displayed.	These	instructions	on
+	
+how	to	access	the	Underlying	are	provided	for	convenience	only	and	are	not	part	of	the	binding
+	
+Terms	and	Conditions	of	the	Contract.	They	may	be	clarified	at	any	time.	
+Source	Agency:
+	The	Source	Agency	is	the	Bureau	of	Labor	Statistics.	
+Type:
+	The	type	of	Contract	is	an	Event	Contract.
+Issuance:
+	The	Contract	is	based	on	the	outcome	of	a	recurrent	data	release.	Contract	iterations
+	
+will	be	issued	on	a	recurring	basis.	The	Exchange	may	add	new	strike	values	of	<percent>	as
+	
+market	conditions	change.	
+<percent>:
+	Kalshi	may	list	iterations	of	the	Contract	with	<percent>	levels	that	fall	within	an
+	
+inclusive	range	between	-100	and	10000	at	consecutive	increments	of	0.1.	Due	to	the	potential
+	
+for	variability	in	the	Underlying,	the	Exchange	may	modify	<percent>	levels	in	response	to
+	
+suggestions	by	Members.
+<month>
+:	<month>	refers	to	a	calendar	month	specified	by	Kalshi.	Kalshi	may	list	iterations	of
+	
+the	Contract	corresponding	to	different	values	of	<month>.
+Payout	Criterion:
+	The	Payout	Criterion	for	the	Contract	encompasses	the	Expiration	Values	that
+	
+are	<above/below/between>	<percent>.	If	the	value	of	<above/below/between>	is	“between”,
+	
+then	<percent>	shall	be	a	pair	of	percentages,	and	an	Expiration	Value	that	is	greater	than	or
+	
+equal	to	the	lower	value	of	the	percent	pair	and	less	than	or	equal	to	the	greater	value	of	the
+	
+percent	pair	are	encompassed	in	the	Payout	Criterion.	
+Minimum	Tick:
+	The	Minimum	Tick	size	for	the	referred	Contract	shall	be	0.01.
+Position	Accountability	Level:
+	The	Position	Accountability	Level	for	the	$1	referred	Contract
+	
+shall	be	7,000,000	contracts	per	Member.
+Last	Trading	Date:
+	The	Last	Trading	Date	of	the	Contract	will	be	the	day	of	the	expected
+	
+release	of	the	data	for	<month>.	The	Last	Trading	Time	will	be	8:25	AM	ET.
+Settlement	Date:
+	The	Settlement	Date	of	the	Contract	shall	be	no	later	than	the	day	after	the
+	
+
+--- PDF PAGE 2 ---
+Expiration	Date,	unless	the	Market	Outcome	is	under	review	pursuant	to	Rule	7.1.
+Expiration	Date:
+	The	Expiration	Date	of	the	Contract	shall	be	the	sooner	of	the	date	of	the	first
+	
+10:00	AM	following	the	release	of	the	data	for	<month>,	or	one	week	after	the	expected	release
+	
+of	the	data	for	<month>.	In	the	case	of	a	delay	in	data	caused	by	a	federal	government	shutdown
+	
+impacting	the	reliability	of	the	Source	Agency,	the	market’s	latest	Expiration	Date	will	be
+	
+extended	to	the	sooner	of	the	release	of	the	Underlying	or	six	months	after	the	end	of	the
+	
+government	shutdown.
+Expiration	time:
+	The	Expiration	time	of	the	Contract	shall	be	10:00	AM	ET.
+Settlement	Value:
+	The	Settlement	Value	for	this	Contract	is	$1.00.
+Expiration	Value:
+	The	Expiration	Value	is	the	value	of	the	Underlying	as	documented	by	the
+	
+Source	Agency	on	the	Expiration	Date	at	the	Expiration	time.	
+Contingencies:
+	Before	Settlement,	Kalshi	may,	at	its	sole	discretion,	initiate	the	Market
+	
+Outcome	Review	Process	pursuant	to	Rule	6.3(c)	of	the	Rulebook.	Additionally,	as	outlined	in
+	
+Rule	7.2	of	the	Rulebook,	if	any	event	or	any	circumstance	which	may	have	a	material	impact	on
+	
+the	reliability	or	transparency	of	a	Contract’s	Source	Agency	or	the	Underlying	related	to	the
+	
+Contract	arises,	Kalshi	retains	the	authority	to	designate	a	new	Source	Agency	and	Underlying
+	
+for	that	Contract	and	to	change	any	associated	Contract	specifications	after	the	first	day	of
+	
+trading.

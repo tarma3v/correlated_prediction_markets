@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1.0",
+  "created_at_utc": "2026-09-30 00:03:49 UTC",
+  "input_scope": {
+    "selection": "All external author-audit pairs whose label is different or unsure; original order retained.",
+    "selected_pairs": 32,
+    "original_label_counts": {
+      "different": 27,
+      "unsure": 5
+    },
+    "reference_pairs_sha256": "424400dd5cfb0735aea1e6f777ae7367ca2235c1992ac63c1147da66b3687629",
+    "markets_sha256": "730b5a504dae16ea5fe620e1354aa2120c97b5ad5770095f2fa529cc9b90e152"
+  },
+  "state_order": "00,01,10,11 = (Polymarket A, Kalshi B)",
+  "human_gold": false,
+  "unconditional_contract_relations_certified": 0,
+  "relation_candidate_counts": {
+    "A_IMPLIES_B": 2,
+    "OUT_OF_BINARY_SCOPE": 1,
+    "NO_HARD_RELATION": 20,
+    "ABSTAIN": 4,
+    "DISJOINT": 3,
+    "EQUIVALENT": 2
+  },
+  "warning": "Candidate forbidden states hold only under the record's assumptions. Null is unknown/out-of-binary; [] is a proposed absence of hard event-level constraints under stated semantics, never empirical independence.",
+  "evidence_scope": {
+    "kalshi_exact_ticker_live_responses": 32,
+    "kalshi_http200": 32,
+    "polymarket_exact_id_live_api_confirmations": 0,
+    "all_polymarket_rule_versions_verified": false,
+    "full_raw_sources_redistributed": false,
+    "price_series_or_empirical_correlation_analysis": false
+  },
+  "network_probe_failures": [
+    {
+      "url": "https://gamma-api.polymarket.com/markets?condition_ids=0x80dd2c6c6b4d5edeb34097da5b8332a56dd593b7c4d110abe68cecd0f18d24d3",
+      "at": "2026-09-29T23:56:52.826083+00:00",
+      "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+    },
+    {
+      "url": "https://clob.polymarket.com/markets/0x98dbb998749ae773baf35697d695f5efdc098def32decd687b91c634d8d0481d",
+      "at": "2026-09-29T23:56:52.832021+00:00",
+      "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+    },
+    {
+      "url": "https://polymarket.com/event/bank-of-england-decision-in-november",
+      "at": "2026-09-29T23:56:52.955815+00:00",
+      "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+    }
+  ],
+  "documents": [
+    "typed_pairs.json",
+    "typed_pairs.schema.json",
+    "kalshi_provenance.json",
+    "sources.json",
+    "README.md",
+    "verify.py"
+  ],
+  "transformations": "No original full fixture/raw web/API responses copied. Selected factual IDs, original label, derived propositions, analyst reasoning and limited source pointers only."
+}

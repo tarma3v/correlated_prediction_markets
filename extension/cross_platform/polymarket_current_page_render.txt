@@ -1,0 +1,330 @@
+polymarket.com (https://polymarket.com/event/core-cpi-yoy-september-2026)
+citeturn35view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://polymarket.com/event/core-cpi-yoy-september-2026","lineno":null}); Total lines: 350
+L0: cite0†Image L1: ## It looks like you’re in the US
+L2: 
+L3: Trading is blocked in the United States on polymarket.com. Switch to cite1†polymarket.us†polymarket.us to trade prediction markets.
+L4: 
+L5: cite1†Go to polymarket.us†polymarket.us [Button: Continue in view only mode]
+L6: 
+L7: cite2†Skip to main content L8: 
+L9: cite3†Trending cite4†Combos cite5†Perps cite6†Breaking cite7†New cite8†Politics cite9†Sports cite10†Crypto cite11†Esports cite12†Iran cite13†Finance cite14†Geopolitics cite15†Tech cite16†Culture cite17†Economy cite18†Weather cite19†Mentions cite20†Elections cite21†Art L10: 
+L11: cite3†Home L12: 
+L13: Search
+L14: cite6†Breaking L15: 
+L16: More
+L17: 
+L18: Core CPI YoY - September 2026 Trading Odds & Predictions | Polymarket
+L19: 
+L20: cite22†Image: icon for Core CPI YoY - September 2026 L21: 
+L22: cite17†Economy ·cite23†CPI L23: # Core CPI YoY - September 2026
+L24: 
+L25: Pastcite24†Oct 15 L26: 
+L27: Pastcite24†Oct 15 L28: 
+L29: 2.4% 39%
+L30: 
+L31: 2.5% 35%
+L32: 
+L33: 2.3% 17%
+L34: 
+L35: 2.6% 13%
+L36: 
+L37: $30,797 Vol.
+L38: 
+L39: [Button: 1H][Button: 6H][Button: 1D][Button: 1W][Button: Max]
+L40: 
+L41: ≤2.0%
+L42: 
+L43: $1,215 Vol.
+L44: 
+L45: 1%
+L46: 
+L47: Buy Yes 1.2¢Buy No 99.9¢
+L48: 
+L49: 2.1%
+L50: 
+L51: $1,047 Vol.
+L52: 
+L53: 1%
+L54: 
+L55: Buy Yes 1.9¢Buy No 99.7¢
+L56: 
+L57: 2.2%
+L58: 
+L59: $1,698 Vol.
+L60: 
+L61: 1%
+L62: 
+L63: Buy Yes 1.2¢Buy No 99.9¢
+L64: 
+L65: 2.3%
+L66: 
+L67: $4,966 Vol.
+L68: 
+L69: 17%
+L70: 
+L71: Buy Yes 17¢Buy No 84¢
+L72: 
+L73: 2.4%
+L74: 
+L75: $8,610 Vol.
+L76: 
+L77: 39%
+L78: 
+L79: Buy Yes 40¢Buy No 62¢
+L80: 
+L81: 2.5%
+L82: 
+L83: $5,797 Vol.
+L84: 
+L85: 35%
+L86: 
+L87: Buy Yes 37¢Buy No 68¢
+L88: 
+L89: 2.6%
+L90: 
+L91: $4,135 Vol.
+L92: 
+L93: 13%
+L94: Buy Yes 15¢Buy No 89¢
+L95: 
+L96: 2.7%
+L97: 
+L98: $1,238 Vol.
+L99: 
+L100: 1%
+L101: 
+L102: Buy Yes 0.9¢Buy No--
+L103: 
+L104: 2.8%
+L105: 
+L106: $846 Vol.
+L107: 
+L108: 1%
+L109: 
+L110: Buy Yes 0.9¢Buy No--
+L111: 
+L112: ≥2.9%
+L113: 
+L114: $1,244 Vol.
+L115: 
+L116: 1%
+L117: 
+L118: Buy Yes 0.9¢Buy No--
+L119: 
+L120: 2.4% 39%
+L121: 
+L122: 2.5% 35%
+L123: 
+L124: 2.3% 17%
+L125: 
+L126: 2.6% 13%
+L127: 
+L128: $30,797 Vol.
+L129: 
+L130: [Button: 1H][Button: 6H][Button: 1D][Button: 1W][Button: Max]
+L131: 
+L132: ≤2.0%
+L133: 
+L134: $1,215 Vol.
+L135: 
+L136: 1%
+L137: 
+L138: [Button: Buy Yes 1.2¢][Button: Buy No 99.9¢]
+L139: 
+L140: 2.1%
+L141: 
+L142: $1,047 Vol.
+L143: 
+L144: 1%
+L145: 
+L146: [Button: Buy Yes 1.9¢][Button: Buy No 99.7¢]
+L147: 
+L148: 2.2%
+L149: 
+L150: $1,698 Vol.
+L151: 
+L152: 1%
+L153: 
+L154: [Button: Buy Yes 1.2¢][Button: Buy No 99.9¢]
+L155: 
+L156: 2.3%
+L157: 
+L158: $4,966 Vol.
+L159: 
+L160: 17%
+L161: [Button: Buy Yes 17¢][Button: Buy No 84¢]
+L162: 
+L163: 2.4%
+L164: 
+L165: $8,610 Vol.
+L166: 
+L167: 39%
+L168: 
+L169: [Button: Buy Yes 40¢][Button: Buy No 62¢]
+L170: 
+L171: 2.5%
+L172: 
+L173: $5,797 Vol.
+L174: 
+L175: 35%
+L176: 
+L177: [Button: Buy Yes 37¢][Button: Buy No 68¢]
+L178: 
+L179: 2.6%
+L180: 
+L181: $4,135 Vol.
+L182: 
+L183: 13%
+L184: 
+L185: [Button: Buy Yes 15¢][Button: Buy No 89¢]
+L186: 
+L187: 2.7%
+L188: 
+L189: $1,238 Vol.
+L190: 
+L191: 1%
+L192: 
+L193: [Button: Buy Yes 0.9¢][Button: Buy No 0.0¢]
+L194: 
+L195: 2.8%
+L196: 
+L197: $846 Vol.
+L198: 
+L199: 1%
+L200: 
+L201: [Button: Buy Yes 0.9¢][Button: Buy No 0.0¢]
+L202: 
+L203: ≥2.9%
+L204: 
+L205: $1,244 Vol.
+L206: 
+L207: 1%
+L208: 
+L209: [Button: Buy Yes 0.9¢][Button: Buy No 0.0¢]
+L210: Recent August CPI data, showing core inflation easing to 2.4% YoY but with a firmer-than-expected 0.29% monthly gain driven by services and shelter components, has anchored trader focus on whether September's reading will hold at that level or rebound amid elevated energy prices and persistent supercore pressures.
+L211: Market-implied odds reflect this tight contest between 2.4% and 2.5% outcomes, as analysts project a 0.20% m/m core increase that could translate to either figure depending on rounding, seasonal factors, and details in goods versus services ex-shelter. Upcoming October 14 release and ongoing FOMC scrutiny of inflation persistence versus labor market resilience remain key swing elements in this closely balanced pricing.
+L212: ## [Button: Rules]
+L213: ## [Button: Market Context]
+L214: 
+L215: Volume
+L216: 
+L217: $30,797
+L218: 
+L219: End Date
+L220: 
+L221: Oct 15, 2026
+L222: 
+L223: Market Opened
+L224: 
+L225: Sep 11, 2026, 11:29 AM ET
+L226: 
+L227: Resolver
+L228: 
+L229: cite25†0x69c47de9d...†polygonscan.com L230: Recent August CPI data, showing core inflation easing to 2.4% YoY but with a firmer-than-expected 0.29% monthly gain driven by services and shelter components, has anchored trader focus on whether September's reading will hold at that level or rebound amid elevated energy prices and persistent supercore pressures.
+L231: Market-implied odds reflect this tight contest between 2.4% and 2.5% outcomes, as analysts project a 0.20% m/m core increase that could translate to either figure depending on rounding, seasonal factors, and details in goods versus services ex-shelter. Upcoming October 14 release and ongoing FOMC scrutiny of inflation persistence versus labor market resilience remain key swing elements in this closely balanced pricing.
+L232: Experimental AI-generated summary referencing Polymarket data. This is not trading advice and plays no role in how this market resolves. · Updated Sep 28, 2026, 8:16 PM UTC
+L233: Recent August CPI data, showing core inflation easing to 2.4% YoY but with a firmer-than-expected 0.29% monthly gain driven by services and shelter components, has anchored trader focus on whether September's reading will hold at that level or rebound amid elevated energy prices and persistent supercore pressures.
+L234: Market-implied odds reflect this tight contest between 2.4% and 2.5% outcomes, as analysts project a 0.20% m/m core increase that could translate to either figure depending on rounding, seasonal factors, and details in goods versus services ex-shelter. Upcoming October 14 release and ongoing FOMC scrutiny of inflation persistence versus labor market resilience remain key swing elements in this closely balanced pricing.
+L235: ## [Button: Rules]
+L236: ## [Button: Market Context]
+L237: 
+L238: Volume
+L239: 
+L240: $30,797
+L241: 
+L242: End Date
+L243: 
+L244: Oct 15, 2026
+L245: 
+L246: Market Opened
+L247: 
+L248: Sep 11, 2026, 11:29 AM ET
+L249: 
+L250: Resolver
+L251: 
+L252: cite25†0x69c47de9d...†polygonscan.com L253: Recent August CPI data, showing core inflation easing to 2.4% YoY but with a firmer-than-expected 0.29% monthly gain driven by services and shelter components, has anchored trader focus on whether September's reading will hold at that level or rebound amid elevated energy prices and persistent supercore pressures.
+L254: Market-implied odds reflect this tight contest between 2.4% and 2.5% outcomes, as analysts project a 0.20% m/m core increase that could translate to either figure depending on rounding, seasonal factors, and details in goods versus services ex-shelter. Upcoming October 14 release and ongoing FOMC scrutiny of inflation persistence versus labor market resilience remain key swing elements in this closely balanced pricing.
+L255: Experimental AI-generated summary referencing Polymarket data. This is not trading advice and plays no role in how this market resolves. · Updated Sep 28, 2026, 8:16 PM UTC
+L256: ## Comments
+L257: 
+L258: ## [Button: Top Holders]
+L259: 
+L260: ## [Button: Positions]
+L261: 
+L262: ## [Button: Activity]
+L263: 
+L264: [Button: Post]
+L265: 
+L266: Beware of external links.
+L267: 
+L268: Newest
+L269: 
+L270: ## Frequently Asked Questions
+L271: ### What is the "Core CPI YoY - September 2026" prediction market?
+L272: "Core CPI YoY - September 2026" is a prediction market on Polymarket with 10 possible outcomes where traders buy and sell shares based on what they believe will happen. The current leading outcome is "2.4%" at 40%, followed by "2.5%" at 37%. Prices reflect real-time crowd-sourced probabilities. For example, a share priced at 40¢ implies that the market collectively assigns a 40% chance to that outcome. These odds shift continuously as traders react to new developments and information.
+L273: Shares in the correct outcome are redeemable for $1 each upon market resolution.
+L274: ### How much trading activity has "Core CPI YoY - September 2026" generated on Polymarket?
+L275: 
+L276: As of today, "Core CPI YoY - September 2026" has generated $30.8K in total trading volume since the market launched on Sep 11, 2026. This level of trading activity reflects strong engagement from the Polymarket community and helps ensure that the current odds are informed by a deep pool of market participants. You can track live price movements and trade on any outcome directly on this page.
+L277: ### How do I trade on "Core CPI YoY - September 2026"?
+L278: To trade on "Core CPI YoY - September 2026," browse the 10 available outcomes listed on this page. Each outcome displays a current price representing the market's implied probability. To take a position, select the outcome you believe is most likely, choose "Yes" to trade in favor of it or "No" to trade against it, enter your amount, and click "Trade." If your chosen outcome is correct when the market resolves, your "Yes" shares pay out $1 each. If it's incorrect, they pay out $0.
+L279: You can also sell your shares at any time before resolution if you want to lock in a profit or cut a loss.
+L280: ### What are the current odds for "Core CPI YoY - September 2026"?
+L281: 
+L282: The current frontrunner for "Core CPI YoY - September 2026" is "2.4%" at 40%, meaning the market assigns a 40% chance to that outcome. The next closest outcome is "2.5%" at 37%. These odds update in real-time as traders buy and sell shares, so they reflect the latest collective view of what's most likely to happen. Check back frequently or bookmark this page to follow how the odds shift as new information emerges.
+L283: ### How will "Core CPI YoY - September 2026" be resolved?
+L284: The resolution rules for "Core CPI YoY - September 2026" define exactly what needs to happen for each outcome to be declared a winner — including the official data sources used to determine the result. You can review the complete resolution criteria in the "Rules" section on this page above the comments. We recommend reading the rules carefully before trading, as they specify the precise conditions, edge cases, and sources that govern how this market is settled.
+L285: ### Can I follow "Core CPI YoY - September 2026" without placing a trade?
+L286: Yes. You don't need to trade to stay informed. This page serves as a live tracker for "Core CPI YoY - September 2026." The outcome probabilities update in real-time as new trades come in. You can bookmark this page and check the comments section to see what other traders are saying. You can also use the time-range filters on the chart to see how the odds have shifted over time. It's a free, real-time window into what the market expects to happen.
+L287: ### Why are Polymarket's odds for "Core CPI YoY - September 2026" considered reliable?
+L288: Polymarket odds are set by real traders putting real money behind their beliefs, which tends to surface accurate predictions. With $30.8K traded on “Core CPI YoY - September 2026,” these prices aggregate the collective knowledge and conviction of thousands of participants — often outperforming polls, expert forecasts, and traditional surveys. Prediction markets like Polymarket have a strong track record of accuracy, especially as events approach their resolution date.
+L289: For example, Polymarket has a one month accuracy score of 94%. For the latest stats on Polymarket’s prediction accuracy, visit the cite26†accuracy page on Polymarket.
+L290: ### How do I start trading on "Core CPI YoY - September 2026"?
+L291: To place your first trade on "Core CPI YoY - September 2026," sign up for a free Polymarket account and fund it using crypto, a credit or debit card, or a bank transfer. Once your account is funded, return to this page, select the outcome you want to trade, enter your amount, and click "Trade." If you're new to prediction markets, click the "How it works" link at the top of any Polymarket page for a quick step-by-step walkthrough of how trading works.
+L292: ### What does a price of 40¢ for "2.4%" mean?
+L293: 
+L294: On Polymarket, the price of each outcome represents the market's implied probability. A price of 40¢ for "2.4%" in the "Core CPI YoY - September 2026" market means traders collectively believe there is roughly a 40% chance that "2.4%" will be the correct result. If you buy "Yes" shares at 40¢ and the outcome is correct, you receive $1.00 per share — a profit of 60¢ per share. If incorrect, those shares are worth $0.
+L295: ### When does the "Core CPI YoY - September 2026" market close?
+L296: 
+L297: The "Core CPI YoY - September 2026" market is scheduled to resolve on or around Oct 14, 2026. This means trading will remain open and the odds will continue to shift as new information emerges until that date. The exact resolution timing depends on when the official result becomes available, as outlined in the "Rules" section on this page.
+L298: ### What are traders saying about "Core CPI YoY - September 2026"?
+L299: 
+L300: The "Core CPI YoY - September 2026" market has a growing discussion of 2 comments where traders share their analysis, debate outcomes, and discuss breaking developments. Scroll down to the comments section below to read what other participants think. You can also filter by "Top Holders" to see what the market's biggest traders are positioned on, or check the "Activity" tab for a real-time feed of trades.
+L301: ### What is Polymarket?
+L302: Polymarket is the world's largest prediction market, where you can stay informed and profit from your knowledge of real-world events. Traders buy and sell shares on outcomes for topics ranging from politics and elections to crypto, finance, sports, tech, and culture, including markets like "Core CPI YoY - September 2026." Prices reflect real-time, crowd-sourced probabilities backed by financial conviction, often providing faster and more accurate signals than polls, pundits, or traditional surveys.
+L303: View more
+L304: 
+L305: The World's Largest Prediction Market™
+L306: ### Markets by category and topics
+L307: 
+L308: cite11†EsportsOdds cite18†WeatherOdds & predictions cite20†ElectionOdds & predictions cite27†BitcoinPredictions & odds cite10†CryptoPrice predictions cite16†CultureTrends & predictions cite28†EarningsPredictions cite17†EconomicPredictions & forecasts cite13†FinancialForecasts & predictions cite5†PerpsPerpetual futures cite14†GeopoliticalPredictions cite19†MentionMarkets cite8†PoliticalOdds & predictions cite9†SportsOdds & predictions cite15†TechTrends & predictions cite29†WorldTrends & predictions L309: ### Support & Social
+L310: 
+L311: cite30†Learn†docs.polymarket.com cite31†𝕏 (Twitter)†x.com cite32†Instagram†www.instagram.com cite33†Discord†discord.gg cite34†TikTok†www.tiktok.com cite35†News†news.polymarket.com Contact us (hello@polymarket.com)cite36†Help Center†help.polymarket.com cite37†Status†status.polymarket.com L312: ### Polymarket
+L313: 
+L314: cite38†Rewards cite39†APIs†docs.polymarket.com cite40†Leaderboard cite41†Institutional†institutional.polymarket.com cite26†Accuracy cite42†Brand cite43†Activity cite44†Careers†careers.polymarket.com Press (press@polymarket.com)
+L315: 
+L316: hello@polymarket.com
+L317: 
+L318: Adventure One QSS Inc. © 2026·cite45†Privacy ·cite46†Terms of Use ·cite47†Market Integrity†integrity.polymarket.com ·cite48†Transparency ·cite36†Help Center†help.polymarket.com ·cite49†Docs†docs.polymarket.com L319: Polymarket operates globally through separate legal entities. cite50†Polymarket US†polymarket.us is operated by QCX LLC d/b/a Polymarket US, a CFTC-regulated Designated Contract Market. This international platform is not regulated by the CFTC and operates independently. Trading involves substantial risk of loss. See our cite46†Terms of Service & cite45†Privacy Policy .
+L320: 
+L321: cite0†Image L322: ## It looks like you’re in the US
+L323: 
+L324: Trading is blocked in the United States on polymarket.com. Switch to cite1†polymarket.us†polymarket.us to trade prediction markets.
+L325: 
+L326: cite1†Go to polymarket.us†polymarket.us [Button: Continue in view only mode]
+L327: 
+L328: cite2†Skip to main content L329: 
+L330: cite3†Trending cite4†Combos cite5†Perps cite6†Breaking cite7†New cite8†Politics cite9†Sports cite10†Crypto cite11†Esports cite12†Iran cite13†Finance cite14†Geopolitics cite15†Tech cite16†Culture cite17†Economy cite18†Weather cite19†Mentions cite20†Elections cite21†Art L331: cite3†Trending cite4†Combos cite5†Perps cite6†Breaking cite7†New cite8†Politics cite9†Sports cite10†Crypto cite11†Esports cite12†Iran cite13†Finance cite14†Geopolitics cite15†Tech cite16†Culture cite17†Economy cite18†Weather cite19†Mentions cite20†Elections cite21†Art L332: 
+L333: cite3†Home L334: 
+L335: Search
+L336: 
+L337: cite6†Breaking L338: 
+L339: More
+L340: 
+L341: cite3†Home L342: 
+L343: Search
+L344: 
+L345: cite6†Breaking L346: 
+L347: More
+L348: 
+L349: cite3†Trending cite4†Combos cite5†Perps cite6†Breaking cite7†New cite8†Politics cite9†Sports cite10†Crypto cite11†Esports cite12†Iran cite13†Finance cite14†Geopolitics cite15†Tech cite16†Culture cite17†Economy cite18†Weather cite19†Mentions cite20†Elections cite21†Art 

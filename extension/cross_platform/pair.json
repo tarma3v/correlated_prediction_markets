@@ -1,0 +1,88 @@
+{
+  "pair_id": "poly_core_cpi_september_exact_2p3__kalshi_gt2p2",
+  "built_at_utc": "2026-09-28T21:21:06.555331+00:00",
+  "status": "provisional_cross_platform_candidate__current_polymarket_rules_not_verified",
+  "polymarket": {
+    "public_market_slug": "will-core-cpi-yoy-be-2pt3-in-september-2026",
+    "event_slug": "core-cpi-yoy-september-2026",
+    "url": "https://polymarket.com/event/core-cpi-yoy-september-2026/will-core-cpi-yoy-be-2pt3-in-september-2026",
+    "numeric_market_id": null,
+    "condition_id": null,
+    "identity_limit": "Exact public slug corroborated by official-page search hit; numeric market/condition IDs not retrieved.",
+    "observed_outcome_label": "2.3%",
+    "predicate_under_normal_release": "September 2026 core CPI YoY, published one-decimal value == 2.3%",
+    "rules_evidence_file": "polymarket_indexed_rules.txt",
+    "rules_acquisition": "official website search-index text; metadata says crawled two weeks ago",
+    "current_page_acquisition": "web-rendered official event page lists outcome2.3 but hides rule body behind Rules button",
+    "snapshot_recorded_at_utc": "2026-09-28T21:20:07+00:00",
+    "freshness_warning": "Snapshot-recording time is not source publication/update time. Indexed text may be stale.",
+    "rule_dimensions": {
+      "underlying": "Core CPI-U excluding food and energy",
+      "horizon": "12 months ending September 2026",
+      "seasonal_adjustment": "before seasonal adjustment (indexed rules)",
+      "source": "official monthly BLS CPI news release",
+      "precision": "published one-decimal figure",
+      "scheduled_release_as_stated": "October 14, 2026, 08:30 ET",
+      "delayed_publication": "may remain open until scheduled time of next CPI report; if still absent, use most recent previous month with data"
+    }
+  },
+  "kalshi": {
+    "ticker": "KXCPICOREYOY-26SEP-T2.2",
+    "event_ticker": "KXCPICOREYOY-26SEP",
+    "url": "https://external-api.kalshi.com/trade-api/v2/markets/KXCPICOREYOY-26SEP-T2.2",
+    "fetched_at_utc": "2026-09-28T21:19:45.656067+00:00",
+    "acquisition": "direct public official API response HTTP200",
+    "raw_evidence_file": "kalshi_2pt2.json",
+    "rules_primary": "If the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.2% in the twelve months ending September 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.",
+    "rules_secondary": "In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "predicate_under_normal_release": "September 2026 core CPI YoY, published one-decimal value > 2.2%",
+    "close_time": "2026-10-14T12:25:00Z",
+    "expected_expiration_time": "2026-10-14T14:00:00Z",
+    "latest_expiration_time_at_snapshot": "2026-10-21T14:00:00Z"
+  },
+  "inference": {
+    "normal_release_relation": "A_implies_B; not equivalent",
+    "normal_release_assumptions": [
+      "same timely September BLS core CPI series and release vintage",
+      "same one-decimal published value",
+      "outcome mapping and full contract rules consistent with retrieved text"
+    ],
+    "forward_reason": "If a common published value equals2.3 then it is greater than2.2.",
+    "reverse_counterexample": {
+      "hypothetical_common_value": "2.4",
+      "polymarket_yes": false,
+      "kalshi_yes": true
+    },
+    "exception_mismatch": "Polymarket indexed rules use a prior-month fallback after another report deadline; Kalshi secondary specifies an extension for shutdown-related delays.",
+    "unconditional_contract_implication": "not certified; exception policies differ and live Polymarket rules are unverified",
+    "hypothetical_exception_counterexample": {
+      "is_observed_outcome": false,
+      "assumptions": [
+        "government shutdown delays September data past Polymarket indexed fallback deadline",
+        "previous available month has2.3%",
+        "September eventually released as2.2% within Kalshi extension",
+        "no unobserved rules override those clauses"
+      ],
+      "polymarket_yes": true,
+      "kalshi_yes": false,
+      "meaning": "Scenario compatible with the retrieved clauses defeats an unconditional implication claim; not evidence that this scenario occurred."
+    }
+  },
+  "limits": [
+    "No live Polymarket API contract record, numeric ID, oracle data or rule-version diff.",
+    "No full Kalshi contract_terms PDF or general rulebook audit.",
+    "No model evaluation, price comparison, arbitrage or population accuracy claims.",
+    "Single pair manually selected; one new Kalshi contract is separate from frozen286-market pilot."
+  ],
+  "request_budget": {
+    "logical_requests_total": 9,
+    "http_local": 4,
+    "web_search_queries": 3,
+    "web_opens": 2
+  },
+  "excluded_evidence": [
+    "AI-generated market summaries",
+    "FAQ forecast/accuracy marketing",
+    "prices and trading volume"
+  ]
+}

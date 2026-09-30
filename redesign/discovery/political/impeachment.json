@@ -1,0 +1,107 @@
+{
+  "_notice": {
+    "type": "free_key_offer",
+    "message": "Free and anonymous access is staying. If this endpoint is in your pipeline, a free key adds advance notice before any schema change or deprecation. POST /v1/keys {\"email\": \"you@firm.com\"} — nothing else required. Something broken or missing? hello@clearmarket.fyi reaches a human.",
+    "docs": "https://clearmarket.fyi/for-data/",
+    "policy": "This field is additive and its shape will not change."
+  },
+  "event_id": "CM-EVT-64KY3VMH10",
+  "slug": "will-trump-be-impeached-by-december-31-2026",
+  "question": "Will Trump be impeached by the end of 2026?",
+  "category": "politics",
+  "event_type": "BINARY",
+  "ladder_distribution": null,
+  "tags": [
+    "trump",
+    "politics",
+    "impeachment",
+    "us-congress",
+    "2026",
+    "presidential-politics"
+  ],
+  "catalyst_types": [],
+  "catalyst_dates": [],
+  "editorial_notes": "This event tracks whether the US House of Representatives passes articles of impeachment against President Donald Trump before December 31, 2026. Only one market is listed, so no cross-platform structural contrast applies. Resolution relies on Polymarket's UMA Optimistic Oracle, referencing official House voting records as the authoritative source.",
+  "venues_covered": [
+    "polymarket"
+  ],
+  "primary_market_id": "CM-MKT-L5NVK9JYQ2",
+  "current_primary_mark": {
+    "last_price": 0.02,
+    "implied_probability": 0.02,
+    "as_of": "2026-09-29T22:00:32.399Z"
+  },
+  "created_at": "2026-08-04T20:03:51.865287+00:00",
+  "updated_at": "2026-08-04T20:03:51.865287+00:00",
+  "markets": [
+    {
+      "market_id": "CM-MKT-L5NVK9JYQ2",
+      "event_id": "CM-EVT-64KY3VMH10",
+      "platform": "polymarket",
+      "platform_market_id": "0x4c8ceef9b9c0a27b6b4efa7c398ece4a5eeda76502f722de398c232abefe2ede",
+      "question": "Will Trump be impeached by end of 2026?",
+      "description": "This market will resolve to “Yes“ if the US House of Representatives by simple majority vote to approve or pass one or more articles of impeachment of President Donald Trump, between July 24, 2025, and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nNeither trial nor conviction by the US Senate, nor removal from office, is necessary to resolve this market to “Yes“.\n\nThe primary resolution source for this market will be information from the federal government of the United States, however a consensus of credible reporting will be used.",
+      "contract_type": "binary",
+      "settlement_currency": "USDC",
+      "underlying_reference": "The US House of Representatives' official voting records on articles of impeachment against President Donald Trump between July 24, 2025 and December 31, 2026.",
+      "close_at": "2026-12-31T00:00:00Z",
+      "resolve_at": "2026-12-31T00:00:00Z",
+      "status": "open",
+      "resolution": {
+        "rules_raw": "This market will resolve to “Yes“ if the US House of Representatives by simple majority vote to approve or pass one or more articles of impeachment of President Donald Trump, between July 24, 2025, and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nNeither trial nor conviction by the US Senate, nor removal from office, is necessary to resolve this market to “Yes“.\n\nThe primary resolution source for this market will be information from the federal government of the United States, however a consensus of credible reporting will be used.",
+        "arbitration_model": "uma_oracle",
+        "proposer": "managed_whitelist",
+        "source": null,
+        "source_status": "no_committed_source",
+        "source_citation": null,
+        "sources": [
+          {
+            "name": "the federal government of the United States",
+            "url": null,
+            "provenance": "clearmarket_editorial"
+          }
+        ],
+        "source_of_record": null,
+        "source_mechanism": null,
+        "source_type": null,
+        "source_quality": null,
+        "source_commitment": "uncommitted",
+        "source_commitment_subtype": "uncommitted_placeholder",
+        "source_hedge_text": null
+      },
+      "rcg": {
+        "grade": "C",
+        "score": 74,
+        "caps": [
+          "commitment_uncommitted_placeholder"
+        ],
+        "applied_factors": 6
+      },
+      "last_price": 0.02,
+      "implied_probability": 0.02,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "volume_24h_usd": 1999.850605,
+      "volume_total_usd": 1034622.3735029998,
+      "settlement_style": "occurrence",
+      "direction": "occurrence",
+      "threshold": null,
+      "question_id": null,
+      "also_on": null,
+      "tags": [
+        "donald trump",
+        "impeachment",
+        "trump",
+        "us-politics"
+      ],
+      "eligibility_screens": null,
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "reconciled_at": null
+    }
+  ],
+  "resolution_log": [],
+  "_provenance": {
+    "source": "clearmarket.fyi",
+    "ref": "CM-EVT-64KY3VMH10",
+    "terms": "Attribution required. clearmarket.fyi"
+  }
+}

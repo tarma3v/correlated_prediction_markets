@@ -1,0 +1,286 @@
+[
+  {
+    "id": "kalshi:KXRECSSNBER-26",
+    "local_record_id": "kalshi:KXRECSSNBER-26",
+    "external_market_id": "KXRECSSNBER-26",
+    "venue": "kalshi",
+    "title": "Will there be a recession in 2026?",
+    "primary": "If there are two consecutive quarters of negative GDP growth in 2025 or 2026, according to the Bureau of Economic Analysis, then the market resolves to Yes.",
+    "secondary": "The market will close at the sooner of the occurrence of the event or 8:25 AM ET on the morning of the expected release of the Advance Estimate of 2026 Q4 GDP. The market will expire at the sooner of the occurrence of the event or the first 10:00 AM ET after the release of the Advance Estimate of 2026 Q4 GDP.",
+    "source_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXRECSSNBER-26",
+    "source_kind": "official_live_api",
+    "raw_file": "markets_KXRECSSNBER.json",
+    "source_sha256": "480e9a82440dd80a24ff9091806e295a3d1fa23fecac5fe5fc0512ef1d699db3",
+    "actual_request_url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXRECSSNBER&limit=15&status=open&mve_filter=exclude",
+    "retrieved_at_utc": "2026-09-29T22:38:10.834743+00:00",
+    "yes_proposition_evidence": {
+      "text": "If there are two consecutive quarters of negative GDP growth in 2025 or 2026, according to the Bureau of Economic Analysis, then the market resolves to Yes.",
+      "kind": "verbatim primary rule; secondary retained separately"
+    },
+    "timing_metadata": {
+      "created_time": "2025-07-09T20:54:10.308365Z",
+      "open_time": "2025-07-14T14:00:00Z",
+      "close_time": "2027-01-31T13:25:00Z"
+    },
+    "coverage_note": "primary/secondary fields; full series contract_terms and general rulebook not audited"
+  },
+  {
+    "id": "kalshi:KXNBERRECESSQ-Q1-2026",
+    "local_record_id": "kalshi:KXNBERRECESSQ-Q1-2026",
+    "external_market_id": "KXNBERRECESSQ-Q1-2026",
+    "venue": "kalshi",
+    "title": "When will the next U.S. recession start?",
+    "primary": "If the NBER declares the peak of American business activity predating a recession to be in Q1 2026, then the market resolves to Yes.",
+    "secondary": "Clarification 4/15/25 3:00 AM ET: The determination for this market will be based on which quarter NBER highlights (independent of the month they highlight). For example, the most recent recession written as \"February 2020 (2019Q4)\" would resolve YES for the market called \"Q4 2019\" (if this was listed).",
+    "source_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXNBERRECESSQ-Q1-2026",
+    "source_kind": "official_live_api",
+    "raw_file": "markets_KXNBERRECESSQ.json",
+    "source_sha256": "2f7fdd48fc0eafb52b7072200ff87862f188fdd4d0e70e36596b7abfc63577f8",
+    "actual_request_url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXNBERRECESSQ&limit=15&status=open&mve_filter=exclude",
+    "retrieved_at_utc": "2026-09-29T22:38:10.833916+00:00",
+    "yes_proposition_evidence": {
+      "text": "If the NBER declares the peak of American business activity predating a recession to be in Q1 2026, then the market resolves to Yes.",
+      "kind": "verbatim primary rule; secondary retained separately"
+    },
+    "timing_metadata": {
+      "created_time": "2025-08-16T17:19:04.135234Z",
+      "open_time": "2025-08-16T17:30:45Z",
+      "close_time": "2026-12-31T15:00:00Z"
+    },
+    "coverage_note": "primary/secondary fields; full series contract_terms and general rulebook not audited"
+  },
+  {
+    "id": "kalshi:KXFEDHIKE-2-26DEC31",
+    "local_record_id": "kalshi:KXFEDHIKE-2-26DEC31",
+    "external_market_id": "KXFEDHIKE-2-26DEC31",
+    "venue": "kalshi",
+    "title": "Will the Federal Reserve hike rates by December 31, 2026?",
+    "primary": "If the Federal Reserve announces an increase in the target range or target level for the federal funds rate after market Issuance and on or before Dec 31, 2026, then the market resolves to Yes.",
+    "secondary": "",
+    "source_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXFEDHIKE-2-26DEC31",
+    "source_kind": "official_live_api",
+    "raw_file": "markets_KXFEDHIKE.json",
+    "source_sha256": "2b4ed787387ca9ebc1746b7ebe5e5aa608974edbc7713f2f218c0576030f16b7",
+    "actual_request_url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXFEDHIKE&limit=15&status=open&mve_filter=exclude",
+    "retrieved_at_utc": "2026-09-29T22:38:11.465245+00:00",
+    "yes_proposition_evidence": {
+      "text": "If the Federal Reserve announces an increase in the target range or target level for the federal funds rate after market Issuance and on or before Dec 31, 2026, then the market resolves to Yes.",
+      "kind": "verbatim primary rule; secondary retained separately"
+    },
+    "timing_metadata": {
+      "created_time": "2026-09-16T19:51:36.867455Z",
+      "open_time": "2026-09-16T20:30:00Z",
+      "close_time": "2027-01-01T04:59:00Z"
+    },
+    "coverage_note": "primary/secondary fields; full series contract_terms and general rulebook not audited"
+  },
+  {
+    "id": "kalshi:KXRATEHIKE-2026-1",
+    "local_record_id": "kalshi:KXRATEHIKE-2026-1",
+    "external_market_id": "KXRATEHIKE-2026-1",
+    "venue": "kalshi",
+    "title": "Will there be exactly 1 Fed rate hike in 2026?",
+    "primary": "If the number of rate hikes by the Federal Open Market Committee during calendar year 2026 is exactly 1, then the market resolves to Yes.",
+    "secondary": "Please note the following definition of a \"rate hike\": A single ‘hike’ is considered an increase in the upper bound by at least 1 basis point and up to and including 25 basis points. An increase of the upper bound of the target range 26-50 basis points hike is considered two hikes. An increase of the upper bound of the target range 51-75 basis points is considered three hikes.",
+    "source_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXRATEHIKE-2026-1",
+    "source_kind": "official_live_api",
+    "raw_file": "markets_KXRATEHIKE.json",
+    "source_sha256": "e2d80c2eee7af09ab9bf196baffd29f3df9440adac7a17cf6b2fd8a0fa94f95f",
+    "actual_request_url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXRATEHIKE&limit=15&status=open&mve_filter=exclude",
+    "retrieved_at_utc": "2026-09-29T22:38:11.468684+00:00",
+    "yes_proposition_evidence": {
+      "text": "If the number of rate hikes by the Federal Open Market Committee during calendar year 2026 is exactly 1, then the market resolves to Yes.",
+      "kind": "verbatim primary rule; secondary retained separately"
+    },
+    "timing_metadata": {
+      "created_time": "2026-09-15T16:43:04.126372Z",
+      "open_time": "2026-09-15T17:00:00Z",
+      "close_time": "2027-01-03T15:00:00Z"
+    },
+    "coverage_note": "primary/secondary fields; full series contract_terms and general rulebook not audited"
+  },
+  {
+    "id": "kalshi:KXGTA6ONTIME-26MAY26",
+    "local_record_id": "kalshi:KXGTA6ONTIME-26MAY26",
+    "external_market_id": "KXGTA6ONTIME-26MAY26",
+    "venue": "kalshi",
+    "title": "WIll GTA6 be released by May 26, 2026?",
+    "primary": "If GTA 6 has been released on a major platform (PS5, Xbox Series X/S, Windows) before May 27, 2026, then the market resolves to Yes.",
+    "secondary": "",
+    "source_url": "https://external-api.kalshi.com/trade-api/v2/historical/markets?tickers=KXGTA6ONTIME-26MAY26",
+    "source_kind": "official_historical_api",
+    "raw_file": "gta_historical_response.json",
+    "source_sha256": "0c572a1ab8289f7ce3fba5c404c4c99b570258cbf32ae067704cb1e355832c35",
+    "actual_request_url": "https://external-api.kalshi.com/trade-api/v2/historical/markets?tickers=KXGTA6ONTIME-26MAY26&limit=1",
+    "retrieved_at_utc": "2026-09-29T22:40:54.956870+00:00",
+    "yes_proposition_evidence": {
+      "text": "If GTA 6 has been released on a major platform (PS5, Xbox Series X/S, Windows) before May 27, 2026, then the market resolves to Yes.",
+      "kind": "verbatim primary rule; secondary retained separately"
+    },
+    "timing_metadata": {
+      "created_time": "2025-05-02T13:14:02.665173Z",
+      "open_time": "2025-05-02T13:30:00Z",
+      "close_time": "2026-05-27T03:59:00Z"
+    },
+    "coverage_note": "primary/secondary fields; full series contract_terms and general rulebook not audited"
+  },
+  {
+    "id": "kalshi:KXGTAONLINE-GTA6ONLINE-27",
+    "local_record_id": "kalshi:KXGTAONLINE-GTA6ONLINE-27",
+    "external_market_id": "KXGTAONLINE-GTA6ONLINE-27",
+    "venue": "kalshi",
+    "title": "Will Rockstar Games release GTA VI Online to the public before 2027?",
+    "primary": "If Rockstar Games releases GTA VI Online to the public before Jan 1, 2027, then the market resolves to Yes.",
+    "secondary": "For this market, “GTA VI Online” means an online multiplayer mode or service for Grand Theft Auto VI, whether bundled with the base game or separately distributed and regardless of the name Rockstar Games uses. It is released when the general U.S. public can access and play it on at least one supported platform. Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Rockstar Games. All trademarks, logos, and brand names are the property of their respective owners.",
+    "source_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXGTAONLINE-GTA6ONLINE-27",
+    "source_kind": "official_live_api",
+    "raw_file": "gta_online.json",
+    "source_sha256": "b7bb0029b798bc22463afb494fecac60255e481ff58a3b48315a02f34c2e2329",
+    "actual_request_url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXGTAONLINE&limit=5",
+    "retrieved_at_utc": "2026-09-29T22:40:08.607944+00:00",
+    "yes_proposition_evidence": {
+      "text": "If Rockstar Games releases GTA VI Online to the public before Jan 1, 2027, then the market resolves to Yes.",
+      "kind": "verbatim primary rule; secondary retained separately"
+    },
+    "timing_metadata": {
+      "created_time": "2026-08-31T17:16:35.600834Z",
+      "open_time": "2026-08-31T17:30:00Z",
+      "close_time": "2027-01-01T04:59:00Z"
+    },
+    "coverage_note": "primary/secondary fields; full series contract_terms and general rulebook not audited"
+  },
+  {
+    "id": "polymarket:poly_gta_postponed",
+    "local_record_id": "polymarket:poly_gta_postponed",
+    "external_market_id": null,
+    "id_note": "Local alias only; not a venue-issued market ID. Identity evidence is the source URL and observed outcome label.",
+    "venue": "polymarket",
+    "title": "GTA 6 launch postponed?",
+    "primary": "This market will resolve to \"Yes\" if by May 26, 2026, 11:59 PM ET, Rockstar Games or its parent company, Take-Two Interactive, officially announces that Grand Theft Auto VI (GTA VI) will not be released by May 26, 2026. Otherwise, this market will resolve to \"No\". If Grand Theft Auto VI is otherwise not released in the US by May 26, 2026, 11:59 PM ET this will qualify as a postponement. For the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count. The resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive.",
+    "secondary": "",
+    "outcome_label": null,
+    "source_url": "https://polymarket.com/event/gta-6-launch-postponed",
+    "source_kind": "official_website_search_index",
+    "raw_file": "web_domains_search.txt",
+    "source_sha256": "5829fe8ec71491974da14c14ee90de68cb9ac02ec435bb9ae7a942312563cade",
+    "numeric_market_id": null,
+    "condition_id": null,
+    "crawled_as_reported": "3 weeks ago",
+    "source_anomalies": [],
+    "snapshot_recorded_at_utc": "2026-09-29T22:40:54+00:00",
+    "yes_proposition_evidence": {
+      "text": "This market will resolve to \"Yes\" if by May 26, 2026, 11:59 PM ET, Rockstar Games or its parent company, Take-Two Interactive, officially announces that Grand Theft Auto VI (GTA VI) will not be released by May 26, 2026. Otherwise, this market will resolve to \"No\". If Grand Theft Auto VI is otherwise not released in the US by May 26, 2026, 11:59 PM ET this will qualify as a postponement. For the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count. The resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive.",
+      "observed_outcome_binding": null,
+      "kind": "verbatim indexed rules; bind only the explicitly observed outcome label"
+    },
+    "coverage_note": "Official-site indexed/rendered text, may be stale. Event+outcome identifiers where numeric contract ID unavailable; not Gamma API."
+  },
+  {
+    "id": "polymarket:poly_gta_release_oct31::October 31",
+    "local_record_id": "polymarket:poly_gta_release_oct31::October 31",
+    "external_market_id": null,
+    "id_note": "Local alias only; not a venue-issued market ID. Identity evidence is the source URL and observed outcome label.",
+    "venue": "polymarket",
+    "title": "GTA VI officially released in US by October 31, 2026?",
+    "primary": "This market will resolve to \"Yes\" if it Grand Theft Auto VI is officially released in the US by October 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\". For the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count. The resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive.",
+    "secondary": "",
+    "outcome_label": "October 31",
+    "source_url": "https://polymarket.com/event/gta-vi-released-before-november-2026?outcomeIndex=0",
+    "source_kind": "official_website_search_index",
+    "raw_file": "web_domains_search.txt",
+    "source_sha256": "5829fe8ec71491974da14c14ee90de68cb9ac02ec435bb9ae7a942312563cade",
+    "numeric_market_id": null,
+    "condition_id": null,
+    "crawled_as_reported": "2 weeks ago",
+    "source_anomalies": [],
+    "snapshot_recorded_at_utc": "2026-09-29T22:40:54+00:00",
+    "yes_proposition_evidence": {
+      "text": "This market will resolve to \"Yes\" if it Grand Theft Auto VI is officially released in the US by October 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\". For the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count. The resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive.",
+      "observed_outcome_binding": "October 31",
+      "kind": "verbatim indexed rules; bind only the explicitly observed outcome label"
+    },
+    "coverage_note": "Official-site indexed/rendered text, may be stale. Event+outcome identifiers where numeric contract ID unavailable; not Gamma API."
+  },
+  {
+    "id": "polymarket:poly_dodgers_ws2026::Los Angeles Dodgers",
+    "local_record_id": "polymarket:poly_dodgers_ws2026::Los Angeles Dodgers",
+    "external_market_id": null,
+    "id_note": "Local alias only; not a venue-issued market ID. Identity evidence is the source URL and observed outcome label.",
+    "venue": "polymarket",
+    "title": "Will the Los Angeles Dodgers win the 2026 World Series?",
+    "primary": "This market will resolve according to the team that wins the 2026 MLB World Series.\nIf at any point it becomes impossible for a listed team to win the 2026 MLB World Series per the rules of MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\nIf the 2026 MLB season is cancelled, postponed after December 31, 2026 ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\nThe primary resolution source will be official information from MLB (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+    "secondary": "",
+    "outcome_label": "Los Angeles Dodgers",
+    "source_url": "https://polymarket.com/event/mlb-world-series-champion-2026/will-the-los-angeles-dodgers-win-the-2026-world-series",
+    "source_kind": "official_website_search_index",
+    "raw_file": "web_domains_search.txt",
+    "source_sha256": "5829fe8ec71491974da14c14ee90de68cb9ac02ec435bb9ae7a942312563cade",
+    "numeric_market_id": null,
+    "condition_id": null,
+    "crawled_as_reported": "2 weeks ago",
+    "source_anomalies": [],
+    "snapshot_recorded_at_utc": "2026-09-29T22:40:54+00:00",
+    "yes_proposition_evidence": {
+      "text": "This market will resolve according to the team that wins the 2026 MLB World Series.\nIf at any point it becomes impossible for a listed team to win the 2026 MLB World Series per the rules of MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\nIf the 2026 MLB season is cancelled, postponed after December 31, 2026 ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\nThe primary resolution source will be official information from MLB (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+      "observed_outcome_binding": "Los Angeles Dodgers",
+      "kind": "verbatim indexed rules; bind only the explicitly observed outcome label"
+    },
+    "coverage_note": "Official-site indexed/rendered text, may be stale. Event+outcome identifiers where numeric contract ID unavailable; not Gamma API."
+  },
+  {
+    "id": "polymarket:poly_nlcs2026::Los Angeles Dodgers",
+    "local_record_id": "polymarket:poly_nlcs2026::Los Angeles Dodgers",
+    "external_market_id": null,
+    "id_note": "Local alias only; not a venue-issued market ID. Identity evidence is the source URL and observed outcome label.",
+    "venue": "polymarket",
+    "title": "Will Los Angeles Dodgers win the 2026 National League Championship Series?",
+    "primary": "This market will resolve according to the team that wins the 2026 National League Championship Series. If at any point it becomes impossible for a listed team to win the 2026 National League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”. If the 2026 National League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”. The primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+    "secondary": "",
+    "outcome_label": "Los Angeles Dodgers",
+    "source_url": "https://polymarket.com/event/mlb-2026-national-league-champion",
+    "source_kind": "official_website_search_index",
+    "raw_file": "web_sports_search.txt",
+    "source_sha256": "14631bd91441b426b971c6c8909ea72668a28937550ad4de16d00731da719b15",
+    "numeric_market_id": null,
+    "condition_id": null,
+    "crawled_as_reported": "2 weeks ago",
+    "source_anomalies": [
+      "November 31, 2026 is an invalid calendar date; preserved, not repaired."
+    ],
+    "snapshot_recorded_at_utc": "2026-09-29T22:40:54+00:00",
+    "yes_proposition_evidence": {
+      "text": "This market will resolve according to the team that wins the 2026 National League Championship Series. If at any point it becomes impossible for a listed team to win the 2026 National League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”. If the 2026 National League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”. The primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+      "observed_outcome_binding": "Los Angeles Dodgers",
+      "kind": "verbatim indexed rules; bind only the explicitly observed outcome label"
+    },
+    "coverage_note": "Official-site indexed/rendered text, may be stale. Event+outcome identifiers where numeric contract ID unavailable; not Gamma API."
+  },
+  {
+    "id": "polymarket:poly_nlcs2026::Atlanta Braves",
+    "local_record_id": "polymarket:poly_nlcs2026::Atlanta Braves",
+    "external_market_id": null,
+    "id_note": "Local alias only; not a venue-issued market ID. Identity evidence is the source URL and observed outcome label.",
+    "venue": "polymarket",
+    "title": "Will Atlanta Braves win the 2026 National League Championship Series?",
+    "primary": "This market will resolve according to the team that wins the 2026 National League Championship Series. If at any point it becomes impossible for a listed team to win the 2026 National League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”. If the 2026 National League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”. The primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+    "secondary": "",
+    "outcome_label": "Atlanta Braves",
+    "source_url": "https://polymarket.com/event/mlb-2026-national-league-champion?marketSlug=will-atlanta-braves-win-the-2026-national-league-championship-series&outcomeIndex=1",
+    "source_kind": "official_website_search_index",
+    "raw_file": "web_sports_search.txt",
+    "source_sha256": "14631bd91441b426b971c6c8909ea72668a28937550ad4de16d00731da719b15",
+    "numeric_market_id": null,
+    "condition_id": null,
+    "crawled_as_reported": "2 weeks ago",
+    "source_anomalies": [
+      "November 31, 2026 is an invalid calendar date; preserved, not repaired."
+    ],
+    "snapshot_recorded_at_utc": "2026-09-29T22:40:54+00:00",
+    "yes_proposition_evidence": {
+      "text": "This market will resolve according to the team that wins the 2026 National League Championship Series. If at any point it becomes impossible for a listed team to win the 2026 National League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”. If the 2026 National League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”. The primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+      "observed_outcome_binding": "Atlanta Braves",
+      "kind": "verbatim indexed rules; bind only the explicitly observed outcome label"
+    },
+    "coverage_note": "Official-site indexed/rendered text, may be stale. Event+outcome identifiers where numeric contract ID unavailable; not Gamma API."
+  }
+]

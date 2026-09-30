@@ -1,0 +1,40 @@
+{
+  "request_url": "https://external-api.kalshi.com/trade-api/v2/series/KXCPIYOY",
+  "requested_at_utc": "2026-09-28T21:02:50.855780+00:00",
+  "file": "raw/metadata_KXCPIYOY.json",
+  "status_code": 200,
+  "fetched_at_utc": "2026-09-28T21:02:51.691524+00:00",
+  "response": {
+    "series": {
+      "additional_prohibitions": [
+        "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+        "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+      ],
+      "categories": [
+        "Economics"
+      ],
+      "category": "Economics",
+      "contract_terms_url": "https://assets.kalshi.com/contract_terms/YOYCPI.pdf",
+      "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/YOYCPI.pdf",
+      "exchange_index": 0,
+      "fee_multiplier": 1,
+      "fee_type": "quadratic_with_maker_fees",
+      "frequency": "monthly",
+      "last_updated_ts": "2026-08-10T17:13:12.594241Z",
+      "product_metadata": {
+        "scope": "Calendar"
+      },
+      "settlement_sources": [
+        {
+          "name": "Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/cpi/"
+        }
+      ],
+      "tags": [
+        "Inflation"
+      ],
+      "ticker": "KXCPIYOY",
+      "title": "Inflation"
+    }
+  }
+}

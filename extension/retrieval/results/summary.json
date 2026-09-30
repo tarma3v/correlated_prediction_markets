@@ -1,0 +1,506 @@
+{
+  "created_at_utc": "2026-09-28T21:17:09.419465+00:00",
+  "input_hashes": {
+    "manifest.json": "69acb9c161934521c60f3ec26100dac469bc876fa7d4beb6aa02c2ccf6c0241a",
+    "markets.json": "b563a9b5948e5c7a485db0919d54739afdbed5e6e7cd491620db4a69d7dada97",
+    "results/candidates.json": "82eb1fbd580a8c03032f1e283d873583afda3d2a6e4a4a88beb2ac1c15f7015b",
+    "results/review_cases.json": "1684f88996cfd3869e922bd5fdc1ef67d800f07addf41a1469a781fdd4d38ace"
+  },
+  "dependencies": {
+    "numpy": "1.25.1",
+    "scipy": "1.11.1",
+    "scikit-learn": "1.3.0"
+  },
+  "top5_original_candidate_set_reproduced": true,
+  "markets": 286,
+  "possible_pairs": 40755,
+  "positive_controls": [
+    "same_title_thresholds",
+    "strict_thresholds"
+  ],
+  "metric_warning": "Post-hoc selected two same-event textual controls. Hit rate is NOT population recall. Other exploratory case presences are neither gold true/false positives nor accuracy.",
+  "threshold_generator": {
+    "extraction_status": {
+      "parsed_candidate_only": 286
+    },
+    "groups": 19,
+    "groups_with_multiple_markets": 19,
+    "conditional_candidates": 2838,
+    "certified_contract_implications": 0,
+    "candidate_budget": {
+      "candidate_pairs": 2838,
+      "same_event_pairs": 2838,
+      "cross_event_pairs": 0,
+      "fraction_of_all_pairs": 0.06963562753036437,
+      "exploratory_case_presence": {
+        "same_title_thresholds": true,
+        "strict_thresholds": true,
+        "different_periods": false,
+        "headline_vs_core": false,
+        "month_to_any_month": false,
+        "different_assets_shared_boilerplate": false
+      },
+      "positive_control_hit_count": 2,
+      "positive_control_count": 2,
+      "positive_control_retrieval_hit_rate": 1.0
+    },
+    "scope": "Same-event controls only; full contract/source review remains required. No cross-event or cross-platform discoveries."
+  },
+  "sweep": [
+    {
+      "top_k": 1,
+      "variants": {
+        "title": {
+          "candidate_pairs": 171,
+          "same_event_pairs": 53,
+          "cross_event_pairs": 118,
+          "fraction_of_all_pairs": 0.004195804195804196,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 1,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.5
+        },
+        "rules": {
+          "candidate_pairs": 181,
+          "same_event_pairs": 83,
+          "cross_event_pairs": 98,
+          "fraction_of_all_pairs": 0.0044411728622254934,
+          "exploratory_case_presence": {
+            "same_title_thresholds": false,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": false,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 0,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.0
+        },
+        "title_rules": {
+          "candidate_pairs": 175,
+          "same_event_pairs": 68,
+          "cross_event_pairs": 107,
+          "fraction_of_all_pairs": 0.004293951662372715,
+          "exploratory_case_presence": {
+            "same_title_thresholds": false,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": false,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 0,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.0
+        },
+        "text_union": {
+          "candidate_pairs": 252,
+          "same_event_pairs": 87,
+          "cross_event_pairs": 165,
+          "fraction_of_all_pairs": 0.006183290393816709,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 1,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.5
+        },
+        "text_union_plus_threshold": {
+          "candidate_pairs": 3003,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 165,
+          "fraction_of_all_pairs": 0.07368421052631578,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        }
+      },
+      "additional_threshold_pairs": 2751
+    },
+    {
+      "top_k": 5,
+      "variants": {
+        "title": {
+          "candidate_pairs": 888,
+          "same_event_pairs": 542,
+          "cross_event_pairs": 346,
+          "fraction_of_all_pairs": 0.021788737578211263,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 1,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.5
+        },
+        "rules": {
+          "candidate_pairs": 943,
+          "same_event_pairs": 796,
+          "cross_event_pairs": 147,
+          "fraction_of_all_pairs": 0.0231382652435284,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": false,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 1,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.5
+        },
+        "title_rules": {
+          "candidate_pairs": 953,
+          "same_event_pairs": 767,
+          "cross_event_pairs": 186,
+          "fraction_of_all_pairs": 0.0233836339099497,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": false,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 1,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.5
+        },
+        "text_union": {
+          "candidate_pairs": 1188,
+          "same_event_pairs": 839,
+          "cross_event_pairs": 349,
+          "fraction_of_all_pairs": 0.029149797570850202,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 1,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.5
+        },
+        "text_union_plus_threshold": {
+          "candidate_pairs": 3187,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 349,
+          "fraction_of_all_pairs": 0.07819899398846768,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        }
+      },
+      "additional_threshold_pairs": 1999
+    },
+    {
+      "top_k": 10,
+      "variants": {
+        "title": {
+          "candidate_pairs": 1724,
+          "same_event_pairs": 1276,
+          "cross_event_pairs": 448,
+          "fraction_of_all_pairs": 0.042301558091031775,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": false,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 1,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 0.5
+        },
+        "rules": {
+          "candidate_pairs": 1664,
+          "same_event_pairs": 1441,
+          "cross_event_pairs": 223,
+          "fraction_of_all_pairs": 0.040829346092503986,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": false,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "title_rules": {
+          "candidate_pairs": 1671,
+          "same_event_pairs": 1420,
+          "cross_event_pairs": 251,
+          "fraction_of_all_pairs": 0.041001104158998894,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": false,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "text_union": {
+          "candidate_pairs": 2012,
+          "same_event_pairs": 1483,
+          "cross_event_pairs": 529,
+          "fraction_of_all_pairs": 0.049368175683965156,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "text_union_plus_threshold": {
+          "candidate_pairs": 3367,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 529,
+          "fraction_of_all_pairs": 0.08261562998405103,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        }
+      },
+      "additional_threshold_pairs": 1355
+    },
+    {
+      "top_k": 20,
+      "variants": {
+        "title": {
+          "candidate_pairs": 3237,
+          "same_event_pairs": 2063,
+          "cross_event_pairs": 1174,
+          "fraction_of_all_pairs": 0.07942583732057416,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "rules": {
+          "candidate_pairs": 3265,
+          "same_event_pairs": 2094,
+          "cross_event_pairs": 1171,
+          "fraction_of_all_pairs": 0.0801128695865538,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": false,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "title_rules": {
+          "candidate_pairs": 3254,
+          "same_event_pairs": 2086,
+          "cross_event_pairs": 1168,
+          "fraction_of_all_pairs": 0.07984296405349037,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": false,
+            "month_to_any_month": true,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "text_union": {
+          "candidate_pairs": 3974,
+          "same_event_pairs": 2095,
+          "cross_event_pairs": 1879,
+          "fraction_of_all_pairs": 0.09750950803582382,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": true,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "text_union_plus_threshold": {
+          "candidate_pairs": 4717,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 1879,
+          "fraction_of_all_pairs": 0.11574039995092626,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": true,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        }
+      },
+      "additional_threshold_pairs": 743
+    },
+    {
+      "top_k": 50,
+      "variants": {
+        "title": {
+          "candidate_pairs": 7930,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 5092,
+          "fraction_of_all_pairs": 0.19457735247208932,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": true,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "rules": {
+          "candidate_pairs": 8437,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 5599,
+          "fraction_of_all_pairs": 0.20701754385964913,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": false,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "title_rules": {
+          "candidate_pairs": 8265,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 5427,
+          "fraction_of_all_pairs": 0.20279720279720279,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": true,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "text_union": {
+          "candidate_pairs": 9608,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 6770,
+          "fraction_of_all_pairs": 0.23575021469758312,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": true,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        },
+        "text_union_plus_threshold": {
+          "candidate_pairs": 9608,
+          "same_event_pairs": 2838,
+          "cross_event_pairs": 6770,
+          "fraction_of_all_pairs": 0.23575021469758312,
+          "exploratory_case_presence": {
+            "same_title_thresholds": true,
+            "strict_thresholds": true,
+            "different_periods": true,
+            "headline_vs_core": true,
+            "month_to_any_month": true,
+            "different_assets_shared_boilerplate": false
+          },
+          "positive_control_hit_count": 2,
+          "positive_control_count": 2,
+          "positive_control_retrieval_hit_rate": 1.0
+        }
+      },
+      "additional_threshold_pairs": 0
+    }
+  ]
+}

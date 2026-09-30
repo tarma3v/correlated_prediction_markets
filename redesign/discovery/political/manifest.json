@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://api.clearmarket.fyi/v1/events/will-trump-be-impeached-by-december-31-2026",
+    "status": 200,
+    "file": "impeachment.json",
+    "sha256": "d43d023c00df7e8d0fe163963f13bab49ad797584e311cbc0b64aa00215d6250",
+    "fetched_at_utc": "2026-09-29T22:40:27.483986+00:00"
+  },
+  {
+    "url": "https://external-api.kalshi.com/trade-api/v2/markets/KXTRUMPOUT27-27-DJT",
+    "status": 200,
+    "file": "kalshi_out.json",
+    "sha256": "82f2540fba4a2fea87141530593e5145caaa84896ec2e48d8d820c055ceb8fe2",
+    "fetched_at_utc": "2026-09-29T22:40:28.141537+00:00"
+  }
+]

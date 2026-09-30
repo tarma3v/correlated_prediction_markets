@@ -1,0 +1,115 @@
+{
+  "external_n": 64,
+  "definite_author_labels": 59,
+  "reference_label_agreement": {
+    "agree": 19,
+    "n": 59,
+    "fraction": 0.3220338983050847
+  },
+  "coverage": {
+    "covered": 43,
+    "n": 59,
+    "fraction": 0.7288135593220338
+  },
+  "selective_agreement": {
+    "agree": 19,
+    "n": 43,
+    "fraction": 0.4418604651162791
+  },
+  "per_class": {
+    "same": {
+      "n": 32,
+      "agree": 0
+    },
+    "different": {
+      "n": 27,
+      "agree": 19
+    }
+  },
+  "balanced_agreement": 0.35185185185185186,
+  "confusion": [
+    {
+      "author_label": "different",
+      "prediction": "error",
+      "n": 8
+    },
+    {
+      "author_label": "different",
+      "prediction": "not_exact_match",
+      "n": 19
+    },
+    {
+      "author_label": "same",
+      "prediction": "error",
+      "n": 8
+    },
+    {
+      "author_label": "same",
+      "prediction": "not_exact_match",
+      "n": 24
+    }
+  ],
+  "author_unsure_prediction_counts": {
+    "not_exact_match": 4,
+    "error": 1
+  },
+  "schema_valid_json": 47,
+  "valid_first_pass_json": 47,
+  "error_counts": {
+    "JSONDecodeError": 24,
+    "ValidationError": 2
+  },
+  "total_n": 73,
+  "quote_exact_substrings": {
+    "valid": 172,
+    "n": 186
+  },
+  "core_decisions": [
+    {
+      "id": "politics_resignation_departure",
+      "decision": "error",
+      "relation": null
+    },
+    {
+      "id": "politics_impeachment_departure",
+      "decision": "error",
+      "relation": null
+    },
+    {
+      "id": "politics_crossvenue_departure",
+      "decision": "error",
+      "relation": null
+    },
+    {
+      "id": "macro_recession_definition",
+      "decision": "error",
+      "relation": null
+    },
+    {
+      "id": "macro_hike_unit_and_window",
+      "decision": "error",
+      "relation": null
+    },
+    {
+      "id": "gaming_release_vs_postponement",
+      "decision": "error",
+      "relation": null
+    },
+    {
+      "id": "gaming_base_game_vs_online",
+      "decision": "error",
+      "relation": null
+    },
+    {
+      "id": "sports_world_to_league",
+      "decision": "error",
+      "relation": null
+    },
+    {
+      "id": "sports_world_vs_other_league_winner",
+      "decision": "error",
+      "relation": null
+    }
+  ],
+  "caveat": "Agreement with external author labels on an enriched 64-pair sample, not human-gold accuracy. Core cases have no scored gold. Quote existence is not evidence sufficiency."
+}

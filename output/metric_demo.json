@@ -1,0 +1,81 @@
+{
+  "kind": "synthetic_exact_enumeration_not_empirical_benchmark",
+  "implication": {
+    "definition": "A: x>150; B: x>100; same source/time; binary, no exceptions",
+    "feasible_states": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "labels": [
+      "a_implies_b"
+    ],
+    "counterexample_to_equality": [
+      0,
+      1
+    ],
+    "positive_sign_equality_proxy_uniform_worlds": 0.6666666666666666,
+    "implication_violation_rate": 0.0
+  },
+  "exclusive_triangle": {
+    "stipulated_worlds": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "exclusion_violations": 0,
+    "minimum_signed_frustrated_edges": 1,
+    "signed_frustration_rate": 0.3333333333333333,
+    "opposite_outcome_proxy_uniform_worlds": 0.6666666666666666,
+    "both_no_witness_for_first_pair": [
+      0,
+      0,
+      1
+    ]
+  },
+  "independent_base_rate_null": {
+    "p_a": 0.1,
+    "p_b": 0.1,
+    "independent": true,
+    "always_positive_sign_expected_equality": 0.8200000000000001,
+    "covariance": 0.0
+  },
+  "subset_bundle_payoffs": [
+    {
+      "a_subset": 0,
+      "b_superset": 0,
+      "yes_b_plus_no_a": 1
+    },
+    {
+      "a_subset": 0,
+      "b_superset": 1,
+      "yes_b_plus_no_a": 2
+    },
+    {
+      "a_subset": 1,
+      "b_superset": 1,
+      "yes_b_plus_no_a": 1
+    }
+  ]
+}

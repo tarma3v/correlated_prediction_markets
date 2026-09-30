@@ -1,0 +1,15 @@
+# Actual installed versions recorded 2026-09-30 from comparison/.venv-llm.
+# Local MLX/Metal runtime: macOS with Apple Silicon, Python 3.11.
+# Keep separate from the PyTorch 2.0.1 / Transformers 4.44.2 retrieval environment.
+mlx==0.32.3
+mlx-metal==0.32.3
+mlx-lm==0.31.3
+transformers==5.17.0
+tokenizers==0.23.2
+huggingface-hub==1.33.0
+numpy==2.4.6
+safetensors==0.8.0
+sentencepiece==0.2.2
+protobuf==7.36.2
+jinja2==3.1.6
+jsonschema==4.26.0

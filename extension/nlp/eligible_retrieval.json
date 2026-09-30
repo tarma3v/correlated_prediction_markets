@@ -1,0 +1,299 @@
+{
+  "scope": "Post-hoc candidate-budget and eligibility diagnostic, not recall",
+  "all_unordered_pairs": 40755,
+  "cross_event_unordered_pairs": 37917,
+  "methods": {
+    "lexical": {
+      "title": {
+        "budgets": {
+          "1": {
+            "filter_before_topk_pairs": 183,
+            "filter_after_topk_pairs": 118
+          },
+          "5": {
+            "filter_before_topk_pairs": 937,
+            "filter_after_topk_pairs": 346
+          },
+          "10": {
+            "filter_before_topk_pairs": 1973,
+            "filter_after_topk_pairs": 448
+          },
+          "20": {
+            "filter_before_topk_pairs": 3464,
+            "filter_after_topk_pairs": 1174
+          }
+        },
+        "case_ranks": [
+          {
+            "case_id": "different_periods",
+            "ordinary_min_direction_rank": 1,
+            "eligible_min_direction_rank": 1
+          },
+          {
+            "case_id": "headline_vs_core",
+            "ordinary_min_direction_rank": 1,
+            "eligible_min_direction_rank": 1
+          },
+          {
+            "case_id": "month_to_any_month",
+            "ordinary_min_direction_rank": 44,
+            "eligible_min_direction_rank": 39
+          },
+          {
+            "case_id": "different_assets_shared_boilerplate",
+            "ordinary_min_direction_rank": 59,
+            "eligible_min_direction_rank": 20
+          }
+        ]
+      },
+      "rules": {
+        "budgets": {
+          "1": {
+            "filter_before_topk_pairs": 186,
+            "filter_after_topk_pairs": 98
+          },
+          "5": {
+            "filter_before_topk_pairs": 1039,
+            "filter_after_topk_pairs": 147
+          },
+          "10": {
+            "filter_before_topk_pairs": 1969,
+            "filter_after_topk_pairs": 223
+          },
+          "20": {
+            "filter_before_topk_pairs": 3300,
+            "filter_after_topk_pairs": 1171
+          }
+        },
+        "case_ranks": [
+          {
+            "case_id": "different_periods",
+            "ordinary_min_direction_rank": 1,
+            "eligible_min_direction_rank": 1
+          },
+          {
+            "case_id": "headline_vs_core",
+            "ordinary_min_direction_rank": 50,
+            "eligible_min_direction_rank": 44
+          },
+          {
+            "case_id": "month_to_any_month",
+            "ordinary_min_direction_rank": 59,
+            "eligible_min_direction_rank": 54
+          },
+          {
+            "case_id": "different_assets_shared_boilerplate",
+            "ordinary_min_direction_rank": 59,
+            "eligible_min_direction_rank": 20
+          }
+        ]
+      },
+      "title_rules": {
+        "budgets": {
+          "1": {
+            "filter_before_topk_pairs": 186,
+            "filter_after_topk_pairs": 107
+          },
+          "5": {
+            "filter_before_topk_pairs": 1025,
+            "filter_after_topk_pairs": 186
+          },
+          "10": {
+            "filter_before_topk_pairs": 2028,
+            "filter_after_topk_pairs": 251
+          },
+          "20": {
+            "filter_before_topk_pairs": 3413,
+            "filter_after_topk_pairs": 1168
+          }
+        },
+        "case_ranks": [
+          {
+            "case_id": "different_periods",
+            "ordinary_min_direction_rank": 1,
+            "eligible_min_direction_rank": 1
+          },
+          {
+            "case_id": "headline_vs_core",
+            "ordinary_min_direction_rank": 40,
+            "eligible_min_direction_rank": 34
+          },
+          {
+            "case_id": "month_to_any_month",
+            "ordinary_min_direction_rank": 16,
+            "eligible_min_direction_rank": 11
+          },
+          {
+            "case_id": "different_assets_shared_boilerplate",
+            "ordinary_min_direction_rank": 59,
+            "eligible_min_direction_rank": 20
+          }
+        ]
+      },
+      "union": {
+        "1": {
+          "filter_before_topk_pairs": 265,
+          "filter_after_topk_pairs": 165
+        },
+        "5": {
+          "filter_before_topk_pairs": 1455,
+          "filter_after_topk_pairs": 349
+        },
+        "10": {
+          "filter_before_topk_pairs": 2845,
+          "filter_after_topk_pairs": 529
+        },
+        "20": {
+          "filter_before_topk_pairs": 4619,
+          "filter_after_topk_pairs": 1879
+        }
+      }
+    },
+    "dense": {
+      "title": {
+        "budgets": {
+          "1": {
+            "filter_before_topk_pairs": 227,
+            "filter_after_topk_pairs": 2
+          },
+          "5": {
+            "filter_before_topk_pairs": 1142,
+            "filter_after_topk_pairs": 6
+          },
+          "10": {
+            "filter_before_topk_pairs": 2063,
+            "filter_after_topk_pairs": 163
+          },
+          "20": {
+            "filter_before_topk_pairs": 3702,
+            "filter_after_topk_pairs": 1328
+          }
+        },
+        "case_ranks": [
+          {
+            "case_id": "different_periods",
+            "ordinary_min_direction_rank": 9,
+            "eligible_min_direction_rank": 1
+          },
+          {
+            "case_id": "headline_vs_core",
+            "ordinary_min_direction_rank": 40,
+            "eligible_min_direction_rank": 30
+          },
+          {
+            "case_id": "month_to_any_month",
+            "ordinary_min_direction_rank": 34,
+            "eligible_min_direction_rank": 29
+          },
+          {
+            "case_id": "different_assets_shared_boilerplate",
+            "ordinary_min_direction_rank": 43,
+            "eligible_min_direction_rank": 4
+          }
+        ]
+      },
+      "rules": {
+        "budgets": {
+          "1": {
+            "filter_before_topk_pairs": 260,
+            "filter_after_topk_pairs": 0
+          },
+          "5": {
+            "filter_before_topk_pairs": 1215,
+            "filter_after_topk_pairs": 0
+          },
+          "10": {
+            "filter_before_topk_pairs": 2193,
+            "filter_after_topk_pairs": 116
+          },
+          "20": {
+            "filter_before_topk_pairs": 3688,
+            "filter_after_topk_pairs": 1247
+          }
+        },
+        "case_ranks": [
+          {
+            "case_id": "different_periods",
+            "ordinary_min_direction_rank": 16,
+            "eligible_min_direction_rank": 1
+          },
+          {
+            "case_id": "headline_vs_core",
+            "ordinary_min_direction_rank": 125,
+            "eligible_min_direction_rank": 119
+          },
+          {
+            "case_id": "month_to_any_month",
+            "ordinary_min_direction_rank": 10,
+            "eligible_min_direction_rank": 5
+          },
+          {
+            "case_id": "different_assets_shared_boilerplate",
+            "ordinary_min_direction_rank": 40,
+            "eligible_min_direction_rank": 1
+          }
+        ]
+      },
+      "title_rules": {
+        "budgets": {
+          "1": {
+            "filter_before_topk_pairs": 229,
+            "filter_after_topk_pairs": 4
+          },
+          "5": {
+            "filter_before_topk_pairs": 1152,
+            "filter_after_topk_pairs": 17
+          },
+          "10": {
+            "filter_before_topk_pairs": 2103,
+            "filter_after_topk_pairs": 232
+          },
+          "20": {
+            "filter_before_topk_pairs": 3677,
+            "filter_after_topk_pairs": 1416
+          }
+        },
+        "case_ranks": [
+          {
+            "case_id": "different_periods",
+            "ordinary_min_direction_rank": 3,
+            "eligible_min_direction_rank": 1
+          },
+          {
+            "case_id": "headline_vs_core",
+            "ordinary_min_direction_rank": 74,
+            "eligible_min_direction_rank": 64
+          },
+          {
+            "case_id": "month_to_any_month",
+            "ordinary_min_direction_rank": 6,
+            "eligible_min_direction_rank": 1
+          },
+          {
+            "case_id": "different_assets_shared_boilerplate",
+            "ordinary_min_direction_rank": 52,
+            "eligible_min_direction_rank": 13
+          }
+        ]
+      },
+      "union": {
+        "1": {
+          "filter_before_topk_pairs": 483,
+          "filter_after_topk_pairs": 4
+        },
+        "5": {
+          "filter_before_topk_pairs": 1849,
+          "filter_after_topk_pairs": 19
+        },
+        "10": {
+          "filter_before_topk_pairs": 2917,
+          "filter_after_topk_pairs": 348
+        },
+        "20": {
+          "filter_before_topk_pairs": 4619,
+          "filter_after_topk_pairs": 1810
+        }
+      }
+    }
+  }
+}

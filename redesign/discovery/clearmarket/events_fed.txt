@@ -1,0 +1,1662 @@
+{
+  "count": 50,
+  "total": 92,
+  "limit": 50,
+  "offset": 0,
+  "keyed": false,
+  "_notice": {
+    "type": "free_key_offer",
+    "message": "Free and anonymous access is staying. If this endpoint is in your pipeline, a free key adds advance notice before any schema change or deprecation. POST /v1/keys {\"email\": \"you@firm.com\"} — nothing else required. Something broken or missing? hello@clearmarket.fyi reaches a human.",
+    "docs": "https://clearmarket.fyi/for-data/",
+    "policy": "This field is additive and its shape will not change."
+  },
+  "events": [
+    {
+      "event_id": "CM-EVT-D9GMMQLFR9",
+      "slug": "kxfeddecision-27dec",
+      "question": "Will the Federal Reserve make a decision in December 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "2027",
+        "us-economy"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-0SVHKZXK07",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.01,
+      "price_as_of": "2026-09-29T12:45:47.535Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-D9GMMQLFR9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-V1WZR1BDL8",
+      "slug": "kxfeddecision-27oct",
+      "question": "Will the Federal Reserve make a decision in October 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "interest-rates",
+        "monetary-policy",
+        "fomc-decision",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-4R2424BCC1",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.09,
+      "price_as_of": "2026-09-29T19:45:48.558Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-V1WZR1BDL8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-S64CMSWWK9",
+      "slug": "kxfeddecision-27jul",
+      "question": "Will the Federal Reserve make a decision in July 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "us-economics",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-T1WWSN7NL9",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.76,
+      "price_as_of": "2026-09-29T15:45:55.683Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-S64CMSWWK9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-C4S10XK5Z0",
+      "slug": "kxfeddecision-27apr",
+      "question": "Will the Federal Reserve make a decision in April 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "us-economy",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-RLP62TBNQ7",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.63,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-C4S10XK5Z0",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-KWX3HB7XG9",
+      "slug": "kxfed-27apr",
+      "question": "Will the federal funds rate be cut after the April 2027 Federal Reserve meeting?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed-funds-rate",
+        "monetary-policy",
+        "central-banking",
+        "interest-rates",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 18,
+      "primary_market_id": "CM-MKT-DWQBW1ZTC5",
+      "grade": "A",
+      "rcg_score": 96,
+      "last_price": 0.95,
+      "price_as_of": "2026-09-29T13:45:41.845Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-KWX3HB7XG9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-L1N75SVJS1",
+      "slug": "kxfedchgcount-27jan01",
+      "question": "Will the Federal Reserve make more than X rate changes before 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "interest-rates",
+        "monetary-policy",
+        "us-economy",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 13,
+      "primary_market_id": "CM-MKT-7XL9G42BH7",
+      "grade": "C",
+      "rcg_score": 36,
+      "last_price": 0,
+      "price_as_of": "2026-09-17T21:46:04.037Z",
+      "last_checked_at": null,
+      "status": "resolved",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-L1N75SVJS1",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-V37TZKN222",
+      "slug": "kxfed-27mar",
+      "question": "Will the Fed funds rate be below 4% after the March 2027 Federal Reserve meeting?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed-funds-rate",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 18,
+      "primary_market_id": "CM-MKT-XKFWZWXCB1",
+      "grade": "A",
+      "rcg_score": 96,
+      "last_price": 0.99,
+      "price_as_of": "2026-09-28T09:45:38.836Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-V37TZKN222",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-NPLFGMTJW3",
+      "slug": "kxfeddecision-27jan",
+      "question": "Will the Federal Reserve make a decision in January 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "central-banking",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-P879T6CX94",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.43,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-NPLFGMTJW3",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-5P6C5JFKT9",
+      "slug": "kxfed-27jan",
+      "question": "Federal funds rate upper bound, January 2027 meeting",
+      "category": "economics",
+      "event_type": "LADDER",
+      "tags": [
+        "economics",
+        "fed-funds-rate",
+        "monetary-policy",
+        "federal-reserve",
+        "interest-rates",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 18,
+      "primary_market_id": "CM-MKT-W0SK2ZS0H9",
+      "grade": "A",
+      "rcg_score": 96,
+      "last_price": 0.95,
+      "price_as_of": "2026-09-29T13:45:41.845Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-5P6C5JFKT9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-9XGJ666Z94",
+      "slug": "kxdefgdp-26oct20",
+      "question": "U.S. federal deficit-to-GDP below 5% for FY2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "us-fiscal-policy",
+        "deficit-ratio",
+        "economic-indicators",
+        "fy2026",
+        "budget-metrics"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-6C8S6FHX12",
+      "grade": "A",
+      "rcg_score": 100,
+      "last_price": 0.06,
+      "price_as_of": "2026-09-29T09:45:41.895Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-9XGJ666Z94",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-VB6B4LJ482",
+      "slug": "kxfedreform-27",
+      "question": "Which Federal Reserve precedents will be broken by 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "federal-reserve",
+        "monetary-policy",
+        "fomc",
+        "central-banking",
+        "precedent-breaking"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 6,
+      "primary_market_id": "CM-MKT-PLN87JJRJ5",
+      "grade": "C",
+      "rcg_score": 72,
+      "last_price": 0.35,
+      "price_as_of": "2026-09-28T00:45:43.707Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-VB6B4LJ482",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-ZFR6MB25G2",
+      "slug": "kxsnaprestrict-27",
+      "question": "Will Trump restrict SNAP benefits by 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-administration",
+        "snap-benefits",
+        "welfare-policy",
+        "legislative-action",
+        "us-federal-policy"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-NNPHCB9B39",
+      "grade": "B",
+      "rcg_score": 77,
+      "last_price": 0.11,
+      "price_as_of": "2026-09-24T12:45:42.294Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-ZFR6MB25G2",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-97GCZBGWV8",
+      "slug": "houseakal-26",
+      "question": "Will the Alaska House winner be determined by January 4, 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "alaska-politics",
+        "house-elections",
+        "2027-election",
+        "us-federal",
+        "electoral-outcome"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 3,
+      "primary_market_id": "CM-MKT-VKCGH4YPG1",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.85,
+      "price_as_of": "2026-09-26T07:45:35.257Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-97GCZBGWV8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-5Z1MKFCSL8",
+      "slug": "kxfedmeet-27",
+      "question": "Will the Federal Reserve hold an emergency meeting in 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "emergency-meeting",
+        "us-economics",
+        "crisis-response"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-WYZYWNX6W3",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.087,
+      "price_as_of": "2026-09-29T10:45:29.535Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-5Z1MKFCSL8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-TDJHRGQTY1",
+      "slug": "kxusacompanystake-27jan01",
+      "question": "Which companies will the US take a stake in this year?",
+      "category": "companies",
+      "event_type": "BINARY",
+      "tags": [
+        "companies",
+        "us-government-equity",
+        "federal-ownership",
+        "corporate-stakes",
+        "2027",
+        "regulatory-intervention"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 21,
+      "primary_market_id": "CM-MKT-NTGLHK9042",
+      "grade": "C",
+      "rcg_score": 60,
+      "last_price": 1,
+      "price_as_of": "2026-09-17T21:46:04.037Z",
+      "last_checked_at": null,
+      "status": "resolved",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-TDJHRGQTY1",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-TMHG8WLK69",
+      "slug": "kxtryfirepowell-26may12",
+      "question": "Will Trump attempt to remove Powell as Federal Reserve Chair or Governor?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-fed-policy",
+        "powell-removal",
+        "2026-politics",
+        "executive-personnel",
+        "federal-reserve"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 3,
+      "primary_market_id": "CM-MKT-YYPR3J2CJ0",
+      "grade": "C",
+      "rcg_score": 66,
+      "last_price": 0.042,
+      "price_as_of": "2026-09-26T16:45:40.905Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-TMHG8WLK69",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-ZMQYC7K780",
+      "slug": "kxsuspendgastax-26may",
+      "question": "Will the federal gas tax be suspended? (multi-deadline series, 2026-2027)",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "us-federal-policy",
+        "energy-taxation",
+        "legislative-action",
+        "gas-prices",
+        "2026"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 2,
+      "primary_market_id": "CM-MKT-49J354YGD6",
+      "grade": "A",
+      "rcg_score": 91,
+      "last_price": 0.11,
+      "price_as_of": "2026-09-29T17:45:36.492Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-ZMQYC7K780",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-X2TT2M9D02",
+      "slug": "kxratecut-26dec31",
+      "question": "Will the Federal Reserve cut interest rates before 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "interest-rates",
+        "monetary-policy",
+        "us-economy",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-HPH8N3G095",
+      "grade": "A",
+      "rcg_score": 100,
+      "last_price": 0.046,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-X2TT2M9D02",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-RWRZ1R3SD6",
+      "slug": "kxlargecut-26",
+      "question": "Will the Federal Reserve do a rate cut greater than 25 basis points this year?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "rate-cuts",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-8B97N5L5W9",
+      "grade": "A",
+      "rcg_score": 100,
+      "last_price": 0.016,
+      "price_as_of": "2026-09-29T20:45:36.690Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-RWRZ1R3SD6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-F4V75FRSZ5",
+      "slug": "kxfedgovnom-27",
+      "question": "Will someone be nominated as a Fed Governor in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "fed-governor",
+        "2026-nominations",
+        "us-politics",
+        "federal-reserve",
+        "appointment-prediction"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 12,
+      "primary_market_id": "CM-MKT-9PJZZWHNY7",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.051,
+      "price_as_of": "2026-09-29T14:45:50.140Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-F4V75FRSZ5",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-69K59CM028",
+      "slug": "kxfederalcharge-27jan01",
+      "question": "Will someone be charged with a federal crime in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "federal-charges",
+        "2026-us-politics",
+        "criminal-indictment",
+        "political-accountability",
+        "legal-proceedings"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 42,
+      "primary_market_id": "CM-MKT-6MJ12TF6N8",
+      "grade": "C",
+      "rcg_score": 80,
+      "last_price": 0.078,
+      "price_as_of": "2026-09-29T11:45:40.353Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-69K59CM028",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-GXS5YKNZM6",
+      "slug": "kxdodrename-26jun",
+      "question": "Will the Department of Defense be renamed the Department of War by law in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "us-federal-government",
+        "department-of-defense",
+        "legislative-action",
+        "naming-convention",
+        "2026-2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-D2RJGHMXL7",
+      "grade": "A",
+      "rcg_score": 91,
+      "last_price": 0.43,
+      "price_as_of": "2026-09-27T08:45:32.142Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-GXS5YKNZM6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-B8S55432V7",
+      "slug": "kxcbdcban-26may",
+      "question": "Will the US ban CBDC by 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "us-cbdc",
+        "federal-reserve",
+        "crypto-regulation",
+        "legislative-ban",
+        "monetary-policy"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-LDK6RT6H57",
+      "grade": "A",
+      "rcg_score": 91,
+      "last_price": 0.86,
+      "price_as_of": "2026-09-17T21:42:17.254Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-B8S55432V7",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-VMYLRHHXK0",
+      "slug": "kxratecutcount-26dec31",
+      "question": "Will there be rate cuts in 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "interest-rates",
+        "monetary-policy",
+        "2026-economic-outcomes",
+        "rate-cuts"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 21,
+      "primary_market_id": "CM-MKT-35PDHS3X34",
+      "grade": "A",
+      "rcg_score": 100,
+      "last_price": 0.949,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-VMYLRHHXK0",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-4D6X8P7422",
+      "slug": "kxemercuts-26",
+      "question": "Will there be emergency rate cuts in 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "emergency-decisions",
+        "2026-economy"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-3WQBF4DS72",
+      "grade": "A",
+      "rcg_score": 100,
+      "last_price": 0.97,
+      "price_as_of": "2026-09-26T20:45:45.698Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-4D6X8P7422",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-FKPVVZFMR8",
+      "slug": "kxfeddecision-26dec",
+      "question": "Will the Federal Reserve make a decision in December 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "2026",
+        "economic-decision"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-LB3CRKMF04",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.22,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-FKPVVZFMR8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-MR57HVWJT3",
+      "slug": "kxfed-26dec",
+      "question": "Federal funds rate upper bound, December 2026 meeting",
+      "category": "economics",
+      "event_type": "LADDER",
+      "tags": [
+        "economics",
+        "fed-funds-rate",
+        "monetary-policy",
+        "interest-rates",
+        "federal-reserve",
+        "2026"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 11,
+      "primary_market_id": "CM-MKT-5G6GYS13N6",
+      "grade": "A",
+      "rcg_score": 96,
+      "last_price": 0.82,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-MR57HVWJT3",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-FPF77GZ320",
+      "slug": "kxfeddecision-26oct",
+      "question": "Will the Federal Reserve make a decision in October 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "monetary-policy",
+        "interest-rates",
+        "2026",
+        "us-economy"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-TZ8R99CNG9",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.56,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-FPF77GZ320",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-6BS28TS762",
+      "slug": "kxfed-26oct",
+      "question": "Federal funds rate upper bound, October 2026 meeting",
+      "category": "economics",
+      "event_type": "LADDER",
+      "tags": [
+        "economics",
+        "fed-funds-rate",
+        "monetary-policy",
+        "us-economy",
+        "interest-rates",
+        "2026"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 11,
+      "primary_market_id": "CM-MKT-6KL32PGWJ4",
+      "grade": "A",
+      "rcg_score": 96,
+      "last_price": 0.44,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-6BS28TS762",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-7L340MPXL8",
+      "slug": "kxleavepowellgov-26aug01",
+      "question": "Will Jerome Powell's departure as Federal Reserve Governor be announced? (multi-deadline series, 2026-2028)",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "federal-reserve",
+        "jerome-powell",
+        "us-politics",
+        "central-banking",
+        "2026"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 10,
+      "primary_market_id": "CM-MKT-FB05G4NYV1",
+      "grade": "C",
+      "rcg_score": 65,
+      "last_price": 0.089,
+      "price_as_of": "2026-09-29T19:45:48.558Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-7L340MPXL8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-KTGK2ZS346",
+      "slug": "kxacaext-26jan",
+      "question": "Will the ACA premium tax credits be extended?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "aca-healthcare",
+        "us-federal-legislation",
+        "tax-credits",
+        "healthcare-policy",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-5V92168B63",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.079,
+      "price_as_of": "2026-09-28T17:45:52.836Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-KTGK2ZS346",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-0TSMZBY6R6",
+      "slug": "how-many-fed-rate-cuts-in-2026",
+      "question": "Will there be Fed rate cuts in 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed-rates",
+        "economic-policy",
+        "2026",
+        "monetary-policy",
+        "us-economy"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 13,
+      "primary_market_id": "CM-MKT-WB166DQ8Y1",
+      "grade": "A",
+      "rcg_score": 93,
+      "last_price": 0.963,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-0TSMZBY6R6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-4F238D6VR7",
+      "slug": "how-high-will-10-year-treasury-yield-go-before-2027",
+      "question": "What is the maximum 10-year Treasury yield before 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "economy",
+        "fed-rates",
+        "finance",
+        "treasury-yields",
+        "us-bond-markets"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 10,
+      "primary_market_id": "CM-MKT-TTT4JVD5V4",
+      "grade": "A",
+      "rcg_score": 93,
+      "last_price": 0.999,
+      "price_as_of": "2026-09-16T22:00:21.614Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-4F238D6VR7",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-BD6QB5GC44",
+      "slug": "how-low-will-10-year-treasury-yield-get-before-2027",
+      "question": "Will the 10-year Treasury yield reach below 2.0% before 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "treasury-yields",
+        "economic-indicators",
+        "2026",
+        "fed-policy",
+        "fixed-income"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 9,
+      "primary_market_id": "CM-MKT-6TQMXNFRM5",
+      "grade": "A",
+      "rcg_score": 91,
+      "last_price": 0.02,
+      "price_as_of": "2026-09-27T23:00:50.500Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-BD6QB5GC44",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-RLQQ3VJDS6",
+      "slug": "what-will-fed-rate-hit-before-2027",
+      "question": "Will the Fed Rate hit 0% before 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed-rates",
+        "economy",
+        "monetary-policy",
+        "economic-indicators",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 21,
+      "primary_market_id": "CM-MKT-9F39R0JLQ3",
+      "grade": "A",
+      "rcg_score": 93,
+      "last_price": 0.021,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-RLQQ3VJDS6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-D3L8VJZ9B2",
+      "slug": "another-canada-election-called-by-june-30",
+      "question": "Will another Canadian federal election be called in 2026? (multi-deadline series)",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "canada",
+        "elections",
+        "government-dissolution",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 2,
+      "primary_market_id": "CM-MKT-BBH7681K93",
+      "grade": "C",
+      "rcg_score": 59,
+      "last_price": 0.001,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-D3L8VJZ9B2",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-WB85BV4T72",
+      "slug": "what-will-the-fed-rate-be-at-the-end-of-2026",
+      "question": "Will the Federal Reserve's benchmark interest rate be at a specific level at the end of 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed-rates",
+        "economic-policy",
+        "us-monetary-policy",
+        "interest-rates",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 15,
+      "primary_market_id": "CM-MKT-HN377B9BD3",
+      "grade": "A",
+      "rcg_score": 93,
+      "last_price": 0.416,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-WB85BV4T72",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-783J2KBHQ0",
+      "slug": "major-rate-cut-chances-under-each-fed-chair-948",
+      "question": "What will be the predicted Federal Reserve interest rate under each Federal Reserve Chair?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed-chair",
+        "monetary-policy",
+        "interest-rates",
+        "fed-leadership",
+        "economic-forecasting"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 9,
+      "primary_market_id": "CM-MKT-YV78141XB4",
+      "grade": "B",
+      "rcg_score": 60,
+      "last_price": 0.005,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-783J2KBHQ0",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-B7BLCWGNR0",
+      "slug": "ny-05-house-election-winner",
+      "question": "Will the New York 5th District House election winner be decided by 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "elections",
+        "2026",
+        "house-elections",
+        "new-york",
+        "us-federal"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 8,
+      "primary_market_id": "CM-MKT-KHDB09V065",
+      "grade": "B",
+      "rcg_score": 68,
+      "last_price": 0.014,
+      "price_as_of": "2026-09-29T20:00:55.101Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-B7BLCWGNR0",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-316MQF8LJ6",
+      "slug": "save-act-signed-into-law-in-2026",
+      "question": "Will H.R. 22 (SAVE Act) be signed into law in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "congress",
+        "legislation",
+        "us-federal",
+        "2026",
+        "bill-enactment"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-RL7R23NS44",
+      "grade": "A",
+      "rcg_score": 93,
+      "last_price": 0.05,
+      "price_as_of": "2026-09-28T17:00:28.151Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-316MQF8LJ6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-VBPCVC5TZ5",
+      "slug": "us-federally-charges-cuba-leader-miguel-diaz-canel",
+      "question": "Will the US federally charge Cuba's leader Miguel Diaz-Canel in 2026? (multi-deadline series)",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "us-cuba-relations",
+        "trump",
+        "geopolitics",
+        "international-law",
+        "2026",
+        "criminal-charges"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 2,
+      "primary_market_id": "CM-MKT-0LJJ4Y6WW3",
+      "grade": "C",
+      "rcg_score": 50,
+      "last_price": 0.005,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-VBPCVC5TZ5",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-HLSMT21CB5",
+      "slug": "will-trump-try-to-fire-powell-as-fed-board-member-by",
+      "question": "Will Trump try to fire Powell as Federal Reserve Board Member by 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "trump-fed-policy",
+        "powell-removal",
+        "fed-governance",
+        "executive-conflict",
+        "monetary-politics"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-DXTS780K45",
+      "grade": "C",
+      "rcg_score": 52,
+      "last_price": 0.001,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-HLSMT21CB5",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-YC6V96JMH7",
+      "slug": "fed-decision-in-october-20260617190323537",
+      "question": "Will the Federal Reserve make a decision in October?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed",
+        "fomc",
+        "fed-rates",
+        "october-2026",
+        "monetary-policy"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-J7D1ZL9BR6",
+      "grade": "A",
+      "rcg_score": 93,
+      "last_price": 0.22,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-YC6V96JMH7",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-14GPBMBQY0",
+      "slug": "how-many-fed-rate-hikes-in-2026-20260623190717369",
+      "question": "Will the Federal Reserve raise interest rates at least once in 2026?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed",
+        "fomc",
+        "interest-rates",
+        "us-monetary-policy",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 6,
+      "primary_market_id": "CM-MKT-1B5363ZBQ0",
+      "grade": "A",
+      "rcg_score": 93,
+      "last_price": 0.36,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-14GPBMBQY0",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-7X7X9DZQ81",
+      "slug": "fed-decision-in-december-20260729232808632",
+      "question": "Will the Federal Reserve make a decision in December?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed",
+        "fomc",
+        "fed-rates",
+        "monetary-policy",
+        "december-2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-P8763HBKW4",
+      "grade": "A",
+      "rcg_score": 93,
+      "last_price": 0.59,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-7X7X9DZQ81",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-LC70RT24T5",
+      "slug": "kxfeddecision-27sep",
+      "question": "Will the Federal Reserve make a decision in September 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "federal-reserve",
+        "interest-rates",
+        "monetary-policy",
+        "2027",
+        "us-economics"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-JJYC7DQXS5",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.01,
+      "price_as_of": "2026-09-29T12:45:47.535Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-07-23T21:11:14.426158+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-LC70RT24T5",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-1VT8PTJS73",
+      "slug": "kxreleasemaxwell-26jan01",
+      "question": "Will Ghislaine Maxwell be released from government custody by 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "ghislaine-maxwell",
+        "criminal-justice",
+        "prison-release",
+        "us-federal-custody",
+        "2026"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-0Z9SFVBSL4",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.06,
+      "price_as_of": "2026-09-27T15:45:43.303Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-07-23T21:11:14.426158+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-1VT8PTJS73",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-9J8QJ6ZDT4",
+      "slug": "fed-emergency-rate-cut-before-2027",
+      "question": "Will the Federal Reserve implement an emergency rate cut before 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "fed-rates",
+        "emergency-monetary-policy",
+        "economic-crisis-indicator",
+        "finance",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-8WCYMYC5P0",
+      "grade": "C",
+      "rcg_score": 77,
+      "last_price": 0.024,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-07-23T21:11:14.426158+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-9J8QJ6ZDT4",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-GGH2SNK8K1",
+      "slug": "will-cducsuspd-german-federal-coalition-break-before-2027",
+      "question": "Will the CDU/CSU–SPD German federal coalition break before 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "german-politics",
+        "coalition-stability",
+        "2026",
+        "government-formation"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-KRHY6JQV60",
+      "grade": "C",
+      "rcg_score": 62,
+      "last_price": 0.13,
+      "price_as_of": "2026-09-29T20:00:55.101Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-07-23T21:11:14.426158+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-GGH2SNK8K1",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-3G6YY3GPW6",
+      "slug": "will-trump-nationalize-elections",
+      "question": "Will Trump nationalize elections?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "us-elections",
+        "federal-authority",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-5QGBSLD3N8",
+      "grade": "C",
+      "rcg_score": 40,
+      "last_price": 0.07,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-07-23T21:11:14.426158+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-3G6YY3GPW6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    }
+  ]
+}

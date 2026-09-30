@@ -1,0 +1,54 @@
+{
+  "started_at_utc": "2026-09-28T21:21:17.908076+00:00",
+  "input_hash": "d4f770496a229d9183cddb20d35f50a1da02b06de4801c1adb0702afb45799e2",
+  "model": {
+    "repo": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "revision": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+    "max_length": 512
+  },
+  "n_unique_ordered_text_pairs": 63,
+  "device": "cpu",
+  "threads": 2,
+  "reason": "Post-review correction of duplicate weighting and ambiguous real-CPI versus continuous domain in v1.",
+  "warning": "Exploratory template diagnostic, neither held-out independent study nor real-market accuracy.",
+  "completed_at_utc": "2026-09-28T21:21:22.693072+00:00",
+  "inference_wall_seconds": 3.344195208977908,
+  "correct": 32,
+  "gold_counts": {
+    "entailment": 12,
+    "neutral": 33,
+    "contradiction": 18
+  },
+  "confusion": [
+    {
+      "gold": "contradiction",
+      "prediction": "contradiction",
+      "n": 18
+    },
+    {
+      "gold": "entailment",
+      "prediction": "contradiction",
+      "n": 3
+    },
+    {
+      "gold": "entailment",
+      "prediction": "entailment",
+      "n": 9
+    },
+    {
+      "gold": "neutral",
+      "prediction": "contradiction",
+      "n": 23
+    },
+    {
+      "gold": "neutral",
+      "prediction": "entailment",
+      "n": 5
+    },
+    {
+      "gold": "neutral",
+      "prediction": "neutral",
+      "n": 5
+    }
+  ]
+}

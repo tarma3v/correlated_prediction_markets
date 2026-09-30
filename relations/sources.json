@@ -1,0 +1,149 @@
+{
+  "author_audit": {
+    "local_source_at_annotation": "redesign/retrieval/reference_pairs.json",
+    "sha256": "424400dd5cfb0735aea1e6f777ae7367ca2235c1992ac63c1147da66b3687629",
+    "role": "External author audit: identity, short event descriptors, original same/different/unsure decision. Not independent human gold.",
+    "redistribution": "Only selected IDs, labels, concise derived propositions and reasoning retained here; not the full fixture."
+  },
+  "poly_ipo": {
+    "url": "https://polymarket.com/uk/event/openai-1t-ipo-before-2027?outcomeIndex=1",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "В разделе правил индексированной официальной страницы: завершённое размещение с оценкой $1 трлн+, публичные торги, исключение одних объявлений, условия для direct listing/SPAC, преемника и отсрочки после ценообразования.",
+    "identity_match": "Title and deadline matched; external ID not independently matched to API.",
+    "rule_text_observed": true
+  },
+  "poly_fed": {
+    "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632?marketSlug=will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635&outcomeIndex=1",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Правила определяют изменение верхней границы диапазона, округление величины вверх до25б.п., заседание8–9декабря2026; при отсутствии заявления допускается ожидание до следующего заседания.",
+    "identity_match": "Event title and meeting date matched; individual condition IDs not verified.",
+    "rule_text_observed": true
+  },
+  "poly_boe_2026_page": {
+    "url": "https://polymarket.com/vi/event/bank-of-england-decision-in-november-20260730150602252?marketSlug=no-change-in-bank-of-englands-interest-rates-after-november-2026-meeting-20260730150602309&outcomeIndex=0",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Официальная страница подтверждает событие ноября2026, но полный раздел правил не извлечён.",
+    "rule_text_observed": false,
+    "identity_match": "Event-title/date match only."
+  },
+  "poly_boe_us_rounding": {
+    "url": "https://polymarket.us/event/boe-2026-11-05",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Одноимённый контракт Polymarket US содержит округление малых изменений и округление к ближайшей корзине. Это другая площадка/контракт: текст служит предупреждением о возможной ловушке, не доказательством правил international ID.",
+    "rule_text_observed": true,
+    "usable_as_target_contract_rules": false
+  },
+  "poly_recession_page": {
+    "url": "https://polymarket.com/event/us-recession-by-end-of-2027-20260807185409760",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Официальная страница доступна, но извлечены заголовок и AI market context, а не полный resolution. AI-контекст не использован для разметки.",
+    "rule_text_observed": false,
+    "ai_context_excluded": true
+  },
+  "poly_juul_page": {
+    "url": "https://polymarket.com/event/which-flavors-will-juul-relaunch-in-2026/will-juul-relaunch-crme-brle-flavor-by-2027-466",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Подтверждается событие о возврате вкусов в2026; извлечение показывает FAQ, но не полные правила нужного Fruit Medley ID.",
+    "rule_text_observed": false,
+    "identity_match": "Event only; selected URL outcome differs from target and supplies no target rules."
+  },
+  "nhl_format": {
+    "url": "https://www.nhl.com/info/standings-info/playoff-format",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Плей-офф допускает непобедителей дивизионов; последующие раунды определяют участников конференционного финала.",
+    "role": "Domain rules, not a market resolution document."
+  },
+  "nhl_format_2025": {
+    "url": "https://media.d3.nhle.com/image/private/t_document/prd/ja2nacsgdcdlczlehjka.pdf",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Официальный клубный guide2025 описывает wild-card места и последующие раунды конференции независимо от окончательного места в регулярном дивизионе.",
+    "role": "Historical format corroboration; not a verified 2026–27 market rulebook."
+  },
+  "nfl_seeding_2025": {
+    "url": "https://static.clubs.nfl.com/image/upload/saints/bvaqvsl0fwdhlxu6wnw2.pdf",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Официальный NFL Record & Fact Book2025: победители дивизионов имеют seed 1–4, следующие команды —5–7. Извлечён индексированный раздел о postseason priorities; прямое открытие PDF здесь не удалось.",
+    "role": "Primary NFL rulebook, 2025 edition; future-season applicability remains an assumption."
+  },
+  "nfl_geography": {
+    "url": "https://static.www.nfl.com/image/upload/league/f60ftapcsbynqgymw72q.pdf",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Официальный NFL Record & Fact Book2019 относит Atlanta Falcons к Atlanta, Georgia; неизменность географии к резолву2027 оговорена отдельно.",
+    "role": "Historical primary geography evidence; no relocation forecast."
+  },
+  "tga_faq": {
+    "url": "https://origin-stage.thegameawards.com/faq",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Официальный FAQ допускает Early Access и некоторые игры прошлых лет. Показанный срок относится к2025, поэтому правила2026 отдельно не подтверждены.",
+    "role": "Eligibility policy, not market-specific resolution."
+  },
+  "tga_2020": {
+    "url": "https://thegameawards.com/rewind/year-2020",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Официальный архив2020 показывает The Last of Us Part II победителем Game of the Year и Best Audio Design: категории не взаимоисключающие.",
+    "role": "Historical counterexample to award exclusivity."
+  },
+  "heisman_multiple_awards": {
+    "url": "https://www.heisman.com/articles/ron-dayne-25th-anniversary-heisman-trophy-profile/",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Ron Dayne получил Heisman, Walter Camp и Doak Walker в одном сезоне; разные премии не взаимоисключающие.",
+    "role": "Historical counterexample to award exclusivity."
+  },
+  "walter_camp_2021": {
+    "url": "https://waltercamp.org/michigan-state-running-back-kenneth-walker-iii-is-the-2021-walter-camp-player-of-year/",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Walter Camp2021 получил Kenneth Walker III; решение основано на отдельном голосовании.",
+    "role": "Primary award authority; corroborates distinct selection."
+  },
+  "heisman_2021": {
+    "url": "https://www.heisman.com/articles/bryce-young-of-alabama-wins-2021-heisman-trophy/",
+    "retrieved_at_utc": "2026-09-30 00:03:49 UTC",
+    "capture_kind": "web_tool_search_or_rendered_extraction",
+    "raw_http_sha256": null,
+    "full_source_redistributed": false,
+    "derived_observation": "Heisman2021 получил Bryce Young, в отличие от победителя Walter Camp того же года.",
+    "role": "Primary award authority; historical counterexample to equivalence."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "written_at_utc": "2026-09-28T21:21:06.556027+00:00",
+  "request_budget": {
+    "logical_requests_total": 9,
+    "http_local": 4,
+    "web_search_queries": 3,
+    "web_opens": 2
+  },
+  "artifact_sha256": {
+    "probe.py": "f0aa95c87566f8473a640e970c7fef6c84aa7c08ad4d51c0e8d676115ac886c6",
+    "probe_manifest.json": "fb8c6054283442fad013051a78a7e38c22d81048e6444f3939f858c59fb638b0",
+    "kalshi_2pt2.json": "c857835321d22c25721ae897d715a659342dc45ef1352eb27de89ca796ffac69",
+    "polymarket_indexed_rules.txt": "d6f1cda8d49d625b7b9503f65b5be9c32bdac856f55c918e0751bb83fa8a0ee6",
+    "polymarket_indexed_identity.txt": "2f692d9e6939d42e1edb1ec4d3dbaf90f3ff746de07348ba004f992efef183c3",
+    "polymarket_current_page_render.txt": "3b8fb570436ee4dbbc0f8db713576c7edfa8d4fc6cc2dfbee29df9ff2d8e95ed",
+    "polymarket_exact_market_failure.txt": "15bca50d919f13aa3024637408bfc1282e1d3426601642e9f45a08015da53c40",
+    "build_pair.py": "c708d47e6208faec8841dc88bd2083b3c3b803740baffeb548c53aef9459cb7e",
+    "pair.json": "18cc954ab075852495ebbd97ead0863f7e778d9c10b049ca7059e8ca64e1fcc2"
+  },
+  "original_pilot_modified": false
+}

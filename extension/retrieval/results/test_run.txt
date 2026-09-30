@@ -1,0 +1,17 @@
+test_ambiguous_multiple_or_unsupported_numeric_comparisons_abstain (test_experiment.ExtractionAndCompatibilityTests.test_ambiguous_multiple_or_unsupported_numeric_comparisons_abstain) ... ok
+test_conflicting_structured_strike_abstains (test_experiment.ExtractionAndCompatibilityTests.test_conflicting_structured_strike_abstains) ... ok
+test_incompatible_templates_sources_dates_secondary_or_event (test_experiment.ExtractionAndCompatibilityTests.test_incompatible_templates_sources_dates_secondary_or_event) ... ok
+test_known_series_source_conflict_prevents_group (test_experiment.ExtractionAndCompatibilityTests.test_known_series_source_conflict_prevents_group) ... ok
+test_lexical_extraction_preserves_decimal_and_operator (test_experiment.ExtractionAndCompatibilityTests.test_lexical_extraction_preserves_decimal_and_operator) ... ok
+test_missing_source_never_certifies_full_contract (test_experiment.ExtractionAndCompatibilityTests.test_missing_source_never_certifies_full_contract) ... ok
+test_operator_wording_not_canonicalized_into_same_group (test_experiment.ExtractionAndCompatibilityTests.test_operator_wording_not_canonicalized_into_same_group) ... ok
+test_threshold_only_pair_and_direction (test_experiment.ExtractionAndCompatibilityTests.test_threshold_only_pair_and_direction) ... ok
+test_all_operator_combinations_higher_implies_lower (test_experiment.ImplicationBoundaryTests.test_all_operator_combinations_higher_implies_lower) ... ok
+test_decimal_exactness_negative_and_signed_zero (test_experiment.ImplicationBoundaryTests.test_decimal_exactness_negative_and_signed_zero) ... ok
+test_equal_threshold_strictness (test_experiment.ImplicationBoundaryTests.test_equal_threshold_strictness) ... ok
+test_no_float_nonfinite_or_unknown_operator (test_experiment.ImplicationBoundaryTests.test_no_float_nonfinite_or_unknown_operator) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK

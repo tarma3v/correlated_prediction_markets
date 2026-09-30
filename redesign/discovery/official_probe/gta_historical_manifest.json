@@ -1,0 +1,8 @@
+{
+  "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets?tickers=KXGTA6ONTIME-26MAY26&limit=1",
+  "requested_at_utc": "2026-09-29T22:40:54.262031+00:00",
+  "status_code": 200,
+  "fetched_at_utc": "2026-09-29T22:40:54.956870+00:00",
+  "file": "gta_historical_response.json",
+  "sha256": "0c572a1ab8289f7ce3fba5c404c4c99b570258cbf32ae067704cb1e355832c35"
+}

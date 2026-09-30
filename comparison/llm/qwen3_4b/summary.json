@@ -1,0 +1,118 @@
+{
+  "external_n": 64,
+  "definite_author_labels": 59,
+  "reference_label_agreement": {
+    "agree": 29,
+    "n": 59,
+    "fraction": 0.4915254237288136
+  },
+  "coverage": {
+    "covered": 52,
+    "n": 59,
+    "fraction": 0.8813559322033898
+  },
+  "selective_agreement": {
+    "agree": 29,
+    "n": 52,
+    "fraction": 0.5576923076923077
+  },
+  "per_class": {
+    "same": {
+      "n": 32,
+      "agree": 5
+    },
+    "different": {
+      "n": 27,
+      "agree": 24
+    }
+  },
+  "balanced_agreement": 0.5225694444444444,
+  "confusion": [
+    {
+      "author_label": "different",
+      "prediction": "error",
+      "n": 3
+    },
+    {
+      "author_label": "different",
+      "prediction": "not_exact_match",
+      "n": 24
+    },
+    {
+      "author_label": "same",
+      "prediction": "error",
+      "n": 4
+    },
+    {
+      "author_label": "same",
+      "prediction": "exact_match",
+      "n": 5
+    },
+    {
+      "author_label": "same",
+      "prediction": "not_exact_match",
+      "n": 23
+    }
+  ],
+  "author_unsure_prediction_counts": {
+    "not_exact_match": 5
+  },
+  "schema_valid_json": 73,
+  "valid_first_pass_json": 66,
+  "error_counts": {
+    "IdentifierMismatch": 7
+  },
+  "total_n": 73,
+  "quote_exact_substrings": {
+    "valid": 230,
+    "n": 253
+  },
+  "core_decisions": [
+    {
+      "id": "politics_resignation_departure",
+      "decision": "nonbinary_scope",
+      "relation": "a_implies_b"
+    },
+    {
+      "id": "politics_impeachment_departure",
+      "decision": "nonbinary_scope",
+      "relation": "no_hard_relation"
+    },
+    {
+      "id": "politics_crossvenue_departure",
+      "decision": "conditional",
+      "relation": "a_implies_b"
+    },
+    {
+      "id": "macro_recession_definition",
+      "decision": "nonbinary_scope",
+      "relation": "no_hard_relation"
+    },
+    {
+      "id": "macro_hike_unit_and_window",
+      "decision": "nonbinary_scope",
+      "relation": "no_hard_relation"
+    },
+    {
+      "id": "gaming_release_vs_postponement",
+      "decision": "nonbinary_scope",
+      "relation": "no_hard_relation"
+    },
+    {
+      "id": "gaming_base_game_vs_online",
+      "decision": "nonbinary_scope",
+      "relation": "no_hard_relation"
+    },
+    {
+      "id": "sports_world_to_league",
+      "decision": "nonbinary_scope",
+      "relation": "no_hard_relation"
+    },
+    {
+      "id": "sports_world_vs_other_league_winner",
+      "decision": "nonbinary_scope",
+      "relation": "no_hard_relation"
+    }
+  ],
+  "caveat": "Agreement with external author labels on an enriched 64-pair sample, not human-gold accuracy. Core cases have no scored gold. Quote existence is not evidence sufficiency."
+}

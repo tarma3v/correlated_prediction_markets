@@ -1,0 +1,15 @@
+{
+  "written_at_utc": "2026-09-28T21:17:46.754296+00:00",
+  "scope": "Extension only; original pilot unchanged",
+  "artifacts": {
+    "experiment.py": "2cd85eb4f88278bf464ece6b6962a65910f9557fcf088c8106f43ad686e62b22",
+    "test_experiment.py": "2a62a6966e5a009e990509ce51cb8c305ab4d04d4249086ed9b60ae418b3fdb5",
+    "README.md": "3ec2bf67225266cc455ff28aa98f5c16a505a2a19a9b2243f1e2db9927ee1ffb",
+    "results/summary.json": "b7e6207c6bf90e3599a57ca45d3c22572c92eb4f5c77cbabb8d67b1a1f6e868e",
+    "results/extractions.json": "6251b334511d81c5c3edbcfd313282993d332c1d738d8395a03ea7c289c38750",
+    "results/threshold_candidates.json": "97ad95c9d079f320c3ef666e3765ea7efb5b49b8e7fe7208e4856f9cdca802c8",
+    "results/exploratory_cases.json": "3b8a79ca23183c953fbbcd06b82efc500707396cfc8d3394ccabefb046d6e687",
+    "results/test_run.txt": "284fc253b4a074aac051413928b8bd537df46f2e1f1ede6e215027b39dc33d25"
+  },
+  "test_exit_code": 0
+}

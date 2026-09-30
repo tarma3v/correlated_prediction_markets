@@ -1,0 +1,146 @@
+[
+  {
+    "case_id": "same_title_thresholds",
+    "view": "title",
+    "similarity": 1.0000001192092896,
+    "rank_b_for_a": 1,
+    "rank_a_for_b": 1,
+    "in_top5_union": true
+  },
+  {
+    "case_id": "strict_thresholds",
+    "view": "title",
+    "similarity": 0.9879121780395508,
+    "rank_b_for_a": 2,
+    "rank_a_for_b": 1,
+    "in_top5_union": true
+  },
+  {
+    "case_id": "different_periods",
+    "view": "title",
+    "similarity": 0.9789966940879822,
+    "rank_b_for_a": 9,
+    "rank_a_for_b": 10,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "headline_vs_core",
+    "view": "title",
+    "similarity": 0.9028501510620117,
+    "rank_b_for_a": 40,
+    "rank_a_for_b": 40,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "month_to_any_month",
+    "view": "title",
+    "similarity": 0.7391568422317505,
+    "rank_b_for_a": 157,
+    "rank_a_for_b": 34,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "different_assets_shared_boilerplate",
+    "view": "title",
+    "similarity": 0.8416062593460083,
+    "rank_b_for_a": 43,
+    "rank_a_for_b": 44,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "same_title_thresholds",
+    "view": "rules",
+    "similarity": 0.9553210735321045,
+    "rank_b_for_a": 1,
+    "rank_a_for_b": 5,
+    "in_top5_union": true
+  },
+  {
+    "case_id": "strict_thresholds",
+    "view": "rules",
+    "similarity": 0.9999141693115234,
+    "rank_b_for_a": 2,
+    "rank_a_for_b": 2,
+    "in_top5_union": true
+  },
+  {
+    "case_id": "different_periods",
+    "view": "rules",
+    "similarity": 0.9983786344528198,
+    "rank_b_for_a": 16,
+    "rank_a_for_b": 16,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "headline_vs_core",
+    "view": "rules",
+    "similarity": 0.8064942955970764,
+    "rank_b_for_a": 125,
+    "rank_a_for_b": 133,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "month_to_any_month",
+    "view": "rules",
+    "similarity": 0.6896641254425049,
+    "rank_b_for_a": 161,
+    "rank_a_for_b": 10,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "different_assets_shared_boilerplate",
+    "view": "rules",
+    "similarity": 0.8569321632385254,
+    "rank_b_for_a": 50,
+    "rank_a_for_b": 40,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "same_title_thresholds",
+    "view": "title_rules",
+    "similarity": 0.9706358909606934,
+    "rank_b_for_a": 2,
+    "rank_a_for_b": 5,
+    "in_top5_union": true
+  },
+  {
+    "case_id": "strict_thresholds",
+    "view": "title_rules",
+    "similarity": 0.9937960505485535,
+    "rank_b_for_a": 2,
+    "rank_a_for_b": 1,
+    "in_top5_union": true
+  },
+  {
+    "case_id": "different_periods",
+    "view": "title_rules",
+    "similarity": 0.9919878244400024,
+    "rank_b_for_a": 3,
+    "rank_a_for_b": 6,
+    "in_top5_union": true
+  },
+  {
+    "case_id": "headline_vs_core",
+    "view": "title_rules",
+    "similarity": 0.8915959596633911,
+    "rank_b_for_a": 91,
+    "rank_a_for_b": 74,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "month_to_any_month",
+    "view": "title_rules",
+    "similarity": 0.7789774537086487,
+    "rank_b_for_a": 160,
+    "rank_a_for_b": 6,
+    "in_top5_union": false
+  },
+  {
+    "case_id": "different_assets_shared_boilerplate",
+    "view": "title_rules",
+    "similarity": 0.8693729639053345,
+    "rank_b_for_a": 52,
+    "rank_a_for_b": 52,
+    "in_top5_union": false
+  }
+]

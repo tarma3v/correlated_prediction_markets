@@ -1,0 +1,74 @@
+{
+  "requests": [
+    {
+      "series": "KXRECSSNBER",
+      "requested_at_utc": "2026-09-29T22:38:10.160826+00:00",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXRECSSNBER&limit=15&status=open&mve_filter=exclude",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-29T22:38:10.834743+00:00",
+      "file": "markets_KXRECSSNBER.json",
+      "sha256": "480e9a82440dd80a24ff9091806e295a3d1fa23fecac5fe5fc0512ef1d699db3",
+      "count": 2
+    },
+    {
+      "series": "KXQRECESS",
+      "requested_at_utc": "2026-09-29T22:38:10.161223+00:00",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXQRECESS&limit=15&status=open&mve_filter=exclude",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-29T22:38:10.834345+00:00",
+      "file": "markets_KXQRECESS.json",
+      "sha256": "50699ea1db13415ea46ec367dcfa58decd9660083271c5dc061561f38337fbac",
+      "count": 0
+    },
+    {
+      "series": "KXNBERRECESSQ",
+      "requested_at_utc": "2026-09-29T22:38:10.161437+00:00",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXNBERRECESSQ&limit=15&status=open&mve_filter=exclude",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-29T22:38:10.833916+00:00",
+      "file": "markets_KXNBERRECESSQ.json",
+      "sha256": "2f7fdd48fc0eafb52b7072200ff87862f188fdd4d0e70e36596b7abfc63577f8",
+      "count": 6
+    },
+    {
+      "series": "KXFEDHIKE",
+      "requested_at_utc": "2026-09-29T22:38:10.837232+00:00",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXFEDHIKE&limit=15&status=open&mve_filter=exclude",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-29T22:38:11.465245+00:00",
+      "file": "markets_KXFEDHIKE.json",
+      "sha256": "2b4ed787387ca9ebc1746b7ebe5e5aa608974edbc7713f2f218c0576030f16b7",
+      "count": 5
+    },
+    {
+      "series": "KXRATEHIKE",
+      "requested_at_utc": "2026-09-29T22:38:10.839388+00:00",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXRATEHIKE&limit=15&status=open&mve_filter=exclude",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-29T22:38:11.468684+00:00",
+      "file": "markets_KXRATEHIKE.json",
+      "sha256": "e2d80c2eee7af09ab9bf196baffd29f3df9440adac7a17cf6b2fd8a0fa94f95f",
+      "count": 4
+    },
+    {
+      "series": "KXU3MAX",
+      "requested_at_utc": "2026-09-29T22:38:10.841450+00:00",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXU3MAX&limit=15&status=open&mve_filter=exclude",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-29T22:38:11.468890+00:00",
+      "file": "markets_KXU3MAX.json",
+      "sha256": "face46d2538938782f161456027c2d9a8c296cf304ce794fa85bd7cc7100b982",
+      "count": 15
+    },
+    {
+      "series": "KXCANRECESSION",
+      "requested_at_utc": "2026-09-29T22:38:11.467349+00:00",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXCANRECESSION&limit=15&status=open&mve_filter=exclude",
+      "status_code": 200,
+      "fetched_at_utc": "2026-09-29T22:38:12.160822+00:00",
+      "file": "markets_KXCANRECESSION.json",
+      "sha256": "50699ea1db13415ea46ec367dcfa58decd9660083271c5dc061561f38337fbac",
+      "count": 0
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "case_id": "strict_thresholds",
+    "a": "KXCPI-26OCT-T0.9",
+    "b": "KXCPI-26OCT-T0.8",
+    "status": "asserted_in_shared_value_binary_scope",
+    "proposed_relation": "A_implies_B",
+    "assumptions": [
+      "one shared expiration value",
+      "binary resolution",
+      "unchanged shared measurement/exception procedure"
+    ],
+    "evidence": [
+      {
+        "file": "KXCPI_terms.pdf",
+        "physical_pdf_page": 1,
+        "section": "Underlying; Payout Criterion"
+      },
+      {
+        "file": "KXCPI_terms.pdf",
+        "physical_pdf_page": 2,
+        "section": "Expiration Value; Contingencies"
+      }
+    ],
+    "open_issues": [
+      "API last trading 08:25 ET vs template08:29 ET; no priority inferred"
+    ],
+    "not_independent_gold": true,
+    "unconditional_10_status": "unknown"
+  },
+  {
+    "case_id": "same_title_thresholds",
+    "a": "KXLCPIMAXYOY-27-P7.0",
+    "b": "KXLCPIMAXYOY-27-P6.5",
+    "status": "asserted_in_shared_series_binary_scope",
+    "proposed_relation": "A_implies_B",
+    "assumptions": [
+      "one coherent accepted monthly series",
+      "standard binary procedure",
+      "shared year scope"
+    ],
+    "evidence": [
+      {
+        "file": "KXLCPIMAXYOY_terms.pdf",
+        "physical_pdf_page": 1,
+        "section": "Underlying; Payout Criterion"
+      },
+      {
+        "file": "KXLCPIMAXYOY_terms.pdf",
+        "physical_pdf_page": 2,
+        "section": "Expiration Date; Expiration Value"
+      }
+    ],
+    "open_issues": [
+      "API at least vs template above",
+      "threshold dependent early expiration"
+    ],
+    "not_independent_gold": true,
+    "unconditional_10_status": "unknown"
+  },
+  {
+    "case_id": "month_to_any_month",
+    "a": "KXCPIYOY-26DEC-T5.0",
+    "b": "KXLCPIMAXYOY-27-P5",
+    "status": "conditional",
+    "proposed_relation": "A_implies_B",
+    "assumptions": [
+      "same December year-over-year headline CPI value",
+      "December included in annual period",
+      "no divergent fallback or exception",
+      "compatible publication/revision treatment"
+    ],
+    "evidence": [
+      {
+        "file": "KXCPIYOY_terms.pdf",
+        "physical_pdf_page": 1,
+        "section": "Underlying; no-data fallback; Expiration Date"
+      },
+      {
+        "file": "KXCPIYOY_terms.pdf",
+        "physical_pdf_page": 2,
+        "section": "Expiration Value"
+      },
+      {
+        "file": "KXLCPIMAXYOY_terms.pdf",
+        "physical_pdf_page": 1,
+        "section": "Underlying; Payout Criterion"
+      },
+      {
+        "file": "KXLCPIMAXYOY_terms.pdf",
+        "physical_pdf_page": 2,
+        "section": "Expiration Date; Expiration Value"
+      }
+    ],
+    "open_issues": [
+      "different missing-data fallback",
+      "different latest expiration",
+      "API at least vs template above",
+      "one-month and year-over-year wording in same Underlying"
+    ],
+    "not_independent_gold": true,
+    "unconditional_10_status": "unknown"
+  },
+  {
+    "case_id": "different_periods",
+    "a": "KXCPICOREYOY-26DEC-T2.6",
+    "b": "KXCPICOREYOY-26NOV-T2.6",
+    "status": "unsupported",
+    "proposed_relation": "no_hard_relation_not_established",
+    "assumptions": [],
+    "evidence": [
+      {
+        "file": "KXCPICOREYOY_terms.pdf",
+        "physical_pdf_page": 1,
+        "section": "Underlying"
+      },
+      {
+        "file": "KXCPICOREYOY_terms.pdf",
+        "physical_pdf_page": 2,
+        "section": "Expiration Date; Contingencies"
+      }
+    ],
+    "open_issues": [
+      "different statistical periods"
+    ],
+    "not_independent_gold": true,
+    "unconditional_10_status": "not_assessed"
+  },
+  {
+    "case_id": "headline_vs_core",
+    "a": "KXCPI-26NOV-T0.2",
+    "b": "KXCPICORE-26NOV-T0.2",
+    "status": "unsupported",
+    "proposed_relation": "no_hard_relation_not_established",
+    "assumptions": [],
+    "evidence": [
+      {
+        "file": "KXCPI_terms.pdf",
+        "physical_pdf_page": 1,
+        "section": "Underlying"
+      },
+      {
+        "file": "KXCPICORE_terms.pdf",
+        "physical_pdf_page": 1,
+        "section": "Underlying"
+      }
+    ],
+    "open_issues": [
+      "different CPI baskets",
+      "different fallback/expiration clauses"
+    ],
+    "not_independent_gold": true,
+    "unconditional_10_status": "not_assessed"
+  },
+  {
+    "case_id": "different_assets_shared_boilerplate",
+    "a": "KXPLATINUMH-26SEP2819-T1724.49",
+    "b": "KXPALLADIUMH-26SEP2819-T1219.49",
+    "status": "unsupported",
+    "proposed_relation": "no_hard_relation_not_established",
+    "assumptions": [],
+    "evidence": [
+      {
+        "file": "KXPLATINUMH_terms.pdf",
+        "physical_pdf_page": 1,
+        "section": "Underlying; Source Agency"
+      },
+      {
+        "file": "KXPLATINUMH_terms.pdf",
+        "physical_pdf_page": 3,
+        "section": "Additional clarifications"
+      }
+    ],
+    "open_issues": [
+      "different commodities and Pyth streams",
+      "summary/template fallback differs"
+    ],
+    "not_independent_gold": true,
+    "unconditional_10_status": "not_assessed"
+  }
+]

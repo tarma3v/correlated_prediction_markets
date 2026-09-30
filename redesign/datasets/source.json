@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/nl2992/prediction-pipeline",
+  "commit": "f7f652b7ea7c2285fca7c2aa7c02785b11ba9e84",
+  "source_url": "https://raw.githubusercontent.com/nl2992/prediction-pipeline/f7f652b7ea7c2285fca7c2aa7c02785b11ba9e84/tests/fixtures/endorsed_audit_2026-09-14.json",
+  "sha256": "c61e60b667ea59d14b9f247c3ba268249dfb38682389ecf56fb306d688840141",
+  "bytes": 307100,
+  "license": null,
+  "distribution": "Fetch from upstream; full fixture and exact derived corpus are excluded from version control. Published aggregates and targeted case analyses are research outputs, not a relicensed dataset."
+}

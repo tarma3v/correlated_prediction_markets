@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "pair_id": "politics_crossvenue_departure",
+  "domain": "politics",
+  "mechanism": "Near-identical cross-venue titles conceal a nonbinary settlement branch.",
+  "selection": {
+    "selected_at_utc": "2026-09-29T22:44:02.071676+00:00",
+    "selection_reason": "Near-identical cross-venue titles conceal a nonbinary settlement branch.",
+    "template_family": "politics_crossvenue_departure",
+    "within_event_control": false,
+    "prior_model_output_seen": false
+  },
+  "contracts": {
+    "A": {
+      "platform": "polymarket",
+      "market_id": "0x48b0b0bca515f68fccf95af4793dbd0edbfec1f8ec6e8df2c0f69ba74f8c4722",
+      "title": "Trump out as President before 2027?",
+      "market_url": "https://polymarket.com/event/trump-out-as-president-before-2027",
+      "source_ids": [
+        "out"
+      ],
+      "yes_proposition": "By December 31, 2026, 11:59 PM ET, Donald Trump permanently ceases to be US President, or his resignation or permanent removal is announced; sustained Section 4 removal qualifies and impeachment without removal does not.",
+      "proposition_status": "faithful_under_scope"
+    },
+    "B": {
+      "platform": "kalshi",
+      "market_id": "KXTRUMPOUT27-27-DJT",
+      "event_id": "KXTRUMPOUT27-27",
+      "title": "Donald Trump out before 2027?",
+      "market_url": "https://external-api.kalshi.com/trade-api/v2/markets/KXTRUMPOUT27-27-DJT",
+      "source_ids": [
+        "kalshi_out"
+      ],
+      "yes_proposition": null,
+      "proposition_status": "unavailable"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "out",
+      "provenance": "curated_snapshot",
+      "url": "https://api.clearmarket.fyi/v1/events/trump-out-as-president-before-2027",
+      "retrieved_at_utc": "2026-09-29T22:37:55.839643+00:00",
+      "upstream_timestamp": "2026-09-29T22:00:32.399Z",
+      "local_path": "discovery/clearmarket/trump-out-as-president-before-2027.json",
+      "sha256": "d47dfa909ba58086cb95c6d18985272ff7eda031a1dd3a98338ec5b1858178b9",
+      "locator": "/markets/0/resolution/rules_raw",
+      "coverage_note": "Public ClearMarket copy of venue rules_raw. Editorial fields are excluded. Direct Gamma version not verified; fetched time derived from saved-file mtime."
+    },
+    {
+      "source_id": "kalshi_out",
+      "provenance": "official_api",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets/KXTRUMPOUT27-27-DJT",
+      "retrieved_at_utc": "2026-09-29T22:40:28.141476+00:00",
+      "upstream_timestamp": null,
+      "local_path": "discovery/political/kalshi_out.json",
+      "sha256": "82f2540fba4a2fea87141530593e5145caaa84896ec2e48d8d820c055ceb8fe2",
+      "locator": "/market/rules_primary and /market/rules_secondary",
+      "coverage_note": "Official current market API primary/secondary fields; series/rulebook not fetched for this case."
+    }
+  ],
+  "scope": {
+    "binary_regime": "No global binary model asserted: Kalshi explicitly has a last-traded-price/fair-allocation branch.",
+    "assumptions": [
+      "The saved rules apply unchanged.",
+      "Reports agree on stipulated facts and announcements.",
+      "The deadline is interpreted identically as written."
+    ],
+    "excluded_branches": [],
+    "source_coverage": "partial_or_conflicting",
+    "missing_information": [
+      "Direct current Gamma confirmation of the third-party copy.",
+      "Applicable Kalshi series terms/rulebook and exact interpretation of exceptional branches."
+    ]
+  },
+  "comparison": [
+    {
+      "dimension": "cancellation",
+      "finding": "Payout domain differs in an explicit Kalshi branch. A binary-equivalence detector must stop or expand its payout model.",
+      "evidence": [
+        {
+          "source_id": "kalshi_out",
+          "locator": "/market/rules_primary and /market/rules_secondary",
+          "support": "Departure solely because of death triggers last-traded-price settlement or committee fair allocation, rather than a guaranteed binary YES/NO."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "The saved text specifies YES/NO on qualifying departure and announcements; it does not state the same price-settlement exception."
+        }
+      ]
+    },
+    {
+      "dimension": "time",
+      "finding": "Kalshi counts an announcement of departure within the next year; the Polymarket announcement clause states no matching effective-date cap.",
+      "evidence": [
+        {
+          "source_id": "kalshi_out",
+          "locator": "/market/rules_primary and /market/rules_secondary",
+          "support": "Announcement of leaving within the next year qualifies."
+        },
+        {
+          "source_id": "out",
+          "locator": "/markets/0/resolution/rules_raw",
+          "support": "Announcement qualifies regardless of when it takes effect."
+        }
+      ]
+    }
+  ],
+  "worlds": {
+    "00": {
+      "status": "unknown",
+      "reason": "The ordinary binary subset was not assessed separately in this card. This is not a claim that binary witnesses are impossible or inherently unknowable. The global payout domain includes an explicit nonbinary branch.",
+      "evidence": [
+        {
+          "source_id": "kalshi_out",
+          "locator": "/market/rules_primary and /market/rules_secondary",
+          "support": "Departure solely because of death triggers last-traded-price settlement or committee fair allocation, rather than a guaranteed binary YES/NO."
+        }
+      ]
+    },
+    "01": {
+      "status": "unknown",
+      "reason": "The ordinary binary subset was not assessed separately in this card. This is not a claim that binary witnesses are impossible or inherently unknowable. The global payout domain includes an explicit nonbinary branch.",
+      "evidence": [
+        {
+          "source_id": "kalshi_out",
+          "locator": "/market/rules_primary and /market/rules_secondary",
+          "support": "Departure solely because of death triggers last-traded-price settlement or committee fair allocation, rather than a guaranteed binary YES/NO."
+        }
+      ]
+    },
+    "10": {
+      "status": "unknown",
+      "reason": "The ordinary binary subset was not assessed separately in this card. This is not a claim that binary witnesses are impossible or inherently unknowable. The global payout domain includes an explicit nonbinary branch.",
+      "evidence": [
+        {
+          "source_id": "kalshi_out",
+          "locator": "/market/rules_primary and /market/rules_secondary",
+          "support": "Departure solely because of death triggers last-traded-price settlement or committee fair allocation, rather than a guaranteed binary YES/NO."
+        }
+      ]
+    },
+    "11": {
+      "status": "unknown",
+      "reason": "The ordinary binary subset was not assessed separately in this card. This is not a claim that binary witnesses are impossible or inherently unknowable. The global payout domain includes an explicit nonbinary branch.",
+      "evidence": [
+        {
+          "source_id": "kalshi_out",
+          "locator": "/market/rules_primary and /market/rules_secondary",
+          "support": "Departure solely because of death triggers last-traded-price settlement or committee fair allocation, rather than a guaranteed binary YES/NO."
+        }
+      ]
+    }
+  },
+  "conclusion": "Binary equivalence is unsupported. The concrete obstruction is a payout-domain mismatch, in addition to an announcement-horizon difference.",
+  "review": {
+    "status": "ai_assisted_provisional",
+    "method": "AI-assisted clause reading; not independent human gold. No learned pair classifier used for card selection.",
+    "counterexample_search": "Tested exceptional departure and an announcement effective more than a year later; only the payout branch is directly established without additional factual assumptions."
+  }
+}

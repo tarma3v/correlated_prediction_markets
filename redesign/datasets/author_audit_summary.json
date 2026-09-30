@@ -1,0 +1,249 @@
+{
+  "source_commit": "f7f652b7ea7c2285fca7c2aa7c02785b11ba9e84",
+  "source_sha256": "c61e60b667ea59d14b9f247c3ba268249dfb38682389ecf56fb306d688840141",
+  "generated_by_source": "2026-09-14",
+  "rows": 493,
+  "unique_id_pairs": 493,
+  "duplicate_rows_by_ids": 0,
+  "duplicate_id_pairs": [],
+  "conflicting_labels": [],
+  "metadata_conflicts": [],
+  "labels_raw": {
+    "same": 461,
+    "different": 27,
+    "unsure": 5
+  },
+  "labels_unique": {
+    "same": 461,
+    "different": 27,
+    "unsure": 5
+  },
+  "categories_raw": {
+    "pop": 303,
+    "election": 111,
+    "political": 25,
+    "economic": 11,
+    "sports": 43
+  },
+  "categories_unique": {
+    "pop": 303,
+    "election": 111,
+    "political": 25,
+    "economic": 11,
+    "sports": 43
+  },
+  "negative_reason_counts": {
+    "threshold_mismatch": 4,
+    "award_category_vs_annual_release": 1,
+    "scope_mismatch": 8,
+    "different_subject": 6,
+    "different_award_category": 1,
+    "moneyline_vs_spread": 2,
+    "different_location": 1,
+    "horizon_mismatch": 2,
+    "inverted_outcome": 1,
+    "different_measurement_window": 1
+  },
+  "unsure_reason_counts": {
+    "scope_mismatch": 3,
+    "threshold_mismatch": 2
+  },
+  "unique_markets": {
+    "polymarket": 493,
+    "kalshi": 493
+  },
+  "positive_unique_queries": {
+    "poly_id": 461,
+    "kalshi_ticker": 461
+  },
+  "paired_event_title_groups_all": 280,
+  "paired_event_title_groups_positive": 254,
+  "largest_groups": [
+    {
+      "poly_event_title": "Republican Presidential Nominee 2028",
+      "kalshi_event_title": "2028 Republican presidential nominee",
+      "pairs": 19,
+      "labels": {
+        "same": 19
+      }
+    },
+    {
+      "poly_event_title": "Democratic Presidential Nominee 2028",
+      "kalshi_event_title": "2028 Democratic presidential nominee",
+      "pairs": 16,
+      "labels": {
+        "same": 16
+      }
+    },
+    {
+      "poly_event_title": "Presidential Election Winner 2028",
+      "kalshi_event_title": "2028 U.S. Presidential Election winner?",
+      "pairs": 10,
+      "labels": {
+        "same": 10
+      }
+    },
+    {
+      "poly_event_title": "Democratic VP Nominee 2028",
+      "kalshi_event_title": "2028 Democratic VP nominee",
+      "pairs": 10,
+      "labels": {
+        "same": 10
+      }
+    },
+    {
+      "poly_event_title": "Venezuela leader end of 2026?",
+      "kalshi_event_title": "Who will officially lead Venezuela at the end of 2026?",
+      "pairs": 9,
+      "labels": {
+        "same": 9
+      }
+    },
+    {
+      "poly_event_title": "Pro Football: 2026 MVP Winner",
+      "kalshi_event_title": "MVP Winner?",
+      "pairs": 9,
+      "labels": {
+        "same": 9
+      }
+    },
+    {
+      "poly_event_title": "Tlaxcala Governor Election Winner",
+      "kalshi_event_title": "Tlaxcala Governor winner?",
+      "pairs": 7,
+      "labels": {
+        "same": 7
+      }
+    },
+    {
+      "poly_event_title": "2027 French Presidential Election: who will be on the ballot?",
+      "kalshi_event_title": "2027 French Presidential Election: who will be on the ballot?",
+      "pairs": 7,
+      "labels": {
+        "same": 7
+      }
+    },
+    {
+      "poly_event_title": "PGA Tour: Biltmore Championship Asheville First Round Leader",
+      "kalshi_event_title": "Biltmore Championship Asheville End of Round 1 Leader",
+      "pairs": 6,
+      "labels": {
+        "same": 6
+      }
+    },
+    {
+      "poly_event_title": "Big Brother Season 28: 3rd Place",
+      "kalshi_event_title": "Big Brother Season 28 · 3rd place ",
+      "pairs": 5,
+      "labels": {
+        "same": 5
+      }
+    },
+    {
+      "poly_event_title": "MLB: AL Rookie of the Year",
+      "kalshi_event_title": "AL Rookie of the Year Winner?",
+      "pairs": 5,
+      "labels": {
+        "same": 5
+      }
+    },
+    {
+      "poly_event_title": "Aguascalientes Governor Election Winner",
+      "kalshi_event_title": "Aguascalientes Governor winner?",
+      "pairs": 5,
+      "labels": {
+        "same": 5
+      }
+    },
+    {
+      "poly_event_title": "MLS Cup Winner 2026",
+      "kalshi_event_title": "MLS Cup Champion",
+      "pairs": 5,
+      "labels": {
+        "same": 5
+      }
+    },
+    {
+      "poly_event_title": "Next French Presidential Election: who will advance to the 2nd round?",
+      "kalshi_event_title": "French presidential election: who will advance?",
+      "pairs": 5,
+      "labels": {
+        "same": 5
+      }
+    },
+    {
+      "poly_event_title": "Fantasy Football: 2026-27 Week 1 QB Points Leader",
+      "kalshi_event_title": "QB Fantasy Football Week 1 Leader?",
+      "pairs": 5,
+      "labels": {
+        "same": 5
+      }
+    },
+    {
+      "poly_event_title": "PGA Tour: Biltmore Championship Asheville Winner",
+      "kalshi_event_title": "Biltmore Championship Asheville Winner",
+      "pairs": 5,
+      "labels": {
+        "same": 5
+      }
+    },
+    {
+      "poly_event_title": "Brazil Presidential Election First Round: 2nd Place",
+      "kalshi_event_title": "Brazil Presidential Election First Round: 2nd Place",
+      "pairs": 4,
+      "labels": {
+        "same": 4
+      }
+    },
+    {
+      "poly_event_title": "Big Brother Season 28 Winner",
+      "kalshi_event_title": "Big Brother Season 28 · Winner",
+      "pairs": 4,
+      "labels": {
+        "same": 4
+      }
+    },
+    {
+      "poly_event_title": "Ballon d'Or Winner 2026",
+      "kalshi_event_title": "Who will win the Ballon d'Or in 2026?",
+      "pairs": 4,
+      "labels": {
+        "same": 4
+      }
+    },
+    {
+      "poly_event_title": "Acre Governor Election Winner",
+      "kalshi_event_title": "Acre Governor winner?",
+      "pairs": 4,
+      "labels": {
+        "same": 4
+      }
+    }
+  ],
+  "fields": [
+    "category",
+    "kalshi_close",
+    "kalshi_event_title",
+    "kalshi_ticker",
+    "kalshi_title",
+    "label",
+    "poly_close",
+    "poly_event_title",
+    "poly_id",
+    "poly_title",
+    "reason_class",
+    "source_row",
+    "source_subset",
+    "v2_match_baseline",
+    "v2_reasons_baseline"
+  ],
+  "source_license": null,
+  "label_provenance": "Author audit; no independent annotation protocol found. Repository fixture loader says human-labelled; commit adding this fixture is AI-coauthored. Do not infer independent human gold.",
+  "evaluation_caveats": [
+    "Selected among author v2-endorsed candidate pairs; not exhaustive all-pair labels.",
+    "Only titles, event titles, dates and IDs; no full resolution rules.",
+    "Unlabelled cross-pairs are not confirmed negatives.",
+    "Group by event family and report group macro to reduce template dominance.",
+    "No reuse license declared in repo metadata/tree."
+  ]
+}

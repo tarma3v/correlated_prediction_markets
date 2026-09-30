@@ -1,0 +1,28 @@
+{
+  "requests": [
+    {
+      "name": "gamma_current",
+      "url": "https://gamma-api.polymarket.com/markets?limit=3&closed=false",
+      "requested_at_utc": "2026-09-29T22:37:38.664974+00:00",
+      "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+    },
+    {
+      "name": "poly_event_current",
+      "url": "https://polymarket.com/event/how-high-will-inflation-get-in-2026",
+      "requested_at_utc": "2026-09-29T22:37:38.665285+00:00",
+      "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+    },
+    {
+      "name": "kalshi_economics_series",
+      "url": "https://external-api.kalshi.com/trade-api/v2/series?category=Economics",
+      "requested_at_utc": "2026-09-29T22:37:38.665390+00:00",
+      "status_code": 200,
+      "retrieved_at_utc": "2026-09-29T22:37:39.989645+00:00",
+      "response_url": "https://external-api.kalshi.com/trade-api/v2/series?category=Economics",
+      "content_type": "application/json",
+      "file": "kalshi_economics_series.json",
+      "sha256": "1765bb7aaeaf5eb5af59ce0321a4400fb04ac108e1f7cad3ea565afa9e1c444f",
+      "bytes": 806769
+    }
+  ]
+}

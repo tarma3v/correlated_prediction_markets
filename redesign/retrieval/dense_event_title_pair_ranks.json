@@ -1,0 +1,4439 @@
+[
+  {
+    "poly_id": "0x9bc61c9ebb208dcb1bf52255b9ccfabbc7a92c3e2e3e9791e4b9a81e40236c09",
+    "kalshi_ticker": "KXENGAGEMENTKIMLEWIS-26",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9364107847213745,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x17902b9490c6a73152772316b4705935c5c6801ba269f2afc81686532e34fb9a",
+    "kalshi_ticker": "KXPRESNOMR-28-MTG",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8954247832298279,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x00ad3bb5284b0b2314b1a2d42812fe292f606619c6278bd95c9d905816c240f6",
+    "kalshi_ticker": "KXPRESNOMR-28-SHS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8918436765670776,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x23481b811978194fa175143ed7cd8d0000878ca59c408fd552e33535f7aa771e",
+    "kalshi_ticker": "KXPRESPERSON-28-DTRUJR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8970851898193359,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc8f1cf5d4f26e0fd9c8fe89f2a7b3263b902cf14fde7bfccef525753bb492e47",
+    "kalshi_ticker": "KXPRESNOMD-28-SAS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9027273654937744,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe50c71cc5e2372bf0f6194a02e51459dd03b2c7b2d78a0d4650e5f36c425338b",
+    "kalshi_ticker": "KXPRESNOMD-28-ESLO",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8999241590499878,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd10bc768ede58b53ed400594240b0a0603134a32dab89ec823a18759cbc180ca",
+    "kalshi_ticker": "KXPRESNOMR-28-RPAU",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9068301916122437,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd1747284d6048b2a3dcfbee489db405f36de18f9590197dd0e5c9f0c246bf050",
+    "kalshi_ticker": "KXPRESNOMR-28-BD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8957760334014893,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x64396449b471b10b006285fa49dd9a5df535694de7b4c703fdeb0d88d5c4cd33",
+    "kalshi_ticker": "KXPRESPERSON-28-VRAM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9158958196640015,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe0173375b7eaccb836f7b92d28a9a2d1cc69e54e5a65fae89a5d7e49aadd332e",
+    "kalshi_ticker": "KXPRESPERSON-28-NHAL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9125751256942749,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe39adea057926dc197fe30a441f57a340b2a232d5a687010f78bba9b6e02620f",
+    "kalshi_ticker": "KXPRESNOMD-28-GW",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.896926999092102,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xfee07be730188c94cd3644ed6f107fa3ea2dfab9989ce8d39aeeae064766abe3",
+    "kalshi_ticker": "KXPRESNOMD-28-JSTE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9107558131217957,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0ac23db1e56971022bc7e822b907a2466c618b34104ea72bc9fa95e41c86a9c6",
+    "kalshi_ticker": "KXPRESNOMR-28-TC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8839524984359741,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x41c6341dd79903aca4bb0c29f5a7976946c3774d2fd72f38cbb7de7092144520",
+    "kalshi_ticker": "KXPRESNOMR-28-MPEN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8976188898086548,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd997dc2a212a7d6673375a3b016db1fb214247142f8cde0cbf07f8e6d789877c",
+    "kalshi_ticker": "KXPRESNOMR-28-VR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9087920784950256,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x24258776d0a926b4550b0f213267b95ba0a7741fc972d0b3c2b5f6bf8ced2c50",
+    "kalshi_ticker": "KXPRESNOMR-28-TMAS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8674095869064331,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd7a0d72b19ca48b06b0029684677f581e32f133c367d7a19c2f1e4ad07066af7",
+    "kalshi_ticker": "KXPRESNOMR-28-NH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8701143264770508,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x98933c78b5e277b62d91a6c174b412218de000b54c4c67ec8673bf561cec6e81",
+    "kalshi_ticker": "KXPRESNOMD-28-RGAL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8961882591247559,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x42631e1a8c8e6389422b58b8e15b1b551892b9833651aa3bab25afab124354b5",
+    "kalshi_ticker": "KXPRESNOMR-28-BK",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9041182398796082,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5f3b3456b2d6ef0d6f15d7492162725057be78d738d2465456e2835f1d89046c",
+    "kalshi_ticker": "KXPRESNOMR-28-PHEG",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8818524479866028,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd0c4c60c8e68ee15974df3aa7d217225e98020fab9fcdb32d10f8e3d285e1619",
+    "kalshi_ticker": "KXPRESNOMR-28-GY",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8831448554992676,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xfd6176f8c9a59105f80e060a77c4099881c5f2d9e0ceab88e55cf978462fab7f",
+    "kalshi_ticker": "KXPRESPERSON-28-GWHI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9112865924835205,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x214093035e429b91df322bd20c55d9f611f741f67472a63f7623a9afc0cffa57",
+    "kalshi_ticker": "KXPRESNOMR-28-GA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9053481817245483,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4d4bceee5f59f75230c6438f69fc913a6da7afa4098ce0734655045c02a730fc",
+    "kalshi_ticker": "KXPRESNOMR-28-JH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.90110182762146,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1d519b87999e3d4e90e1e8f57b5eee73a0ba488ff3fdb70867f294733aba84a9",
+    "kalshi_ticker": "KXPRESNOMD-28-AB",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8559024333953857,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3dc47a72ac6bb265e9cefebd2a2eeed00966394cb2d07245b5c94138b60e82a3",
+    "kalshi_ticker": "KXPRESNOMD-28-REMA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9101748466491699,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x61d9486c0f7e14ed98f3b177b6adcb3cd45646c92e8bbfbf209789b86472d4b6",
+    "kalshi_ticker": "KXPRESNOMD-28-WM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.912570595741272,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb91be12388b3d4079c3ed9b5783cb42d8c33051d37746a49300227e0f45fc089",
+    "kalshi_ticker": "KXPRESNOMD-28-JTAL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8937842845916748,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd65891729ce093cc12236856837eba1a0872fc7998fd4294c21346f7db68079c",
+    "kalshi_ticker": "KXPRESNOMD-28-JS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.89673912525177,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x01dffa7abae7e5d9b7fb44b06d537c5ac932e2ca422ab4b53366672f5e2dc7d6",
+    "kalshi_ticker": "KXPRESPERSON-28-GABB",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9170652627944946,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5969cbb46aca5319b19e19a3c6f63de098950b675bf268f30f4d035508da1957",
+    "kalshi_ticker": "KXPRESPERSON-28-JSHA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.878280520439148,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4273517fc8141d57ad1528ede46efdceebdb6a4da746d5de5bad216564209a1e",
+    "kalshi_ticker": "KXPRESNOMR-28-TCAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9164468050003052,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9d4f94f82de9d13ff1d3318639ab9000ee2533949e525343156f374fb00bd9b1",
+    "kalshi_ticker": "KXPRESNOMD-28-MC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9110130667686462,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8b082ebeaf7209c1ab3c525836926a1ea528a8d79abcff431879de33659ec6f2",
+    "kalshi_ticker": "KXBRPRES1R-26OCT04-RSAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7979508638381958,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0xe883f2fda25a605a184bb5fe583afce6cc21ea0b348b6a3728ec3067553c548d",
+    "kalshi_ticker": "KXPRESNOMD-28-JBP",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8919000029563904,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xaa5cdb6830cbfa2ca711b7cf93bd42cf4f8e062d44ea188c0b8ec1fb2924c083",
+    "kalshi_ticker": "KXPAHLAVIHEAD-27JAN-RPAH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8974614143371582,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xce9a5fa30fe74e323b4a8f15afbb0b7a41a537aa880779ddf7dee22223b2f34a",
+    "kalshi_ticker": "KXPRESPERSON-28-DTRU",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8792681097984314,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3367d22cd2a673014f1960742afdf8601040a8ad856dc0a98bd1a44ee99504e2",
+    "kalshi_ticker": "KXPRESPERSON-28-RDES",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9013849496841431,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4a9d58d4da874e26708f5bdb014eb07a06aeebb927068d169d43831595386557",
+    "kalshi_ticker": "KXPRESNOMR-28-DJTJR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8814636468887329,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x98dbb998749ae773baf35697d695f5efdc098def32decd687b91c634d8d0481d",
+    "kalshi_ticker": "KXIPO-26-OPENAI",
+    "reference_label": "different",
+    "reason_class": "threshold_mismatch",
+    "similarity": 0.7616065740585327,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc4bc78d1109f3e185f46ecc2f337995a66beefd105bdccc065653f5bebff2bc6",
+    "kalshi_ticker": "KXVPRESNOMR-28-BD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8846936225891113,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xefe6300fd8a053cca53df8f1bd536c5f571a136392c0516e7b16e39f1addecb0",
+    "kalshi_ticker": "KXPRESPERSON-28-JPRI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8832724094390869,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x04816f7f30a810111bd4e3d7e06952889f81f280f23370f2ff59323d9a202cca",
+    "kalshi_ticker": "KXSB-27-GB",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8229080438613892,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf0ad4761171cfe3aa0b7911e77d508cbe25742c4bba813dc8cbda45c4e42379c",
+    "kalshi_ticker": "KXVPRESNOMD-28-JF",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8728747963905334,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6c9407f7841e7507ba435d540af237d742674ba05bac48998cf94f4b7ef5d909",
+    "kalshi_ticker": "KXSB-27-LAC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7714755535125732,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7b2fbaa6995a068aae8fb08a44f406297f50ce738b34afb3d18fda96ae23643a",
+    "kalshi_ticker": "KXBRPRESIDENT2-BRPRES26-2-ACUR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8832966089248657,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xec2e51ebb99006172b05548fc53d6842d30c9c0cccaf4c34569f0431b94d4bfc",
+    "kalshi_ticker": "KXNOBELPEACE-27-PLEO",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9406245350837708,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5580ee82864f4523f7ecfe3a132642ca2db71a4187cd9d45df10579bf7655efd",
+    "kalshi_ticker": "KXF1CONSTRUCTORS-26-MCL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8772245645523071,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565",
+    "kalshi_ticker": "KXPRESNOMD-28-AOC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9068946838378906,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xbfafbe268a84fcfb6b85a0638b3dc8fda5e12f9c1908deafd8a361d56366296c",
+    "kalshi_ticker": "KXANTHROPICLEADLEFT-28JAN01B-BOAX",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8677852153778076,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3abb4616ec92c355a304c41e797c7898412b9e427629ac764c097e166fa345e1",
+    "kalshi_ticker": "KXRANKLISTGOOGLESEARCH-26DEC-TIM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8219389915466309,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x03a4e3856c6d363a773365f3894e63024666faffdd8beda8025e69386e9454ab",
+    "kalshi_ticker": "KXBIGBROTHER-26DEC31-DRE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8960553407669067,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf43c1ec924a35e1f55453c31b662ea65e623ca9d21aeec1b2af24844567f15c9",
+    "kalshi_ticker": "KXNOBELPEACE-26-SUD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9428839087486267,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x64d31a2af85518c6718a5757a35b840f08eca20c1e22c0eb1e96ec01cc55b8b6",
+    "kalshi_ticker": "KXPRESNOMR-28-RDS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8896852135658264,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6c5f314f48fde77de0a2618736ef28aba1f094bd611de0d6ded7d2881ee3200d",
+    "kalshi_ticker": "KXVPRESNOMD-28-RKHA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.897172212600708,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf7724d4e6753802b967aacf38e22dcd7a9a9d31453276d88d4abc46ae262bc8f",
+    "kalshi_ticker": "KXBERLINGOVMAYOR-26OCT01-KBRI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.896020233631134,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7d8d0a4d85c3de82cbca24cbdad67003bf1155a7df0669926a3ff1357c43ba4e",
+    "kalshi_ticker": "KXVPRESNOMD-28-PB",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8710687160491943,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x89196abe54cb57d2990caf31cc247fa4101441ebbe5085a28e4879795b19b6b0",
+    "kalshi_ticker": "KXVPRESNOMD-28-TW",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8816137313842773,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6b39930eff596c275a6f9bce3bde308eaf3158f6b3f91c780e55ab21844d91dd",
+    "kalshi_ticker": "KXBIGBROTHERRANK-26DEC31R3-YAS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8457211852073669,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9e7ff979adcbb3d593393fb7f476db93c89ca7deb8de68085c02080a0c793d11",
+    "kalshi_ticker": "KXARGENTINAPRES-27OCT30-MMAC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8522738218307495,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4624db452157dad680b80f6a9ad5d2cf0bcfafb789d1ea537343be4e415d55c3",
+    "kalshi_ticker": "KXBIGBROTHERRANK-26DEC31R3-MEL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7935121059417725,
+    "kalshi_rank_for_poly": 2,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4caf4c1f5e9294a32e922c14d3d48c67d2748f0482d6e4ae74c93f6ad43d91bb",
+    "kalshi_ticker": "KXLOSEMAJORITY-27JAN01",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9564893841743469,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0808de4f0cfd47947f2d1be51f9a9c52ea0fec76f73a75cfbe79ddec98d8a908",
+    "kalshi_ticker": "KXBALANCEPOWERCOMBO-27FEB-RD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8250912427902222,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x203d265db32b42e82c6d5152fe16498e995d7696ce6de64643bbca4318e2b325",
+    "kalshi_ticker": "KXNOBELPEACE-27-STC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9388489723205566,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc32a544f65e3a8ffec6499e40290f10fa68a3f4a4819dfd366b6cb1fd7c4be1d",
+    "kalshi_ticker": "KXFRENCHPRES-27-BRET",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8679413795471191,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0xc36f13fb975afe21daa6b863e055b80a0322186fd8af361e4c1a315c92c48d35",
+    "kalshi_ticker": "KXTIME-26-POP",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9153852462768555,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa4ddc18895cc7b14810283ef8f113939abffd3969c6a0e37f1897110c67e6f73",
+    "kalshi_ticker": "KXNEWOUTBREAK-P-26",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7775099277496338,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x917e5c29c22c69ad0741a27ba0f53a4a72c915f88601bec16ab3ecc2147811cd",
+    "kalshi_ticker": "KXHOUSERACE-LA02-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8226974010467529,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xfd516863c645e716dd507bd159267c85362b9b9b4a8bc9af340c2dda3b3751d7",
+    "kalshi_ticker": "KXF1CONSTRUCTORS-26-FER",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8786435127258301,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa5d79e71e66c9fe122f8b8b3ca6ab7a0e3048bd8508f130746944e92ed79ddf3",
+    "kalshi_ticker": "GOVPARTYCA-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8090072870254517,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xce6f518a655f91288dfe040725b45fac668e1722950ea1298474fb3550acbf77",
+    "kalshi_ticker": "KXVPRESNOMR-28-MR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.896518349647522,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x364c2fa0c0d9d042e45f48034072d316c02da25b9e91f0f8b58e27ae6cb4be8c",
+    "kalshi_ticker": "KXRANKLISTGOOGLESEARCH-26DEC-BAD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8141049146652222,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8937a2de7d60389eb73469769446044c12fd670b2a8230eee4f06e1e070b9c92",
+    "kalshi_ticker": "HOUSEMI8-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7945547103881836,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf232b565995e4b3a3e7fa6cef775eeff1cecd20ad7c013cb9fc8dadabfe279a9",
+    "kalshi_ticker": "KXPRESPERSON-28-AOCA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8982139825820923,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1166388a24a3f2a9bb0a45956bdb205c70f0ecafb8539e277a57adf022e306be",
+    "kalshi_ticker": "KXFRENCHPRES-27-JBAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8871130347251892,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x536b507838dcdac8966510d84abb8f1c51362d632ab2023b94e810ba6fdf5cb7",
+    "kalshi_ticker": "KXBRPRES-26-ACUR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7872987985610962,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x479d1a77b118ac88cc0e7e5eb4659e4954d55cd87a84d7f2b22bf5c3a8333813",
+    "kalshi_ticker": "GOVPARTYMA-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8145069479942322,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc05743834659d9b618a2a5ece270ad7e0846238178d4e0f7005b9d1deb808fb3",
+    "kalshi_ticker": "KXTRUMPMEETING-27JAN01-NNMAD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9298092126846313,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xbafe8c88ec505ca10f7d06f1ccf006efe5329ff08acd5605088246fd8715a6c0",
+    "kalshi_ticker": "KXHOUSERACE-CA06-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8469164371490479,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb3529e4cbcc5756ae7d5662ad1d6ddd8dd97b53bd459e2684af9bb8c4dbf582c",
+    "kalshi_ticker": "GOVPARTYPA-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8228415250778198,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x21ad31a46bfaa51650766eff6dc69c866959e32d965ffb116020e37694b6317d",
+    "kalshi_ticker": "KXPRESNOMR-28-MR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9025137424468994,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9df5f4c2fd14e92c6235d1630a7924a10fba83f1a8ba360eafbd101d71a972e3",
+    "kalshi_ticker": "KXFEDMENTION-26SEP-GOOD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9443084597587585,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x06a4b08efd46f7460d7b4b3d009429cb975b9db271cb70955eec89a10d01e0c6",
+    "kalshi_ticker": "KXTLAXGOV-27JUN06-CAPH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.805018424987793,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x20ed35b8e0574e3091768e54ac05000b2180ed5c20269c113b105dd9ad6cdfe1",
+    "kalshi_ticker": "KXTLAXGOV-27JUN06-IYGL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8651149272918701,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x71da94e4129284d79e7d6effc9ecb9c5516e6f65235e104faafe770b57b48b8b",
+    "kalshi_ticker": "KXTLAXGOV-27JUN06-JSSC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8033945560455322,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa01ba24728a62ef30d5949c1ba3b2daa699ef8c2a57c4e257ca5ef85480e9050",
+    "kalshi_ticker": "KXTLAXGOV-27JUN06-HBPM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8136024475097656,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4460b4d5604834b9579c7b001b19a3faa8441acb6b94b0c35067cf1aaa22d682",
+    "kalshi_ticker": "HOUSENH1-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.719807505607605,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xeea5a692fb5038f134febe8e5eefdd25de0bb57554583fef39bff9e15d7f4bfd",
+    "kalshi_ticker": "KXSURREYMAYOR-26OCT17-TVAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8439731597900391,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x71a296ae16844c65e3e65f89958177b74965386e2e46f5519b6c3e64e69ba0b2",
+    "kalshi_ticker": "GOVPARTYIL-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7656543254852295,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x079128846b9ae4891eaa3bc780657ae106d45ebcd6916749192bfe40f548cb19",
+    "kalshi_ticker": "KXHOUSERACE-IL06-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7700763940811157,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x26204ed30d374b94dd54c11e24ca291929658860111ad0af781431fbda468344",
+    "kalshi_ticker": "KXMLBALROTY-26-MMUR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7560224533081055,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf2d25c00b63871a5202141fe6f4b1c9bfd82d2bd254dc7e59ea55bd542aa7b62",
+    "kalshi_ticker": "KXHOUSERACE-HI02-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7334688901901245,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb120cb1c26ad4568844f8e7ee7a91487d5cf4d246fd40410c1f3d4061bfd3587",
+    "kalshi_ticker": "KXGOVAK-26-TBEG",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8064134120941162,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9334292893d1ad0463b5b5f60526cee57fbcc4a9c414a12e276826f58b772d7a",
+    "kalshi_ticker": "KXKIMKBAREXAM-27",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9288815855979919,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x43a25dc391a7bf545f9fb296d30857693de20f421546462885d5c171af896418",
+    "kalshi_ticker": "KXVPRESNOMR-28-JT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.867419958114624,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x50b78cd83de62d75d504d7a184ba1171436628068b3c3d4dd0384e65d4a40d1b",
+    "kalshi_ticker": "GOVPARTYNY-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7680292129516602,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x44dda0b5cd2dc73641be824a4975e79b0dc2168bec5e2f0661756b0adb72e9a6",
+    "kalshi_ticker": "KXHOUSERACE-AL04-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.777381181716919,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8e76a516d0d4e04d447f0dbd885dada6d8edcf1f4265f07ff790003048202a31",
+    "kalshi_ticker": "KXMLBNLCPOTY-26-MHAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7767236232757568,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x45165a4a2a03b178007446496ec61a551125ec2bc56eae79d444b68b322af3cd",
+    "kalshi_ticker": "GOVPARTYOK-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8125653266906738,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4482da6539426799a135e01150a04162644492a1d1a9e631d613ca0c75ae11e0",
+    "kalshi_ticker": "KXHOUSERACE-TX13-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8004450798034668,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x72efd66ee80174b9d64d080692ccdaf77750532d9d706ad05372117fa0d99a4a",
+    "kalshi_ticker": "KXHOUSERACE-NJ02-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8376919031143188,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1d4d4b7b17f1649e5a902a91992476263b1be640df547540cf2954bd00df4df8",
+    "kalshi_ticker": "KXVANCOUVERMAYOR-26OCT17-PFRY",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8186023831367493,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb33734a23cfe2a26969be53612c06fb92e4d1f68abd57a12f2cfddcad92e2241",
+    "kalshi_ticker": "KXHOUSERACE-PA03-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8374521136283875,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x110170493c7d4c5d438a01dbab7390bdd58ded3321ac096221cf1040f2e9270b",
+    "kalshi_ticker": "GOVPARTYAL-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7900233268737793,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd7ca73c54bdcaabbb500f0f496bac0d76450ea37001f793d39d6718ec35f8fe3",
+    "kalshi_ticker": "KXHOUSERACE-NH02-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7589015960693359,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x70b226359baf2441d277d46fe796af532992f42d792fc2fe444ad21d2f4cc1da",
+    "kalshi_ticker": "KXARREST-27JAN-BOM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8789546489715576,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x48b0b0bca515f68fccf95af4793dbd0edbfec1f8ec6e8df2c0f69ba74f8c4722",
+    "kalshi_ticker": "KXTRUMPOUT27-27-DJT",
+    "reference_label": "unsure",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.7736657857894897,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd595eb9b81885ff018738300c79047e3ec89e87294424f57a29a7fa9162bf116",
+    "kalshi_ticker": "KXGREENLAND-29-27",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9302867650985718,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6b0a6b7544c1d697fa4007fb83cb76b75467f33828bf946ac794d2e38d63ba96",
+    "kalshi_ticker": "KXGAMERELEASE-26-HALF",
+    "reference_label": "different",
+    "reason_class": "award_category_vs_annual_release",
+    "similarity": 0.5990232229232788,
+    "kalshi_rank_for_poly": 3,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x213505cf51289b856acf38db627b250f0392ee4fd299363db38e4712fd842e28",
+    "kalshi_ticker": "KXHOUSERACE-WA05-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7984950542449951,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8a396117de0e09772a3c139fbd3b358f188ded5d6fca64057d440eb4f544f3ee",
+    "kalshi_ticker": "KXHOUSERACE-RI02-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7608996629714966,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2839b15be9dd5fddc59a90290f146471a78b6a31cf6b4894aedf6a4f6ee32e24",
+    "kalshi_ticker": "KXHOUSERACE-TX36-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8156038522720337,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7d58792693229ab816ff34048ebe43cd82c9e8c174be9238525c66f791aca83a",
+    "kalshi_ticker": "KXAGUASCALIENTESGOV-27JUN06-LOLI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8012863397598267,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8df7be57234cff8d6eeae0d4498704fc24a81e85698d4739e1acb2007ed77c43",
+    "kalshi_ticker": "GOVPARTYHI-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8178907632827759,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4cd035dcfb450c9a6bc9aa13f3aa94fabc01e47499d05d28ef653ef42939c364",
+    "kalshi_ticker": "GOVPARTYNY-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7958643436431885,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x22e046cc65466c2b0f99541d51c098bb5e66fa3847eaa67de9801b26c03007e8",
+    "kalshi_ticker": "KXHOUSERACE-TX36-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7962289452552795,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4328d00a7a59a47f92887992510105f6ec6799f5091ac010ba6718192fd99f04",
+    "kalshi_ticker": "KXBIGBROTHERRANK-26DEC31R3-DEE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8317075967788696,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x85ad05d0cc25669c0979549d752d46d0e2c2ad6afaa1bd3fa792b3994fe15d50",
+    "kalshi_ticker": "KXAGUASCALIENTESGOV-27JUN06-LMAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7967432737350464,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb8749c27b1eaa3d0ef145a5d296f5e13a526adc810ef224b9c3800515b89ff93",
+    "kalshi_ticker": "KXAGUASCALIENTESGOV-27JUN06-AMUN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7992475628852844,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc65ec2459a79fb749948503161d42e13c4cb8bb0b670f0dd1ce2c71d7950b459",
+    "kalshi_ticker": "GOVPARTYRI-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8168832063674927,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4e9cff8a3aeac036225fedcc98af9b0d55284b3f430b599e7f61b059c1e177af",
+    "kalshi_ticker": "KXISRAELKNESSET-26-TOGE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9006253480911255,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3a1ed604e5d128ea2deb23db1e6f2f1cd9cff31c9e8836ff1b2c840dcd0724ac",
+    "kalshi_ticker": "KXHOUSERACE-VA06-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8229042291641235,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x594753f5921304616f36fecd01677e5bf2f6f42a1093fa65e2cdff7193b43ffc",
+    "kalshi_ticker": "KXHURPATHHAWAII-26DEC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9617784023284912,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe338d7f01f9cbb78c6a078f3107782c5f217095979217eb0202ff88cb50de2ad",
+    "kalshi_ticker": "KXAGUASCALIENTESGOV-27JUN06-KMAC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.797637403011322,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x338f6f3e5ff30f189a7228290a66b9a4213722032da364c8635b496589ddfd3b",
+    "kalshi_ticker": "KXARGENTINAPRES-27-JMIL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8662468194961548,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xdd5b568a1b1066258cd7fa7a7083de550a092157959dc850e49e6384847955ae",
+    "kalshi_ticker": "KXHOUSERACE-MN08-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7706602811813354,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x17d9797821f1a32321564af18ce9bb98ba79f269d6973c9af4c092a518a916ff",
+    "kalshi_ticker": "KXHOUSETX32-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8176335096359253,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x71e6f91ea307e7ca7ebf33da73885e1e60113ba5fc321f8f4b76d17aca3a1274",
+    "kalshi_ticker": "KXHOUSERACE-NJ10-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8221202492713928,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xdf1c9829bdaf934e1f56877b4ca3d85da4cf23be291c2a7dc4db82ceca3596f2",
+    "kalshi_ticker": "KXHOUSERACE-PA02-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.787568211555481,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7034c00a24f9edbf325fd5a0b9a63412e469fc8cd2aa9b060fb5ba8e10d7ebef",
+    "kalshi_ticker": "KXBALLONDOR-26-LMES",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9086971282958984,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x650e996aa3551fd8ecd5819ecdf3fd03a231715d2992f3500b4005c982a67dc0",
+    "kalshi_ticker": "KXLIGUE1-27-RCL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8851206302642822,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x60390f5f24d24a3aa66311f3e6ecd5ca8aae67a9e7582394c9caa21450f395a6",
+    "kalshi_ticker": "KXSERBIAPM-27DEC31-MVUC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8876686692237854,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9ce34bcc7a1ea055ae15009673c927cbc2362376dfb2f787420c137f3b6493e8",
+    "kalshi_ticker": "KXACREGOV-26OCT04-TDAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8405307531356812,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb8a774d0db55647d795ffd9050c9ce311999ed2c450d04fd82a4848001ac2f39",
+    "kalshi_ticker": "KXACREGOV-26OCT04-TBOC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8153141736984253,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd4eac6cb0f6b457c2f4f395fe4c4a234a87154b5c5a36059f2a7ebcfed4deb65",
+    "kalshi_ticker": "KXACREGOV-26OCT04-ERAF",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8081074953079224,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe20c6f3d57379059286d4e20e32cd8100d97de5722b8b091dd49beb2ebad5071",
+    "kalshi_ticker": "KXACREGOV-26OCT04-DLUI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8176258206367493,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb73b23b135bb40488931bbb9bde2a0a01c288c5896afb6d8baafcb3984840b35",
+    "kalshi_ticker": "KXFRPRESBALLOT-27JUN30-EPHI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9560664296150208,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xae1d21f8632f37e11493fef7307b4d09c6b27697be5c820806a840559b1b2e06",
+    "kalshi_ticker": "SENATEMN-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8231317400932312,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9af223a4cf530f854661ac9529e3b160c771df247db843be0eaa93cb9ac5350b",
+    "kalshi_ticker": "KXHOUSERACE-CA32-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8023438453674316,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6078b146115abc0262cd8660c12a9beb4190ef165480ba48c0c43091a36cc285",
+    "kalshi_ticker": "KXBUNDESLIGA-27-LEV",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7958948612213135,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e",
+    "kalshi_ticker": "KXBALANCEPOWERCOMBO-27FEB-DR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8247332572937012,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5dacb3919e3eb6372770cba85c42e0f980ddf18b1a767751de700ee272269233",
+    "kalshi_ticker": "GOVPARTYVT-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.823582649230957,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x55ec3712977c0652bf1d79d4c4c22a35c6cfb294e22fd25772b05b87b08c0763",
+    "kalshi_ticker": "KXHOUSERACE-CO06-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7804710865020752,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd8ebecf28c4b6148a515c247e65230ae7990f5626ef8202841135b2b6963a9b9",
+    "kalshi_ticker": "GOVPARTYME-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8247613906860352,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8bd925f5e06910fb15b5ac40dfa5ac9e63a1703698042b1f3e53b2c2578463d1",
+    "kalshi_ticker": "KXHOUSERACE-CO06-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7673283815383911,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x77a44c4b539d508e4e346f261c47c9a77abade484a2689b64299e30f58f90f85",
+    "kalshi_ticker": "KXHOUSERACE-CA15-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8018027544021606,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1dd7704a6d05cca078564bc0bac541261425bc9252acc5634639f5161daf45f9",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-EPET",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9042850732803345,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x80dd2c6c6b4d5edeb34097da5b8332a56dd593b7c4d110abe68cecd0f18d24d3",
+    "kalshi_ticker": "KXCBDECISIONENGLAND-26NOV05-C25P",
+    "reference_label": "different",
+    "reason_class": "threshold_mismatch",
+    "similarity": 0.7808899879455566,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xec477177fc78c9f16ef4953be7e466c42482115b11fe934dd1350c67e1c7bbb1",
+    "kalshi_ticker": "KXHOUSERACE-GA08-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7552456855773926,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x84f2db26b7503dfcf970a006c14c60f268ab9d3cffdcbe3d8aa92ecff83bac86",
+    "kalshi_ticker": "KXVPRESNOMD-28-JBP",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.892221212387085,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xae30bb6b2ca40470491de7799d2bc2b1aaa59f011ac64ea3eedc93720a4d5d36",
+    "kalshi_ticker": "KXRT-PRI-80",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9103485345840454,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd54c3be14cf32a2824bc8f125d200f84857e9ec11d426368dab57e1de90948f5",
+    "kalshi_ticker": "KXHOUSERACE-CO04-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7412430047988892,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe25b0be3d538078068d0bf2fd311bfbda4b07be31bee8ac4cdf1a0999d2bf328",
+    "kalshi_ticker": "KXHOUSERACE-FL26-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7999862432479858,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf8a4a549f0937ec98b00be5f260f5688e85fe8d3bad51d2664106203f3e07e32",
+    "kalshi_ticker": "KXHOUSERACE-NC13-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7993103265762329,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x321e5306f9f0735e625af23d9b4278b4562fa102a7d0e37692314a34e9cb2cf7",
+    "kalshi_ticker": "KXSERIEA-27-NAP",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.888312578201294,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe52419acfb3e5da37bc53c6341cb23857b429c3b60d61f3136f0c9244d888d8d",
+    "kalshi_ticker": "HOUSECO8-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7043288946151733,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd67cfab2dbfb4e25b5d8b2a9fa66d0dadbcb6c11ba1c7c66cc343c985c5f8540",
+    "kalshi_ticker": "HOUSEIA1-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7870858311653137,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe0fbb3e61e61b14f5fef15ffdd0e2a0c6cf4336bb5b15877fe3e3c9fdcc6bc7f",
+    "kalshi_ticker": "HOUSEMT1-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7123304605484009,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xddcb215d8c020c9794ed641720bde228d41f7fbbc8591e6c93e6cb7b9ed39efc",
+    "kalshi_ticker": "HOUSEPA8-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.833591103553772,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x515155dc9997b73728b424721ea4538cad0de3aad6dd1ceba6277e9fc882276d",
+    "kalshi_ticker": "KXHOUSERACE-NC03-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8123643398284912,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0536145e60528ca32583b13961a328a679b868f9fc6a775c2845776d8aa70cbe",
+    "kalshi_ticker": "KXHOUSERACE-NC13-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8210828304290771,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x36372f0a4c161e1d6bf7cbb920f16432600af5e045c3f739083eb1ffacbe5b74",
+    "kalshi_ticker": "KXHOUSERACE-NY09-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.77146315574646,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x49ca5b6402d30912f79497b12211fd12571d1beef9cdc3e014491d202b1c863c",
+    "kalshi_ticker": "KXNZPM-26NOV07-NWIL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8553938865661621,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x176e84015b1cc54d470836ef1d8a60753e17fa232d9b55e9aa8dde580d03f436",
+    "kalshi_ticker": "KXLEADERSOUT-27JAN01-FMERCGER",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8134337663650513,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x06597598a629c85c3f1972262b4a91a6231042614092203d93318db48e26b47d",
+    "kalshi_ticker": "KXPERNAMBUCOGOV-26OCT25-IMOR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7973976135253906,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd2812e59bd6fed210509d41594231dbdd9fc3f0de0f8312c0b671e9d43c51b91",
+    "kalshi_ticker": "SENATEWY-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7938949465751648,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb809b1a77cad0eda88db74d8edae51a66d52731b00015b7d7d3bcf651f40cd59",
+    "kalshi_ticker": "KXHIGHTATL-26SEP14-B98.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7862991094589233,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x77adadd9ca528f1f6bb51140ad728059a1f9ec8a10e22d9827ceb4cb57d402a5",
+    "kalshi_ticker": "KXHOUSERACE-RI02-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7730231285095215,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xba679a5c42f2d674752c390ddbb8603f04a221eb50ce03662067163cdd359421",
+    "kalshi_ticker": "HOUSETX15-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8297028541564941,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3426998806d3d3b2596f86f22fc9bd4e8ad3ab818f7011ab041596082042f520",
+    "kalshi_ticker": "KXHOUSERACE-MN05-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7982050180435181,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x612126703db7fb7eaa44906b2c7de42300a6cb6e0615c1e360e96e328b6433e5",
+    "kalshi_ticker": "KXBILLS-FISA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9324758052825928,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf5df443a3206eb38a12cb46747c9b69436ff7925dffcb5b8e006856aa8d43aa7",
+    "kalshi_ticker": "KXHOUSERACE-NY15-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7945932149887085,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x95c1331da9910b79109957f4ff5289cf415399e084fa94b012a7752b3904a34d",
+    "kalshi_ticker": "KXSB-27-ATL",
+    "reference_label": "different",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.7474057078361511,
+    "kalshi_rank_for_poly": 2,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb2a0400f22578a6fd694aa89613d3e38918b15c222ddc844cabcee24aab0e7db",
+    "kalshi_ticker": "KXNZPM-26NOV07-WPET",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8839864134788513,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xdcb6cb68a62c550a66018c3e0146588c727fbc7d12254fac95bb8eeb96237f5c",
+    "kalshi_ticker": "KXHOUSERACE-WA04-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7582512497901917,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf155e6c972268c56600185b108c8b69cdc4e0a7c34c25712d0f22f4f751123ed",
+    "kalshi_ticker": "KXHOUSERACE-MI02-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7638270854949951,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xeee75e18b53425c67035084fb8be5414331614ab4e5ec59574bc73e11817be93",
+    "kalshi_ticker": "GOVPARTYMI-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7919356822967529,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xeb7cd255b205bb461833be1149d246c42044c737c287028292250a09076289b5",
+    "kalshi_ticker": "HOUSENJ5-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.760177731513977,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x12ca66c6090f31d532fb447eb39ffb902d3e74faaa62cad15b61c17b510fea88",
+    "kalshi_ticker": "KXFRPRESBALLOT-27JUN30-JBAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9600542783737183,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5da40d2769967a08075c5e1ba2f7181cff82b970a04287c469669a5584b2321c",
+    "kalshi_ticker": "KXHOUSERACE-MN06-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8166176080703735,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0c17ac878ef2e9f0a5fc7a142513bfcf2c9490c54e8dd4bb28cf787f746d1398",
+    "kalshi_ticker": "KXHOUSERACE-IL12-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.79038006067276,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x632131499208f242ade89e799edcf76965fea513e3c26c6f36e1b575f9007d68",
+    "kalshi_ticker": "KXRECOGPALESTINE-27-NZ",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9342163801193237,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x66427bf62119c24ca00c449b393e271aa79458caf8c6002e72fdd22e6eb24621",
+    "kalshi_ticker": "KXHOUSERACE-CA02-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7690579891204834,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6b72de34aae058f5ecb469158e874b9cebce8356bf9c244a77b2294918ade7c1",
+    "kalshi_ticker": "KXHOUSERACE-CA02-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7440687417984009,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x47c160ef68d32681a7b157f8769d56a39757b8855d007a0b3e76c74eed11bae9",
+    "kalshi_ticker": "KXHOUSETX32-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7933436632156372,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x36abeeccf555bebc555c6554d11626905306fe9595ba6ef500a31191c1928ea2",
+    "kalshi_ticker": "KXLIGAMX-27APER-CRA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8720035552978516,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe88782895f6488077ea20a548340e1c5f1b465c0580ac6a7b348ee3428d8adb8",
+    "kalshi_ticker": "KXLIGAMX-27APER-ATL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8460684418678284,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2c93da161ae234a971d93533333455c8fa79804ba7592503a22cde151b1b8e6f",
+    "kalshi_ticker": "KXHOUSERACE-FL09-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8031504154205322,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe6b1d36633fcfca7cfee867496ba9c5eb97268b9fb59c1fd7fefd6cb41cd5904",
+    "kalshi_ticker": "KXMLBNLROTY-26-TRUM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8401170969009399,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd46931250308613b38c1fdad5cfeaeaae05818bc445668ad4629f12e92aac690",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-DRON",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8823637962341309,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9096a340402c48c5f5368eb077485a21c1a2ac4cf523aebed5644626b3b76ed8",
+    "kalshi_ticker": "KXLTGOVVT-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8111249208450317,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa4afd2ba58622a7d43525d7a9fe4025547c97ba9937a004fcbe3679c3ca60805",
+    "kalshi_ticker": "KXOPENAILEADLEFT-28JAN01B-MSX",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8832302093505859,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe0eb9393e2a961d6acf62d5cb2e99475cb950d481557dd7e6f6b2753a7e6eff7",
+    "kalshi_ticker": "KXMLBNL-26-SD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7863456010818481,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x71e9f5312aac62bdc9b87fa8d171fa929eca6243d815298c4c7d61303f7d53dd",
+    "kalshi_ticker": "SENATENE-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8100872039794922,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6664de877892786b699c552ef88f25ff6e4828f9a847e4f40e4d6d9cd30b1485",
+    "kalshi_ticker": "GOVPARTYVT-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7963182926177979,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x571aafcdc9d3549ac260d5f956adc4ae57d9ace63575abd99db58ba0130e9fcf",
+    "kalshi_ticker": "KXHIGHTDAL-26SEP14-B100.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7831892967224121,
+    "kalshi_rank_for_poly": 3,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf8a8a697a088a66e0b23aa1af6f52f79ea74972ec7ab4dcff12c5f4eccf78bec",
+    "kalshi_ticker": "KXEMMYCSACTO-26SEP14-COL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8606528043746948,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x768cbe2016259971141aabe81c26744a256f4df5abe15f9c713abdc5be4b5473",
+    "kalshi_ticker": "KXHOUSERACE-OR06-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.791975736618042,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x86a2f168603fae962d925c91b23fba47c0c7436a240056785de25e998bc30811",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-DFIG",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8929325938224792,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1167ff40fdec61c475580f80421c7e32b29b6d4f1b5c91217057fe0aed77521a",
+    "kalshi_ticker": "KXMLSCUP-26-SD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.825555145740509,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x307a1ed89d60b61002dd5bbf00e1408c5ed2ab3fcdb056191ca7ef9bc34d38f3",
+    "kalshi_ticker": "CONTROLS-2026-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9348437786102295,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
+    "kalshi_ticker": "CONTROLS-2026-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9361491203308105,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4481fa628d6e78cabc77c609d125fe67bb8aaf2c95f8ce20039670d68632dc65",
+    "kalshi_ticker": "KXSERIEA-27-JUV",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9075059294700623,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd1f23e2bc9c61979e1c9f53bd0b76de8ef9cf5bcbc92ecfbccfbf67bfd3c8801",
+    "kalshi_ticker": "HOUSETX15-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7863972187042236,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x26f410f7518fa199678ef57f02637fc88be9b3b593346b00946d7ea451f4521b",
+    "kalshi_ticker": "KXBALLONDOR-26-ODEM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9196586012840271,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa34edb6c898232378a9cc08744842df2cd89d278ba45b012bed3ac10c7241c4d",
+    "kalshi_ticker": "KXBALLONDOR-26-LYAM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.88718581199646,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc56f33ebf16ac0cb795b2c6aee8c46d7671cf777a7be73b9567ac98a7a3761e5",
+    "kalshi_ticker": "KXRANKLISTGOOGLESEARCHTOP5-26DEC-NICO",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8796310424804688,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7d7a5a1824571b55728a73ffb1666c07eee786ecc811bd084367e05a1bd38806",
+    "kalshi_ticker": "KXBERLINGOVMAYOR-26OCT01-EERA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8851024508476257,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xbe63107b6f2952cab6bff292332b1574d5f70323a5a830bdc7e6129ab3c3960d",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-VLOP",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8981745839118958,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xdb018a01cb1f57281c656ffcfdb0e99215410836f82868cb09d4eb25a1504b2c",
+    "kalshi_ticker": "KXHEGSETHOUT-26AUG-26NOV01",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8941023349761963,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2c00cb09722a0f0501c5e49131b898ed57bb5c075db4dc2bcbc14908f45b8c48",
+    "kalshi_ticker": "SENATEME-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7706586122512817,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+    "kalshi_ticker": "KXPRESNOMR-28-JDV",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9014148712158203,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x70187b4770796788b9d1f3fc6652c596870a9a837b96c832441652588f26029d",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-MCM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9100625514984131,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x11c8b6b5bc20726e00e11acb6835f45863c87b1e4d6de1d3b7ff6ec158b1fe56",
+    "kalshi_ticker": "KXNHLMETROPOLITAN-27-CBJ",
+    "reference_label": "different",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.7498176693916321,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x53f44f550d887c6447b90109d5b2f6bb0634d5b1b970ab894cde07826233624d",
+    "kalshi_ticker": "KXNHLPACIFIC-27-LA",
+    "reference_label": "different",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.7606378793716431,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xaae483376030b540f2f15d461d0fddbe2c801bba58fd29013dd65e5e2f483cfb",
+    "kalshi_ticker": "KXNHLATLANTIC-27-TB",
+    "reference_label": "different",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.7615043520927429,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd4d77f20403432ea45e0cc16eb0824cb4567262f5b86f1ed4f2702f8d1edde77",
+    "kalshi_ticker": "KXNHLPACIFIC-27-VGK",
+    "reference_label": "different",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.7604844570159912,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xdce103d813730a3d23d272f0d605bba5c5023b09a25eca298b181c92d21f1a57",
+    "kalshi_ticker": "KXNHLMETROPOLITAN-27-NYR",
+    "reference_label": "different",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.7315732836723328,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x48674f295cfb13e7df5184169fbb555e61c8512c4b652d2e98b19cb2380ee2d1",
+    "kalshi_ticker": "KXNBAROY-27-MJOH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7747520208358765,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xaf93700506149c5a20df7f6cffc3e843872a1549fdba3b785330b013c7d06091",
+    "kalshi_ticker": "KXNBAROY-27-MBRO",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7743613719940186,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x746481a9f7ac20a4959a11ea5d535522040b0dfd7c21b920d5fe134a93c2c26c",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-DJT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8858795762062073,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe5ea729b91b19f0930ecd4b892ad33a571e5f739355c09334bdb31f322a7abcb",
+    "kalshi_ticker": "KXUSACOMPANYSTAKE-27JAN01-LLY",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8844882249832153,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb9aee520bf51ac5f00b5c43e54ef9245bc9fcdef866ce8a33025f9a441cc651d",
+    "kalshi_ticker": "KXFEDDECISION-26DEC-C26",
+    "reference_label": "unsure",
+    "reason_class": "threshold_mismatch",
+    "similarity": 0.6745225787162781,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0xf35a561cedd2aab1aad1744ea4b05e91d38edb4c0b64c76196bd11a4cf0b6bde",
+    "kalshi_ticker": "KXARGENTINAPRES-27-AKIC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8165460824966431,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5d34a942a0fa2c3a83791d19e636a81aac213a8843eb3f177c93bf945e421fc0",
+    "kalshi_ticker": "KXHIGHCHI-26SEP14-B78.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.798263669013977,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xfb69b0e24cfca7d849668366f5e9439a76e838dd825ab1bae1676b2d6e9cc5dd",
+    "kalshi_ticker": "KXLIGAMX-27APER-TIG",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8337469100952148,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4c04cc7094bf35bd682eb4f0e492836b97392c213087a2b891d0b5d897a81eb2",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-MRUB",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.903214693069458,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0ac2141f45ac7ecb8477c64207db37f8f8efce800cbf705366771902e796e92a",
+    "kalshi_ticker": "KXPAHLAVIVISITA-27JAN01",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8218268752098083,
+    "kalshi_rank_for_poly": 2,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0xa4508f8fb7960ab7c1aa16f0480e3156d43245e8cba647ab89699ba2513ec21c",
+    "kalshi_ticker": "KXCEARAGOV-26OCT04-EGIR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7929711937904358,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc57bc9d0d9890815aa31d498d57af5d2d6e8d5245fd5ab104dfd7aed8c7b7081",
+    "kalshi_ticker": "KXTRUMPMEETING-27JAN01-NVPUT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9435662627220154,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa5f8a44504de30fa36fff2406b2b27b3d15476ed50448e4fc3ead4861d8a5e3e",
+    "kalshi_ticker": "KXFEDDECISION-26DEC-H26",
+    "reference_label": "unsure",
+    "reason_class": "threshold_mismatch",
+    "similarity": 0.66138756275177,
+    "kalshi_rank_for_poly": 2,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x93e35b02ef098acf22ee0bed99bf159a05b25a2a55c1849d62c8fbb155001b7f",
+    "kalshi_ticker": "KXTRUMPSAYMONTH-26OCT01-EPST",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9188774824142456,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x896f2b2411555e534b38858f0dda408381fb4018301433000d60220b990b7f60",
+    "kalshi_ticker": "KXEMMY-VS26SEP14-JIM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8681617379188538,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0a95717208bdb1c1167877eb5b19085494f68ed9b074d8dfc7d76b549fcbe7bb",
+    "kalshi_ticker": "KXFEDCHGCOUNT-27JAN01-E5",
+    "reference_label": "different",
+    "reason_class": "different_subject",
+    "similarity": 0.7714542150497437,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc991e4977f8b504529e93ffb308feb1e0127f447e5da47b4f5cc312a696dcee2",
+    "kalshi_ticker": "KXFRPRESBALLOT-27JUN30-BCAZ",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.95966637134552,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x534ac6a55433b47c4e9781cc185fd2f53dbde66831309628c45d8365768e7dbb",
+    "kalshi_ticker": "KXHOUSERACE-IL12-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8251229524612427,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9ed2a24391123c685db5c48ea043ee9bd714a144be4a9a0c48d146d521cf9f93",
+    "kalshi_ticker": "KXLEADERSOUT-27JAN01-KJONDPRK",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8424341678619385,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb431d321872b74e782916bb1668a91d6976b596be6592451f9f03215f79dbfda",
+    "kalshi_ticker": "KXNUEVOLEONGOV-27JUN06-MROC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8122005462646484,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x236827b4e4f4786650e61d86b301c642e87672b710e2498ecd72fd7d8615450c",
+    "kalshi_ticker": "KXNFLMVP-27-MSTA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8035501837730408,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x355608eef04905ef4a53e229502e9dd335143f67d616e9ccfeaadbfc2fb80fe1",
+    "kalshi_ticker": "KXNFLMVP-27-JBUR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7807666659355164,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5d41b5d07bc3096d92d35674e7bbc1af421243a69c8e313659e254e9962a59b8",
+    "kalshi_ticker": "KXNFLMVP-27-PMAH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7673441171646118,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6e6819aad914476a8d548452d962d51fa5e0444aead63f2b2b9169a8b028beb1",
+    "kalshi_ticker": "KXNFLMVP-27-BPUR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7736065983772278,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9e2820e6dd501127d0478c0986b21c3e6091e260e4f21b80c171fdd56e038de5",
+    "kalshi_ticker": "KXNFLMVP-27-JGIB",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7397757768630981,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xba3bb016db3960dcd2e32a177a23947530bd3966618aa047e2cc44f108bc32f0",
+    "kalshi_ticker": "KXNFLMVP-27-DPRE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7716399431228638,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd1375d878771db8beecd19af2a1150708e950cc06593ae0f58e0bd2de5396caa",
+    "kalshi_ticker": "KXNFLMVP-27-JALL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7535327076911926,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd7089b9b1843279db6ad909214d21f26929b102ab918ddda36e2ff76757cf0db",
+    "kalshi_ticker": "KXNFLMVP-27-CWIL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7430841326713562,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf1f62992ec6080bb82206dc8f9213b7ee2fc356967c6eb307cec5afa7f954b80",
+    "kalshi_ticker": "KXNFLMVP-27-JHUR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7643140554428101,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xcef0ea92825ef2e046a97ef9b628709d0071614832d3bfc9c6c8dc119a472618",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-JROD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9031824469566345,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1e67c7b553109652aefc11cd4bb2249029230e45fdc335505d21113708b9bb83",
+    "kalshi_ticker": "KXGAMEAWARDS-2026-SLA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8656227588653564,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xfdea40253f7e3ab19a6e2d8e1901f7338d54d9ce4d4f63b48e603a4f387151bc",
+    "kalshi_ticker": "KXGAMEAWARDS-2026-PHA",
+    "reference_label": "different",
+    "reason_class": "different_award_category",
+    "similarity": 0.7155232429504395,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xfd400a600d2344802c8d2bd19bd837e94e7dae1d37a1057254442d8a3db0936c",
+    "kalshi_ticker": "KXMLSCUP-26-DAL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.817581057548523,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2f7528fa59cd7bd76b6834278288f131edf9b2379c233b0cb257931e91f01d40",
+    "kalshi_ticker": "KXBTC50VS100-BTC-26DEC31",
+    "reference_label": "different",
+    "reason_class": "different_subject",
+    "similarity": 0.7552800178527832,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x06238340d253b4624bbc426aa3e033bf0e0cc4b6fd71e46daaf24888f588d8a0",
+    "kalshi_ticker": "KXWNBAMVP-26-OMILES5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7600664496421814,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0716a90a7a2e642eb65255c22187174165da4518ad3811c543df3eabcd08c9dc",
+    "kalshi_ticker": "KXLEADERSOUT-27JAN01-LSILBRA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8194289207458496,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf0091b4ae1f798ad6544d6ae06eb6710bba717edcc7af28846ac77e8f94b6d58",
+    "kalshi_ticker": "KXLIMAMAYOR-26OCT04-OVAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7900505065917969,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xab843fa3c4fc152299459ad2751238a7ab3d4adaf4340c5cebe0894299ba63af",
+    "kalshi_ticker": "KXSURREYMAYOR-26OCT17-LANN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.831732988357544,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xea7619fab4b12756574624024842a71ca19f351d296b39c348b619bd2e18a7e9",
+    "kalshi_ticker": "KXNFLOROTY-27-MWAS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7139303684234619,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x391bebf05ae53e3796501e643cb66d2a07c2f785a31f9e917fd6388a0359053d",
+    "kalshi_ticker": "KXINXDUD-26SEP14H1600-T7656.85",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7267289757728577,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x05032387cebbd6df78c8e19b0ecbc0bdecc27d0ca247923814ea1268be27a0a6",
+    "kalshi_ticker": "KXNCAAFMWC-26-AFA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7779761552810669,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf7c1bad44b5b32f2a28a9b78c7d5bb465156581e89a16072ef943007633513ba",
+    "kalshi_ticker": "KXNEXTTEAMNBA-26ADAVIS23-PHI",
+    "reference_label": "different",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.6627930402755737,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa9dc96c55efbcec6d28d4c2ec1ec939681d132174f03e5e9a5ae8e9a48eae70a",
+    "kalshi_ticker": "KXACQUANNOUNCEPINS-27JAN01-OPENPINT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9300376176834106,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x453030e67b67b385dd40b3211850a7a451235d8f8ed041589ed387d28252692b",
+    "kalshi_ticker": "KXMLSCUP-26-PHI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8114258646965027,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe6522d64f35a6843ebdbccab2e3d4a1385350be6d40a3de766330e207b71a8ba",
+    "kalshi_ticker": "KXNATIONALIZESPACEX-27-JAN01",
+    "reference_label": "different",
+    "reason_class": "different_subject",
+    "similarity": 0.5838106870651245,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7c6c9a67c030eafb7592ab444f428c2d8c72149e2be88c755bb9ea07f750033f",
+    "kalshi_ticker": "KXNFLOPOTY-27-PNAC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7467041611671448,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9345d5142a67f5541264c96515496affee02580f1c572680759eac9fd2a1588a",
+    "kalshi_ticker": "KXCAWEALTHTAX-26",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9053980112075806,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1134fcee3c3270f02e3cc5897eb9c643fc7bf9099d6c0c48425e5c6b00b7277e",
+    "kalshi_ticker": "KXSAOPAULOSENATE-26OCT04-SFRA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7925738096237183,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xba5f77588c7ff445abc3c53616a5282c238ec5ccdfd4651c86ca46259d8ead52",
+    "kalshi_ticker": "KXSAOPAULOSENATE-26OCT04-GRUF",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8089119791984558,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9194103ad3ae2c3d2a1d739358843fccea3c13ab39b1aab58a8bb87e486bbcdb",
+    "kalshi_ticker": "KXAFDSTATEGOV-27",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8794966340065002,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2f4dc4c45799f3dbfd5627ac28b0dcb9c8dcee04ca21197d4b7b11bbe5f5befe",
+    "kalshi_ticker": "KXRANKLISTGOOGLESEARCHTOP5-26DEC-ERL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8610320091247559,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf9d8f886d9f25f3d3f5fc746c31beb812e62b6991232d521bc7edd664ec9346c",
+    "kalshi_ticker": "KXRT-PRI-87",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9233348369598389,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x37930364dacf30a7349c8692ead31a6506fbfac7d2e2afcbfca0248e9964ca3d",
+    "kalshi_ticker": "KXDPRESPRIMARY-28SC-GNEW",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7656642198562622,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5547e51cd891ed2ea318380d71264f901a8a58f217b500c7b42f19e569e25130",
+    "kalshi_ticker": "KXKXMOVIEDELAYBATMANPT2-28FEB18",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9299087524414062,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x300e4085e91a58dc2f2007a3692ec7ab9de91bfce472e7be45effcfdbc788ff3",
+    "kalshi_ticker": "KXNFLOPOTY-27-JCHA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7526887059211731,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd05da9807740aa0f5bc9e9232daabe87a21e5012c19e283abf414f1c1651118b",
+    "kalshi_ticker": "KXISRAELKNESSET-26-YAS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8735398054122925,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf9b63cf6df2f9ecad109dcc54a18841d9b2c16ff9d1f75f55d58927d48a33540",
+    "kalshi_ticker": "KXAFCCLSPREAD-26SEP14SHMITJ-ITJ3",
+    "reference_label": "different",
+    "reason_class": "moneyline_vs_spread",
+    "similarity": 0.7886468768119812,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x888a5a06d9d4d27167bc1a68ff0e42041ea6dd8ea23cf68634347fcbdade2896",
+    "kalshi_ticker": "KXFRPRESBALLOT-27JUN30-GATT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9588149189949036,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5e679f25f413ea3f2e6715c2453738b8311a4291fe26fbb7606469e4338ea554",
+    "kalshi_ticker": "KXTALLAHASSEEMAYOR-26-LAUS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8134690523147583,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x454005ba2b2a2f3bfeb354e18d8c0cb82136009c8f39589645f9cf2af25f0d25",
+    "kalshi_ticker": "OAIAGI-26",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9350159764289856,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x198b9e40e6d70e2b7c05e0b9a2500377c6e9953e282c457e4c65672578cdcd68",
+    "kalshi_ticker": "KXMISSISSAUGAMAYOR-26OCT26-CPAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.829181432723999,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3864d6f71c4eb72bf2510af694bfcdef8aef4ddb3001f59d2b4f1fefa0499ab8",
+    "kalshi_ticker": "KXFRPRESADVANCE-26APR18-RGLU",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8738243579864502,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe9abab990c0a1a578c39e649234f547cdcce6dbdc3f1ed88d635e165992deb86",
+    "kalshi_ticker": "KXAGUASCALIENTESGOV-27JUN06-NRUV",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8322758674621582,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x35b5ee5ee1918badc39ad4e250503939ae4bf9684e37c0aebbece51156a9c487",
+    "kalshi_ticker": "KXNEXTMANAGERMLB-BOS26-RBAL",
+    "reference_label": "different",
+    "reason_class": "different_location",
+    "similarity": 0.8299192190170288,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x81f0581f13aa4e7b7d913df45f66752c92be4067a0a852c5f9dad60cc92d30a2",
+    "kalshi_ticker": "KXMLBALMVP-26-YALV",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7811344861984253,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x55e887935581f789bd6d09711a5ae40a735b84adbf8e7ad8590736f65cbd6835",
+    "kalshi_ticker": "KXRT-DIG-90",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9088535308837891,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2a15f5143f1f57c98d14843bef91cf6ebfcbc1bca077a6daa2106914da64662b",
+    "kalshi_ticker": "KXUNSEC-27JAN-RGRYN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9699589610099792,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x51af2db6aede54bbbf36cf865fbe0bfc1518ef5daa9170dceb76bc938cb6e850",
+    "kalshi_ticker": "KXHIGHTSEA-26SEP14-B66.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7972772717475891,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe6167934ac13573560aa6bdb9171992d5071e4e99c6223ae5041db832e3b7c94",
+    "kalshi_ticker": "KXMOTOGP-26-FADI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9098609685897827,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7b08a92d1b4d458fcb0a51d9b0596377c5735d063b1285f408e65e9ee7b08b88",
+    "kalshi_ticker": "KXNCAAFCONF-26-B10",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.886566698551178,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa01d48a973e40770719dab42faf1aeae5da4376d9eca46e77265c7551d1be0f7",
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-DROD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8952031135559082,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x80e1ad6fc593eb0e74544ef4e3149a9c042ea56f64e6c9158c26bc8fa475f4dc",
+    "kalshi_ticker": "KXTLAXGOV-27JUN06-ASGA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8048685789108276,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x982feec540177e2822e559ff15b7cf15494f32383d0af9d0782b1c0ffec45fd7",
+    "kalshi_ticker": "KXLEADERMLBAVG-26-JWIL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7951570749282837,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x94e2d1bf5fc1e9f29f5d138cafe10a3865ac23155e1db8d42e57481b6fd1a2ce",
+    "kalshi_ticker": "KXSTRMRSOTY-26-JYN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7267266511917114,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb3090bc161089c9f5b52098b9a2646196cf11732f6ae4042aff9c97deafddaa1",
+    "kalshi_ticker": "KXRANKLISTGOOGLESEARCH2-26DEC-TAY",
+    "reference_label": "different",
+    "reason_class": "threshold_mismatch",
+    "similarity": 0.8608303070068359,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x97ad5817fedadcd231db18875f90d582aa9b4738bbd00174d538409e0e0dd03b",
+    "kalshi_ticker": "KXBIGBROTHER-26DEC31-ANG",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8811028003692627,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x346cc5cae716465b1dba872f8a43e9c9e8232070ad24d92e1184be0f3c66da8b",
+    "kalshi_ticker": "KXTRUMPSAYMONTH-26OCT01-PRED",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9302247762680054,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x248fb8d19fc2cd647780c2568921d5fc9016aaac52a9891c1afec7ad77a1d99c",
+    "kalshi_ticker": "KXVPRESNOMD-28-ZMAM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8725327253341675,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5a2dbd21dc5562742d20b78ffae2d0ee6b942d212b4a5ff8f264c887b880e413",
+    "kalshi_ticker": "KXVPRESNOMD-28-BSAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.883381187915802,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x744f442de356db04289d1b027065533e28f34f243c7504ce8274980f4568a4da",
+    "kalshi_ticker": "KXVPRESNOMD-28-LJAM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8921360373497009,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x75aa5e68e799c47d07b00a4605ca438e1f6112d8787773b2b0eb92b89dd8ba20",
+    "kalshi_ticker": "KXVPRESNOMD-28-PMUR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8813603520393372,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7fa6f0305f7f94cdaed84602f16e36d9e53ba6bcd9a7f7413d49d80d495a65da",
+    "kalshi_ticker": "KXVPRESNOMD-28-BOBA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8762048482894897,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3fde34075a93e029a0127c927795f64d5b57b7cab81ffe3460ba0694573e03ce",
+    "kalshi_ticker": "KX30YRDIRLM-26SEP30L-T5.15",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8498787879943848,
+    "kalshi_rank_for_poly": 2,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7191b38dacbb6b3ec4b370bf736df978f4d83cad8034d8109d6e8faa3810a524",
+    "kalshi_ticker": "KXTRUMPSAYCOMPANY-26OCT01-BOEI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9229971766471863,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb7e7ce498a7a75240e54b210fbc656a8b6cb0b46029e33f626a566b6215a76c3",
+    "kalshi_ticker": "KXHEISMANSPECIAL-26CONF-BIGTEN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8007538318634033,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8ff9cbc2df915da89b56cecd225b6529da1a2c7630d88105d0254743d65e3db7",
+    "kalshi_ticker": "KXTLAXGOV-27JUN06-FMHH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8325337767601013,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x94758b948da26cf46855565f65be7f58574db4b235096615811b9601ebe736a6",
+    "kalshi_ticker": "KXTLAXGOV-27JUN06-ALRI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8218072652816772,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6fa0b8c1dfadcc2b0f6fd24486e361afb115c2f4934bf7dcb02075b682cd5f66",
+    "kalshi_ticker": "KXNCAAFMWC-26-NDSU",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7564569115638733,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8ef32572ad6c5c4b859527ce52ca53784d731e4c1693f16fb4190e9880f25b87",
+    "kalshi_ticker": "KXRANKLISTGOOGLESEARCHTOP5-26DEC-BAD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8707044124603271,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xed84c51f878ab14627af81e089a15484d14c6225b5a09ab7715740d981f6dc30",
+    "kalshi_ticker": "KXNASCARCUPSERIES-NCS26-DSUA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8496670722961426,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4de07f3b6b1220c2406e5807d30588fc6cbd5b938310835524106d05d20a9b4a",
+    "kalshi_ticker": "KXFRPRESADVANCE-26APR18-MLEP",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9047613739967346,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2908ac428598a782fe6aa75f816558c34c5dbfe58548b2ed65870087d6780bde",
+    "kalshi_ticker": "KXFRPRESADVANCE-26APR18-BRET",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8744037747383118,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0xa54653f4ede768fbea4e54f86825998b73f63b92f67349a147dccbbcca2fbc55",
+    "kalshi_ticker": "KXNFLOROTY-27-JLOV",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7641350030899048,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0a99479228e93524b25676ae69b94bd3f4278a6bca8d8c265c84d24755399cf5",
+    "kalshi_ticker": "KXPRESPARTY-2028-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8915523290634155,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb2fddc90e11d6c55351bfbd5c01e67323f4d177f55f612274a90da92d1ae68db",
+    "kalshi_ticker": "KXGOVAK-26-CBIS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8381677269935608,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x13fea582ebdb2ba870270a2dc9f9966f4d5c8fe231e790352193de405fb83726",
+    "kalshi_ticker": "KXEMMY-VS26SEP14-LAS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8949707746505737,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb106a3c9d1c59ed8117493dae6459a3ff79369a8f7cddaf62f4a05828b89195e",
+    "kalshi_ticker": "KXPRESPARTY-2028-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8949005007743835,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x83030b249525db4c0bcd83a915776442f4ea32d2fba10825fca4abeb51512d8f",
+    "kalshi_ticker": "KXBRPRESIDENT2-BRPRES26-2-RSAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8582310676574707,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1ba9f919c83d956bfbf69415bf98dbf4912f193d41288c940b50ef0503a40b46",
+    "kalshi_ticker": "KXNASCARTRUCKSERIES-NTS26-GENF",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8095179796218872,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa1798eba787d905996aaabf7bb504025b4feb7baef22d3a53412c9c57666b443",
+    "kalshi_ticker": "KXNASCARTRUCKSERIES-NTS26-TANK",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8098305463790894,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc1b2a392fffa0b3885e5ec9cdc16fc615630fd160233db68481bfb29015db3d9",
+    "kalshi_ticker": "KXIMAGEAI-26SEP18-OPEN",
+    "reference_label": "different",
+    "reason_class": "horizon_mismatch",
+    "similarity": 0.6793667674064636,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x6678c47120967c0a480eee4e169a0174df305f4f0ddf771baf0cc84c48310213",
+    "kalshi_ticker": "KXSERBIAPM-27DEC31-ABRN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8897481560707092,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3407f91ec33975dff75a9ef4054d40d1bf73a64fbb09a4b40026639f46f8a577",
+    "kalshi_ticker": "KXRECSSNBER-27",
+    "reference_label": "different",
+    "reason_class": "horizon_mismatch",
+    "similarity": 0.9040088653564453,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe8f5ce2544720642ea8f77cc5d9f1134ee56d007eaceeb054268d29a3729371a",
+    "kalshi_ticker": "KXHIGHTDAL-26SEP14-B102.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8071173429489136,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0xe195d5213bacce669338687bde9fd613c81e8aa4a58c253c590d3d4b44b47e25",
+    "kalshi_ticker": "KXEPLTOP-27TOP6-MUN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8303651809692383,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7643bde8d198fc0c74037c694679ef521ea5b5b2a2ad80a8af98e185f0e57b58",
+    "kalshi_ticker": "KXFRPRESADVANCE-26APR18-GATT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8806954026222229,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x382d8158029ab6864599e8ba8e97a85c1c30a65c8d2b07a65f03f225fd0d6e04",
+    "kalshi_ticker": "KXRT-PRI-90",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9061679840087891,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7fd0301de58d1f436f539b50518563a9bc04fd0b00d224ba854ee36bc14bb7ee",
+    "kalshi_ticker": "KXRT-UPR-54",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9235172271728516,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x346d8765a5c3d82c43031bf49392746a5fc32e8b8d8133444a474da62c7bb2ce",
+    "kalshi_ticker": "KXNEXTHURDATE-26DEC01-26OCT01",
+    "reference_label": "different",
+    "reason_class": "inverted_outcome",
+    "similarity": 0.9193702936172485,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x91501efd18e3ece585603ed5ea5eae7f5949ad0cffb14b6fb3a405496b627ddb",
+    "kalshi_ticker": "KXVOTEBR1-BRPRES26RSAN-12",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.6951968669891357,
+    "kalshi_rank_for_poly": 3,
+    "poly_rank_for_kalshi": 3
+  },
+  {
+    "poly_id": "0x7c9c13d0adc82f9e5aaa774e75ac1d08d181367c4cda17fa641293cec7d13bc2",
+    "kalshi_ticker": "KXFRPRESADVANCE-26APR18-JMEL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8867896795272827,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe3f13c1eda89d709293f3c1f262a66cfc6ca76c314b3bbbf1635fd7f8b9f8671",
+    "kalshi_ticker": "KXHIGHTDAL-26SEP14-B98.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7999223470687866,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x205b11ab2023eedf5b621208c05154c544676d0671ce7be17b0f98d2179a2ff3",
+    "kalshi_ticker": "KXEPLTOP-27TOP4-MCI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.820671021938324,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7a4007a10fa089e47502cdf403048a5cf342632d20e18ba7c4f07ec5ee880c39",
+    "kalshi_ticker": "KXAFCCLSPREAD-26SEP14SHMITJ-ITJ2",
+    "reference_label": "different",
+    "reason_class": "moneyline_vs_spread",
+    "similarity": 0.7820524573326111,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0xed0f1eb3326c0121013bc8d62ca6fab22851a0482a73178474973c179e8cb709",
+    "kalshi_ticker": "KXRECORDNFLBEST-27-LAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7795828580856323,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc205eadde0aa64e987b75bb1d5b123d337b72dc2b0578c426f31446b174a21a8",
+    "kalshi_ticker": "KXTRUTHSOCIAL-26SEP19-B129",
+    "reference_label": "different",
+    "reason_class": "different_measurement_window",
+    "similarity": 0.799446165561676,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x678cafe88950533b8f46f0012cf96e198795587155ced50f790872988935fb69",
+    "kalshi_ticker": "KXNFLDEBUT-27FMENDOZA15-W1W2",
+    "reference_label": "unsure",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.679330587387085,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1a1df05b1262d286227ff7ca8a11cb60a3e489300f61a2b2942a0e03e9680d44",
+    "kalshi_ticker": "KXHIGHMIA-26SEP14-B90.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.814082145690918,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0a64814b3f9da2c5a6a5ad4d656104c729a7069c62183e98b0c537a7e52f4b04",
+    "kalshi_ticker": "KXLOWTMIA-26SEP14-B78.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8087830543518066,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc7c9bf228a7aa61225e46709722dc820e8f1483a7266d9c22208a352e6fe73a8",
+    "kalshi_ticker": "KXLOWTMIA-26SEP14-B74.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8070438504219055,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xca993ce048f5401395b60cd04ad1d1c22c9283a750fc94666288827d778c667e",
+    "kalshi_ticker": "KXITALYPM-27DEC22-GCON",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8678942918777466,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd1e9754fbd677ad1c152d878558642bb9be207702c429408c52dc410dd9f09f0",
+    "kalshi_ticker": "KXSERBIAPM-27DEC31-SKRK",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8841535449028015,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7253818e5a9a04ecbb826896fdf723d25110dc7bb94bd0bd8a51ea1aa4c9827b",
+    "kalshi_ticker": "KXMARMAD-27-ILL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8819072842597961,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x283acc998dcdc82292f06dc537764832a61b9346268ac72488f35200d454480b",
+    "kalshi_ticker": "KXEMMY-VS26SEP14-SAT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8529810905456543,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xff5c8b2413a9ceef8a03ad3558423bf6bd459c1afaa05578643289d53d3bbca0",
+    "kalshi_ticker": "KXCBDECISIONENGLAND-26NOV05-H25",
+    "reference_label": "different",
+    "reason_class": "threshold_mismatch",
+    "similarity": 0.7046041488647461,
+    "kalshi_rank_for_poly": 2,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0x4f4ea7a0b4f2d23f114c7a9440b9307477a31ebb27ff6cd23db49767934c64fa",
+    "kalshi_ticker": "KXTREASBLOCKCHAIN-26-27",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7625226378440857,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x881c58bbd0a3b90b847fa5c72189d4474112366e01cc56dda663e7162d5832a2",
+    "kalshi_ticker": "KX30YRDIRLM-26SEP30L-T5.12",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8492406606674194,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 2
+  },
+  {
+    "poly_id": "0x12c5b5e4701f172a6045b97eda70f0897aaf6adf566e6f0dc722996ac80b8b81",
+    "kalshi_ticker": "KXFRENCHPRES-27-SKNA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8954957723617554,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x010f3f24ab463669b4d3dee775864db64b2441f8fa7a34725765ff0d7c667ec8",
+    "kalshi_ticker": "KXVANCOUVERMAYOR-26OCT17-KSIM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8437600135803223,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0b3918ca6b169e13eecff0cddfe5d8a46bcee990da398c09d4d93145364bddfb",
+    "kalshi_ticker": "KXFRPRESBALLOT-27JUN30-FASS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9453158378601074,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x71ff6e94f5bdbab07ff44b29c4aa56cddde33a78bc89dc67abddb444c0d7dc53",
+    "kalshi_ticker": "KXBOSNIANGEN-26OCT04-HDZ",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8501814603805542,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xca1d1139b0c3a29983407f499476ae642482788e841a277eb86faeeb9fa4a85c",
+    "kalshi_ticker": "KXPRESNOMD-28-JF",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8720319271087646,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x54329a105fe281f50d2634e889b6ee123c5a6b58ab59173d6ee9f1f23379ec4c",
+    "kalshi_ticker": "KXKRAKOWMAYOR-26SEP27-MDRE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8263423442840576,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe80068571062e0f82b4d6802332da5d53e409e4637bc0ee4adca0b15a0c5b837",
+    "kalshi_ticker": "KXNOTLMAYOR-26OCT26-AKAI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8542197346687317,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3535fb2f4aef6619dde8b367cb5e5d209526bb496d5d9778428c58a0252435e3",
+    "kalshi_ticker": "KXPRESNOMD-28-ZMAM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.891123354434967,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x61fc517c2b0d6f945868070a3ac722bfa35f07154d34bec2f9bfe41436098bce",
+    "kalshi_ticker": "KXBRPRESIDENT2-BRPRES26-2-JBOL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8990787267684937,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x189e99f9dcc557b99b1126d8d3a282b2069381de919f80b2c6ec397b19fcab41",
+    "kalshi_ticker": "KXISLEMINISTER-26SEP24-ACAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8926115036010742,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb7703a974306001b283bc071234f1f04c832e793820ba284788e688d305201bf",
+    "kalshi_ticker": "KXBRPRESIDENT2-BRPRES26-2-AREB",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8720479011535645,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe1d5733322fd2215f136412f419d9ff805d097f78c68de3261515ff736895f2b",
+    "kalshi_ticker": "KXBRPRES-26-EBOL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7922402620315552,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3a00d0d616d344c8cb25209a1df1ff01aa99bcbd7cecf13926959357c8b95223",
+    "kalshi_ticker": "KXFRPRESBALLOT-27JUN30-BRET",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9569820165634155,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x46dbd48d6bde5b81edb480e0f676a2cdda6c6b592c4d86a9367c7ad5a9870195",
+    "kalshi_ticker": "KXPRESNOMD-28-LC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9044159054756165,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xdd3d104667774208eae2239f576122ecdd1c04ba81cc14d26d22a36b33887977",
+    "kalshi_ticker": "KXBRPRES-26-FH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7941795587539673,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x09f2818bd46df79d6ced926b5c0756f3dd55d11d8c765d472495ceae987cab0c",
+    "kalshi_ticker": "KXFRPRESBALLOT-27JUN30-EZEM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9567772150039673,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa2df577205d2ce04af348ef5d5174259c5990d20784e1a063992c1f155b2ec27",
+    "kalshi_ticker": "KXTRUMPADMINLEAVE-26DEC31-RVOU",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8350062370300293,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1657953ec050f96ee471405e4448c51e805bad7a3dcb81811bac54050adf9cac",
+    "kalshi_ticker": "KXHARRISCOUNTYJUDGE-26-OSAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8640182018280029,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc2a2b9fb879765ecec9e738cb07ce913c379449d6b046e50bce4f9625ddd2e30",
+    "kalshi_ticker": "KXBILLS-AIO",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9003220796585083,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xde2be5c360bafeb33cc43bd0a49368ed89371daca90e1cc6da8bf7f93d5bbadf",
+    "kalshi_ticker": "KXTRUMPADMINLEAVE-26DEC31-KPAT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.874216616153717,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x850c5df4f71fbe41414e71df71213453a97615742a6194e42600015e2c255800",
+    "kalshi_ticker": "KXSB-27-NO",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8408709764480591,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1d8cfb3cd1956e90d83d38cdbb87625012d4571684677d999ed46bd39b203905",
+    "kalshi_ticker": "KXHOUSETX35-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8219859600067139,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3babe91f8d2fac44027f9ba7f0f1a59e61b72419828e6e517f96bbcf4e132498",
+    "kalshi_ticker": "GOVPARTYOH-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8112126588821411,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7441b8705230ec9ec80a0891205ce7590279bbb4d62867cc78350ff116f8ccb0",
+    "kalshi_ticker": "KXHOUSERACE-CT01-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8037866353988647,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x72d824efdf2e776b0f3f0cd032babb3c721c7861084ba7d0c8c09bb40b54b1ed",
+    "kalshi_ticker": "KXHOUSERACE-CA50-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7868348360061646,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x90745b0d403b153b5e099d90189c5d95417be22f36c15155eb742bc4021fa9be",
+    "kalshi_ticker": "KXHOUSERACE-PA02-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8177063465118408,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xe0921ee8cc57240d9b141980c549232ac020a0ceba3f71467f2c10f9e65f29a2",
+    "kalshi_ticker": "KXBALLONDORAWARD-26WBAL-ARUS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9149408340454102,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb4598072fe1d7a58fa07dce6cca956fc0c8822626e263320ff6e7398f2142c36",
+    "kalshi_ticker": "KXHOUSERACE-AR04-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7691744565963745,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xab9d90fd3faa3e5dabd576402752ea69273cec70ed0d710bf8057d202999b55f",
+    "kalshi_ticker": "KXNFLDROTY-27-AREE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7815926671028137,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9ae7125f02766aec1a6b8fc3c0fa8a536a424d07b290f870eecfbac5bb3a8f3f",
+    "kalshi_ticker": "KXGOVAK-26-LCMG",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8211135268211365,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc45707f00c6aad456d5eb98f5a4e37265e201d1120ca44804d05da1e4fbe41b9",
+    "kalshi_ticker": "KXSWEDENGOVT-28JAN01-KD",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8645046353340149,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x236467170766297db2ac7db539cf9b43632532b588d2db12a03b7a3d3eccfb88",
+    "kalshi_ticker": "KXHOUSERACE-AL07-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7744640707969666,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x73d6f895445cfc4116c5492ae395114ba1c56bc9c83b26fab9f0d174c1792e6f",
+    "kalshi_ticker": "KXNCAAFSECLEADER-26RSHYDS-MIZZXEDW",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8550236225128174,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x89cbcdb241e13650e512d26b959e332820f65706553a92b0b39e394b256ba0b7",
+    "kalshi_ticker": "KXHOUSERACE-OK03-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7236192226409912,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf1c2dcc0cf379e1e734ea9ac9389008006116a585bfcb29bd86ccf1e4681a416",
+    "kalshi_ticker": "KXTITLEDTUESTOP-26SEP15T8-CVIL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7229942679405212,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7b663fa707de80a82c2b04c3065aa6f78da7ef8b0d1b6f5815a38775b84d8c3b",
+    "kalshi_ticker": "KXNCAAFBIGTENLEADER-26RSHYDS-MINNDTAY",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.791784405708313,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8d65ff57f443011c4c10e7aa50aa54b3a3b5e2b940cb3ca97c0357bbcaee0b36",
+    "kalshi_ticker": "GOVPARTYOR-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8118308782577515,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x93f0dd0eac62c648ee4b9bb214c539e140f92aeda65f44fea584baf95bbccf06",
+    "kalshi_ticker": "HOUSENM2-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8010370135307312,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa63de527435a38628d867a9dc5a7aafbd59c958a27ac9ba404ef199b975e374d",
+    "kalshi_ticker": "KXBIGBROTHERRANK-26DEC31R2-ROM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8530365824699402,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0eda21c8b5651dba9fd69aad361e9d01481965e94241ac438486a16dab181344",
+    "kalshi_ticker": "HOUSEAZ1-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7857562303543091,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4014ae666a6dc78be5adf43084e547e23f62cb1aaf19731fb3a336d21357b506",
+    "kalshi_ticker": "KXNFLFFWEEKLEAD-2026W1TE-SLAPORTA87",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8387186527252197,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x53f12ce190519e01dc682a3968ff5e417e011236dc9dcd5a6471402868b51c67",
+    "kalshi_ticker": "KXBIGBROTHERELIMINATION-26SEP17-YAS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7912174463272095,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd31d675d1416da166c941120b44c56e4eb79e60a48d0ed61ab2d9a452ee89d1c",
+    "kalshi_ticker": "KXNETFLIXRANKSHOWGLOBAL2-26SEP14-BEA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9193278551101685,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc450c24c77b8320ce8171b46e843c742f788b9781a0018462edb5100f1037e4f",
+    "kalshi_ticker": "KXHOUSERACE-FL16-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7454334497451782,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x32c9d4e99dc1cc6d8676fa53d50249a3d652db14c29943ed3ecc45f14ad71a31",
+    "kalshi_ticker": "KXNFLSEASONRECTD-27C10-LMCCONKEY15",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8688340187072754,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x79a0fd862ff0d47c958f4e51a0abc8d76daabd0e8c6b3af0ffe4ca325ba66971",
+    "kalshi_ticker": "KXCBDECISIONENGLAND-26SEP17-H25",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7517670392990112,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2ddf388c2de3f94cfeafc5d093dc522f1c85d8a7b4315d2bcac83d9cab251f59",
+    "kalshi_ticker": "KXNCAAFBIGTENLEADER-26RSHYDS-MICHJMAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7897800803184509,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x10d9dda75636db58bff9f42c780afe610d1da51f823bea347370e83b5ea68732",
+    "kalshi_ticker": "KXNFLFFWEEKLEAD-2026W1QB-JGOFF16",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8316669464111328,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd870cdb7b5cca67a39f2ec1d272786859609a176cd7c76119e4b70cc096297e0",
+    "kalshi_ticker": "KXHOUSERACE-NM01-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7385623455047607,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb8bc6c1dc194bfefcb6289ca550b05e989586e48dcabb839521bc0010f0318ab",
+    "kalshi_ticker": "KXHOUSERACE-CT02-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8115297555923462,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9f50939c394897a984d04522b61cf62da5aaa7fc50a2b3da362accaeffe38078",
+    "kalshi_ticker": "KXBALLONDOR-26-KKVA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8686858415603638,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf43b0ca8468aa6a200b2b2adc9fb144c73101375082089548f3c5b06a3a47565",
+    "kalshi_ticker": "KXAMAZONASGOV-26OCT04-OAZI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8254121541976929,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x373e198dfc7ea6ed8b62e7cc240561c0fd0d84b2529527f9c9638c996905a751",
+    "kalshi_ticker": "KXNETFLIXRANKSHOWRUNNERUP-26SEP14-DEA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9376251697540283,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa49757458ce1c70f569fcf141487f3fce1c155289ea1e41630a0fa4c5d07a379",
+    "kalshi_ticker": "KXHOUSERACE-CA46-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8127196431159973,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x143aa838164564202af46959019cb3df756fa3fa5a338d8036c8a6d6e567c484",
+    "kalshi_ticker": "KXMLBALCPOTY-26-ASAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7285634279251099,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9e36f9fbaaf4af90b5ca4962d1248e8f48b643173adbd38605f919989f4f70db",
+    "kalshi_ticker": "KXBIGBROTHERRANK-26DEC31R3-RIC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8419375419616699,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd9100ad75ab7f0f0ccf8e247023f35b62923ee75942804ef11f1ac1d603df36d",
+    "kalshi_ticker": "KXNCAAFBIGTENLEADER-26RSHYDS-NWCKOM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8337173461914062,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4994702814bfe5756871024152f4bfbb5252418a177d8d04ea90988ca94d3188",
+    "kalshi_ticker": "KXNCAAFSECLEADER-26RECYDS-LSUTBRO",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8216612339019775,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x200beabd0eee0ba103bdd357d1771519f0d9bf67760cf01c254f64d54df6aebc",
+    "kalshi_ticker": "KXNFLFFWEEKLEAD-2026W1QB-ARODGERS8",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8220802545547485,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5f8107c9dae4332b153237e40db759c252c7cecc2c5c074653d3efe23a5381f3",
+    "kalshi_ticker": "KXHOUSERACE-CA16-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7922158241271973,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x2e692c553ec054418a3e48affbe2b36e2d75629aeefbbdca9a8c81d30b2808c4",
+    "kalshi_ticker": "KXLEADERMLBDOUBLES-26-BWIT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8223650455474854,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3e2cb3381d6be8bf7ea2b137fec64d7fb1e97cabdb25b69c4aee4d3bc934db1c",
+    "kalshi_ticker": "KXNFL1SEED-AFC26-PIT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7588200569152832,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9fad904103db1c1d6a57b80c5ebd0118ca58391675ad7c317fdff3f6866c5ca7",
+    "kalshi_ticker": "KXMLBAL-26-NYY",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8076273202896118,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa10b1121c9e7abea9626c38db7fa2bcdbce20aae4da9e04722874dc8e57101d6",
+    "kalshi_ticker": "KXMOTOGP-26-JAMI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8796735405921936,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf1e7257bf0a98280700ec0d97e662899004f82bfde6f1ebecc587c84c6d39a99",
+    "kalshi_ticker": "KXHOUSERACE-IL01-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7513867616653442,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1438a5126425d417f0d65efab05175fbb7d38311bb0032a85e25eda77dbcc7e8",
+    "kalshi_ticker": "KXHOUSERACE-MA03-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7684404850006104,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0ec82a082ed700c14f6b9257275aec63ea5a6fc3fc2e26ebee87cae0c1432311",
+    "kalshi_ticker": "KXNCAAFAWARD-26WALT-DMOO",
+    "reference_label": "different",
+    "reason_class": "different_subject",
+    "similarity": 0.6309686303138733,
+    "kalshi_rank_for_poly": 2,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x916ea5ff8744af35be52edd62f61858d579e126882e7a135f495650fc5acfeb3",
+    "kalshi_ticker": "KXNFLFFWEEKLEAD-2026W1QB-TSHOUGH6",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8374251127243042,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf8139eeb00a17aaf075f44161037b8b23ceb99872445114dd7bc5923ca338cf4",
+    "kalshi_ticker": "KXMLBALROTY-26-WJEN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7398761510848999,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xa868d5b3397da5ec4664f73f87e7cd1ea9bfe9db13bdf31e2a6c8bcdc129f28d",
+    "kalshi_ticker": "KXNCAAFAWARD-26DOAK-BJAC",
+    "reference_label": "different",
+    "reason_class": "different_subject",
+    "similarity": 0.47938698530197144,
+    "kalshi_rank_for_poly": 11,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x05f9ff2c698b28ab1ced03a48868393b284064b9ce39497381a7bab9c38de3c6",
+    "kalshi_ticker": "KXTOPSONGSPOTIFYRUNNERUP-26-HAT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7893180251121521,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3833a20747ffc6e4edf3c596f04a6fb8ef9e7db9a93f901ed4c955354d9ca594",
+    "kalshi_ticker": "KXNETFLIXRANKSHOWRUNNERUP-26SEP14-THE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9163753986358643,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3f59d171eae6e7504a9f8716b0753c41a4c8f12fb8d2eaa927b013810da71c4e",
+    "kalshi_ticker": "KXMLBALROTY-26-MCLA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7402288317680359,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7b58a5b456900b5b4063b51f77f196f8922cb0c4921eb6f86b21e6069446bea9",
+    "kalshi_ticker": "KXHOUSERACE-CA44-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.75487220287323,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x69e5544b1c8eace2fd44cbc1f256b299a7dda9a9b593bf25c6f0bd98535ce075",
+    "kalshi_ticker": "KXWNBAROY-26-FJOHNSON4",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7614036798477173,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x650e3ebc043ddbcfa1d1ffda0c5830f19da7389827889fb5db3474bde5b007fb",
+    "kalshi_ticker": "GOVPARTYOH-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7632790803909302,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xdab2a45cdb460dde36d3ef90e89222f5251bfbc6d6b721764803d8d95bdab6a7",
+    "kalshi_ticker": "GOVPARTYAR-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8348337411880493,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xad9b8845d868d8975991e000f3fae4baaa2f21322f5eb2173d63763f49090bdc",
+    "kalshi_ticker": "KXHOUSERACE-GA01-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.795161247253418,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xef9e3614b3372eaac9f891520183c9d59672c585206fc36b71df2892f889f6d2",
+    "kalshi_ticker": "KXLOWTDAL-26SEP14-B74.5",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8062080144882202,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x041e0807d1f50a41e102d4277cacd4292fee872f9808b60ac44b7df94d3ca205",
+    "kalshi_ticker": "KXBIGBROTHERRANK-26DEC31R3-DRE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8582209348678589,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3e3a776e5aefacd7e9b54ac6aa2ccc37b32c4d41c6ae06e7ae681d857ceb64a8",
+    "kalshi_ticker": "KXNCAAFBIGTENLEADER-26RECYDS-NEBJBAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8020894527435303,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd32610daf92000af8a7e4a10cdd1962f90450e42c0e05511e9e2cde3142f5b9b",
+    "kalshi_ticker": "KXMLBALMVP-26-VGUE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7481151819229126,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1a8fadca151b214722192338aa6ea3ec4122902576fb4192d7f6da3dd3a8f9ec",
+    "kalshi_ticker": "HOUSEPA7-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7981607913970947,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8c1f1563575753f038c16869e7eceac4d761f768a8fa6470024e7fbcf6a04c60",
+    "kalshi_ticker": "KXHOUSERACE-NY11-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7827532291412354,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5049c01444f2fdf089a34d8f7e62b5239eaf1d935649d4d178ba663afcfa3788",
+    "kalshi_ticker": "KXBIGBROTHER-26DEC31-MEL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8953973650932312,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x697cc8ae2b40f6c37f32ebaf78a95db38b785b72447384bea7c067b3ae416451",
+    "kalshi_ticker": "KXMLBALROTY-26-SJON",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.6976616382598877,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc9cec8a24700fc33b92579472c837aa68ddc43fc70ccbf69b17a55a9356acab3",
+    "kalshi_ticker": "KXNCAAFSECLEADER-26RSHYDS-UGANFRA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8366312980651855,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb2aab9e1d605109e5912626c17e1e22d8d70763e458ad354604fbe1c3fb65eef",
+    "kalshi_ticker": "KXBALLONDORRANK-26T5-VJUN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9235619306564331,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1a2564d5a4286609c21207c70fff29c5cbbfc048bd4b3a7df7a726ee1f189340",
+    "kalshi_ticker": "KXHOUSERACE-KS04-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7947468757629395,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x05c1edc0e1f4b733e7b39e42c683c7e2a81d01d8fd97a52fe28186badb173421",
+    "kalshi_ticker": "KXNFLOPOTY-27-RRIC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7198355197906494,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x226112f717d035cee689874147a02ec459853019c5c4ecde7ab5a7510ebb29a6",
+    "kalshi_ticker": "KXHOUSERACE-GA09-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8401486873626709,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1f61b25cb92a675bc5c22d07d143cb67fb0320d230b2cf35dded7c764099d82d",
+    "kalshi_ticker": "KXNFLDROTY-27-AMES",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7657550573348999,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x5b30185cd8393093f1c792c425587ad10b3d595983a23bd3599c82557c34a16d",
+    "kalshi_ticker": "KXMLBNLROTY-26-KGRI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8042705655097961,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x76415d8735b0e5bf13d2ec0473ead9bd40f07ea8c82487328408db95cb3a602f",
+    "kalshi_ticker": "KXROLEINPRODUCTIONDOOMSDAY-JONF",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8778260946273804,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x60ac8192ec787be94d1acd92c4221af8d3276ff998ab2c8167fc2a117b273901",
+    "kalshi_ticker": "KXNCAAFBIGTENLEADER-26PASSYDS-MSUAMIL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8034802675247192,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x35b15247ee90454739244de2c85dcfdd03ebd32cf4009ce82b1bb47d4330a173",
+    "kalshi_ticker": "KXHOUSERACE-OH04-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7687571048736572,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x644331a5c88015d21dab502257556155f1d5f9d25f065351e942b31b05526ea2",
+    "kalshi_ticker": "KXNFLFFWEEKLEAD-2026W1QB-CWILLIAMS18",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8329100608825684,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8290e3dda065a94777d2638b08e5f9431377525716d67498b18d12695429a5d3",
+    "kalshi_ticker": "KXMLBNLCPOTY-26-SMAN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7827978134155273,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7718f92beb2d11047f978aa9a04c509221dfa3620556be3ef463ca9376d27347",
+    "kalshi_ticker": "KXHOUSERACE-FL08-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8089582920074463,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xf9babf9c8a69e4fc63b56c621981ed0b5b380db9c2bd85b6091f3631d4eb1603",
+    "kalshi_ticker": "KXHOUSERACE-MA07-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7881960868835449,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9f314704922e731188b1c4841bb597a28b8965fb029ebe733132aec0d8b1ecec",
+    "kalshi_ticker": "KXUFCLHEAVYWEIGHTTITLE-26-APER",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8618031740188599,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc34d75776432010734cb2663c79ade2b4781604f52cdd4f8f6253ca64e49b33c",
+    "kalshi_ticker": "KXMOTOGP-26-BRBI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8202893733978271,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x892d1e281ad603dffc0361a23072a601c14025da05a512f9f3812dbff5414b5c",
+    "kalshi_ticker": "KXTIME-26-MAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9189313650131226,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9442a1c06ed27a0deb2d54674da8eb4c98a63bfb397a88f9d795ee0966905474",
+    "kalshi_ticker": "KXHOUSERACE-WA02-26-D",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7672427892684937,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd3ec077e7aaefaa76bd2dd0e3019edcabd07b88fd872f104444d3525078094a0",
+    "kalshi_ticker": "KXNFLOPOTY-27-CLAM",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7569582462310791,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x43990f2943e63fff7fa48826d1abef25b69b9e5e2d6da59309c459c76ce22da9",
+    "kalshi_ticker": "KXMLBALMVP-26-RWIT",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7399088144302368,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x1c0408d969ca7245b8e8d671ba95e0e7062375ae185a124d1384fe5aa2608adb",
+    "kalshi_ticker": "KXMLBNLCY-26-FPER",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8258149027824402,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x8eabcdfb53510038cd2bbb0854e781307827a35c82d0e35a2f1c84ec0704bffe",
+    "kalshi_ticker": "KXNFLFFWEEKLEAD-2026W1QB-LJACKSON8",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.837848424911499,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x960b956203a26c0e5224682bc600c01ac12db4d18f329d3b9d9ba4be964c2241",
+    "kalshi_ticker": "KXNFLSEASONPASSYDS-27C3500-TSHOUGH6",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8746669292449951,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd07b1d396f36c5a3fa5b440a420faa45628a7fccec5a0ec8f36e1e8ffad4027c",
+    "kalshi_ticker": "KXLIGAMX-27APER-SLA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8669662475585938,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7250099a2f3712d769ad169b1eec9010e69faa6aa1f907a0ad37831473ba05d8",
+    "kalshi_ticker": "KXRAIN-26SEP14-DAL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8693292140960693,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x707ca13ce9038662dcea98e2b87ffceb55c7dbe6c73a864a3ad04c1d6716f5ee",
+    "kalshi_ticker": "KXBAHIAGOV-26OCT04-ACMN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8535898923873901,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xfeda517c467bcbac09cccabd968bf1afc7f2107e02cdb730a3132f56277845be",
+    "kalshi_ticker": "KXBIGBROTHER-26DEC31-CHU",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8979792594909668,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x08a1b8c6d39f5a0e4002a6c8260831d873466bb5016fc26d8c4711a7a0a60f07",
+    "kalshi_ticker": "KXMLBNLMVP-26-KTUC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8181465864181519,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3208708db44e04055d79ed7bf4384b7373fd927ab2d7f321c2e9c14150aa5013",
+    "kalshi_ticker": "KXHOUSERACE-MD04-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7721778154373169,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb36c01739fbf1427b28f46770c722125d96875da8d7d2005a88a71fdd6d5af0e",
+    "kalshi_ticker": "KXHOUSERACE-CA39-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7901192903518677,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x435437cb9d7caa97c6209d12583eac5fd1e1fc57724beb665576ae40d0cae597",
+    "kalshi_ticker": "KXNFLSEASONRECTD-27C10-JWILLIAMS1",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8500587344169617,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0aae630de8bc6104076d81549c1ddf1f58fc5219e5181692b2f388d95b7d296d",
+    "kalshi_ticker": "KXMLBALROTY-26-CEAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7366600632667542,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc1784968ce4793213c35075e67b9e49e88aced5f45f1171fa8ae447472964f8e",
+    "kalshi_ticker": "KXNCAAFSECLEADER-26RSHYDS-LSUHBER",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8272907733917236,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x81231f93f70ca81899791e1eac9c0fb8003d4f22caae5432779e7544db301afb",
+    "kalshi_ticker": "KXNCAAFAWARD-26WALT-JSAY",
+    "reference_label": "different",
+    "reason_class": "different_subject",
+    "similarity": 0.5565391778945923,
+    "kalshi_rank_for_poly": 2,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x0810d7953936fe5717540e0e798c95f301bb24ce0a4f0f124348f91a9448c813",
+    "kalshi_ticker": "HOUSEOH1-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7289588451385498,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb959c5218644fd53172a49b495d52e8581265e46c75f13ed4126e7a796f1d593",
+    "kalshi_ticker": "KXTITLEDTUESTOP-26SEP15T3-CVIL",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7270131707191467,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd3fdc731c04bb1107a393d9ad36cd8e64f0411fd7a1d5c5ed194e9d376e0f47e",
+    "kalshi_ticker": "KXNFLFFWEEKLEAD-2026W1WR-JJEFFERSON18",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7990047931671143,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x52284e2210068126179495aa36b333b455be2973ada738f6bffad6061bb116a6",
+    "kalshi_ticker": "HOUSECO8-26-R",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7465931177139282,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x3abbf6713852f177ced163eba9bb63bba2a89bdbdefa4c0a28f0ab6b15b6179a",
+    "kalshi_ticker": "KXNCAAFBIGTENLEADER-26RSHYDS-INDLBEE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8105784058570862,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x380555a500b47847953c383d718ef4f8e7905e21eddeb0bb9c07a3451990ecce",
+    "kalshi_ticker": "KXGUAMGOV-26-TTER",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8582419157028198,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x69f99fc2a8f1149845b4887fc92e77c06df91c5ff5e968bc06c563666adc59bc",
+    "kalshi_ticker": "KXJUULFLAVOR-27-FRU",
+    "reference_label": "unsure",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.9326686263084412,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x609cee57b348888c9fedd34b5a11d3c1e2aa09a5bb96c9dad56967639cc4b3c2",
+    "kalshi_ticker": "KXLEADERNFLINT-27-DSTINGLEY24",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8723640441894531,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x654bb79fdfeb37cc4e528df32c95993ede85623da558b7d2fc2967ae9fbf1958",
+    "kalshi_ticker": "KXNFLFFWEEKLEAD-2026W1RB-JWARREN30",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8171877861022949,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xda7193e2495d3a9a68c31665d23f516bda7ddc8fe18a81f7dc56798873610236",
+    "kalshi_ticker": "KXMLSCUP-26-NYC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8014652729034424,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc8e4ca71881c022d99eed5630bbfe91ac48a3e724dafa9b8c3200378173ec28b",
+    "kalshi_ticker": "KXMARMAD-27-ORE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.876926600933075,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x09342f95b206b85e59e0eebe2c6a78617b69dccc3c95073b0989c98408d1ba5a",
+    "kalshi_ticker": "KXNCAAFB12-26-TTU",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7732806205749512,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xdfd7bcee8dc2062b0380a283cef7b2e556a0ce92c2ec98f50907665080233184",
+    "kalshi_ticker": "KXPGATOUR-BICA26-MMEI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8239682912826538,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xfd6f7e36808c34ec08fb6f773c9d7fd21f4c06a62b38e6ba7e5f85fb628a9e97",
+    "kalshi_ticker": "KXPGAR1LEAD-BICA26-PCOO",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8470420837402344,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x9a240a568047146e9e67f8fdaa7991c4b5814dddffed33e83e7a9f8aef5a5245",
+    "kalshi_ticker": "KXNFLSEED-27AFC5-LAC",
+    "reference_label": "different",
+    "reason_class": "scope_mismatch",
+    "similarity": 0.5124245882034302,
+    "kalshi_rank_for_poly": 4,
+    "poly_rank_for_kalshi": 4
+  },
+  {
+    "poly_id": "0xf516a1850ccd3b1f74fed0f99229ceb33dfe3bc911baa090fff0a9e1a01c9e33",
+    "kalshi_ticker": "KXPGAR1LEAD-BICA26-MMEI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8524916172027588,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x97f2023242ea0072eee1d036e6163f0946a6fd805034787a5587c159756ec827",
+    "kalshi_ticker": "KXPGATOUR-BICA26-LGRI",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.843754768371582,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x4c2c84a0be5390e361124a8c57fa62957e9b92f84e91aa25b0dfbe5a83469ff8",
+    "kalshi_ticker": "KXPGATOUR-BICA26-GSAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8260360956192017,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x68c6b8c1186f0cf6b3d72566a436f3ddf6d6fa001a53efa2e7f12ce5ff5feef2",
+    "kalshi_ticker": "KXPGAR1LEAD-BICA26-SFIS",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.860979437828064,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xddade07c8e471a416e86a0d8a6f048ddfbe4a2b02dca9f3c9d9fa66a6e59b60e",
+    "kalshi_ticker": "KXPGAR1LEAD-BICA26-ASCH",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.84079909324646,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x7e78385627a44550eef7aafa59ddfb25d10b84b4faa5b295f887f653298e9851",
+    "kalshi_ticker": "KXPGATOUR-BICA26-WMOU",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8128348588943481,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x89f29c950e39c6faed9c9c2e33480c4e645ca134531f479383c8b864652776d8",
+    "kalshi_ticker": "KXPGAR1LEAD-BICA26-DMCC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8567235469818115,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x484d3e1f00df54f5084984da97d330cfc1a898f952d7fe87278944b459864ba9",
+    "kalshi_ticker": "KXMLSCUP-26-MIA",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7561357021331787,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb4ebcadb166894257378b185ee76d8f67400916431e6128e2fb9ed7365896a5a",
+    "kalshi_ticker": "KXPGAR1LEAD-BICA26-MDEN",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8519366979598999,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xb5e1bf6acea3c35cc3d72f55ae9836b420a122dfb7190ecd91d206006d83e984",
+    "kalshi_ticker": "KXNASCARCUPSERIES-NCS26-CBUE",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8213625550270081,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0x94f60b18e7912aeb23a733e22cdf58bf3742c84b4845b0bd4a8011b0c81754a6",
+    "kalshi_ticker": "KXPGATOUR-BICA26-CBEZ",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.7920822501182556,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xc031351cea755544a76be09c2e884554c04eeea7fc172fb9de2caac4b92fc854",
+    "kalshi_ticker": "KXF1CONSTRUCTORS-26-RAC",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.8643874526023865,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  },
+  {
+    "poly_id": "0xd494d04417a3d2814f7d0b7587de8ace12943de1d909e16b2a0710dabfa2a1f2",
+    "kalshi_ticker": "KXEMMYCSERIES-26SEP14-MAR",
+    "reference_label": "same",
+    "reason_class": "ok",
+    "similarity": 0.9037905931472778,
+    "kalshi_rank_for_poly": 1,
+    "poly_rank_for_kalshi": 1
+  }
+]

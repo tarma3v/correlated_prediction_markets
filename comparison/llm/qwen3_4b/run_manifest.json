@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-09-29T23:06:35.718965+00:00",
+  "model": {
+    "repo": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b"
+  },
+  "quantization": "MLX 4-bit",
+  "device": "Apple Metal",
+  "seed": 20260930,
+  "temperature": 0,
+  "max_tokens_external": 256,
+  "max_tokens_core": 1024,
+  "plan_sha256": "5a395dff3d73505a71c52ded920d0f6bc39533211df4b62180e346c8b4e08fd3",
+  "inputs_sha256": "d8278a53bfc3ad6254288994ab30d5531ec92312d99d81a7da312254d2e28ed4",
+  "script_sha256": "dd1dcdabbb4f31c8c1457586ee8c682649b3f79a6a28fabee810a341a05604a3",
+  "python": "3.11.4",
+  "runtime_versions": {
+    "mlx": "0.32.3",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0",
+    "huggingface-hub": "1.33.0",
+    "jsonschema": "4.26.0"
+  },
+  "generation": "Greedy decoding; same serialized packets, prompts and token limits for both models. No answer repair.",
+  "completed_at_utc": "2026-09-29T23:14:02.161061+00:00",
+  "n": 73,
+  "seconds": 445.0771393330069,
+  "predictions_sha256": "d78c2c9900f6c159b490b07fa90b6671359124d82929ef45afd4586b1659f825"
+}

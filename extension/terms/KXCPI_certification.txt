@@ -1,0 +1,98 @@
+
+--- PDF PAGE 1 ---
+KalshiEX LLC
+June 29, 2021
+SUBMITTED VIA CFTC PORTALSecretary of the CommissionOffice of the SecretariatU.S. Commodity Futures Trading CommissionThree Lafayette Centre1155 21st Street, N.W.Washington, D.C. 20581
+Re: KalshiEX LLC – CFTC Regulation 40.2(a) NotificationRegarding the Initial Listing of the US CPIContract
+Dear Sir or Madam,
+Pursuant to Section 5c(c) of the Commodity ExchangeAct and Section 40.2(a) of the regulations of theCommodity Futures Trading Commission, KalshiEX LLC(Kalshi) hereby notifies the Commission that itis self-certifying terms and conditions for the USCPI contract (Contract) to be listed for tradingon Kalshiand effective on Wednesday, June 30, 2021 for tradingon that date.
+Along with this letter, Kalshi submitted the followingdocuments:
+● A concise explanation and analysis of the Contract;● The Contract’s specifications;● Certification;● Appendix A with the Contract’s Terms and Conditions;● Confidential Appendices with further information; and● A request for FOIA confidential treatment.
+If you have any questions, please do not hesitateto contact me.
+Sincerely,
+Elie MishoryChief Regulatory OfficerKalshiEX LLCemishory@kalshi.com
+KalshiEX LLC
+
+--- PDF PAGE 2 ---
+KalshiEX LLC
+KalshiEX LLCRule 40.2 New Contract Submission: “Will the ConsumerPrice Index (CPI) increase more than <percent>?”06/28/2021
+CONCISE EXPLANATION AND ANALYSIS OF THE PRODUCT ANDITSCOMPLIANCE WITH APPLICABLE PROVISIONS OF THE ACT, INCLUDING COREPRINCIPLES AND THE COMMISSION'S REGULATIONS THEREUNDER
+Pursuant to Commission Rule 40.2(a)(3)(v), the followingis a concise explanation and analysisof the product and its compliance with the Act, includingthe relevant Core Principles, and theCommission's regulations thereunder.
+I. Introduction
+The “Will the Consumer Price Index (CPI) increasemore than <percent>?” contract is acontract relating to percentage increases in the valueof the Consumer Price Index(“CPI”). The Contract will allow market participantsto hedge the risk of an increase ofinflation. After careful analysis, Kalshi (hereafterreferred to as “Exchange”) hasdetermined that the Contract complies with its vettingframework, which has beenreviewed by the CFTC and formed part of the Exchange’sapplication for designation as aContract Market (“DCM”) that was approved by the Commission.
+Further information about the contract, includingan analysis of its risk mitigation andprice basing utility, as well as additional considerationsrelated to the contract, is includedin Confidential Appendix B.
+Pursuant to Section 5c(c) of the Act and CFTC Regulations40.2(a), the Exchange herebycertifies that the listing of the Contract complieswith the Act, including regulations underthe Act.
+Relevant Contract Terms and Conditions:The Contractoperates similar to the otherbinary contracts that the Exchange is self-certifyingfor trading. In particular, theContract’s payout structure is characterized by thepayment of an absolute amount to theholder of one side of the option and no payment tothe counterparty. While trading on thecontract is open, Members are able to adjust theirpositions and trade freely. After tradingon the contract has closed, the market is settledby the Exchange and the long positionholders and short position holders are paid accordingto the outcome of the market. In thiscase, “long position holder” refers to a Member whopurchased the “Yes” side of thecontract and “short position holder” refers to a Memberwho purchased the “No” side ofthe contract. Depending on the outcome of the market,as determined by the Exchange,
+KalshiEX LLC
+
+--- PDF PAGE 3 ---
+KalshiEX LLC
+one of two payout processes is triggered. If the Market Outcome is “Yes”, meaning thatthe value of the seasonally adjusted Consumer PriceIndex for All Urban Consumers(CPI-U) for the statistical period of <month> increasesby more than <percent>, then thelong position holder is paid an absolute amount proportionalto the size of their positionand the short position holder receives no payment.Otherwise, if the Market Outcome is“No”, then the short position holder is paid an absoluteamount proportional to the size oftheir position and the long position holder receivesno payment. Further specification ofthe circumstances that would trigger a settlementin the “Yes” direction are includedbelow in the section titled “Payout Criterion” inAppendix A.
+Contract Specifications:
+Underlying The signed one-month percent change in the seasonallyadjusted ConsumerPrice Index for All Urban Consumers (CPI-U) publishedby the Bureau ofLabor Statistics (“BLS”) (https://www.bls.gov/cpi/).Further analysis regardingthe Underlying, including a discussion of data collectionmethodology andconsiderations related to Core Principle 3, are coveredin ConfidentialAppendix C and Confidential Appendix D.
+PayoutCriterion
+The Payout Criterion encompasses Expiration Valuesthat are strictly greaterthan <percent>.
+Contract Size The Exchange takes the view that maximizing the commercialusefulness ofany product dictates that the contract size shouldconform to commercialnorms. Therefore, as with other similar contractsoffered by the Exchange, theContract is sized with a one-dollar notional valueto enable Members to matchthe size of the contracts purchased to their economicrisks.
+Listing Cycle For contracts whose Expiration Value is based on theoutcome of recurrent datareleases, Expirations will be listed consistentlyby a time period correspondingto the cadence of Underlying data releases. For contractswhose ExpirationValue is not based upon the outcome of recurrent datareleases, Expirationswill be listed on an as-needed basis at the discretionof the Exchange andcorresponding to the risk management needs of Members.
+Tick Size The minimum price fluctuation is $0.01 (one cent).Price bands will apply sothat Contracts may only be listed at values of atleast $0.01 and at most $0.99.A minimum price fluctuation of $0.01 is the standardtick size on theExchange.
+PositionLimit
+The Exchange has imposed position limits (definedas maximum lossexposure) of $25,000 USD on the Contract.
+TradingHours
+As outlined in Rule 5.12 of the Rulebook, tradingshall be available at all timesoutside of any maintenance windows, which will beannounced in advance bythe Exchange.
+KalshiEX LLC
+
+--- PDF PAGE 4 ---
+KalshiEX LLC
+Fees Members will be charged fees in accordance with Rule3.6 of the Rulebook.Fees are charged in such amounts as may be revisedfrom time to time to bereflected on the Exchange’s Website.
+ContractModifications
+As outlined in Rule 7.2 of the Rulebook, if any eventor any circumstancewhich may have a material impact on the reliabilityor transparency of aContract’s Source Agency or the Underlying relatedto the Contract arises,Kalshi retains the authority to designate a new SourceAgency and Underlyingfor that Contract and to change any associated contractspecifications after thefirst day of trading. That new Source Agency and Underlyingwould beobjective and verifiable. Kalshi would announce anysuch decision on itswebsite.
+KalshiEX LLC
+
+--- PDF PAGE 5 ---
+KalshiEX LLC
+CERTIFICATIONS PURSUANT TO SECTION 5c OF THE COMMODITYEXCHANGEACT, 7 U.S.C. § 7A-2 AND COMMODITY FUTURES TRADINGCOMMISSIONREGULATION40.2, 17 C.F.R. § 40.2
+Based on the above analysis, the Exchange certifiesthat:❏ the Contract is consistent with, and in accordancewith the Core Principles of Section 5 ofthe Commodity Exchange Act, and the CFTC’s rules andregulations; and thereunder.❏ this submission (other than those appendices for whichconfidential treatment has beenrequested) has been concurrently posted on the Exchange’swebsite athttps://kalshi.com/regulatory/filings.
+Should you have any questions concerning the above,please contact the exchange atProductFilings@kalshi.com.
+______________________
+By: Eliezer MishoryTitle: Chief Regulatory OfficerDate: 06/28/2021
+KalshiEX LLC
+
+--- PDF PAGE 6 ---
+KalshiEX LLC
+Attachments:Appendix A - Contract Terms and ConditionsAppendix B (Confidential) - Further ConsiderationsAppendix C (Confidential) - Price Reporting AgencyAppendix D (Confidential) - Compliance with Core Principles
+KalshiEX LLC
+
+--- PDF PAGE 7 ---
+KalshiEX LLC
+APPENDIX A – CONTRACT TERMS AND CONDITIONS
+TERMS OF CONTRACTS TRADED ON KALSHI
+Rule 100.4
+Contract: “Will the Consumer Price Index (CPI) increasemore than <percent>?”
+Scope:These rules shall apply to the contract referredto as “Will the Consumer Price Index(CPI) increase more than <percent>?”.
+Underlying:The Underlying for this Contract is thesigned one-month percent change in theseasonally adjusted Consumer Price Index for All UrbanConsumers (CPI-U) published by theBureau of Labor Statistics (“BLS”) (https://www.bls.gov/cpi/).A schedule of release dates isavailable on the BLS website (https://www.bls.gov/schedule/news_release/cpi.htm),and the datais typically released at 8:30am ET. Each month’s reportis available at the following stable URL,which automatically displays the latest availablereport:https://www.bls.gov/news.release/pdf/cpi.pdf. TheUnderlying is typically listed in the firstsentence of the first page of the monthly report underthe heading “CONSUMER PRICEINDEX-[Month/Year]”. For example, in the CPI reportfor April 2021, the first sentence is “theConsumer Price Index for All Urban Consumers (CPI-U)increased 0.8 percent in April on aseasonally adjusted basis…” so 0.8 percent would bethe Expiration Value for the month of April2021. Future revisions to the CPI released after Expirationwill not be taken into account.Historical reports from prior months are availableon the Bureau of Labor Statistics website atthe following link:https://www.bls.gov/bls/news-release/cpi.htm. If you select the year inquestion, links to CPI reports from months in thatyear will be displayed.
+Source Agency:The Source Agency is the Bureau ofLabor Statistics.
+Type:The type of Contract is a Binary Contract.
+Issuance:The Issuance of this contract will be inaccordance with the information outlined inthe “Listing Cycle” section of the Contract Specificationstable.After the initial Contract,Contract iterations will be listed on an as-neededbasis at the discretion of the Exchange andcorresponding to the risk management needs of Members.
+Percent:Kalshi may list “Will the Consumer PriceIndex (CPI) increase more than <percent>?”contracts with <percent> levels that fall within aninclusive range between a maximum value of10% and a minimum value of 0% at consecutive incrementsof .01%. Due to the potential for
+KalshiEX LLC
+
+--- PDF PAGE 8 ---
+KalshiEX LLC
+variability in the Underlying, the Exchange may modify <percent> levels in response tosuggestions by Members.
+Month:<month> refers to a calendar month specifiedby Kalshi. Kalshi may list “Will theConsumer Price Index (CPI) increase more than <percent>?”contracts corresponding to differentstatistical periods of <month>, ranging from Januaryto December.
+Payout Criterion:The Payout Criterion for this Contractencompasses the Expiration Valuesthat are strictly greater than <percent>.
+Minimum Tick:The Minimum Tick size for the referredContract shall be $0.01.
+Position Limit:The Position Limit for the $1 referredContract shall be $25,000 per Member.
+Last Trading Date:Unless otherwise noted by the Exchangeand indicated on the Exchangewebsite, the Last Trading Date for the Contract willbe the day prior to the release date of theConsumer Price Index Report for <month>. The LastTrading Time for the Contract is 7:00pmET on the Last Trading Date. No trading in the Contractshall occur after its Last Trading Dateand Time. A calendar of future Consumer Price Indexreport release dates is available at thefollowing page:https://www.bls.gov/schedule/news_release/cpi.htm.
+For example, the Last Trading Date of the initialcontract will be July 12, 2021 and the LastTrading Time will be 7:00 PM ET on July 12, 2021 becausethe next Consumer Price Indexreport will be issued on July 13, 2021.
+Settlement Date:The Settlement Date of the Contractshall be the day after the Expiration Date,unless the Market Outcome is under review pursuantto Rule 7.1.
+Expiration Date:The Expiration Date of the Contractshall be the release date of the ConsumerPrice Index report for <month>. For example, the ExpirationDate of the initial contract will beJuly 13, 2021 because the next Consumer Price Indexreport will be issued on July 13, 2021.
+Expiration time:The Expiration time of the Contractshall be 3:00pm ET.
+Settlement Value:The Settlement Value for this Contractis $1.00.
+Expiration Value:The Expiration Value is the valueof the Underlying for the statistical periodof <month> as documented by the Source Agency on theExpiration Date at the Expiration time.
+KalshiEX LLC
+
+--- PDF PAGE 9 ---
+KalshiEX LLC
+Contingencies:Before Settlement, Kalshi may, at its sole discretion, initiate the MarketOutcome Review Process pursuant to Rule 6.3(c) of the Rulebook.
+KalshiEX LLC

@@ -1,0 +1,102 @@
+
+--- PDF PAGE 1 ---
+YOYCPI
+Scope:
+	These	rules	shall	apply	to	this	contract.
+Underlying:
+	The	Underlying	for	this	Contract	is	the	single	decimal	value	from	the	Consumer
+	
+Price	Index	Summary	representing	the	percent	increase	in	the	all	items	index	of	the	Consumer
+	
+Price	Index	for	All	Urban	Consumers	before	seasonal	adjustment	for	the	twelve	months	ending	in
+	
+<month>.	Revisions	to	the	Underlying	made	after	Expiration	will	not	be	accounted	for	in
+	
+determining	the	Expiration	Value.
+Instructions:	
+Go	to	
+https://www.bls.gov/news.release/cpi.nr0.htm
+.	The	Underlying	will	be	in	the
+	
+sentence	“Over	the	last	12	months,	the	all	items	index	increased…”	These	instructions	on	how	to
+	
+access	the	Underlying	are	provided	for	convenience	only	and	are	not	part	of	the	binding	Terms
+	
+and	Conditions	of	the	Contract.	They	may	be	clarified	at	any	time.	
+Source	Agency:
+	The	Source	Agency	is	the	Bureau	of	Labor	Statistics	(“BLS”).
+Type:
+	The	type	of	Contract	is	an	Event	Contract.
+Issuance:
+	The	Contract	is	based	on	the	outcome	of	a	recurrent	data	release,	which	is	issued	on	a
+	
+monthly	basis.	Thus,	Contract	iterations	will	be	issued	on	a	recurring	basis,	and	future	Contract
+	
+iterations	will	generally	correspond	to	the	next	month.
+<percent>:
+	Kalshi	may	list	iterations	of	the	Contract	with	<percent>	levels	that	fall	within	an
+	
+inclusive	range	between	-100.0	and	100000.0	at	consecutive	increments	of	0.1.	Due	to	the
+	
+potential	for	variability	in	the	Underlying,	the	Exchange	may	modify	<percent>	levels	in
+	
+response	to	suggestions	by	Members.
+<month>
+:	<month>	refers	to	a	month	specified	by	Kalshi.	Kalshi	may	list	iterations	of	the
+	
+Contract	corresponding	to	different	statistical	periods	of	<month>.
+Payout	Criterion:
+	The	Payout	Criterion	for	the	Contract	encompasses	the	Expiration	Values	that
+	
+are	<above/below/between>	<percent>.	If	the	value	of	<above/below/between>	is	“between”,
+	
+then	<percent>	shall	be	a	pair	of	values,	and	the	Payout	Criterion	encompasses	the	Expiration
+	
+Values	that	are	greater	than	or	equal	to	the	lesser	of	the	pair,	and	less	than	or	equal	to	the
+	
+greater	of	the	pair.
+If	no	data	is	available	on	the	Expiration	Date	at	the	Expiration	time,	the	Expiration	Value	will	be
+	
+calculated	by	(Last	available	value	of	the	Consumer	Price	Index	/	the	Consumer	Price	Index	value
+	
+from	12	months	prior	to	that)^(13/12)	-	1.	
+Minimum	Tick:
+	The	Minimum	Tick	size	for	the	referred	Contract	shall	be	$0.01.
+Position	Accountability	Level:	
+The	Position	Accountability	Level	for	the	$1	referred	Contract
+	
+shall	be	7,000,000	contracts	per	Member.
+Last	Trading	Date:
+	The	Last	Trading	Date	for	the	Contract	will	be	the	day	of	the	scheduled	data
+	
+release	for	<month>.	The	Last	Trading	Time	will	be	8:29	AM	ET.	
+Settlement	Date:
+	The	Settlement	Date	of	the	Contract	shall	be	no	later	than	the	day	after	the
+	
+Expiration	Date,	unless	the	Market	Outcome	is	under	review	pursuant	to	Rule	7.1.
+Expiration	Date:
+	The	latest	Expiration	Date	of	the	Contract	shall	be	three	months	after	the
+	
+scheduled	data	release	for	<month>.	If	no	data	is	released,	or	the	Source	Agency	announces	that
+	
+
+--- PDF PAGE 2 ---
+they	will	not	release	the	Underlying	data,	expiration	will	be	moved	to	an	earlier	date	and	time	in
+	
+accordance	with	Rule	7.2.
+Expiration	time:
+	The	Expiration	time	of	the	Contract	shall	be	8:31	AM	ET.
+Settlement	Value:
+	The	Settlement	Value	for	this	Contract	is	$1.00.
+Expiration	Value:
+	The	Expiration	Value	is	the	value	of	the	Underlying	for	the	statistical	period
+	
+of	<month>	as	documented	by	the	Source	Agency	on	the	Expiration	Date	at	the	Expiration	time.
+Contingencies:
+	Before	Settlement,	Kalshi	may,	at	its	sole	discretion,	initiate	the	Market
+	
+Outcome	Review	Process	pursuant	to	Rule	6.3(d)	of	the	Rulebook.	If	an	Expiration	Value	cannot
+	
+be	determined	on	the	Expiration	Date,	Kalshi	has	the	right	to	determine	payouts	pursuant	to
+	
+Rule	6.3(b)	in	the	Rulebook.	

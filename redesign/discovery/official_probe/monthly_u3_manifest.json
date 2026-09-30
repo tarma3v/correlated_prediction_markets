@@ -1,0 +1,7 @@
+{
+  "url": "https://external-api.kalshi.com/trade-api/v2/markets/KXU3-26SEP-T4.5",
+  "fetched_at_utc": "2026-09-29T22:39:05.758378+00:00",
+  "status_code": 200,
+  "file": "market_KXU3-26SEP-T4.5.json",
+  "sha256": "b94c1fc1aebb3ece6341b49e5e998a7eba0176f8157bc673e7b58cd3ce040668"
+}

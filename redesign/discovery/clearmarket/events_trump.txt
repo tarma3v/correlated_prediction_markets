@@ -1,0 +1,1663 @@
+{
+  "count": 50,
+  "total": 282,
+  "limit": 50,
+  "offset": 0,
+  "keyed": false,
+  "_notice": {
+    "type": "free_key_offer",
+    "message": "Free and anonymous access is staying. If this endpoint is in your pipeline, a free key adds advance notice before any schema change or deprecation. POST /v1/keys {\"email\": \"you@firm.com\"} — nothing else required. Something broken or missing? hello@clearmarket.fyi reaches a human.",
+    "docs": "https://clearmarket.fyi/for-data/",
+    "policy": "This field is additive and its shape will not change."
+  },
+  "events": [
+    {
+      "event_id": "CM-EVT-2CDRJZ44D4",
+      "slug": "kxtrumpendorse28-28mar01",
+      "question": "Will Donald Trump endorse a candidate in the 2028 presidential election?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "2028-us-presidential-election",
+        "trump-endorsement",
+        "republican-primary",
+        "political-endorsement",
+        "candidate-support"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 6,
+      "primary_market_id": "CM-MKT-KW1CNH5QW5",
+      "grade": "C",
+      "rcg_score": 58,
+      "last_price": 0.39,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-2CDRJZ44D4",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-W81X57LB82",
+      "slug": "kxtrumpbullcasecombo-27dec",
+      "question": "Will 2026 be a successful year for Trump?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-2026",
+        "us-politics",
+        "bull-case-scenario",
+        "political-narrative",
+        "performance-assessment"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-RQF084T904",
+      "grade": "A",
+      "rcg_score": 81,
+      "last_price": 0.025,
+      "price_as_of": "2026-09-29T16:45:43.820Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-W81X57LB82",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-D0MJMVWG14",
+      "slug": "kxtrumpbearcasecombo-27dec",
+      "question": "Will 2026 be a bad year for Trump?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-2026",
+        "us-politics",
+        "political-narrative",
+        "bear-case",
+        "subjective-resolution"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-8Y11TRF763",
+      "grade": "C",
+      "rcg_score": 51,
+      "last_price": 0.058,
+      "price_as_of": "2026-09-29T18:45:47.687Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-D0MJMVWG14",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-F0MWBBP842",
+      "slug": "kxdeportations-27jan01",
+      "question": "ICE removals, FY2027",
+      "category": "politics",
+      "event_type": "LADDER",
+      "tags": [
+        "politics",
+        "us-immigration",
+        "ice-enforcement",
+        "deportation-policy",
+        "trump-administration",
+        "2027"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 6,
+      "primary_market_id": "CM-MKT-FMRXQBDF77",
+      "grade": "C",
+      "rcg_score": 78,
+      "last_price": 0.05,
+      "price_as_of": "2026-09-26T20:45:45.698Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-F0MWBBP842",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-BYVFPZ6WJ8",
+      "slug": "kxgovtcuts-26",
+      "question": "Government spending decrease, before March 2027",
+      "category": "politics",
+      "event_type": "LADDER",
+      "tags": [
+        "politics",
+        "us-politics",
+        "government-spending",
+        "trump-administration",
+        "fiscal-policy",
+        "quantitative-outcome"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 6,
+      "primary_market_id": "CM-MKT-7WQ7WVMQX5",
+      "grade": "A",
+      "rcg_score": 100,
+      "last_price": 0.065,
+      "price_as_of": "2026-09-29T18:45:47.687Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-BYVFPZ6WJ8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-8CL5HBK172",
+      "slug": "kxtrumprallies-26nov03",
+      "question": "Trump rallies count, January 1 to February 1, 2027",
+      "category": "politics",
+      "event_type": "LADDER",
+      "tags": [
+        "politics",
+        "us-midterms",
+        "trump-rallies",
+        "political-events",
+        "2026",
+        "quantitative-metric"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 6,
+      "primary_market_id": "CM-MKT-J8ZBR4Z0Z1",
+      "grade": "C",
+      "rcg_score": 36,
+      "last_price": 0.83,
+      "price_as_of": "2026-09-11T10:02:26.125Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-8CL5HBK172",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-Z5Z4K6WBZ9",
+      "slug": "kxtrumpadminleave-26dec31",
+      "question": "Will someone leave their role in the Trump administration in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-administration",
+        "personnel-turnover",
+        "us-politics",
+        "cabinet-changes",
+        "executive-branch"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 36,
+      "primary_market_id": "CM-MKT-WDR452CMT8",
+      "grade": "A",
+      "rcg_score": 86,
+      "last_price": 0.995,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "resolved",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-Z5Z4K6WBZ9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-VWW9FTFB33",
+      "slug": "kxtrumpapprovalyear-26dec31",
+      "question": "Donald Trump approval rating, December 31, 2026 (above threshold)",
+      "category": "politics",
+      "event_type": "LADDER",
+      "tags": [
+        "politics",
+        "trump-approval",
+        "us-politics",
+        "polling-metrics",
+        "2027",
+        "sentiment-tracking"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 8,
+      "primary_market_id": "CM-MKT-8CH464J2Z6",
+      "grade": "C",
+      "rcg_score": 50,
+      "last_price": 0.07,
+      "price_as_of": "2026-09-29T04:45:48.789Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-VWW9FTFB33",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-0DMSQTKVX3",
+      "slug": "kxtrumpapprovalbelow-26dec31",
+      "question": "Donald Trump approval rating, December 31, 2026 (below threshold)",
+      "category": "politics",
+      "event_type": "LADDER",
+      "tags": [
+        "politics",
+        "trump-approval",
+        "polling-aggregate",
+        "2026-2027",
+        "us-politics",
+        "presidential-metrics"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 8,
+      "primary_market_id": "CM-MKT-DW1J1NPHS7",
+      "grade": "C",
+      "rcg_score": 56,
+      "last_price": 0.088,
+      "price_as_of": "2026-09-29T07:45:38.868Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-0DMSQTKVX3",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-ZFR6MB25G2",
+      "slug": "kxsnaprestrict-27",
+      "question": "Will Trump restrict SNAP benefits by 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-administration",
+        "snap-benefits",
+        "welfare-policy",
+        "legislative-action",
+        "us-federal-policy"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-NNPHCB9B39",
+      "grade": "B",
+      "rcg_score": 77,
+      "last_price": 0.11,
+      "price_as_of": "2026-09-24T12:45:42.294Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-ZFR6MB25G2",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-D33NKJV0Q9",
+      "slug": "kxvetocount-27jan",
+      "question": "How many bills will receive a Trump veto in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-vetoes",
+        "us-legislation",
+        "2027-resolution",
+        "presidential-power",
+        "quantitative-outcome"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-0CH237NDW7",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.27,
+      "price_as_of": "2026-09-29T03:45:26.237Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-D33NKJV0Q9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-TMHG8WLK69",
+      "slug": "kxtryfirepowell-26may12",
+      "question": "Will Trump attempt to remove Powell as Federal Reserve Chair or Governor?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-fed-policy",
+        "powell-removal",
+        "2026-politics",
+        "executive-personnel",
+        "federal-reserve"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 3,
+      "primary_market_id": "CM-MKT-YYPR3J2CJ0",
+      "grade": "C",
+      "rcg_score": 66,
+      "last_price": 0.042,
+      "price_as_of": "2026-09-26T16:45:40.905Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-TMHG8WLK69",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-57VMK4QRS7",
+      "slug": "kxtrumpthuneout-27jan01",
+      "question": "Will Trump publicly call for John Thune to step down as Senate Majority Leader?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-thune",
+        "senate-leadership",
+        "2026-politics",
+        "public-statements",
+        "gop-internal"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 2,
+      "primary_market_id": "CM-MKT-D6FPCSSFF7",
+      "grade": "B",
+      "rcg_score": 72,
+      "last_price": 0.4,
+      "price_as_of": "2026-09-29T19:45:48.558Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-57VMK4QRS7",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-T39KCTYDG5",
+      "slug": "kxtrumpstates-27jan01",
+      "question": "Will Donald Trump visit California before Jan 1, 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-travel",
+        "us-politics",
+        "state-visits",
+        "2027",
+        "campaign-activity"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 16,
+      "primary_market_id": "CM-MKT-FGJRXK60J3",
+      "grade": "C",
+      "rcg_score": 72,
+      "last_price": 1,
+      "price_as_of": "2026-09-17T21:46:04.037Z",
+      "last_checked_at": null,
+      "status": "resolved",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-T39KCTYDG5",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-8LZGL33RL5",
+      "slug": "kxtrumppardon-27jan01",
+      "question": "Will Trump pardon anyone in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-pardons",
+        "presidential-authority",
+        "2026-politics",
+        "criminal-justice",
+        "executive-power"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 34,
+      "primary_market_id": "CM-MKT-KS8019S2N5",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.039,
+      "price_as_of": "2026-09-29T14:45:50.140Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-8LZGL33RL5",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-WY1J5J92Q7",
+      "slug": "kxtrumpmeeting-27jan01",
+      "question": "Will Donald Trump meet in person Claudia Sheinbaum before Jan 1, 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-meetings",
+        "political-figures",
+        "2027-resolution",
+        "international-diplomacy",
+        "person-specific"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 25,
+      "primary_market_id": "CM-MKT-P8DKPB0SP4",
+      "grade": "B",
+      "rcg_score": 74,
+      "last_price": 0.998,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "resolved",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-WY1J5J92Q7",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-PLZF299170",
+      "slug": "kxtrumpfire-27",
+      "question": "How many Cabinet members will Trump say he fired in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-cabinet",
+        "us-politics",
+        "personnel-changes",
+        "quantitative-prediction",
+        "2027-resolution"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 6,
+      "primary_market_id": "CM-MKT-JCF15LK6H2",
+      "grade": "C",
+      "rcg_score": 63,
+      "last_price": 0.85,
+      "price_as_of": "2026-09-29T03:45:26.237Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-PLZF299170",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-L81T84MFK3",
+      "slug": "kxtrumpcountries-27jan01",
+      "question": "Will Trump visit any countries in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-international-travel",
+        "us-foreign-relations",
+        "political-visits",
+        "2027-resolution",
+        "state-visits"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 24,
+      "primary_market_id": "CM-MKT-XZKBWZX3H8",
+      "grade": "C",
+      "rcg_score": 72,
+      "last_price": 0.999,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "resolved",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-L81T84MFK3",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-KMHJ1FX1V6",
+      "slug": "kxtradedealcuba-27",
+      "question": "Will Trump announce a trade deal with Cuba?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-trade-policy",
+        "us-cuba-relations",
+        "trade-deals",
+        "2026-politics",
+        "announcement-event"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 3,
+      "primary_market_id": "CM-MKT-4GH9DHT8J8",
+      "grade": "C",
+      "rcg_score": 58,
+      "last_price": 0.24,
+      "price_as_of": "2026-09-29T19:45:48.558Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-KMHJ1FX1V6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-YH6B0KCSV8",
+      "slug": "kxtariffsector-27jan01",
+      "question": "Which sectors will Trump impose tariffs on in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-tariffs",
+        "trade-policy",
+        "sector-outcomes",
+        "2026-economics",
+        "us-trade"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-L9V65ZD770",
+      "grade": "A",
+      "rcg_score": 86,
+      "last_price": 0.12,
+      "price_as_of": "2026-09-22T17:45:39.730Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-YH6B0KCSV8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-VT2GDV0HF3",
+      "slug": "kxmaralago-27",
+      "question": "Will a specific notable person visit Mar-a-Lago in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "mar-a-lago",
+        "political-visits",
+        "trump-property",
+        "2027",
+        "us-politics"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 11,
+      "primary_market_id": "CM-MKT-TV9SX18QP4",
+      "grade": "C",
+      "rcg_score": 68,
+      "last_price": 0.21,
+      "price_as_of": "2026-09-28T11:45:44.095Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-VT2GDV0HF3",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-M8FW3CGRV4",
+      "slug": "kxlaborsecconf-26",
+      "question": "Will Trump's Labor Secretary pick be confirmed? (multi-deadline series, 2026-2027)",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "us-labor-secretary",
+        "senate-confirmation",
+        "trump-administration",
+        "cabinet-pick",
+        "2026"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-NDT3YRFSS3",
+      "grade": "A",
+      "rcg_score": 100,
+      "last_price": 0.91,
+      "price_as_of": "2026-09-29T03:45:26.237Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-M8FW3CGRV4",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-P95C3C1H51",
+      "slug": "kxdjtattackwarsh-27",
+      "question": "Will Trump publicly criticize Kevin Warsh?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-criticism",
+        "kevin-warsh",
+        "public-statements",
+        "politics-2026",
+        "us-politics"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 2,
+      "primary_market_id": "CM-MKT-HC7GPZDCY0",
+      "grade": "C",
+      "rcg_score": 58,
+      "last_price": 0.42,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-P95C3C1H51",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-JQRXSG4ZX9",
+      "slug": "kxbtcreserve-27",
+      "question": "Will Trump create a National Bitcoin Reserve in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-cryptocurrency",
+        "bitcoin-policy",
+        "us-treasury",
+        "2027-resolution",
+        "crypto-regulation"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-P2JZFY6DK6",
+      "grade": "B",
+      "rcg_score": 73,
+      "last_price": 0.032,
+      "price_as_of": "2026-09-29T20:45:36.690Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-JQRXSG4ZX9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-BY0MCZ9DJ6",
+      "slug": "kx250dollarbill-27",
+      "question": "Will Trump create a $250 bill featuring himself?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "us-currency",
+        "trump",
+        "legislative-action",
+        "2027",
+        "executive-power"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-0XB4WFYM55",
+      "grade": "A",
+      "rcg_score": 91,
+      "last_price": 0.03,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-BY0MCZ9DJ6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-Q72X90WT99",
+      "slug": "kxelectionemergency",
+      "question": "Will Trump declare an election emergency?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "us-politics",
+        "trump-admin",
+        "emergency-declaration",
+        "2026-election",
+        "executive-action"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 4,
+      "primary_market_id": "CM-MKT-WCLP34HC00",
+      "grade": "B",
+      "rcg_score": 75,
+      "last_price": 0.17,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-Q72X90WT99",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-V9QGT2SSP7",
+      "slug": "kxtrumpiran",
+      "question": "Will Donald Trump visit Iran?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump-iran",
+        "diplomatic-visit",
+        "geopolitical-relations",
+        "us-foreign-policy",
+        "2026"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 4,
+      "primary_market_id": "CM-MKT-GX76QG92W9",
+      "grade": "C",
+      "rcg_score": 60,
+      "last_price": 0.034,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-V9QGT2SSP7",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-LPQG3Y7ZN4",
+      "slug": "kxtariffchecks-26",
+      "question": "Will Americans receive tariff stimulus checks?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "us-tariffs",
+        "stimulus-checks",
+        "trump-administration",
+        "2026",
+        "fiscal-policy"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-TQ638D35S8",
+      "grade": "C",
+      "rcg_score": 43,
+      "last_price": 0.063,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-LPQG3Y7ZN4",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-ZF8X9WHDV8",
+      "slug": "kximpeach",
+      "question": "Will Trump be impeached?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "us-politics",
+        "impeachment",
+        "trump",
+        "2026",
+        "presidential-accountability"
+      ],
+      "venues_covered": [
+        "kalshi"
+      ],
+      "market_count": 5,
+      "primary_market_id": "CM-MKT-R956C0HFM1",
+      "grade": "A",
+      "rcg_score": 90,
+      "last_price": 0.67,
+      "price_as_of": "2026-09-29T21:45:45.414Z",
+      "last_checked_at": "2026-09-29T21:45:45.414Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-ZF8X9WHDV8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-207L4994P4",
+      "slug": "us-x-russia-military-clash-by",
+      "question": "Will there be a military clash between the US and Russia by 2026?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "geopolitics",
+        "us-russia-relations",
+        "military-conflict",
+        "trump",
+        "2025-resolution",
+        "escalation-risk"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 4,
+      "primary_market_id": "CM-MKT-GHZB79KDW1",
+      "grade": "C",
+      "rcg_score": 24,
+      "last_price": 0.023,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-207L4994P4",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-YV6C06NTY2",
+      "slug": "trump-eliminates-capital-gains-tax-on-crypto-in-2025",
+      "question": "Will Trump eliminate capital gains tax on crypto by 2026?",
+      "category": "crypto",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "crypto",
+        "trump",
+        "us-tax-policy",
+        "regulatory-change",
+        "2025"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 2,
+      "primary_market_id": "CM-MKT-LTNDGL8870",
+      "grade": "C",
+      "rcg_score": 54,
+      "last_price": 1,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-YV6C06NTY2",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-FS08C0B2L6",
+      "slug": "will-trump-pardon-ghislaine-maxwell",
+      "question": "Will Trump pardon Ghislaine Maxwell by the end of 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "presidential-pardon",
+        "criminal-justice",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-QS3JXM8M87",
+      "grade": "C",
+      "rcg_score": 68,
+      "last_price": 0.03,
+      "price_as_of": "2026-09-29T20:00:55.101Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-FS08C0B2L6",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-64KY3VMH10",
+      "slug": "will-trump-be-impeached-by-december-31-2026",
+      "question": "Will Trump be impeached by the end of 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "trump",
+        "politics",
+        "impeachment",
+        "us-congress",
+        "2026",
+        "presidential-politics"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-L5NVK9JYQ2",
+      "grade": "C",
+      "rcg_score": 74,
+      "last_price": 0.02,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-64KY3VMH10",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-LN7QRGTWK3",
+      "slug": "will-trump-resign-by-december-31-2026",
+      "question": "Will Trump resign by December 31, 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "trump",
+        "politics",
+        "us-presidential",
+        "resignation",
+        "2026",
+        "political-event"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-PLWFT42L08",
+      "grade": "C",
+      "rcg_score": 52,
+      "last_price": 0.03,
+      "price_as_of": "2026-09-29T19:00:42.977Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-LN7QRGTWK3",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-0XQBBK1P10",
+      "slug": "nato-x-russia-military-clash-in-2025",
+      "question": "Will there be a NATO-Russia military clash by 2026?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "nato-russia-conflict",
+        "geopolitics",
+        "military-escalation",
+        "2025",
+        "trump",
+        "international-security"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 6,
+      "primary_market_id": "CM-MKT-3LYX2HLXF4",
+      "grade": "C",
+      "rcg_score": 14,
+      "last_price": 0.002,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-0XQBBK1P10",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-V0BCKV3553",
+      "slug": "which-countries-will-donald-trump-visit-in-2026",
+      "question": "Which countries will Donald Trump visit in 2026?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "geopolitics",
+        "international-travel",
+        "2026",
+        "us-foreign-relations"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 26,
+      "primary_market_id": "CM-MKT-62YX5P94D6",
+      "grade": "C",
+      "rcg_score": 52,
+      "last_price": 0.999,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-V0BCKV3553",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-XJRMVYJXG9",
+      "slug": "will-trump-cut-corporate-taxes-before-2027",
+      "question": "Will Trump cut corporate taxes before 2027?",
+      "category": "economics",
+      "event_type": "BINARY",
+      "tags": [
+        "economics",
+        "politics",
+        "business",
+        "economy",
+        "trump",
+        "tax-policy"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-DXZCTZFZL7",
+      "grade": "C",
+      "rcg_score": 71,
+      "last_price": 0.12,
+      "price_as_of": "2026-09-24T21:00:27.880Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-XJRMVYJXG9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-9L2X7L3M93",
+      "slug": "trump-removed-via-25th-amendment-before-2027",
+      "question": "Will Trump be removed via the 25th Amendment before 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "us-government",
+        "constitutional-procedures",
+        "2026",
+        "presidential-succession"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-YQ41D6BCL3",
+      "grade": "A",
+      "rcg_score": 84,
+      "last_price": 0.028,
+      "price_as_of": "2026-09-28T08:00:38.875Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-9L2X7L3M93",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-MF2T04RSK7",
+      "slug": "will-us-withdraw-from-nato-before-2027",
+      "question": "Will the US withdraw from NATO by 2026?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "geopolitics",
+        "nato",
+        "us-foreign-policy",
+        "2026",
+        "trump"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 4,
+      "primary_market_id": "CM-MKT-8DN756SJP9",
+      "grade": "C",
+      "rcg_score": 76,
+      "last_price": 0.002,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-MF2T04RSK7",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-D2FSS8S8N5",
+      "slug": "who-will-trump-meet-with-in-2026",
+      "question": "Will Trump meet with a specific notable person or leader in 2026?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "geopolitics",
+        "diplomacy",
+        "international-meetings",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 27,
+      "primary_market_id": "CM-MKT-ZFPM7JF672",
+      "grade": "C",
+      "rcg_score": 38,
+      "last_price": 0.999,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-D2FSS8S8N5",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-KZSP2MGN63",
+      "slug": "who-will-leave-trump-administration-before-2027",
+      "question": "Will anyone leave the Trump Administration before 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "administration-turnover",
+        "us-government",
+        "personnel-changes",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 21,
+      "primary_market_id": "CM-MKT-H1W2HC3PH0",
+      "grade": "C",
+      "rcg_score": 52,
+      "last_price": 0.999,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-KZSP2MGN63",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-ZW6ZK09DB1",
+      "slug": "trump-out-as-president-before-2027",
+      "question": "Will Donald Trump cease to be President before 2027?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "geopolitics",
+        "us-presidency",
+        "2026",
+        "political-transition"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-D9Y0XQ45K6",
+      "grade": "C",
+      "rcg_score": 46,
+      "last_price": 0.05,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-ZW6ZK09DB1",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-XP7FFT2MC9",
+      "slug": "will-ukraine-agree-to-cede-territory-to-russia-before-2027",
+      "question": "Will Ukraine agree to cede territory to Russia by 2026?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "ukraine-russia-territorial-concessions",
+        "geopolitics",
+        "trump-administration-foreign-policy",
+        "conflict-resolution",
+        "2026",
+        "peace-negotiations"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 2,
+      "primary_market_id": "CM-MKT-5FF4XB0C15",
+      "grade": "C",
+      "rcg_score": 26,
+      "last_price": 0.08,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-XP7FFT2MC9",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-W3Z52HRKN2",
+      "slug": "us-takes-panama-canal-before-2027",
+      "question": "Will the US take Panama Canal before 2027?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "geopolitics",
+        "us-foreign-policy",
+        "panama-canal",
+        "trump",
+        "2026",
+        "territorial-dispute"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-Y03Y65SCC8",
+      "grade": "C",
+      "rcg_score": 30,
+      "last_price": 0.012,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-W3Z52HRKN2",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-F6K4GN04N8",
+      "slug": "who-will-trump-pardon-before-2027",
+      "question": "Who will Trump pardon before 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "presidential-pardons",
+        "us-justice-system",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 28,
+      "primary_market_id": "CM-MKT-41B9L0VT25",
+      "grade": "C",
+      "rcg_score": 54,
+      "last_price": 0.042,
+      "price_as_of": "2026-09-29T17:00:42.593Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-F6K4GN04N8",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-WLS23WRDG0",
+      "slug": "which-states-will-donald-trump-visit-in-2026",
+      "question": "Which states will Donald Trump visit in 2026?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "us-travel",
+        "2026",
+        "campaign-activity",
+        "state-visits"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 50,
+      "primary_market_id": "CM-MKT-NM5R3ZVN17",
+      "grade": "C",
+      "rcg_score": 40,
+      "last_price": 0.999,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-WLS23WRDG0",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-QP1YL1BSS0",
+      "slug": "trump-putin-and-zelensky-seen-together-before-2027",
+      "question": "Will Trump, Putin, and Zelensky be seen together before 2027?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "geopolitics",
+        "trump",
+        "ukraine-russia",
+        "diplomatic-meeting",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-9F4SB4G8B6",
+      "grade": "C",
+      "rcg_score": 44,
+      "last_price": 0.04,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-QP1YL1BSS0",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-FNBRJ6KY59",
+      "slug": "trump-putin-and-zelensky-meet-together-before-2027",
+      "question": "Will Trump, Putin, and Zelensky meet together before 2027?",
+      "category": "geopolitics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "geopolitics",
+        "ukraine",
+        "diplomacy",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-98K0RRDK10",
+      "grade": "C",
+      "rcg_score": 38,
+      "last_price": 0.08,
+      "price_as_of": "2026-09-29T22:00:32.399Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-FNBRJ6KY59",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-BBT6G79K08",
+      "slug": "trump-fully-suspends-entry-to-the-us-for-more-countries-by",
+      "question": "Will Trump suspend U.S. entry for more countries by 2026-07-15?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "politics",
+        "trump",
+        "us-immigration",
+        "travel-ban",
+        "executive-action",
+        "2026"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 2,
+      "primary_market_id": "CM-MKT-GCF4R9R3R3",
+      "grade": "C",
+      "rcg_score": 66,
+      "last_price": 0.008,
+      "price_as_of": null,
+      "last_checked_at": null,
+      "status": "closed",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-BBT6G79K08",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    },
+    {
+      "event_id": "CM-EVT-VYGG3P41R5",
+      "slug": "will-trump-endorse-jd-vance-for-president-before-2027",
+      "question": "Will Trump endorse JD Vance for president before 2027?",
+      "category": "politics",
+      "event_type": "BINARY",
+      "tags": [
+        "trump",
+        "elections",
+        "politics",
+        "2026",
+        "endorsements",
+        "republican-primary"
+      ],
+      "venues_covered": [
+        "polymarket"
+      ],
+      "market_count": 1,
+      "primary_market_id": "CM-MKT-97KXKXX6L8",
+      "grade": "C",
+      "rcg_score": 52,
+      "last_price": 0.04,
+      "price_as_of": "2026-09-25T18:01:12.114Z",
+      "last_checked_at": "2026-09-29T22:00:32.399Z",
+      "status": "open",
+      "updated_at": "2026-08-04T20:03:51.865287+00:00",
+      "_provenance": {
+        "source": "clearmarket.fyi",
+        "ref": "CM-EVT-VYGG3P41R5",
+        "terms": "Attribution required. clearmarket.fyi"
+      },
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,974 @@
+[
+  {
+    "kind": "synthetic",
+    "id": "cpi_strict_nested",
+    "slice": "strict_nested",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.3%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_strict_nested",
+    "slice": "strict_nested",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.3%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_inclusive_nested",
+    "slice": "inclusive_nested",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.3%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_inclusive_nested",
+    "slice": "inclusive_nested",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.3%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_strict_to_inclusive",
+    "slice": "strict_to_inclusive",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_strict_to_inclusive",
+    "slice": "strict_to_inclusive",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_inclusive_to_strict",
+    "slice": "inclusive_to_strict",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_inclusive_to_strict",
+    "slice": "inclusive_to_strict",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_complement_strict",
+    "slice": "complement_strict",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at most 0.2%.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_complement_strict",
+    "slice": "complement_strict",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at most 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_complement_inclusive",
+    "slice": "complement_inclusive",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is less than 0.2%.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_complement_inclusive",
+    "slice": "complement_inclusive",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is less than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_exclusion_with_gap",
+    "slice": "exclusion_with_gap",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is less than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.3%.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_exclusion_with_gap",
+    "slice": "exclusion_with_gap",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.3%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is less than 0.2%.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_inclusive_overlap",
+    "slice": "inclusive_overlap",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at most 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_inclusive_overlap",
+    "slice": "inclusive_overlap",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at most 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is at least 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_identical",
+    "slice": "identical",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_identical",
+    "slice": "identical",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_strict_overlap",
+    "slice": "strict_overlap",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is less than 0.3%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_strict_overlap",
+    "slice": "strict_overlap",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is less than 0.3%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_different_period",
+    "slice": "different_period",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for November 2026 is more than 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_different_period",
+    "slice": "different_period",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for November 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_different_source",
+    "slice": "different_source",
+    "direction": "a_to_b",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics Alternative for October 2026 is more than 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "cpi_different_source",
+    "slice": "different_source",
+    "direction": "b_to_a",
+    "premise": "The CPI inflation rate reported by the Bureau of Labor Statistics Alternative for October 2026 is more than 0.2%.",
+    "hypothesis": "The CPI inflation rate reported by the Bureau of Labor Statistics for October 2026 is more than 0.2%.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_strict_nested",
+    "slice": "strict_nested",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 21 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_strict_nested",
+    "slice": "strict_nested",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 21 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_inclusive_nested",
+    "slice": "inclusive_nested",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is at least 21 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_inclusive_nested",
+    "slice": "inclusive_nested",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is at least 21 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_strict_to_inclusive",
+    "slice": "strict_to_inclusive",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_strict_to_inclusive",
+    "slice": "strict_to_inclusive",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_inclusive_to_strict",
+    "slice": "inclusive_to_strict",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_inclusive_to_strict",
+    "slice": "inclusive_to_strict",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_complement_strict",
+    "slice": "complement_strict",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is at most 20 degrees Celsius.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_complement_strict",
+    "slice": "complement_strict",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is at most 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_complement_inclusive",
+    "slice": "complement_inclusive",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is less than 20 degrees Celsius.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_complement_inclusive",
+    "slice": "complement_inclusive",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is less than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_exclusion_with_gap",
+    "slice": "exclusion_with_gap",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is less than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 21 degrees Celsius.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_exclusion_with_gap",
+    "slice": "exclusion_with_gap",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 21 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is less than 20 degrees Celsius.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_inclusive_overlap",
+    "slice": "inclusive_overlap",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is at most 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_inclusive_overlap",
+    "slice": "inclusive_overlap",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is at most 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is at least 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_identical",
+    "slice": "identical",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_identical",
+    "slice": "identical",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_strict_overlap",
+    "slice": "strict_overlap",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is less than 21 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_strict_overlap",
+    "slice": "strict_overlap",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is less than 21 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_different_period",
+    "slice": "different_period",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for November 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_different_period",
+    "slice": "different_period",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha for November 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_different_source",
+    "slice": "different_source",
+    "direction": "a_to_b",
+    "premise": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha Alternative for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "temperature_different_source",
+    "slice": "different_source",
+    "direction": "b_to_a",
+    "premise": "The temperature reported by Station Alpha Alternative for October 2026 is more than 20 degrees Celsius.",
+    "hypothesis": "The temperature reported by Station Alpha for October 2026 is more than 20 degrees Celsius.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_strict_nested",
+    "slice": "strict_nested",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 150 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_strict_nested",
+    "slice": "strict_nested",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 150 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_inclusive_nested",
+    "slice": "inclusive_nested",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is at least 150 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_inclusive_nested",
+    "slice": "inclusive_nested",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is at least 150 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_strict_to_inclusive",
+    "slice": "strict_to_inclusive",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_strict_to_inclusive",
+    "slice": "strict_to_inclusive",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_inclusive_to_strict",
+    "slice": "inclusive_to_strict",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_inclusive_to_strict",
+    "slice": "inclusive_to_strict",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_complement_strict",
+    "slice": "complement_strict",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is at most 100 USD.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_complement_strict",
+    "slice": "complement_strict",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is at most 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_complement_inclusive",
+    "slice": "complement_inclusive",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is less than 100 USD.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_complement_inclusive",
+    "slice": "complement_inclusive",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is less than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_exclusion_with_gap",
+    "slice": "exclusion_with_gap",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is less than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 150 USD.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_exclusion_with_gap",
+    "slice": "exclusion_with_gap",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 150 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is less than 100 USD.",
+    "gold": "contradiction"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_inclusive_overlap",
+    "slice": "inclusive_overlap",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is at most 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_inclusive_overlap",
+    "slice": "inclusive_overlap",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is at most 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is at least 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_identical",
+    "slice": "identical",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_identical",
+    "slice": "identical",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "entailment"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_strict_overlap",
+    "slice": "strict_overlap",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is less than 150 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_strict_overlap",
+    "slice": "strict_overlap",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is less than 150 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_different_period",
+    "slice": "different_period",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for November 2026 is more than 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_different_period",
+    "slice": "different_period",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha for November 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_different_source",
+    "slice": "different_source",
+    "direction": "a_to_b",
+    "premise": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha Alternative for October 2026 is more than 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "synthetic",
+    "id": "price_different_source",
+    "slice": "different_source",
+    "direction": "b_to_a",
+    "premise": "The closing price reported by Exchange Alpha Alternative for October 2026 is more than 100 USD.",
+    "hypothesis": "The closing price reported by Exchange Alpha for October 2026 is more than 100 USD.",
+    "gold": "neutral"
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "same_title_thresholds",
+    "view": "title",
+    "direction": "a_to_b",
+    "premise": "Inflation surge in 2026?",
+    "hypothesis": "Inflation surge in 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "same_title_thresholds",
+    "view": "title",
+    "direction": "b_to_a",
+    "premise": "Inflation surge in 2026?",
+    "hypothesis": "Inflation surge in 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "same_title_thresholds",
+    "view": "title_rules",
+    "direction": "a_to_b",
+    "premise": "Inflation surge in 2026?\nIf year-over-year CPI inflation is at least 7.0% in any month in 2026, then the market resolves to Yes.\n",
+    "hypothesis": "Inflation surge in 2026?\nIf year-over-year CPI inflation is at least 6.5% in any month in 2026, then the market resolves to Yes.\n",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "same_title_thresholds",
+    "view": "title_rules",
+    "direction": "b_to_a",
+    "premise": "Inflation surge in 2026?\nIf year-over-year CPI inflation is at least 6.5% in any month in 2026, then the market resolves to Yes.\n",
+    "hypothesis": "Inflation surge in 2026?\nIf year-over-year CPI inflation is at least 7.0% in any month in 2026, then the market resolves to Yes.\n",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "same_title_thresholds",
+    "view": "event_clause",
+    "direction": "a_to_b",
+    "premise": "year-over-year CPI inflation is at least 7.0% in any month in 2026.",
+    "hypothesis": "year-over-year CPI inflation is at least 6.5% in any month in 2026.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "same_title_thresholds",
+    "view": "event_clause",
+    "direction": "b_to_a",
+    "premise": "year-over-year CPI inflation is at least 6.5% in any month in 2026.",
+    "hypothesis": "year-over-year CPI inflation is at least 7.0% in any month in 2026.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "strict_thresholds",
+    "view": "title",
+    "direction": "a_to_b",
+    "premise": "Will CPI rise more than 0.9% in October 2026?",
+    "hypothesis": "Will CPI rise more than 0.8% in October 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "strict_thresholds",
+    "view": "title",
+    "direction": "b_to_a",
+    "premise": "Will CPI rise more than 0.8% in October 2026?",
+    "hypothesis": "Will CPI rise more than 0.9% in October 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "strict_thresholds",
+    "view": "title_rules",
+    "direction": "a_to_b",
+    "premise": "Will CPI rise more than 0.9% in October 2026?\nIf the Consumer Price Index (CPI) increases by more than 0.9% (single-decimal) in October 2026, then the market resolves to Yes.\nThe market will always close at 8:25 AM ET on the scheduled day of the data release (November 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "hypothesis": "Will CPI rise more than 0.8% in October 2026?\nIf the Consumer Price Index (CPI) increases by more than 0.8% (single-decimal) in October 2026, then the market resolves to Yes.\nThe market will always close at 8:25 AM ET on the scheduled day of the data release (November 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "strict_thresholds",
+    "view": "title_rules",
+    "direction": "b_to_a",
+    "premise": "Will CPI rise more than 0.8% in October 2026?\nIf the Consumer Price Index (CPI) increases by more than 0.8% (single-decimal) in October 2026, then the market resolves to Yes.\nThe market will always close at 8:25 AM ET on the scheduled day of the data release (November 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "hypothesis": "Will CPI rise more than 0.9% in October 2026?\nIf the Consumer Price Index (CPI) increases by more than 0.9% (single-decimal) in October 2026, then the market resolves to Yes.\nThe market will always close at 8:25 AM ET on the scheduled day of the data release (November 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "strict_thresholds",
+    "view": "event_clause",
+    "direction": "a_to_b",
+    "premise": "the Consumer Price Index (CPI) increases by more than 0.9% (single-decimal) in October 2026.",
+    "hypothesis": "the Consumer Price Index (CPI) increases by more than 0.8% (single-decimal) in October 2026.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "strict_thresholds",
+    "view": "event_clause",
+    "direction": "b_to_a",
+    "premise": "the Consumer Price Index (CPI) increases by more than 0.8% (single-decimal) in October 2026.",
+    "hypothesis": "the Consumer Price Index (CPI) increases by more than 0.9% (single-decimal) in October 2026.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_periods",
+    "view": "title",
+    "direction": "a_to_b",
+    "premise": "Will the rate of core CPI inflation be above 2.6% for the year ending in December 2026?",
+    "hypothesis": "Will the rate of core CPI inflation be above 2.6% for the year ending in November 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_periods",
+    "view": "title",
+    "direction": "b_to_a",
+    "premise": "Will the rate of core CPI inflation be above 2.6% for the year ending in November 2026?",
+    "hypothesis": "Will the rate of core CPI inflation be above 2.6% for the year ending in December 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_periods",
+    "view": "title_rules",
+    "direction": "a_to_b",
+    "premise": "Will the rate of core CPI inflation be above 2.6% for the year ending in December 2026?\nIf the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "hypothesis": "Will the rate of core CPI inflation be above 2.6% for the year ending in November 2026?\nIf the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending November 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_periods",
+    "view": "title_rules",
+    "direction": "b_to_a",
+    "premise": "Will the rate of core CPI inflation be above 2.6% for the year ending in November 2026?\nIf the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending November 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "hypothesis": "Will the rate of core CPI inflation be above 2.6% for the year ending in December 2026?\nIf the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_periods",
+    "view": "event_clause",
+    "direction": "a_to_b",
+    "premise": "the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics).",
+    "hypothesis": "the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending November 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics).",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_periods",
+    "view": "event_clause",
+    "direction": "b_to_a",
+    "premise": "the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending November 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics).",
+    "hypothesis": "the Consumer Price Index (CPI) for All Urban Consumers: All Items less Food and Energy increases by more than 2.6% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics).",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "headline_vs_core",
+    "view": "title",
+    "direction": "a_to_b",
+    "premise": "Will CPI rise more than 0.2% in November 2026?",
+    "hypothesis": "Will CPI Core rise more than 0.2% in November?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "headline_vs_core",
+    "view": "title",
+    "direction": "b_to_a",
+    "premise": "Will CPI Core rise more than 0.2% in November?",
+    "hypothesis": "Will CPI rise more than 0.2% in November 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "headline_vs_core",
+    "view": "title_rules",
+    "direction": "a_to_b",
+    "premise": "Will CPI rise more than 0.2% in November 2026?\nIf the Consumer Price Index (CPI) increases by more than 0.2% (single-decimal) in November 2026, then the market resolves to Yes.\nThe market will always close at 8:25 AM ET on the scheduled day of the data release (December 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "hypothesis": "Will CPI Core rise more than 0.2% in November?\nIf the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for November 2026, as published by the Bureau of Labor Statistics, increases by above 0.2%, then the market resolves to Yes.\nPlease note that the value of the Underlying is the single-decimal value reported by the BLS.\n\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "headline_vs_core",
+    "view": "title_rules",
+    "direction": "b_to_a",
+    "premise": "Will CPI Core rise more than 0.2% in November?\nIf the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for November 2026, as published by the Bureau of Labor Statistics, increases by above 0.2%, then the market resolves to Yes.\nPlease note that the value of the Underlying is the single-decimal value reported by the BLS.\n\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "hypothesis": "Will CPI rise more than 0.2% in November 2026?\nIf the Consumer Price Index (CPI) increases by more than 0.2% (single-decimal) in November 2026, then the market resolves to Yes.\nThe market will always close at 8:25 AM ET on the scheduled day of the data release (December 10, 2026). Please note: the Expiration Value is the single-decimal value published at the Source Agency. In the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "headline_vs_core",
+    "view": "event_clause",
+    "direction": "a_to_b",
+    "premise": "the Consumer Price Index (CPI) increases by more than 0.2% (single-decimal) in November 2026.",
+    "hypothesis": "the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for November 2026, as published by the Bureau of Labor Statistics, increases by above 0.2%.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "headline_vs_core",
+    "view": "event_clause",
+    "direction": "b_to_a",
+    "premise": "the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for November 2026, as published by the Bureau of Labor Statistics, increases by above 0.2%.",
+    "hypothesis": "the Consumer Price Index (CPI) increases by more than 0.2% (single-decimal) in November 2026.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "month_to_any_month",
+    "view": "title",
+    "direction": "a_to_b",
+    "premise": "Will the rate of CPI inflation be above 5.0% for the year ending in December 2026?",
+    "hypothesis": "Inflation surge in 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "month_to_any_month",
+    "view": "title",
+    "direction": "b_to_a",
+    "premise": "Inflation surge in 2026?",
+    "hypothesis": "Will the rate of CPI inflation be above 5.0% for the year ending in December 2026?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "month_to_any_month",
+    "view": "title_rules",
+    "direction": "a_to_b",
+    "premise": "Will the rate of CPI inflation be above 5.0% for the year ending in December 2026?\nIf the Consumer Price Index (CPI) increases by more than 5.0% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown",
+    "hypothesis": "Inflation surge in 2026?\nIf year-over-year CPI inflation is at least 5% in any month in 2026, then the market resolves to Yes.\n",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "month_to_any_month",
+    "view": "title_rules",
+    "direction": "b_to_a",
+    "premise": "Inflation surge in 2026?\nIf year-over-year CPI inflation is at least 5% in any month in 2026, then the market resolves to Yes.\n",
+    "hypothesis": "Will the rate of CPI inflation be above 5.0% for the year ending in December 2026?\nIf the Consumer Price Index (CPI) increases by more than 5.0% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics), then the market resolves to Yes.\nIn the case of a delay in data caused by a federal government shutdown impacting the reliability of the Source Agency, the market’s latest Expiration Date will be extended to the sooner of the release of the Underlying or six months after the end of the government shutdown",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "month_to_any_month",
+    "view": "event_clause",
+    "direction": "a_to_b",
+    "premise": "the Consumer Price Index (CPI) increases by more than 5.0% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics).",
+    "hypothesis": "year-over-year CPI inflation is at least 5% in any month in 2026.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "month_to_any_month",
+    "view": "event_clause",
+    "direction": "b_to_a",
+    "premise": "year-over-year CPI inflation is at least 5% in any month in 2026.",
+    "hypothesis": "the Consumer Price Index (CPI) increases by more than 5.0% in the twelve months ending December 2026 (as represented by the one-decimal place value reported by the Bureau of Labor Statistics).",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_assets_shared_boilerplate",
+    "view": "title",
+    "direction": "a_to_b",
+    "premise": "Will the platinum close price be above 1724.49 USD/ounce on September 28, 2026 at 7:00 PM ET?",
+    "hypothesis": "Will the palladium close price be above 1219.49 USD/ounce on September 28, 2026 at 7:00 PM ET?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_assets_shared_boilerplate",
+    "view": "title",
+    "direction": "b_to_a",
+    "premise": "Will the palladium close price be above 1219.49 USD/ounce on September 28, 2026 at 7:00 PM ET?",
+    "hypothesis": "Will the platinum close price be above 1724.49 USD/ounce on September 28, 2026 at 7:00 PM ET?",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_assets_shared_boilerplate",
+    "view": "title_rules",
+    "direction": "a_to_b",
+    "premise": "Will the platinum close price be above 1724.49 USD/ounce on September 28, 2026 at 7:00 PM ET?\nIf the close price of the 1-minute candlestick for platinum on September 28, 2026 at 7:00 PM EDT is above 1724.49 USD/ounce, then the market resolves to Yes.\nThe settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interval. For example, the candlestick timestamped 4:59 PM reflects trading during 4:59:00 PM to 4:59:59 PM and closes at 5:00:00 PM. If no data is published by the specified source agency for the specified time, then the most recently available published data will be used to resolve the market.\n\nNA",
+    "hypothesis": "Will the palladium close price be above 1219.49 USD/ounce on September 28, 2026 at 7:00 PM ET?\nIf the close price of the 1-minute candlestick for palladium on September 28, 2026 at 7:00 PM EDT is above 1219.49 USD/ounce, then the market resolves to Yes.\nThe settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interval. For example, the candlestick timestamped 4:59 PM reflects trading during 4:59:00 PM to 4:59:59 PM and closes at 5:00:00 PM. If no data is published by the specified source agency for the specified time, then the most recently available published data will be used to resolve the market.\n\nNA",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_assets_shared_boilerplate",
+    "view": "title_rules",
+    "direction": "b_to_a",
+    "premise": "Will the palladium close price be above 1219.49 USD/ounce on September 28, 2026 at 7:00 PM ET?\nIf the close price of the 1-minute candlestick for palladium on September 28, 2026 at 7:00 PM EDT is above 1219.49 USD/ounce, then the market resolves to Yes.\nThe settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interval. For example, the candlestick timestamped 4:59 PM reflects trading during 4:59:00 PM to 4:59:59 PM and closes at 5:00:00 PM. If no data is published by the specified source agency for the specified time, then the most recently available published data will be used to resolve the market.\n\nNA",
+    "hypothesis": "Will the platinum close price be above 1724.49 USD/ounce on September 28, 2026 at 7:00 PM ET?\nIf the close price of the 1-minute candlestick for platinum on September 28, 2026 at 7:00 PM EDT is above 1724.49 USD/ounce, then the market resolves to Yes.\nThe settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interval. For example, the candlestick timestamped 4:59 PM reflects trading during 4:59:00 PM to 4:59:59 PM and closes at 5:00:00 PM. If no data is published by the specified source agency for the specified time, then the most recently available published data will be used to resolve the market.\n\nNA",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_assets_shared_boilerplate",
+    "view": "event_clause",
+    "direction": "a_to_b",
+    "premise": "the close price of the 1-minute candlestick for platinum on September 28, 2026 at 7:00 PM EDT is above 1724.49 USD/ounce.",
+    "hypothesis": "the close price of the 1-minute candlestick for palladium on September 28, 2026 at 7:00 PM EDT is above 1219.49 USD/ounce.",
+    "gold": null
+  },
+  {
+    "kind": "real_exploratory",
+    "id": "different_assets_shared_boilerplate",
+    "view": "event_clause",
+    "direction": "b_to_a",
+    "premise": "the close price of the 1-minute candlestick for palladium on September 28, 2026 at 7:00 PM EDT is above 1219.49 USD/ounce.",
+    "hypothesis": "the close price of the 1-minute candlestick for platinum on September 28, 2026 at 7:00 PM EDT is above 1724.49 USD/ounce.",
+    "gold": null
+  }
+]

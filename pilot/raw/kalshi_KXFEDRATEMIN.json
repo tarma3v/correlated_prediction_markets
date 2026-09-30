@@ -1,0 +1,11 @@
+{
+  "request_url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXFEDRATEMIN",
+  "requested_at_utc": "2026-09-28T21:01:39.649199+00:00",
+  "file": "raw/kalshi_KXFEDRATEMIN.json",
+  "status_code": 200,
+  "fetched_at_utc": "2026-09-28T21:01:40.357086+00:00",
+  "response": {
+    "cursor": "",
+    "markets": []
+  }
+}

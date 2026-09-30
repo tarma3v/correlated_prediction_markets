@@ -1,0 +1,3224 @@
+[
+  {
+    "pair_id": "rel_01",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x98dbb998749ae773baf35697d695f5efdc098def32decd687b91c634d8d0481d",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "OpenAI завершает публичное размещение с оценкой не ниже $1 трлн в оговорённый срок; индексированные правила дополнительно оговаривают прямой листинг, SPAC и отсрочку начала торгов после ценообразования.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x98dbb998749ae773baf35697d695f5efdc098def32decd687b91c634d8d0481d",
+            "kalshi_ticker": "KXIPO-26-OPENAI"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        },
+        {
+          "source_id": "poly_ipo"
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXIPO-26-OPENAI",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "До 1 января 2027 IPO OpenAI подтверждено: вступила в силу Form S-1, установлена цена IPO или биржа присвоила тикер.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 1,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXIPO-26-OPENAI",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "threshold_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "A_IMPLIES_B",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [
+      "10"
+    ],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "forbidden_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Обычное завершённое размещение удовлетворяет хотя бы одному из перечисленных Kalshi признаков подтверждения. Обратное следствие неверно: подтверждение не требует оценки $1 трлн или начала торгов до дедлайна.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Обе площадки идентифицируют одну и ту же юридическую сущность OpenAI, включая возможного преемника.",
+        "Для квалифицирующегося прямого листинга/SPAC также выполнен один из трёх критериев Kalshi до его дедлайна.",
+        "Одинаково интерпретируются часовой пояс, предельная дата и допустимая отсрочка."
+      ]
+    },
+    "missing_evidence": [
+      "Привязка индексированной Polymarket страницы к данному внешнему ID не подтверждена API.",
+      "Нужна проверка применимости критериев Kalshi к преемнику, прямому листингу и SPAC."
+    ],
+    "illustrative_state_witnesses": {
+      "11": "Обычное IPO с оценкой $1 трлн+, подтверждённое и завершённое вовремя.",
+      "00": "Размещение не подтверждено и не завершено.",
+      "01": "IPO подтверждено, но оценка ниже $1 трлн или публичные торги ещё не начались."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "poly_ipo"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:21.820226+00:00",
+      "kalshi_response_sha256": "3b6eac0a83c76d93ef638d2666723f65a576a90753626cc84071660a77d08c24",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "e04de39acef650030d59250fcdfe279115cb224017b72bb1140e7f99d53e31ef"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_02",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x48b0b0bca515f68fccf95af4793dbd0edbfec1f8ec6e8df2c0f69ba74f8c4722",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Трамп перестаёт занимать пост президента до 2027 года; точные исключения Polymarket для этого ID не получены.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x48b0b0bca515f68fccf95af4793dbd0edbfec1f8ec6e8df2c0f69ba74f8c4722",
+            "kalshi_ticker": "KXTRUMPOUT27-27-DJT"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXTRUMPOUT27-27-DJT",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Трамп покидает должность до 1 января 2027; также учитывается объявление об уходе в следующий год. Смерть запускает отдельный расчёт выплаты.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 2,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXTRUMPOUT27-27-DJT",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "unsure",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "OUT_OF_BINARY_SCOPE",
+    "candidate_status": "binary_payoff_model_inadequate",
+    "forbidden_states": null,
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "unknown_or_out_of_binary_scope",
+      "11": "unknown_or_out_of_binary_scope",
+      "00": "unknown_or_out_of_binary_scope",
+      "01": "unknown_or_out_of_binary_scope"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Kalshi допускает расчёт по последней цене или решению комитета при смерти: пространство выплат не ограничено {0,1}. Кроме того, объявление об уходе может предшествовать фактическому уходу.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Kalshi explicitly permits fractional/discretionary settlement after death; binary truth-table abstention.",
+      "assumptions": [
+        "Для отдельной бинарной подзадачи необходимо исключить ветку смерти и определить, означает ли A фактический уход или объявление."
+      ]
+    },
+    "missing_evidence": [
+      "Нужны полные правила Polymarket для данного ID.",
+      "Нужно отдельно моделировать payout при смерти; нельзя заменять его значением NO.",
+      "Нужно сопоставить время объявления и фактического ухода."
+    ],
+    "illustrative_state_witnesses": null,
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:21.820518+00:00",
+      "kalshi_response_sha256": "5934671ef2f9881671b4d27c9b66be73c2808b8347de051b0c479d3ab17061cc",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "56d21d402ee052359fca2ad31fa6c43c0c67fc32401007625ce543bfd5fc0288"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_03",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x6b0a6b7544c1d697fa4007fb83cb76b75467f33828bf946ac794d2e38d63ba96",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Half-Life 3 получает Game of the Year на The Game Awards 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x6b0a6b7544c1d697fa4007fb83cb76b75467f33828bf946ac794d2e38d63ba96",
+            "kalshi_ticker": "KXGAMERELEASE-26-HALF"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXGAMERELEASE-26-HALF",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Half-Life 3 полностью выпущена в США хотя бы на одной платформе до 1 января 2027.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 3,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXGAMERELEASE-26-HALF",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "award_category_vs_annual_release",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Награда и полный релиз в США имеют разные критерии. FAQ TGA допускает Early Access и некоторые игры прежних лет: победа сама по себе не гарантирует именно полный релиз в США в указанном году.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "A относится к указанной награде 2026, а не к выпуску игры.",
+        "Текущая политика допустимости Early Access и прошлых релизов сохраняет релевантность; версия FAQ содержит дедлайн 2025, а не подтверждённые правила 2026."
+      ]
+    },
+    "missing_evidence": [
+      "Полные правила Polymarket и редакция eligibility TGA 2026 не получены."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Допустимый Early Access получает награду, полный релиз в США наступает позже.",
+      "11": "Полный релиз и победа в Game of the Year.",
+      "00": "Игра не получает награду и не выходит полностью в США к дедлайну.",
+      "01": "Полный релиз состоялся, Game of the Year получила другая игра."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "tga_faq"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:21.838552+00:00",
+      "kalshi_response_sha256": "5c616339c6887665c3c259345496e028202498720971a59f440ca23770c73937",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "a778663cd9fe8b2377b250429e3e7bd73f916fe648deb01fac38c8e17d9a5a36"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_04",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x80dd2c6c6b4d5edeb34097da5b8332a56dd593b7c4d110abe68cecd0f18d24d3",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Решение Банка Англии в ноябре 2026 попадает в корзину Polymarket «снижение на 25 б.п.».",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x80dd2c6c6b4d5edeb34097da5b8332a56dd593b7c4d110abe68cecd0f18d24d3",
+            "kalshi_ticker": "KXCBDECISIONENGLAND-26NOV05-C25P"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        },
+        {
+          "source_id": "poly_boe_2026_page"
+        },
+        {
+          "source_id": "poly_boe_us_rounding"
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXCBDECISIONENGLAND-26NOV05-C25P",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "На ноябрьском заседании MPC Банк Англии снижает основную ставку больше чем на 25 б.п.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 4,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXCBDECISIONENGLAND-26NOV05-C25P",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "threshold_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "ABSTAIN",
+    "candidate_status": "insufficient_rule_evidence",
+    "forbidden_states": null,
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "unknown_or_out_of_binary_scope",
+      "11": "unknown_or_out_of_binary_scope",
+      "00": "unknown_or_out_of_binary_scope",
+      "01": "unknown_or_out_of_binary_scope"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "При буквальном A=(снижение ровно 25) события несовместимы. Но корзина может округлять фактическое изменение: например, при округлении 30→25 оба события истинны. Официальное одноимённое событие Polymarket US содержит округление, но его правила нельзя переносить на международный контракт.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Сопоставлять нужно одну ставку и одно заседание 5 ноября 2026."
+      ]
+    },
+    "missing_evidence": [
+      "Полные правила именно международного Polymarket ID, включая округление и перенос заседания, не получены."
+    ],
+    "illustrative_state_witnesses": null,
+    "alternative_candidates": [
+      {
+        "type": "DISJOINT",
+        "forbidden_states": [
+          "11"
+        ],
+        "condition": "Только если корзина A означает строго 25 б.п. без округления."
+      },
+      {
+        "type": "NO_HARD_RELATION",
+        "forbidden_states": [],
+        "condition": "Только в явно заданной математической модели одной величины снижения x>=0, одного состоявшегося заседания и без fallback: R(0)=0; для 0<x<25 положить R(x)=25; для x>=25 округлять к ближайшему кратному25 с половинами от нуля. Тогда A=(R(x)=25), B=(x>25). Это не подтверждённые правила международного контракта; все четыре состояния имеют отдельные свидетели.",
+        "illustrative_state_witnesses": {
+          "00": "x=0: R(x)=0; A=0, B=0.",
+          "01": "x=50: R(x)=50; A=0, B=1.",
+          "10": "x=25: R(x)=25; A=1, B=0.",
+          "11": "x=30: R(x)=25; A=1, B=1."
+        }
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "poly_boe_2026_page",
+      "poly_boe_us_rounding"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:21.848985+00:00",
+      "kalshi_response_sha256": "98197a9861950f1bc51b49de2e65bcacd1c2fe86cb57b5f6537106168b3c9bde",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "07623971f80e69ab91cc027a7cff48f03e3c10072feed1f79ad40e1eed8b1ed5"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_05",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x95c1331da9910b79109957f4ff5289cf415399e084fa94b012a7752b3904a34d",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Команда, относимая к Texas, выигрывает чемпионат NFL с финалом в 2027 году.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x95c1331da9910b79109957f4ff5289cf415399e084fa94b012a7752b3904a34d",
+            "kalshi_ticker": "KXSB-27-ATL"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXSB-27-ATL",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Atlanta выигрывает тот же Pro Football Championship 2027.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 5,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXSB-27-ATL",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "DISJOINT",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [
+      "11"
+    ],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "forbidden_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "При единственном чемпионе и неизменной принадлежности Atlanta к Georgia победитель не может одновременно относиться к Texas и Atlanta.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Оба контракта относятся к одному чемпионату 2026–27, а Texas означает техасские команды, не место проведения.",
+        "Чемпион один; Atlanta не переехала в Texas; нет общего титула или отличающихся правил отмены."
+      ]
+    },
+    "missing_evidence": [
+      "Полные правила Polymarket и определение множества Texas не получены.",
+      "Нужно подтвердить географическую классификацию на дату резолва.",
+      "Kalshi close_time=2029 отличается от expected_expiration=2027; нельзя делать вывод о другом чемпионате лишь по close_time."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Чемпион техасская команда.",
+      "00": "Побеждает команда, не относящаяся к Texas или Atlanta.",
+      "01": "Чемпион Atlanta."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "nfl_geography"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:22.350701+00:00",
+      "kalshi_response_sha256": "9cb149171f59909a1cfe2d168fe830e8b9688fb495000ed8b12d1c21a69e77f3",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "477e4298e4b87ca8c2c73106939de5c7b80667190a2e3d5ea657f2de6284e52b"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_06",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x11c8b6b5bc20726e00e11acb6835f45863c87b1e4d6de1d3b7ff6ec158b1fe56",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Columbus Blue Jackets выигрывает плей-офф Eastern Conference NHL в 2027.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x11c8b6b5bc20726e00e11acb6835f45863c87b1e4d6de1d3b7ff6ec158b1fe56",
+            "kalshi_ticker": "KXNHLMETROPOLITAN-27-CBJ"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNHLMETROPOLITAN-27-CBJ",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Columbus Blue Jackets выигрывает Metropolitan Division NHL сезона 2026–27.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 6,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNHLMETROPOLITAN-27-CBJ",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "При трактовке A как победы в плей-офф, а B как регулярного дивизиона ни одно не следует из другого.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Conference champion означает победителя плей-офф конференции, division winner — регулярного сезона.",
+        "Одинаковая команда и сезон; стандартный формат допускает недивизионных победителей в плей-офф."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила и точное определение conference champion для этого ID не получены.",
+      "Нужна проверка, что Kalshi division winner относится к регулярному сезону."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Не выигрывает дивизион, но выигрывает плей-офф конференции.",
+      "11": "Выигрывает оба соревнования.",
+      "00": "Команда не выигрывает ни регулярный дивизион, ни плей-офф конференции.",
+      "01": "Выигрывает дивизион, но выбывает из плей-офф."
+    },
+    "alternative_candidates": [
+      {
+        "type": "A_IMPLIES_B",
+        "forbidden_states": [
+          "10"
+        ],
+        "condition": "Если A означает лучшую команду конференции в регулярном сезоне, а не победу в плей-офф, вывод может измениться."
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Общая сила команды может повышать шансы обоих исходов.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "nhl_format",
+      "nhl_format_2025"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:22.362343+00:00",
+      "kalshi_response_sha256": "1ccb453ab2e6b8ec6456165bce9590bb3470da9d8330602730f817395a584ac3",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "b74e84d49246ff0d31ba307a30cffd9d163ea71d8a662b92dffbac330fd87f05"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_07",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x53f44f550d887c6447b90109d5b2f6bb0634d5b1b970ab894cde07826233624d",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Los Angeles Kings выигрывает плей-офф Western Conference NHL в 2027.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x53f44f550d887c6447b90109d5b2f6bb0634d5b1b970ab894cde07826233624d",
+            "kalshi_ticker": "KXNHLPACIFIC-27-LA"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNHLPACIFIC-27-LA",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Los Angeles Kings выигрывает Pacific Division NHL сезона 2026–27.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 7,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNHLPACIFIC-27-LA",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "При трактовке A как победы в плей-офф, а B как регулярного дивизиона ни одно не следует из другого.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Conference champion означает победителя плей-офф конференции, division winner — регулярного сезона.",
+        "Одинаковая команда и сезон; стандартный формат допускает недивизионных победителей в плей-офф."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила и точное определение conference champion для этого ID не получены.",
+      "Нужна проверка, что Kalshi division winner относится к регулярному сезону."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Не выигрывает дивизион, но выигрывает плей-офф конференции.",
+      "11": "Выигрывает оба соревнования.",
+      "00": "Команда не выигрывает ни регулярный дивизион, ни плей-офф конференции.",
+      "01": "Выигрывает дивизион, но выбывает из плей-офф."
+    },
+    "alternative_candidates": [
+      {
+        "type": "A_IMPLIES_B",
+        "forbidden_states": [
+          "10"
+        ],
+        "condition": "Если A означает лучшую команду конференции в регулярном сезоне, а не победу в плей-офф, вывод может измениться."
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Общая сила команды может повышать шансы обоих исходов.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "nhl_format",
+      "nhl_format_2025"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:22.353337+00:00",
+      "kalshi_response_sha256": "3284bd4aa25a9756b4efe9d313e9f3d094d42e7c6d971924516ce5c23a13c7b1",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "2c82a8329935a5e24676a889a0db9bec4b110386a1ea651cac38fadad48bb12c"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_08",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xaae483376030b540f2f15d461d0fddbe2c801bba58fd29013dd65e5e2f483cfb",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Tampa Bay Lightning выигрывает плей-офф Eastern Conference NHL в 2027.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xaae483376030b540f2f15d461d0fddbe2c801bba58fd29013dd65e5e2f483cfb",
+            "kalshi_ticker": "KXNHLATLANTIC-27-TB"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNHLATLANTIC-27-TB",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Tampa Bay Lightning выигрывает Atlantic Division NHL сезона 2026–27.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 8,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNHLATLANTIC-27-TB",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "При трактовке A как победы в плей-офф, а B как регулярного дивизиона ни одно не следует из другого.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Conference champion означает победителя плей-офф конференции, division winner — регулярного сезона.",
+        "Одинаковая команда и сезон; стандартный формат допускает недивизионных победителей в плей-офф."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила и точное определение conference champion для этого ID не получены.",
+      "Нужна проверка, что Kalshi division winner относится к регулярному сезону."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Не выигрывает дивизион, но выигрывает плей-офф конференции.",
+      "11": "Выигрывает оба соревнования.",
+      "00": "Команда не выигрывает ни регулярный дивизион, ни плей-офф конференции.",
+      "01": "Выигрывает дивизион, но выбывает из плей-офф."
+    },
+    "alternative_candidates": [
+      {
+        "type": "A_IMPLIES_B",
+        "forbidden_states": [
+          "10"
+        ],
+        "condition": "Если A означает лучшую команду конференции в регулярном сезоне, а не победу в плей-офф, вывод может измениться."
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Общая сила команды может повышать шансы обоих исходов.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "nhl_format",
+      "nhl_format_2025"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:22.350448+00:00",
+      "kalshi_response_sha256": "a9088816b6baa202090a9614caac27ca451feb1815e5011aab84756cc8b83815",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "09b92452a52953f1f953b3fdc1f224b3a7eb93c9beb9ab15ad8918779f3895ad"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_09",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xd4d77f20403432ea45e0cc16eb0824cb4567262f5b86f1ed4f2702f8d1edde77",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Vegas Golden Knights выигрывает плей-офф Western Conference NHL в 2027.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xd4d77f20403432ea45e0cc16eb0824cb4567262f5b86f1ed4f2702f8d1edde77",
+            "kalshi_ticker": "KXNHLPACIFIC-27-VGK"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNHLPACIFIC-27-VGK",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Vegas Golden Knights выигрывает Pacific Division NHL сезона 2026–27.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 9,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNHLPACIFIC-27-VGK",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "При трактовке A как победы в плей-офф, а B как регулярного дивизиона ни одно не следует из другого.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Conference champion означает победителя плей-офф конференции, division winner — регулярного сезона.",
+        "Одинаковая команда и сезон; стандартный формат допускает недивизионных победителей в плей-офф."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила и точное определение conference champion для этого ID не получены.",
+      "Нужна проверка, что Kalshi division winner относится к регулярному сезону."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Не выигрывает дивизион, но выигрывает плей-офф конференции.",
+      "11": "Выигрывает оба соревнования.",
+      "00": "Команда не выигрывает ни регулярный дивизион, ни плей-офф конференции.",
+      "01": "Выигрывает дивизион, но выбывает из плей-офф."
+    },
+    "alternative_candidates": [
+      {
+        "type": "A_IMPLIES_B",
+        "forbidden_states": [
+          "10"
+        ],
+        "condition": "Если A означает лучшую команду конференции в регулярном сезоне, а не победу в плей-офф, вывод может измениться."
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Общая сила команды может повышать шансы обоих исходов.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "nhl_format",
+      "nhl_format_2025"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:22.887039+00:00",
+      "kalshi_response_sha256": "3e640ea1c8fbf4ac3a1939f4d220a362703ea8e967145a468970b4e7b72b26ae",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "b2c5c6c87c871dc9f4a6a7cb708cbc3120c2fdc30023eb695a88d00b01bac5f6"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_10",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xdce103d813730a3d23d272f0d605bba5c5023b09a25eca298b181c92d21f1a57",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "New York Rangers выигрывает плей-офф Eastern Conference NHL в 2027.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xdce103d813730a3d23d272f0d605bba5c5023b09a25eca298b181c92d21f1a57",
+            "kalshi_ticker": "KXNHLMETROPOLITAN-27-NYR"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNHLMETROPOLITAN-27-NYR",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "New York Rangers выигрывает Metropolitan Division NHL сезона 2026–27.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 10,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNHLMETROPOLITAN-27-NYR",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "При трактовке A как победы в плей-офф, а B как регулярного дивизиона ни одно не следует из другого.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Conference champion означает победителя плей-офф конференции, division winner — регулярного сезона.",
+        "Одинаковая команда и сезон; стандартный формат допускает недивизионных победителей в плей-офф."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила и точное определение conference champion для этого ID не получены.",
+      "Нужна проверка, что Kalshi division winner относится к регулярному сезону."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Не выигрывает дивизион, но выигрывает плей-офф конференции.",
+      "11": "Выигрывает оба соревнования.",
+      "00": "Команда не выигрывает ни регулярный дивизион, ни плей-офф конференции.",
+      "01": "Выигрывает дивизион, но выбывает из плей-офф."
+    },
+    "alternative_candidates": [
+      {
+        "type": "A_IMPLIES_B",
+        "forbidden_states": [
+          "10"
+        ],
+        "condition": "Если A означает лучшую команду конференции в регулярном сезоне, а не победу в плей-офф, вывод может измениться."
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Общая сила команды может повышать шансы обоих исходов.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "nhl_format",
+      "nhl_format_2025"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:22.862637+00:00",
+      "kalshi_response_sha256": "352df8716e2b6ec9445eb29678848f101a282d0f8af5eeaa313b910119237242",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "fa8ccdc507636e7cb6fe5798556806f0f31862c1e9d4899e4045ccfb42258fa4"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_11",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xb9aee520bf51ac5f00b5c43e54ef9245bc9fcdef866ce8a33025f9a441cc651d",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Изменение верхней границы ставки ФРС на заседании декабря 2026 попадает в корзину снижения «50+ б.п.» после округления вверх до 25.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xb9aee520bf51ac5f00b5c43e54ef9245bc9fcdef866ce8a33025f9a441cc651d",
+            "kalshi_ticker": "KXFEDDECISION-26DEC-C26"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        },
+        {
+          "source_id": "poly_fed"
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXFEDDECISION-26DEC-C26",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "ФРС снижает ставку больше чем на 25 б.п. на декабрьском заседании 2026 — согласно title и yes_sub_title; знак сравнения в rules_primary повреждён.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 11,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXFEDDECISION-26DEC-C26",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "unsure",
+      "reason_class": "threshold_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "EQUIVALENT",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [
+      "01",
+      "10"
+    ],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "forbidden_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "forbidden_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "На обычном заседании округление положительной величины вверх до 25 превращает корзину 50+ в условие величина>25. Поэтому буквальное >=50 из заголовка — неверная модель. Но равенство не распространяется автоматически на перенос заседания.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Kalshi действительно означает >25: знак в rules_primary должен быть восстановлен по авторитетному документу, а не угадан.",
+        "Обе площадки измеряют изменение одной верхней границы ставки одного состоявшегося по расписанию заседания.",
+        "Исключены перенос, отмена, отсутствие своевременного заявления и расхождение источников.",
+        "Индексированная страница Polymarket соответствует этому внешнему ID."
+      ]
+    },
+    "missing_evidence": [
+      "В Kalshi rules_primary пропущен знак сравнения; title и пример в secondary не заменяют исправленный полный контракт.",
+      "Kalshi отменяет directional-исходы при отсутствии заседания в запланированный день; Polymarket может ждать заявления до следующего заседания.",
+      "Полная привязка индексированной Polymarket страницы к ID не проверена."
+    ],
+    "illustrative_state_witnesses": {
+      "11": "Величина изменения соответствующего направления больше 25 б.п.",
+      "00": "Направленного изменения нет или его величина не превышает 25 б.п."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": "Заседание перенесено: Kalshi может дать NO по scheduled-date fallback, а Polymarket позже отнести решение к корзине 50+; возникает 10.",
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "poly_fed"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:22.905272+00:00",
+      "kalshi_response_sha256": "e0551da43462251d684426522e0ed3ec66d9f7505c87c7a6af9611439ae0baab",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "85897ec922dada0f6cc3801822d098d30a761888c4f4c84088fe6b69c70c7e5b"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_12",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xa5f8a44504de30fa36fff2406b2b27b3d15476ed50448e4fc3ead4861d8a5e3e",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Изменение верхней границы ставки ФРС на заседании декабря 2026 попадает в корзину повышения «50+ б.п.» после округления вверх до 25.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xa5f8a44504de30fa36fff2406b2b27b3d15476ed50448e4fc3ead4861d8a5e3e",
+            "kalshi_ticker": "KXFEDDECISION-26DEC-H26"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        },
+        {
+          "source_id": "poly_fed"
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXFEDDECISION-26DEC-H26",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "ФРС повышает ставку больше чем на 25 б.п. на декабрьском заседании 2026 — согласно title и yes_sub_title; знак сравнения в rules_primary повреждён.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 12,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXFEDDECISION-26DEC-H26",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "unsure",
+      "reason_class": "threshold_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "EQUIVALENT",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [
+      "01",
+      "10"
+    ],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "forbidden_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "forbidden_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "На обычном заседании округление положительной величины вверх до 25 превращает корзину 50+ в условие величина>25. Поэтому буквальное >=50 из заголовка — неверная модель. Но равенство не распространяется автоматически на перенос заседания.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Kalshi действительно означает >25: знак в rules_primary должен быть восстановлен по авторитетному документу, а не угадан.",
+        "Обе площадки измеряют изменение одной верхней границы ставки одного состоявшегося по расписанию заседания.",
+        "Исключены перенос, отмена, отсутствие своевременного заявления и расхождение источников.",
+        "Индексированная страница Polymarket соответствует этому внешнему ID."
+      ]
+    },
+    "missing_evidence": [
+      "В Kalshi rules_primary пропущен знак сравнения; title и пример в secondary не заменяют исправленный полный контракт.",
+      "Kalshi отменяет directional-исходы при отсутствии заседания в запланированный день; Polymarket может ждать заявления до следующего заседания.",
+      "Полная привязка индексированной Polymarket страницы к ID не проверена."
+    ],
+    "illustrative_state_witnesses": {
+      "11": "Величина изменения соответствующего направления больше 25 б.п.",
+      "00": "Направленного изменения нет или его величина не превышает 25 б.п."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": "Заседание перенесено: Kalshi может дать NO по scheduled-date fallback, а Polymarket позже отнести решение к корзине 50+; возникает 10.",
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "poly_fed"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:22.862233+00:00",
+      "kalshi_response_sha256": "57926d98e7c7686d3c27144db9c7c04ef500f1db09f0f78f9ef80e78f9152067",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "ee812af3ba08e263c1a3e7198dfbecbbddc20dc19d4410c5ab7c2ef6c42847d8"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_13",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x0a95717208bdb1c1167877eb5b19085494f68ed9b074d8dfc7d76b549fcbe7bb",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Ставка ФРС достигает верхнего порога 5.0% до 2027.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x0a95717208bdb1c1167877eb5b19085494f68ed9b074d8dfc7d76b549fcbe7bb",
+            "kalshi_ticker": "KXFEDCHGCOUNT-27JAN01-E5"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXFEDCHGCOUNT-27JAN01-E5",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "До 2027 происходит ровно пять решений, меняющих целевой диапазон ставки; размер каждого изменения не важен.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 13,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXFEDCHGCOUNT-27JAN01-E5",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_subject",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Уровень ставки и количество решений измеряют разные величины: один большой шаг может достичь порога, а пять разнонаправленных шагов — не достичь.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Порог A относится к уровню ставки, не к числу решений.",
+        "Не введена дополнительная модель, связывающая начальную ставку, размеры и направления всех решений."
+      ]
+    },
+    "missing_evidence": [
+      "Не получены точные Polymarket исходный уровень, оператор hit и окно наблюдения."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Порог достигнут одним достаточно большим повышением.",
+      "11": "Порог достигнут, всего квалифицируется ровно пять решений.",
+      "00": "Меньше пяти небольших решений, порог не достигнут.",
+      "01": "Ровно пять решений, но ставка остаётся ниже 5%."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:23.396887+00:00",
+      "kalshi_response_sha256": "0a76094ff6715ac7cc3e471eb605bc944e04101deda04206a3f5de6c16dbe20f",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "b18b93b95edf510c817669b40764953dd0ae3795ffa673b2ce7843f2d36cff1a"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_14",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xfdea40253f7e3ab19a6e2d8e1901f7338d54d9ce4d4f63b48e603a4f387151bc",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Phantom Blade Zero получает Best Audio Design на The Game Awards2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xfdea40253f7e3ab19a6e2d8e1901f7338d54d9ce4d4f63b48e603a4f387151bc",
+            "kalshi_ticker": "KXGAMEAWARDS-2026-PHA"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXGAMEAWARDS-2026-PHA",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Phantom Blade Zero получает Game of the Year на The Game Awards2026.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 14,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXGAMEAWARDS-2026-PHA",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_award_category",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Разные категории могут быть присуждены одной игре; совместная победа не запрещена. Официальный архив TGA2020 содержит такого победителя обеих категорий.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Одинаковые игра, премия и год; каждая категория решается отдельно."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила для Best Audio Design не получены; нужны правила отмены/совместной награды."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Только Best Audio Design.",
+      "11": "Обе награды одной игре.",
+      "00": "Ни одна награда не получена.",
+      "01": "Только Game of the Year."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Качество и популярность игры могут влиять на обе награды.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "tga_2020"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:23.396151+00:00",
+      "kalshi_response_sha256": "ed61f2f4f91c3ca0bbd7621c6dff234064b67323d6ae5b02247e55417c31edbe",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "cf89223e699183d1791f733f479b4e0deecb2a3924669f63f90cd0f7c9a8573a"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_15",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x2f7528fa59cd7bd76b6834278288f131edf9b2379c233b0cb257931e91f01d40",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Bitcoin достигает $100000 к концу 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x2f7528fa59cd7bd76b6834278288f131edf9b2379c233b0cb257931e91f01d40",
+            "kalshi_ticker": "KXBTC50VS100-BTC-26DEC31"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXBTC50VS100-BTC-26DEC31",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "После выпуска контракта Bitcoin сначала достигает $50000, раньше $100000, до конца 2026; используется 60-секундное среднее CF Real-Time Index.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 15,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXBTC50VS100-BTC-26DEC31",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_subject",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "First-passage событие о порядке касаний не является отрицанием достижения верхнего порога. После первого касания 50000 цена может успеть достичь 100000.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Для демонстрации сценариев используется общая ценовая траектория и совместимые окна; несовпадение источников само по себе не доказывает более сильную связь."
+      ]
+    },
+    "missing_evidence": [
+      "Источник, начало окна и точный оператор касания Polymarket не получены.",
+      "Нужны правила обработки отсутствующих котировок обеих площадок."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Сначала 100000, без предшествующего 50000.",
+      "11": "Сначала 50000, затем 100000 до конца окна.",
+      "00": "Ни один порог не достигнут.",
+      "01": "Сначала 50000; до конца окна 100000 не достигнут."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:23.398360+00:00",
+      "kalshi_response_sha256": "3c1bb8b4b7660b4922b8c6b12b7172a0fe9f98f575f4cc866ffa4683788e31d5",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "20cdaf330cf3b76e0b63a53153dd51e2ed2f913a6b31f5c7f0a2d4d197b4cffa"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_16",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xf7c1bad44b5b32f2a28a9b78c7d5bb465156581e89a16072ef943007633513ba",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Anthony Davis обменян до начала следующего сезона NBA.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xf7c1bad44b5b32f2a28a9b78c7d5bb465156581e89a16072ef943007633513ba",
+            "kalshi_ticker": "KXNEXTTEAMNBA-26ADAVIS23-PHI"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNEXTTEAMNBA-26ADAVIS23-PHI",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Следующая команда Anthony Davis — Philadelphia до 21 октября 2026.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 16,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNEXTTEAMNBA-26ADAVIS23-PHI",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Следующая команда не задаёт способ перехода: в правилах Kalshi не требуется trade. Возможен переход другим способом, а обмен возможен в другую команду.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Одна и та же личность; переход посредством free agency/waiver допускается рассматриваемым пространством сценариев.",
+        "Дедлайны сравниваются отдельно: календарные поля не равны текстовым критериям."
+      ]
+    },
+    "missing_evidence": [
+      "Не получены точные правила Polymarket trade, начальное состояние и дедлайн.",
+      "Нужно выяснить, допускает ли Kalshi сохранение Philadelphia как исходной команды для данного экземпляра."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Обмен в другую команду.",
+      "11": "Своевременный обмен в Philadelphia.",
+      "00": "Нет обмена и Philadelphia не становится следующей командой.",
+      "01": "Philadelphia становится следующей командой без обмена."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:23.405142+00:00",
+      "kalshi_response_sha256": "01f17b72ab7dec69208ad45a5347c513ae0831aab83057476dfb52136088cc47",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "ed7ecf270a646292ca8f5a64f5439465b1e1f42149a171df621fef5ff1ceac9f"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_17",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xe6522d64f35a6843ebdbccab2e3d4a1385350be6d40a3de766330e207b71a8ba",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Трамп осуществляет квалифицирующуюся национализацию выборов до конца 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xe6522d64f35a6843ebdbccab2e3d4a1385350be6d40a3de766330e207b71a8ba",
+            "kalshi_ticker": "KXNATIONALIZESPACEX-27-JAN01"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNATIONALIZESPACEX-27-JAN01",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "США начинают квалифицирующийся процесс национализации SpaceX до 2027.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 17,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNATIONALIZESPACEX-27-JAN01",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_subject",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Совпадает слово «национализировать», но объекты действий различны. Действие в отношении одного объекта логически не требует действия в отношении другого.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Это два отдельно определённых действия; не добавляется закон, автоматически связывающий их."
+      ]
+    },
+    "missing_evidence": [
+      "Kalshi secondary отсылает к полным правилам, не полученным здесь.",
+      "Полные определения национализации выборов и SpaceX нужны для окончательной разметки."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Только выборы.",
+      "11": "Оба действия.",
+      "00": "Ни одно действие не осуществлено.",
+      "01": "Только SpaceX."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:23.853371+00:00",
+      "kalshi_response_sha256": "374c824cbf984069fb8e3cf8278714a0b3dd6407e964c11b0cdab47decb80833",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "a1c361da65dcf0eeafef268b0bfa4b85f95d7b86e1bcd951bc624bf373b6332a"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_18",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xf9b63cf6df2f9ecad109dcc54a18841d9b2c16ff9d1f75f55d58927d48a33540",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Al-Shamal ведёт в перерыве матча против Al-Ittihad14 сентября 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xf9b63cf6df2f9ecad109dcc54a18841d9b2c16ff9d1f75f55d58927d48a33540",
+            "kalshi_ticker": "KXAFCCLSPREAD-26SEP14SHMITJ-ITJ3"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXAFCCLSPREAD-26SEP14SHMITJ-ITJ3",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Al-Ittihad выигрывает этот матч с разницей минимум 3 гола после 90 минут и добавленного времени.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 18,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXAFCCLSPREAD-26SEP14SHMITJ-ITJ3",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "moneyline_vs_spread",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Преимущество в перерыве не определяет итоговый счёт. Разные команды и разные периоды не создают взаимоисключения.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Один матч; A — именно halftime, B — основное время без extra time/пенальти."
+      ]
+    },
+    "missing_evidence": [
+      "Нужны Polymarket правила halftime, переноса и прерывания матча."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Перерыв 1:0, итог 1:0.",
+      "11": "Перерыв 1:0, итог 1:4.",
+      "00": "В перерыве 0:0, итог 0:0.",
+      "01": "Al-Shamal–Al-Ittihad: перерыв 0:1, итог 0:3."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:23.854970+00:00",
+      "kalshi_response_sha256": "91245e6e88a8a4e60d43f2f7e4e5eb5256f47169634260404f1cc91e7883d4d5",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "2708b9bd8861e7a2e9da9159a58edfbbf8dbc870ba8dc5116786b44929302502"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_19",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x35b5ee5ee1918badc39ad4e250503939ae4bf9684e37c0aebbece51156a9c487",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Следующий постоянный менеджер Philadelphia Phillies — Rocco Baldelli.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x35b5ee5ee1918badc39ad4e250503939ae4bf9684e37c0aebbece51156a9c487",
+            "kalshi_ticker": "KXNEXTMANAGERMLB-BOS26-RBAL"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNEXTMANAGERMLB-BOS26-RBAL",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Следующий постоянный менеджер Boston Red Sox — Rocco Baldelli, назначенный до 1 декабря 2026.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 19,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNEXTMANAGERMLB-BOS26-RBAL",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_location",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Посты различны, но события назначения во временном окне не обязаны быть одновременными. Последовательные назначения позволяют 11, поэтому нельзя автоматически ставить DISJOINT.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "События фиксируют назначение следующего менеджера, а не одновременное занятие обеих должностей.",
+        "После первого назначения допускаются увольнение/отставка и переход во второй клуб."
+      ]
+    },
+    "missing_evidence": [
+      "Нужны начальные состояния, точный дедлайн и permanent/interim правила Polymarket."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Назначение только в Philadelphia.",
+      "11": "Последовательно назначен в Philadelphia, затем в Boston до соответствующих дедлайнов.",
+      "00": "Ни один клуб не назначает Baldelli следующим постоянным менеджером.",
+      "01": "Назначение только в Boston."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:23.855674+00:00",
+      "kalshi_response_sha256": "9dc9f9df902e7ee4834b7130b7e4c2b21959917250179b51fcf61debf8432b94",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "d8ca4b538f42745dd1efd497d52d3290b8f35dbadf4c173bb81f11095761d9c4"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_20",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xb3090bc161089c9f5b52098b9a2646196cf11732f6ae4042aff9c97deafddaa1",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Taylor Swift занимает первое место среди людей в американском Google Year in Search2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xb3090bc161089c9f5b52098b9a2646196cf11732f6ae4042aff9c97deafddaa1",
+            "kalshi_ticker": "KXRANKLISTGOOGLESEARCH2-26DEC-TAY"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXRANKLISTGOOGLESEARCH2-26DEC-TAY",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Taylor Swift занимает второе место в разделе People глобального Google Year in Search2026.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 20,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXRANKLISTGOOGLESEARCH2-26DEC-TAY",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "threshold_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Места 1 и 2 были бы несовместимы в одной уникальной таблице, но здесь различаются US и Global. Между рангами разных совокупностей нет такого ограничения.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "A действительно использует US-таблицу People, а B — Global People; ранги относятся к одной названной личности."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket источник, раздел и правила ранжирования не получены.",
+      "В Kalshi secondary приведён пример про первое место, хотя primary требует второе: нужен полный документ при формальной верификации."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "US#1 при ином Global-месте.",
+      "11": "US#1 и Global#2 одновременно.",
+      "00": "Ни одно нужное место не занято.",
+      "01": "Global#2 при ином US-месте."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:23.892952+00:00",
+      "kalshi_response_sha256": "15f1db7f72a424071f40b85d1020ccddc0fc21622c27253ab6d360a496d27263",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "7d6ebedfa3389dd52766f03577be58b15f6faed02c8394a4099f44aa116d8553"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_21",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xc1b2a392fffa0b3885e5ec9cdc16fc615630fd160233db68481bfb29015db3d9",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "OpenAI лидирует в названном рейтинге text-to-image в концеоктября 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xc1b2a392fffa0b3885e5ec9cdc16fc615630fd160233db68481bfb29015db3d9",
+            "kalshi_ticker": "KXIMAGEAI-26SEP18-OPEN"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXIMAGEAI-26SEP18-OPEN",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "OpenAI занимает первое место в Artificial Analysis Text-to-Image18 сентября 2026 в 10:00ET.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 21,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXIMAGEAI-26SEP18-OPEN",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "horizon_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Результаты рейтинга на разных датах могут различаться в обоих направлениях. Источник Polymarket ещё не подтверждён. У Kalshi ничьи также дают дробную выплату.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Event-level comparison under a unique-winner assumption; Kalshi ties have fractional payouts.",
+      "assumptions": [
+        "Анализ бинарных событий ограничен уникальным победителем; для выплат при ничьей требуется небинарная модель."
+      ]
+    },
+    "missing_evidence": [
+      "Не получены источник и точный timestamp Polymarket.",
+      "Kalshi предусматривает $1/N при ничьей; это не бинарная выплата."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Не лидирует в сентябре, становится лидером в октябре.",
+      "11": "Лидирует на обеих датах.",
+      "00": "OpenAI не лидирует ни на одной дате.",
+      "01": "Лидирует в сентябре, затем теряет лидерство."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:24.296922+00:00",
+      "kalshi_response_sha256": "1bdd8b0432a0817fd7d75f3624244a46fbe26276732308efd29685b1da931cbd",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "e01a042c6adc83743989d48fe6deb66304f62b01848db2596dc082d1abfb12cd"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_22",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x3407f91ec33975dff75a9ef4054d40d1bf73a64fbb09a4b40026639f46f8a577",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Рецессия в США наступает/фиксируется к концу 2027; точное определение Polymarket не получено.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x3407f91ec33975dff75a9ef4054d40d1bf73a64fbb09a4b40026639f46f8a577",
+            "kalshi_ticker": "KXRECSSNBER-27"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        },
+        {
+          "source_id": "poly_recession_page"
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXRECSSNBER-27",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "В диапазоне Q4 2026–Q4 2027 есть два последовательных квартала отрицательного реального ВВП по Advance Estimates BEA; допустима пара Q4 2026+Q1 2027.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 22,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXRECSSNBER-27",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "horizon_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "ABSTAIN",
+    "candidate_status": "insufficient_rule_evidence",
+    "forbidden_states": null,
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "unknown_or_out_of_binary_scope",
+      "11": "unknown_or_out_of_binary_scope",
+      "00": "unknown_or_out_of_binary_scope",
+      "01": "unknown_or_out_of_binary_scope"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Текст Kalshi задаёт критерий GDP, несмотря на NBER в тикере. Простое рассуждение «в 2027⇒к концу 2027» не сопоставляет определения и даты публикаций: Advance Estimate Q4 2027 выйдет уже в 2028.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "B⇒A возможно только если A включает те же пары кварталов, тот же GDP vintage и допускает публикацию результата после конца 2027."
+      ]
+    },
+    "missing_evidence": [
+      "На официальной Polymarket странице полный текст правил не извлечён; AI-summary и пересказ агрегатора не использованы.",
+      "Нужны A: GDP/NBER/OR, отсечка объявления, обработка Q4 2027 и ревизий."
+    ],
+    "illustrative_state_witnesses": null,
+    "alternative_candidates": [
+      {
+        "type": "B_IMPLIES_A",
+        "forbidden_states": [
+          "01"
+        ],
+        "condition": "Совпадение экономического критерия и охват A всех периодов/публикаций B подтверждены полными правилами."
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "poly_recession_page"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:24.409134+00:00",
+      "kalshi_response_sha256": "25f888ce1d002f1997c3b39f661284a22a9450ab47ca87265bad6eab0e3fc7ec",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "955e8c31b67cc8ff1602c4196461964a443e6d2881d71429418362d312421929"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_23",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x346d8765a5c3d82c43031bf49392746a5fc32e8b8d8133444a474da62c7bb2ce",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "В сентябре 2026 не формируется квалифицирующийся атлантический ураган.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x346d8765a5c3d82c43031bf49392746a5fc32e8b8d8133444a474da62c7bb2ce",
+            "kalshi_ticker": "KXNEXTHURDATE-26DEC01-26OCT01"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNEXTHURDATE-26DEC01-26OCT01",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "До 1 октября 2026 формируется атлантический ураган с ветром не ниже 74mph.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 23,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNEXTHURDATE-26DEC01-26OCT01",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "inverted_outcome",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "ABSTAIN",
+    "candidate_status": "insufficient_rule_evidence",
+    "forbidden_states": null,
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "unknown_or_out_of_binary_scope",
+      "11": "unknown_or_out_of_binary_scope",
+      "00": "unknown_or_out_of_binary_scope",
+      "01": "unknown_or_out_of_binary_scope"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Положительный и отрицательный заголовки ещё не дают complement: нужны одинаковое начало окна, источник, критерий формирования и fallback при отсутствии данных.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "COMPLEMENT применим только к одному и тому же предикату о наличии хотя бы одного урагана в одном окне и при бинарном симметричном fallback."
+      ]
+    },
+    "missing_evidence": [
+      "Polymarket event_title говорит о первом урагане года, outcome — об отсутствии ураганов в сентябре; нужны точные правила.",
+      "В полученном Kalshi primary не указаны начало окна и время/источник наблюдения.",
+      "Не получены Polymarket условия при отсутствии NHC данных."
+    ],
+    "illustrative_state_witnesses": null,
+    "alternative_candidates": [
+      {
+        "type": "COMPLEMENT",
+        "forbidden_states": [
+          "00",
+          "11"
+        ],
+        "condition": "Полностью совпадающий сентябрьский предикат и обработка отсутствующих данных."
+      },
+      {
+        "type": "DISJOINT",
+        "forbidden_states": [
+          "11"
+        ],
+        "condition": "B проверяет подокно сентября с тем же физическим/информационным предикатом; вне подокна возможен ураган, дающий 00."
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:24.427747+00:00",
+      "kalshi_response_sha256": "0bc2c3c03c8f57a4902d3a8814b393f8278e43058fb60dc21446126015101cb0",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "2c9445d831319b24bb7029efb46f6726bb9c3018fca3234824ff27c862599430"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_24",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x7a4007a10fa089e47502cdf403048a5cf342632d20e18ba7c4f07ec5ee880c39",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Al-Ittihad ведёт в перерыве матча против Al-Shamal14 сентября 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x7a4007a10fa089e47502cdf403048a5cf342632d20e18ba7c4f07ec5ee880c39",
+            "kalshi_ticker": "KXAFCCLSPREAD-26SEP14SHMITJ-ITJ2"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXAFCCLSPREAD-26SEP14SHMITJ-ITJ2",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Al-Ittihad выигрывает этот матч с разницей минимум 2 гола после 90 минут и добавленного времени.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 24,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXAFCCLSPREAD-26SEP14SHMITJ-ITJ2",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "moneyline_vs_spread",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Даже для одной команды победа с форой по итогам матча не требует лидерства в перерыве, а лидерство в перерыве не гарантирует фору.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Один матч; A halftime, B основное время."
+      ]
+    },
+    "missing_evidence": [
+      "Нужны Polymarket правила halftime и расчёта при прерывании/переносе."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Перерыв 0:1, итог 1:1.",
+      "11": "Перерыв 0:1, итог 0:2.",
+      "00": "Перерыв 0:0, итог 0:0.",
+      "01": "Счёт Al-Shamal–Al-Ittihad: перерыв 0:0, итог 0:2."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:24.430411+00:00",
+      "kalshi_response_sha256": "8db43bc75415483995a5e4e58e2a83838e392514f134c92e4219ac75aa4ed791",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "697cb6a50301dc69f3672180a8bed35629b9e55749edb760f729a6e6d5ff15a2"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_25",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xc205eadde0aa64e987b75bb1d5b123d337b72dc2b0578c426f31446b174a21a8",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Количество Truth Social публикаций Трампа в окне 11–18 сентября 2026 попадает в 120–139.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xc205eadde0aa64e987b75bb1d5b123d337b72dc2b0578c426f31446b174a21a8",
+            "kalshi_ticker": "KXTRUTHSOCIAL-26SEP19-B129"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXTRUTHSOCIAL-26SEP19-B129",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Количество квалифицирующихся публикаций Трампа 13 сентября 00:00ET–19 сентября 23:59ET попадает в 120–139 включительно.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 25,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXTRUTHSOCIAL-26SEP19-B129",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_measurement_window",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Окна перекрываются, но ни одинаковые границы диапазона, ни общие дни не делают два band-события эквивалентными. Различаются также возможные правила включения постов и удаления.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "В иллюстрации обе стороны используют общий счётчик; в каждом окне имеются собственные даты."
+      ]
+    },
+    "missing_evidence": [
+      "Нужны точные timestamps и счётчик Polymarket.",
+      "Kalshi включает Truth/ReTruth/Quote, часть replies и исключает удалённое к expiration; нужны соответствующие правила A."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "В общей части 125; только A0, только B20.",
+      "11": "В общей части 125; в исключительных частях 0.",
+      "00": "В обоих окнах 0 постов.",
+      "01": "В общей части 125; в части только A ещё 20, в части только B0."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:24.756712+00:00",
+      "kalshi_response_sha256": "1bd64c9d1d92376d7e907f4a05a476ed30bf3c28de45cb9b3340ed934129b0fb",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "90cea353dbeb349e53e2b13befbcafb12e0025a054237e15679a8285136ac741"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_26",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x678cafe88950533b8f46f0012cf96e198795587155ced50f790872988935fb69",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Fernando Mendoza назван стартовым QB Raiders к Week 1.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x678cafe88950533b8f46f0012cf96e198795587155ced50f790872988935fb69",
+            "kalshi_ticker": "KXNFLDEBUT-27FMENDOZA15-W1W2"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNFLDEBUT-27FMENDOZA15-W1W2",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Fernando Mendoza впервые значится стартовым QB в официальном depth chart своей текущей команды на Week 1 или Week 2 регулярного сезона 2026–27.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 26,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNFLDEBUT-27FMENDOZA15-W1W2",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "unsure",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "ABSTAIN",
+    "candidate_status": "insufficient_rule_evidence",
+    "forbidden_states": null,
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "unknown_or_out_of_binary_scope",
+      "11": "unknown_or_out_of_binary_scope",
+      "00": "unknown_or_out_of_binary_scope",
+      "01": "unknown_or_out_of_binary_scope"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Kalshi проверяет designation/depth chart, а не фактически сыгранный первый матч. Для A⇒B необходимо доказать, что Polymarket «named by Week1» задаёт ту же квалифицирующуюся запись, а не предварительное объявление.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "A⇒B рассматривается только при совпадении команды, регулярного сезона и юридического/информационного события назначения."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила Week 1, объявлений, depth chart, preseason и последующей отмены назначения не получены.",
+      "Нужно сопоставить Raiders с current team и правила bye weeks."
+    ],
+    "illustrative_state_witnesses": null,
+    "alternative_candidates": [
+      {
+        "type": "A_IMPLIES_B",
+        "forbidden_states": [
+          "10"
+        ],
+        "condition": "A означает именно первое квалифицирующееся regular-season назначение на Week 1, включённое в Week 1–2 B."
+      }
+    ],
+    "counterexample_outside_scope": "Объявление о будущем старте сделано вовремя, но до официального depth chart игрок травмирован/заменён: предварительное A может быть истинно без B.",
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:24.856451+00:00",
+      "kalshi_response_sha256": "57ebdf2b43325e83ff0a446a6a5997745ed6d770f6a6c968463481e363585aff",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "f75c200b88699cfb63baf56638ba6aad68c842ca4a573789226d893d98db0a4c"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_27",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xff5c8b2413a9ceef8a03ad3558423bf6bd459c1afaa05578643289d53d3bbca0",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Решение Банка Англии в ноябре 2026 попадает в корзину повышения 50+б.п.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xff5c8b2413a9ceef8a03ad3558423bf6bd459c1afaa05578643289d53d3bbca0",
+            "kalshi_ticker": "KXCBDECISIONENGLAND-26NOV05-H25"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        },
+        {
+          "source_id": "poly_boe_2026_page"
+        },
+        {
+          "source_id": "poly_boe_us_rounding"
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXCBDECISIONENGLAND-26NOV05-H25",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "То же ноябрьское заседание повышает основную ставку на 1–25 б.п. включительно.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 27,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXCBDECISIONENGLAND-26NOV05-H25",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "threshold_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "DISJOINT",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [
+      "11"
+    ],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "forbidden_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Если корзина 50+ не включает реальные повышения<=25, обе категории не могут сработать на одном решении. Обычное округление к 25 не объединяет эти интервалы.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "Одна ставка Bank Rate, одно заседание и одна величина изменения.",
+        "Polymarket корзина 50+ не включает значения от 1 до 25; точный текст ещё надо получить.",
+        "Рассматриваются обычные бинарные расчёты."
+      ]
+    },
+    "missing_evidence": [
+      "Полные международные Polymarket правила округления и переноса не получены."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Повышение 50 б.п.",
+      "00": "Ставка не меняется или снижается.",
+      "01": "Повышение 25 б.п."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "poly_boe_2026_page",
+      "poly_boe_us_rounding"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:24.873729+00:00",
+      "kalshi_response_sha256": "3cc5b64008f7be2c681db6aa711779db6c8a85ac4f1cf97b3cd8defbe728d3fd",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "5d5f27eb35417ef4401ae49da73461310e2a5969641f14110307eca4e6736e7f"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_28",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x0ec82a082ed700c14f6b9257275aec63ea5a6fc3fc2e26ebee87cae0c1432311",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Dante Moore выигрывает Heisman Trophy сезона 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x0ec82a082ed700c14f6b9257275aec63ea5a6fc3fc2e26ebee87cae0c1432311",
+            "kalshi_ticker": "KXNCAAFAWARD-26WALT-DMOO"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNCAAFAWARD-26WALT-DMOO",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Dante Moore выигрывает Walter Camp Award сезона 2026.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 28,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNCAAFAWARD-26WALT-DMOO",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_subject",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Награды различны и не взаимоисключаются. Общие и различные победители исторически возможны; это не правило импликации между наградами.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Event-level comparison with unique award winners; Kalshi joint awards permit fractional payouts.",
+      "assumptions": [
+        "Одинаковая личность и сезон; анализ событий ограничен случаями без совместных победителей."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила не получены.",
+      "Kalshi при нескольких награждённых выплачивает 1/N; бинарная таблица не описывает такой payoff.",
+      "Для одноимённых людей требуется проверка идентичности спортсмена."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Получает только Heisman.",
+      "11": "Получает обе награды.",
+      "00": "Не получает ни одну награду.",
+      "01": "Получает только Walter Camp."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Качество сезона спортсмена может влиять на голосование по обеим наградам.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "heisman_multiple_awards",
+      "walter_camp_2021",
+      "heisman_2021"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:24.898090+00:00",
+      "kalshi_response_sha256": "5f51ec872e73d0eab6638cac25b253de319be6a45020d68231fc464e9206a8a3",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "8b88e9076a38f73591410b8e652adce7e66ace0fa69707497218b5d1c560d7ff"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_29",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0xa868d5b3397da5ec4664f73f87e7cd1ea9bfe9db13bdf31e2a6c8bcdc129f28d",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Bo Jackson выигрывает Heisman Trophy сезона 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0xa868d5b3397da5ec4664f73f87e7cd1ea9bfe9db13bdf31e2a6c8bcdc129f28d",
+            "kalshi_ticker": "KXNCAAFAWARD-26DOAK-BJAC"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNCAAFAWARD-26DOAK-BJAC",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Bo Jackson выигрывает Doak Walker Award сезона 2026.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 29,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNCAAFAWARD-26DOAK-BJAC",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_subject",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Награды различны и не взаимоисключаются. Общие и различные победители исторически возможны; это не правило импликации между наградами.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Event-level comparison with unique award winners; Kalshi joint awards permit fractional payouts.",
+      "assumptions": [
+        "Одинаковая личность и сезон; анализ событий ограничен случаями без совместных победителей."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила не получены.",
+      "Kalshi при нескольких награждённых выплачивает 1/N; бинарная таблица не описывает такой payoff.",
+      "Для одноимённых людей требуется проверка идентичности спортсмена."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Получает только Heisman.",
+      "11": "Получает обе награды.",
+      "00": "Не получает ни одну награду.",
+      "01": "Получает только Doak Walker."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Качество сезона спортсмена может влиять на голосование по обеим наградам.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "heisman_multiple_awards",
+      "walter_camp_2021",
+      "heisman_2021"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:25.251086+00:00",
+      "kalshi_response_sha256": "2c561af30a34d4dd97e901afd3fb871e9d1dac3a9d5e4622a12c1b254d4cdb92",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "06fa33a3a6b81789651ad8473d9916911d9db0deda801b3ea38f4ce19b61fec3"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_30",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x81231f93f70ca81899791e1eac9c0fb8003d4f22caae5432779e7544db301afb",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Julian Sayin выигрывает Heisman Trophy сезона 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x81231f93f70ca81899791e1eac9c0fb8003d4f22caae5432779e7544db301afb",
+            "kalshi_ticker": "KXNCAAFAWARD-26WALT-JSAY"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNCAAFAWARD-26WALT-JSAY",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Julian Sayin выигрывает Walter Camp Award сезона 2026.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 30,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNCAAFAWARD-26WALT-JSAY",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "different_subject",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "NO_HARD_RELATION",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Награды различны и не взаимоисключаются. Общие и различные победители исторически возможны; это не правило импликации между наградами.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Event-level comparison with unique award winners; Kalshi joint awards permit fractional payouts.",
+      "assumptions": [
+        "Одинаковая личность и сезон; анализ событий ограничен случаями без совместных победителей."
+      ]
+    },
+    "missing_evidence": [
+      "Полные Polymarket правила не получены.",
+      "Kalshi при нескольких награждённых выплачивает 1/N; бинарная таблица не описывает такой payoff.",
+      "Для одноимённых людей требуется проверка идентичности спортсмена."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Получает только Heisman.",
+      "11": "Получает обе награды.",
+      "00": "Не получает ни одну награду.",
+      "01": "Получает только Walter Camp."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "positive",
+      "basis": "Качество сезона спортсмена может влиять на голосование по обеим наградам.",
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "heisman_multiple_awards",
+      "walter_camp_2021",
+      "heisman_2021"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:25.335543+00:00",
+      "kalshi_response_sha256": "b9566a5af8e2a8bcefdb3c2f43b4238ff79cd491e5724a31d54f0b7157111b94",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "e9fba3d4d590206049ea48bcbcb0ef0b1ceca9d537e9209a43b0421c5f54f4a9"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_31",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x69f99fc2a8f1149845b4887fc92e77c06df91c5ff5e968bc06c563666adc59bc",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "JUUL возвращает Fruit Medley на потребительский рынок в 2026.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x69f99fc2a8f1149845b4887fc92e77c06df91c5ff5e968bc06c563666adc59bc",
+            "kalshi_ticker": "KXJUULFLAVOR-27-FRU"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        },
+        {
+          "source_id": "poly_juul_page"
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXJUULFLAVOR-27-FRU",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "JUUL выпускает Fruit Medley для публики до 1 января 2027.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 31,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXJUULFLAVOR-27-FRU",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "unsure",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "A_IMPLIES_B",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [
+      "10"
+    ],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "forbidden_under_assumptions",
+      "11": "not_excluded_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "Коммерческий потребительский relaunch является частным случаем публичного выпуска. Однако это только условная интерпретация: точное значение relaunch у Polymarket не подтверждено полными правилами.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "A требует фактического публичного коммерческого выпуска, а не объявления или одобрения регулятора.",
+        "Идентичны продукт/допустимое название, период и дедлайн; публичный выпуск в нужной географии удовлетворяет B."
+      ]
+    },
+    "missing_evidence": [
+      "На официальной странице Polymarket получены название события и FAQ, но не полные правила для Fruit Medley.",
+      "Нужны определения ограниченного релиза, географии, нового названия вкуса и начало окна обеих площадок."
+    ],
+    "illustrative_state_witnesses": {
+      "11": "Полноценный relaunch, удовлетворяющий обеим сторонам.",
+      "00": "Выпуска нет.",
+      "01": "Публичный выпуск, не удовлетворяющий более узкому коммерческому relaunch A."
+    },
+    "alternative_candidates": [
+      {
+        "type": "EQUIVALENT",
+        "forbidden_states": [
+          "01",
+          "10"
+        ],
+        "condition": "Полные правила подтверждают тождественные определения relaunch и public release."
+      }
+    ],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "poly_juul_page"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:25.338006+00:00",
+      "kalshi_response_sha256": "764198e6616881ac2261ea61b2d842f874760663ff417247f11547f69bf858ee",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "32bd3c5fbb6284742ecb0f7a0e4b4e96637dcb373a3ba700b2bf6ae3188f9d20"
+    },
+    "human_gold": false
+  },
+  {
+    "pair_id": "rel_32",
+    "A": {
+      "venue": "Polymarket",
+      "external_id": "0x9a240a568047146e9e67f8fdaa7991c4b5814dddffed33e83e7a9f8aef5a5245",
+      "id_provenance": "poly_id from external author fixture; not independently verified against live Polymarket API",
+      "derived_yes_description": "Los Angeles Chargers выигрывают AFC West сезона 2026–27.",
+      "source_pointers": [
+        {
+          "source_id": "author_audit",
+          "lookup": {
+            "poly_id": "0x9a240a568047146e9e67f8fdaa7991c4b5814dddffed33e83e7a9f8aef5a5245",
+            "kalshi_ticker": "KXNFLSEED-27AFC5-LAC"
+          },
+          "fields_inspected": [
+            "poly_title",
+            "poly_event_title",
+            "poly_close"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "venue": "Kalshi",
+      "external_id": "KXNFLSEED-27AFC5-LAC",
+      "id_verified_by_live_api": true,
+      "derived_yes_description": "Los Angeles Chargers получают seed #5 в AFC плей-офф 2026–27.",
+      "source_pointers": [
+        {
+          "local_file": "kalshi_provenance.json",
+          "case_number": 32,
+          "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNFLSEED-27AFC5-LAC",
+          "fields_inspected": [
+            "rules_primary",
+            "rules_secondary",
+            "title",
+            "yes_sub_title",
+            "close_time",
+            "expected_expiration_time"
+          ]
+        }
+      ]
+    },
+    "external_reference": {
+      "label": "different",
+      "reason_class": "scope_mismatch",
+      "is_relation_gold": false
+    },
+    "relation_candidate": "DISJOINT",
+    "candidate_status": "conditional_analyst_proposal",
+    "forbidden_states": [
+      "11"
+    ],
+    "forbidden_states_scope": "A is Polymarket, B is Kalshi. Candidate event truth table only, conditional on all listed assumptions; not an unconditional claim about settlement payouts.",
+    "state_assessment": {
+      "10": "not_excluded_under_assumptions",
+      "11": "forbidden_under_assumptions",
+      "00": "not_excluded_under_assumptions",
+      "01": "not_excluded_under_assumptions"
+    },
+    "established_contract_forbidden_states": null,
+    "reasoning": "При стандартном посеве победители дивизионов занимают seed 1–4, а seed 5 принадлежит wild card. Поэтому 11 исключено, но 00 допустимо.",
+    "scope": {
+      "level": "event_semantics_under_assumptions",
+      "payoff_scope": "Ordinary binary resolution only; venue defaults, cancellation, oracle disputes and revisions require full rule audit.",
+      "assumptions": [
+        "AFC West champion означает победителя регулярного дивизиона того же сезона.",
+        "Правило посева 1–4 для победителей дивизионов действует в 2026–27; официальный проверенный справочник относится к 2025.",
+        "Идентична команда Los Angeles C / Chargers; обычный сезон без специального изменения формата."
+      ]
+    },
+    "missing_evidence": [
+      "Нужны полные Polymarket правила и подтверждение применимой редакции NFL правил для сезона 2026–27."
+    ],
+    "illustrative_state_witnesses": {
+      "10": "Chargers выигрывают дивизион и получают seed 1–4.",
+      "00": "Chargers не выигрывают дивизион и получают другой seed либо не выходят в плей-офф.",
+      "01": "Chargers — лучшая wild-card команда AFC и seed 5."
+    },
+    "alternative_candidates": [],
+    "counterexample_outside_scope": null,
+    "correlation_hypothesis": {
+      "sign": "not_assessed",
+      "basis": null,
+      "empirical_evidence": false
+    },
+    "evidence_source_ids": [
+      "nfl_seeding_2025"
+    ],
+    "provenance": {
+      "annotation_method": "Analyst derivation from minimal fixture descriptors plus live Kalshi API and cited public primary sources. No LLM-generated classification scores, no gold claim.",
+      "kalshi_rules_observed_at_utc": "2026-09-29T23:56:25.354418+00:00",
+      "kalshi_response_sha256": "aed62ac87da381c87af7bb4c996ee185623d639e4871a24a2c1d1fe1851769c3",
+      "polymarket_api_status": "Unavailable in bounded Gamma/CLOB/HTML probes; exact ID-rule matching not established.",
+      "annotation_at_utc": "2026-09-30 00:03:49 UTC",
+      "kalshi_resolution_text_fields_sha256": "565e5ef1e3a20261dee0d9b948f366c2d5a17df6a4dbd4f1edeec46731297896"
+    },
+    "human_gold": false
+  }
+]

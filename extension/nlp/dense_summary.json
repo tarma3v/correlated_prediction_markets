@@ -1,0 +1,92 @@
+{
+  "model": {
+    "repo": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_length": 256
+  },
+  "views": {
+    "title": {
+      "input_count": 286,
+      "truncated_inputs": 0,
+      "max_untruncated_tokens": 31,
+      "top_k": {
+        "1": {
+          "candidate_pairs": 224,
+          "cross_event_pairs": 2
+        },
+        "5": {
+          "candidate_pairs": 944,
+          "cross_event_pairs": 6
+        },
+        "10": {
+          "candidate_pairs": 1696,
+          "cross_event_pairs": 163
+        },
+        "20": {
+          "candidate_pairs": 3483,
+          "cross_event_pairs": 1328
+        },
+        "50": {
+          "candidate_pairs": 8122,
+          "cross_event_pairs": 5284
+        }
+      }
+    },
+    "rules": {
+      "input_count": 286,
+      "truncated_inputs": 0,
+      "max_untruncated_tokens": 166,
+      "top_k": {
+        "1": {
+          "candidate_pairs": 222,
+          "cross_event_pairs": 0
+        },
+        "5": {
+          "candidate_pairs": 966,
+          "cross_event_pairs": 0
+        },
+        "10": {
+          "candidate_pairs": 1717,
+          "cross_event_pairs": 116
+        },
+        "20": {
+          "candidate_pairs": 3555,
+          "cross_event_pairs": 1247
+        },
+        "50": {
+          "candidate_pairs": 8508,
+          "cross_event_pairs": 5670
+        }
+      }
+    },
+    "title_rules": {
+      "input_count": 286,
+      "truncated_inputs": 0,
+      "max_untruncated_tokens": 195,
+      "top_k": {
+        "1": {
+          "candidate_pairs": 218,
+          "cross_event_pairs": 4
+        },
+        "5": {
+          "candidate_pairs": 954,
+          "cross_event_pairs": 17
+        },
+        "10": {
+          "candidate_pairs": 1727,
+          "cross_event_pairs": 232
+        },
+        "20": {
+          "candidate_pairs": 3519,
+          "cross_event_pairs": 1416
+        },
+        "50": {
+          "candidate_pairs": 8461,
+          "cross_event_pairs": 5623
+        }
+      }
+    }
+  },
+  "wall_seconds": 8.296734958013985,
+  "warning": "No human gold; candidate counts and case ranks are not market recall/accuracy."
+}

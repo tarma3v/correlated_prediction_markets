@@ -1,0 +1,250 @@
+[
+  {
+    "method": "lexical",
+    "view": "title",
+    "source_venue": "poly",
+    "target_venue": "kalshi",
+    "candidate_count_per_query": 493,
+    "query_count": 461,
+    "source_event_groups": 254,
+    "at_k": {
+      "1": {
+        "query_hit_rate": 0.8676789587852495,
+        "event_macro_query_hit_rate": 0.8874122642564416,
+        "known_link_recall": 0.8676789587852495
+      },
+      "3": {
+        "query_hit_rate": 0.9891540130151844,
+        "event_macro_query_hit_rate": 0.9857830271216098,
+        "known_link_recall": 0.9891540130151844
+      },
+      "5": {
+        "query_hit_rate": 0.9956616052060737,
+        "event_macro_query_hit_rate": 0.9921259842519685,
+        "known_link_recall": 0.9956616052060737
+      },
+      "10": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      }
+    }
+  },
+  {
+    "method": "lexical",
+    "view": "title",
+    "source_venue": "kalshi",
+    "target_venue": "poly",
+    "candidate_count_per_query": 493,
+    "query_count": 461,
+    "source_event_groups": 252,
+    "at_k": {
+      "1": {
+        "query_hit_rate": 0.8741865509761388,
+        "event_macro_query_hit_rate": 0.892454557359006,
+        "known_link_recall": 0.8741865509761388
+      },
+      "3": {
+        "query_hit_rate": 0.9891540130151844,
+        "event_macro_query_hit_rate": 0.9874338624338624,
+        "known_link_recall": 0.9891540130151844
+      },
+      "5": {
+        "query_hit_rate": 0.9978308026030369,
+        "event_macro_query_hit_rate": 0.996031746031746,
+        "known_link_recall": 0.9978308026030369
+      },
+      "10": {
+        "query_hit_rate": 0.9978308026030369,
+        "event_macro_query_hit_rate": 0.996031746031746,
+        "known_link_recall": 0.9978308026030369
+      }
+    }
+  },
+  {
+    "method": "dense",
+    "view": "title",
+    "source_venue": "poly",
+    "target_venue": "kalshi",
+    "candidate_count_per_query": 493,
+    "query_count": 461,
+    "source_event_groups": 254,
+    "at_k": {
+      "1": {
+        "query_hit_rate": 0.8568329718004338,
+        "event_macro_query_hit_rate": 0.8667583903985686,
+        "known_link_recall": 0.8568329718004338
+      },
+      "3": {
+        "query_hit_rate": 0.9804772234273319,
+        "event_macro_query_hit_rate": 0.9792328590505134,
+        "known_link_recall": 0.9804772234273319
+      },
+      "5": {
+        "query_hit_rate": 0.9913232104121475,
+        "event_macro_query_hit_rate": 0.9916885389326334,
+        "known_link_recall": 0.9913232104121475
+      },
+      "10": {
+        "query_hit_rate": 0.9978308026030369,
+        "event_macro_query_hit_rate": 0.9995625546806649,
+        "known_link_recall": 0.9978308026030369
+      }
+    }
+  },
+  {
+    "method": "dense",
+    "view": "title",
+    "source_venue": "kalshi",
+    "target_venue": "poly",
+    "candidate_count_per_query": 493,
+    "query_count": 461,
+    "source_event_groups": 252,
+    "at_k": {
+      "1": {
+        "query_hit_rate": 0.6008676789587852,
+        "event_macro_query_hit_rate": 0.5487988323984564,
+        "known_link_recall": 0.6008676789587852
+      },
+      "3": {
+        "query_hit_rate": 0.9240780911062907,
+        "event_macro_query_hit_rate": 0.9108636753921843,
+        "known_link_recall": 0.9240780911062907
+      },
+      "5": {
+        "query_hit_rate": 0.9718004338394793,
+        "event_macro_query_hit_rate": 0.9673170194003528,
+        "known_link_recall": 0.9718004338394793
+      },
+      "10": {
+        "query_hit_rate": 0.9913232104121475,
+        "event_macro_query_hit_rate": 0.9896384479717812,
+        "known_link_recall": 0.9913232104121475
+      }
+    }
+  },
+  {
+    "method": "lexical",
+    "view": "event_title",
+    "source_venue": "poly",
+    "target_venue": "kalshi",
+    "candidate_count_per_query": 493,
+    "query_count": 461,
+    "source_event_groups": 254,
+    "at_k": {
+      "1": {
+        "query_hit_rate": 0.9913232104121475,
+        "event_macro_query_hit_rate": 0.9906824146981626,
+        "known_link_recall": 0.9913232104121475
+      },
+      "3": {
+        "query_hit_rate": 0.9978308026030369,
+        "event_macro_query_hit_rate": 0.9960629921259843,
+        "known_link_recall": 0.9978308026030369
+      },
+      "5": {
+        "query_hit_rate": 0.9978308026030369,
+        "event_macro_query_hit_rate": 0.9960629921259843,
+        "known_link_recall": 0.9978308026030369
+      },
+      "10": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      }
+    }
+  },
+  {
+    "method": "lexical",
+    "view": "event_title",
+    "source_venue": "kalshi",
+    "target_venue": "poly",
+    "candidate_count_per_query": 493,
+    "query_count": 461,
+    "source_event_groups": 252,
+    "at_k": {
+      "1": {
+        "query_hit_rate": 0.9869848156182213,
+        "event_macro_query_hit_rate": 0.9861111111111112,
+        "known_link_recall": 0.9869848156182213
+      },
+      "3": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      },
+      "5": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      },
+      "10": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      }
+    }
+  },
+  {
+    "method": "dense",
+    "view": "event_title",
+    "source_venue": "poly",
+    "target_venue": "kalshi",
+    "candidate_count_per_query": 493,
+    "query_count": 461,
+    "source_event_groups": 254,
+    "at_k": {
+      "1": {
+        "query_hit_rate": 0.9891540130151844,
+        "event_macro_query_hit_rate": 0.9880577427821522,
+        "known_link_recall": 0.9891540130151844
+      },
+      "3": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      },
+      "5": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      },
+      "10": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      }
+    }
+  },
+  {
+    "method": "dense",
+    "view": "event_title",
+    "source_venue": "kalshi",
+    "target_venue": "poly",
+    "candidate_count_per_query": 493,
+    "query_count": 461,
+    "source_event_groups": 252,
+    "at_k": {
+      "1": {
+        "query_hit_rate": 0.9848156182212582,
+        "event_macro_query_hit_rate": 0.9826719576719577,
+        "known_link_recall": 0.9848156182212582
+      },
+      "3": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      },
+      "5": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      },
+      "10": {
+        "query_hit_rate": 1.0,
+        "event_macro_query_hit_rate": 1.0,
+        "known_link_recall": 1.0
+      }
+    }
+  }
+]
