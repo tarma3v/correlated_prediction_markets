@@ -1,0 +1,28 @@
+{
+  "experiment": "E01-resolution-boundaries",
+  "status": "development_diagnostic_not_confirmatory",
+  "interface_version": "v1_explicit_json_schema_after_archived_v0_format_calibration",
+  "seed": 20261021,
+  "model": {
+    "repo": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+    "quantization": "MLX 4 bit"
+  },
+  "temperature": 0.0,
+  "max_input_tokens": 8192,
+  "max_new_tokens_per_call": 700,
+  "branches": ["direct", "structured", "repeat", "critic"],
+  "primary_contrasts": [
+    "structured versus direct, identical rule packets and model",
+    "structured_checked versus structured, same saved starting response",
+    "critic versus repeat, same saved starting response and one extra call cap",
+    "critic_checked versus critic, no additional LLM call"
+  ],
+  "limitations": [
+    "All cases are development cases, not an untouched holdout.",
+    "Controlled reference labels concern stipulated continuous scalar worlds only.",
+    "Real pairs have no independent reference labels or complete contract certification.",
+    "Equal token limits do not imply equal actual token expenditure.",
+    "This local small model is a pipeline diagnostic, not a frontier model comparison."
+  ]
+}

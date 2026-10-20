@@ -1,0 +1,15 @@
+Extract the two predicates from the text, then assess each joint state using
+those predicates. Do not run a separate critic. For each contract return either
+null (a complete single-scalar binary predicate cannot be extracted), or an
+object with metric, source, period, unit, op, threshold, predicate_quote.
+All values are strings. op must be gt/ge/lt/le. threshold is a finite decimal
+string. predicate_quote must be an exact nonempty substring of that contract's
+text. Never invent a source or an omitted clause.
+Assess each of 00,01,10,11 as forbidden, possible, or unknown. For possible
+controlled states give an OBJECT with two numeric strings, for example
+{"x_a":"0","x_b":"0"}. These zeros illustrate the format, not an answer.
+A witness must NEVER be a bare string, number, array, or the string "null".
+Other states have JSON null witnesses. For real predicates outside this grammar return null
+extractions and unknown unless the supplied text supports a state assessment.
+Output exactly:
+{"A":null,"B":null,"states":{"00":"unknown","01":"unknown","10":"unknown","11":"unknown"},"witnesses":{"00":null,"01":null,"10":null,"11":null},"confidence":0.0}

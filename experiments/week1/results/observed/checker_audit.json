@@ -1,0 +1,1402 @@
+[
+  {
+    "case_id": "pair_001",
+    "method": "structured_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "01": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "2"
+      },
+      "11": {
+        "x_a": "1",
+        "x_b": "1"
+      }
+    },
+    "seconds": 8.591602090746164e-05
+  },
+  {
+    "case_id": "pair_001",
+    "method": "critic_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "01": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "2"
+      },
+      "11": {
+        "x_a": "1",
+        "x_b": "1"
+      }
+    },
+    "seconds": 2.837507054209709e-05
+  },
+  {
+    "case_id": "pair_002",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "1.5",
+        "x_b": "1.5"
+      },
+      "11": {
+        "x_a": "4",
+        "x_b": "4"
+      }
+    },
+    "seconds": 2.9292074032127857e-05
+  },
+  {
+    "case_id": "pair_002",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "1.5",
+        "x_b": "1.5"
+      },
+      "11": {
+        "x_a": "4",
+        "x_b": "4"
+      }
+    },
+    "seconds": 2.437504008412361e-05
+  },
+  {
+    "case_id": "pair_003",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "-1",
+        "x_b": "2"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "-1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 2.637505531311035e-05
+  },
+  {
+    "case_id": "pair_003",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "-1",
+        "x_b": "2"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "-1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 2.5999965146183968e-05
+  },
+  {
+    "case_id": "pair_004",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "1",
+        "x_b": "1"
+      },
+      "01": {
+        "x_a": "4",
+        "x_b": "4"
+      },
+      "10": {
+        "x_a": "-1",
+        "x_b": "-1"
+      }
+    },
+    "seconds": 2.3000058718025684e-05
+  },
+  {
+    "case_id": "pair_004",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "1",
+        "x_b": "1"
+      },
+      "01": {
+        "x_a": "4",
+        "x_b": "4"
+      },
+      "10": {
+        "x_a": "-1",
+        "x_b": "-1"
+      }
+    },
+    "seconds": 2.1415995433926582e-05
+  },
+  {
+    "case_id": "pair_005",
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "incomplete_or_unsupported_predicate",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {},
+    "seconds": 7.2499969974160194e-06
+  },
+  {
+    "case_id": "pair_005",
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "incomplete_or_unsupported_predicate",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {},
+    "seconds": 6.4999330788850784e-06
+  },
+  {
+    "case_id": "pair_006",
+    "method": "structured_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "01": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 2.0458013750612736e-05
+  },
+  {
+    "case_id": "pair_006",
+    "method": "critic_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "01": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 2.0749983377754688e-05
+  },
+  {
+    "case_id": "pair_007",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "1.5",
+        "x_b": "1.5"
+      },
+      "11": {
+        "x_a": "4",
+        "x_b": "4"
+      }
+    },
+    "seconds": 2.1249987185001373e-05
+  },
+  {
+    "case_id": "pair_007",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "1.5",
+        "x_b": "1.5"
+      },
+      "11": {
+        "x_a": "4",
+        "x_b": "4"
+      }
+    },
+    "seconds": 2.062495332211256e-05
+  },
+  {
+    "case_id": "pair_008",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "1.5",
+        "x_b": "1.5"
+      },
+      "11": {
+        "x_a": "4",
+        "x_b": "4"
+      }
+    },
+    "seconds": 2.0417035557329655e-05
+  },
+  {
+    "case_id": "pair_008",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "1.5",
+        "x_b": "1.5"
+      },
+      "11": {
+        "x_a": "4",
+        "x_b": "4"
+      }
+    },
+    "seconds": 2.2124964743852615e-05
+  },
+  {
+    "case_id": "pair_009",
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "incomplete_or_unsupported_predicate",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {},
+    "seconds": 7.333001121878624e-06
+  },
+  {
+    "case_id": "pair_009",
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "incomplete_or_unsupported_predicate",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {},
+    "seconds": 6.917049176990986e-06
+  },
+  {
+    "case_id": "pair_010",
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "outside_formal_scope",
+    "evidence": [],
+    "witnesses": {},
+    "seconds": 5.419133231043816e-07
+  },
+  {
+    "case_id": "pair_010",
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "outside_formal_scope",
+    "evidence": [],
+    "witnesses": {},
+    "seconds": 3.7509016692638397e-07
+  },
+  {
+    "case_id": "pair_011",
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "outside_formal_scope",
+    "evidence": [],
+    "witnesses": {},
+    "seconds": 3.3294782042503357e-07
+  },
+  {
+    "case_id": "pair_011",
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "outside_formal_scope",
+    "evidence": [],
+    "witnesses": {},
+    "seconds": 2.919696271419525e-07
+  },
+  {
+    "case_id": "pair_012",
+    "method": "structured_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "01": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 2.1416926756501198e-05
+  },
+  {
+    "case_id": "pair_012",
+    "method": "critic_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "01": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 1.916696783155203e-05
+  },
+  {
+    "case_id": "pair_013",
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "outside_formal_scope",
+    "evidence": [],
+    "witnesses": {},
+    "seconds": 2.9208604246377945e-07
+  },
+  {
+    "case_id": "pair_013",
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "outside_formal_scope",
+    "evidence": [],
+    "witnesses": {},
+    "seconds": 2.50060111284256e-07
+  },
+  {
+    "case_id": "pair_014",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "1",
+        "x_b": "1"
+      },
+      "01": {
+        "x_a": "4",
+        "x_b": "4"
+      },
+      "10": {
+        "x_a": "-1",
+        "x_b": "-1"
+      }
+    },
+    "seconds": 2.1209008991718292e-05
+  },
+  {
+    "case_id": "pair_014",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "1",
+        "x_b": "1"
+      },
+      "01": {
+        "x_a": "4",
+        "x_b": "4"
+      },
+      "10": {
+        "x_a": "-1",
+        "x_b": "-1"
+      }
+    },
+    "seconds": 2.0333100110292435e-05
+  },
+  {
+    "case_id": "pair_015",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "-1",
+        "x_b": "2"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "-1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 2.337503246963024e-05
+  },
+  {
+    "case_id": "pair_015",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "-1",
+        "x_b": "2"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "-1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 2.4833017960190773e-05
+  },
+  {
+    "case_id": "pair_016",
+    "method": "structured_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "01": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "2"
+      },
+      "11": {
+        "x_a": "1",
+        "x_b": "1"
+      }
+    },
+    "seconds": 1.9832979887723923e-05
+  },
+  {
+    "case_id": "pair_016",
+    "method": "critic_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "01": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "2",
+        "x_b": "2"
+      },
+      "11": {
+        "x_a": "1",
+        "x_b": "1"
+      }
+    },
+    "seconds": 1.90419377759099e-05
+  },
+  {
+    "case_id": "pair_017",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "1",
+        "x_b": "1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 1.9124941900372505e-05
+  },
+  {
+    "case_id": "pair_017",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "1",
+        "x_b": "1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 1.9042054191231728e-05
+  },
+  {
+    "case_id": "pair_018",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 1.8749968148767948e-05
+  },
+  {
+    "case_id": "pair_018",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 1.8874998204410076e-05
+  },
+  {
+    "case_id": "pair_019",
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "incomplete_or_unsupported_predicate",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {},
+    "seconds": 7.207971066236496e-06
+  },
+  {
+    "case_id": "pair_019",
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "incomplete_or_unsupported_predicate",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {},
+    "seconds": 6.959075108170509e-06
+  },
+  {
+    "case_id": "pair_020",
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "outside_formal_scope",
+    "evidence": [],
+    "witnesses": {},
+    "seconds": 3.3294782042503357e-07
+  },
+  {
+    "case_id": "pair_020",
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "outside_formal_scope",
+    "evidence": [],
+    "witnesses": {},
+    "seconds": 3.33995558321476e-07
+  },
+  {
+    "case_id": "pair_021",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 2.1125073544681072e-05
+  },
+  {
+    "case_id": "pair_021",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 1.895800232887268e-05
+  },
+  {
+    "case_id": "pair_022",
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "incomplete_or_unsupported_predicate",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {},
+    "seconds": 8.25000461190939e-06
+  },
+  {
+    "case_id": "pair_022",
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "reason": "incomplete_or_unsupported_predicate",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {},
+    "seconds": 6.624963134527206e-06
+  },
+  {
+    "case_id": "pair_023",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "1.5",
+        "x_b": "1.5"
+      },
+      "11": {
+        "x_a": "4",
+        "x_b": "4"
+      }
+    },
+    "seconds": 2.1041021682322025e-05
+  },
+  {
+    "case_id": "pair_023",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "10": {
+        "x_a": "1.5",
+        "x_b": "1.5"
+      },
+      "11": {
+        "x_a": "4",
+        "x_b": "4"
+      }
+    },
+    "seconds": 2.0332983694970608e-05
+  },
+  {
+    "case_id": "pair_024",
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "1",
+        "x_b": "1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 1.870805863291025e-05
+  },
+  {
+    "case_id": "pair_024",
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "reason": "formal_scalar_recomputation",
+    "evidence": [
+      {
+        "side": "A",
+        "exact_substring": true
+      },
+      {
+        "side": "B",
+        "exact_substring": true
+      }
+    ],
+    "witnesses": {
+      "00": {
+        "x_a": "-1",
+        "x_b": "-1"
+      },
+      "01": {
+        "x_a": "1",
+        "x_b": "1"
+      },
+      "11": {
+        "x_a": "2",
+        "x_b": "2"
+      }
+    },
+    "seconds": 1.8582912161946297e-05
+  }
+]

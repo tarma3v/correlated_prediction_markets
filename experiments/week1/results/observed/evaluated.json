@@ -1,0 +1,4142 @@
+[
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "critic",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.999
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "structured",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "direct",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "structured",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.97
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "method": "structured",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.9
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "method": "critic",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "method": "direct",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "method": "structured",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "method": "repeat",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": "schema_error",
+    "confidence": 0
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "method": "critic",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "direct",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "structured",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "method": "direct",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "method": "structured",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "method": "repeat",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "method": "critic",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "critic",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.9
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.9
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.9
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.9
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.9
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "method": "direct",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "method": "structured",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "method": "repeat",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "method": "critic",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.95
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.95
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.0
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.95
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.95
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.95
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1.0
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.99
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "direct",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.999
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "structured_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "repeat",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic",
+    "states": {
+      "00": "forbidden",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "method": "critic_checked",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 0.98
+  },
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    }
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    }
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "pattern": "nested",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "pattern": "resign__out",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "pattern": "macro_hike_unit_and_window",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "pattern": "complement",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    }
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "pattern": "macro_recession_definition",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "pattern": "gap",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    }
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "pattern": "different_period",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "pattern": "inclusive_boundary",
+    "reference": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "pattern": "nonbinary",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "pattern": "out__kalshi_out",
+    "reference": null,
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "pattern": "equivalent",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "pattern": "missing_source",
+    "reference": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "pattern": "reverse_nested",
+    "reference": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_unknown",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "always_no_constraint",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "pattern": "strict_boundary",
+    "reference": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    },
+    "format_error": null,
+    "confidence": 1,
+    "method": "rule_only",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "scope": "Single-venue acquisition/annotation diagnostic. H1 cross-venue hypothesis NOT tested. No gold, quality, precision or recall estimates.",
+  "records": 323,
+  "venues": {
+    "kalshi": 323
+  },
+  "events": 29,
+  "primary_missing": 0,
+  "secondary_empty": 67,
+  "queue_pairs": 40,
+  "polymarket_inventory_records_excluded_from_retrieval": 5,
+  "historical_records": 1,
+  "candidate_top_k_per_query_per_arm": 5,
+  "union_pairs": 2776,
+  "union_event_pairs": 83,
+  "pairs_by_arm": {
+    "minilm_title": 1287,
+    "tfidf_title": 1163,
+    "minilm_context": 1322,
+    "tfidf_context": 1197
+  },
+  "pair_intersections": {
+    "minilm_context__minilm_title": 886,
+    "minilm_context__tfidf_context": 513,
+    "minilm_context__tfidf_title": 313,
+    "minilm_title__tfidf_context": 521,
+    "minilm_title__tfidf_title": 338,
+    "tfidf_context__tfidf_title": 678
+  },
+  "queue_event_counts": {
+    "KXCPI-26DEC": 3,
+    "KXCPI-26NOV": 3,
+    "KXCPI-26OCT": 3,
+    "KXCPI-26SEP": 3,
+    "KXCPICORE-26DEC": 2,
+    "KXCPICORE-26NOV": 3,
+    "KXCPICORE-26OCT": 2,
+    "KXCPICORE-26SEP": 3,
+    "KXCPICOREYOY-26DEC": 2,
+    "KXCPICOREYOY-26NOV": 4,
+    "KXCPICOREYOY-26SEP": 2,
+    "KXCPIYOY-26DEC": 3,
+    "KXCPIYOY-26NOV": 3,
+    "KXFEDHIKE-2": 3,
+    "KXGTA6ONTIME": 3,
+    "KXGTAONLINE-GTA6ONLINE": 4,
+    "KXLCPIMAXYOY-27": 2,
+    "KXNBERRECESSQ": 3,
+    "KXPALLADIUMH-26SEP2819": 2,
+    "KXPLATINUMH-26SEP2819": 1,
+    "KXRATEHIKE-2026": 2,
+    "KXRECSSNBER-26": 4,
+    "KXRECSSNBER-27": 3,
+    "KXTRUMPOUT27-27": 3,
+    "KXU3-26NOV": 3,
+    "KXU3-26OCT": 2,
+    "KXU3-26SEP": 3,
+    "KXU3MAX-27": 5,
+    "KXU3MAX-30": 1
+  },
+  "queue_event_pairs": 40,
+  "encoding": {
+    "title": {
+      "max_content_tokens": 29,
+      "chunked_records": 0,
+      "total_chunks": 323,
+      "discarded_content_tokens": 0
+    },
+    "context": {
+      "max_content_tokens": 199,
+      "chunked_records": 0,
+      "total_chunks": 323,
+      "discarded_content_tokens": 0
+    }
+  },
+  "lexical_features": {
+    "title": {
+      "word_features": 357,
+      "char_features": 1528
+    },
+    "context": {
+      "word_features": 1393,
+      "char_features": 5258
+    }
+  }
+}

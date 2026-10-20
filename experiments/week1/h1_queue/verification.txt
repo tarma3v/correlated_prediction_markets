@@ -1,0 +1,8 @@
+test_eligibility_precedes_topk_and_ties_are_stable (__main__.PipelineBoundaryTests.test_eligibility_precedes_topk_and_ties_are_stable) ... ok
+test_no_loss_at_chunk_boundaries (__main__.PipelineBoundaryTests.test_no_loss_at_chunk_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+{"passed": true, "corpus": 323, "ranks_recomputed_from_scores": 1292, "blind_pairs": 40, "unique_event_pairs": 40, "dropped_content_tokens": 0, "polymarket_inventory_excluded": 5}

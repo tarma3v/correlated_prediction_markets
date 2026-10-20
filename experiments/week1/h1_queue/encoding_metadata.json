@@ -1,0 +1,4528 @@
+{
+  "title": [
+    {
+      "id": "KXCPI-26DEC-T-0.1",
+      "content_tokens": 15,
+      "chunks": 1,
+      "covered_content_tokens": 15,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.0",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.1",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.2",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.3",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.4",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.5",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.6",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.7",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.8",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.9",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T-0.1",
+      "content_tokens": 15,
+      "chunks": 1,
+      "covered_content_tokens": 15,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.0",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.1",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.2",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.3",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.4",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.5",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T-0.1",
+      "content_tokens": 15,
+      "chunks": 1,
+      "covered_content_tokens": 15,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.0",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.1",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.2",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.3",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.4",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.5",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.6",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.7",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.8",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.9",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T1.0",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T-0.2",
+      "content_tokens": 15,
+      "chunks": 1,
+      "covered_content_tokens": 15,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T-0.3",
+      "content_tokens": 15,
+      "chunks": 1,
+      "covered_content_tokens": 15,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T-0.4",
+      "content_tokens": 15,
+      "chunks": 1,
+      "covered_content_tokens": 15,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.3",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.4",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.5",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.6",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.7",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.8",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.9",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.0",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.1",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.2",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.3",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.4",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.5",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.6",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.7",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.8",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.9",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T1.0",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.0",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.1",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.2",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.3",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.4",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.5",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.6",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.7",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.8",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.9",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T1.0",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.0",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.1",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.2",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.3",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.4",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.5",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.6",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.7",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.8",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.9",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T1.0",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.4",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.5",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.6",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.7",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.8",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.9",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T1.0",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.1",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.2",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.3",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.4",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.5",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.6",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.7",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.8",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.9",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.0",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.1",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.2",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.3",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.4",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.5",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.0",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.1",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.2",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.3",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.4",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.5",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.6",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.7",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.8",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.9",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.0",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.1",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.2",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.3",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.4",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.5",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T2.7",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T2.8",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T2.9",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.0",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.1",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.2",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.3",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.4",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.5",
+      "content_tokens": 22,
+      "chunks": 1,
+      "covered_content_tokens": 22,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.0",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.1",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.2",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.3",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.4",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.5",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.6",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.7",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.8",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.9",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.0",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.1",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.2",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.3",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.4",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.5",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.6",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.7",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.8",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.9",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T5.0",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.2",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.3",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.4",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.5",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.6",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.7",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.8",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.9",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.0",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.1",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.2",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.3",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.4",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.5",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.6",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.7",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.8",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.9",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T5.0",
+      "content_tokens": 21,
+      "chunks": 1,
+      "covered_content_tokens": 21,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-26DEC31",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-27DEC31",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-27JUN30",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-28DEC31",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-28JUN30",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXGTA6ONTIME-26MAY26",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXGTAONLINE-GTA6ONLINE-27",
+      "content_tokens": 16,
+      "chunks": 1,
+      "covered_content_tokens": 16,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXGTAONLINE-GTA6ONLINE-27B",
+      "content_tokens": 17,
+      "chunks": 1,
+      "covered_content_tokens": 17,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXGTAONLINE-GTA6ONLINE-28",
+      "content_tokens": 16,
+      "chunks": 1,
+      "covered_content_tokens": 16,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P4.5",
+      "content_tokens": 6,
+      "chunks": 1,
+      "covered_content_tokens": 6,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P5",
+      "content_tokens": 6,
+      "chunks": 1,
+      "covered_content_tokens": 6,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P5.5",
+      "content_tokens": 6,
+      "chunks": 1,
+      "covered_content_tokens": 6,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P6.0",
+      "content_tokens": 6,
+      "chunks": 1,
+      "covered_content_tokens": 6,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P6.5",
+      "content_tokens": 6,
+      "chunks": 1,
+      "covered_content_tokens": 6,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P7.0",
+      "content_tokens": 6,
+      "chunks": 1,
+      "covered_content_tokens": 6,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q1-2025",
+      "content_tokens": 11,
+      "chunks": 1,
+      "covered_content_tokens": 11,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q1-2026",
+      "content_tokens": 11,
+      "chunks": 1,
+      "covered_content_tokens": 11,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q2-2025",
+      "content_tokens": 11,
+      "chunks": 1,
+      "covered_content_tokens": 11,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q3-2025",
+      "content_tokens": 11,
+      "chunks": 1,
+      "covered_content_tokens": 11,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q4-2024",
+      "content_tokens": 11,
+      "chunks": 1,
+      "covered_content_tokens": 11,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q4-2025",
+      "content_tokens": 11,
+      "chunks": 1,
+      "covered_content_tokens": 11,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1199.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1200.49",
+      "content_tokens": 28,
+      "chunks": 1,
+      "covered_content_tokens": 28,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1200.99",
+      "content_tokens": 28,
+      "chunks": 1,
+      "covered_content_tokens": 28,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1201.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1201.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1202.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1202.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1203.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1203.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1204.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1204.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1205.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1205.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1206.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1206.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1207.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1207.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1208.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1208.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1209.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1209.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1210.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1210.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1211.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1211.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1212.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1212.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1213.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1213.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1214.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1214.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1215.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1215.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1216.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1216.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1217.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1217.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1218.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1218.99",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1219.49",
+      "content_tokens": 29,
+      "chunks": 1,
+      "covered_content_tokens": 29,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1704.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1705.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1705.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1706.49",
+      "content_tokens": 27,
+      "chunks": 1,
+      "covered_content_tokens": 27,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1706.99",
+      "content_tokens": 27,
+      "chunks": 1,
+      "covered_content_tokens": 27,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1707.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1707.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1708.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1708.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1709.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1709.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1710.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1710.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1711.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1711.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1712.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1712.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1713.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1713.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1714.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1714.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1715.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1715.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1716.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1716.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1717.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1717.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1718.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1718.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1719.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1719.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1720.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1720.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1721.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1721.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1722.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1722.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1723.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1723.99",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1724.49",
+      "content_tokens": 26,
+      "chunks": 1,
+      "covered_content_tokens": 26,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRATEHIKE-2026-1",
+      "content_tokens": 12,
+      "chunks": 1,
+      "covered_content_tokens": 12,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRATEHIKE-2026-2",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRATEHIKE-2026-3",
+      "content_tokens": 13,
+      "chunks": 1,
+      "covered_content_tokens": 13,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRATEHIKE-2026-4PLUS",
+      "content_tokens": 14,
+      "chunks": 1,
+      "covered_content_tokens": 14,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRECSSNBER-26",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRECSSNBER-27",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXTRUMPOUT27-27-DJT",
+      "content_tokens": 7,
+      "chunks": 1,
+      "covered_content_tokens": 7,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T3.7",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T3.8",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T3.9",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.0",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.1",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.2",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.3",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.4",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.5",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.6",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.7",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.8",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.9",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T5.0",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T3.7",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T3.8",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T3.9",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.0",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.1",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.2",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.3",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.4",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.5",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.6",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.7",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.8",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.9",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T5.0",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T3.9",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.0",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.1",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.2",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.3",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.4",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.5",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.6",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.7",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.8",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.9",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T5.0",
+      "content_tokens": 18,
+      "chunks": 1,
+      "covered_content_tokens": 18,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-10",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-12",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-15",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-17",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-20",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-4.5",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-4.8",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-5",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-5.5",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-6",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-6.5",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-7",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-8",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-9",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-30-20",
+      "content_tokens": 9,
+      "chunks": 1,
+      "covered_content_tokens": 9,
+      "discarded_content_tokens": 0
+    }
+  ],
+  "context": [
+    {
+      "id": "KXCPI-26DEC-T-0.1",
+      "content_tokens": 133,
+      "chunks": 1,
+      "covered_content_tokens": 133,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.0",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.1",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.2",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.3",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.4",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.5",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.6",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.7",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.8",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26DEC-T0.9",
+      "content_tokens": 130,
+      "chunks": 1,
+      "covered_content_tokens": 130,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T-0.1",
+      "content_tokens": 158,
+      "chunks": 1,
+      "covered_content_tokens": 158,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.0",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.1",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.2",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.3",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.4",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26NOV-T0.5",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T-0.1",
+      "content_tokens": 158,
+      "chunks": 1,
+      "covered_content_tokens": 158,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.0",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.1",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.2",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.3",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.4",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.5",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.6",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.7",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.8",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T0.9",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26OCT-T1.0",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T-0.2",
+      "content_tokens": 158,
+      "chunks": 1,
+      "covered_content_tokens": 158,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T-0.3",
+      "content_tokens": 158,
+      "chunks": 1,
+      "covered_content_tokens": 158,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T-0.4",
+      "content_tokens": 158,
+      "chunks": 1,
+      "covered_content_tokens": 158,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.3",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.4",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.5",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.6",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.7",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.8",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPI-26SEP-T0.9",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.0",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.1",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.2",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.3",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.4",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.5",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.6",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.7",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.8",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T0.9",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26DEC-T1.0",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.0",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.1",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.2",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.3",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.4",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.5",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.6",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.7",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.8",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T0.9",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26NOV-T1.0",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.0",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.1",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.2",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.3",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.4",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.5",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.6",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.7",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.8",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T0.9",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26OCT-T1.0",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.4",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.5",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.6",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.7",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.8",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T0.9",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICORE-26SEP-T1.0",
+      "content_tokens": 143,
+      "chunks": 1,
+      "covered_content_tokens": 143,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.1",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.2",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.3",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.4",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.5",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.6",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.7",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.8",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T2.9",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.0",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.1",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.2",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.3",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.4",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26DEC-T3.5",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.0",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.1",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.2",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.3",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.4",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.5",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.6",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.7",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.8",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T2.9",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.0",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.1",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.2",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.3",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.4",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26NOV-T3.5",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T2.7",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T2.8",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T2.9",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.0",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.1",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.2",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.3",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.4",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPICOREYOY-26SEP-T3.5",
+      "content_tokens": 145,
+      "chunks": 1,
+      "covered_content_tokens": 145,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.0",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.1",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.2",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.3",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.4",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.5",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.6",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.7",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.8",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T3.9",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.0",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.1",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.2",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.3",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.4",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.5",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.6",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.7",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.8",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T4.9",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26DEC-T5.0",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.2",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.3",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.4",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.5",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.6",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.7",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.8",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T3.9",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.0",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.1",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.2",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.3",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.4",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.5",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.6",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.7",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.8",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T4.9",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXCPIYOY-26NOV-T5.0",
+      "content_tokens": 132,
+      "chunks": 1,
+      "covered_content_tokens": 132,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-26DEC31",
+      "content_tokens": 57,
+      "chunks": 1,
+      "covered_content_tokens": 57,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-27DEC31",
+      "content_tokens": 57,
+      "chunks": 1,
+      "covered_content_tokens": 57,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-27JUN30",
+      "content_tokens": 58,
+      "chunks": 1,
+      "covered_content_tokens": 58,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-28DEC31",
+      "content_tokens": 57,
+      "chunks": 1,
+      "covered_content_tokens": 57,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXFEDHIKE-2-28JUN30",
+      "content_tokens": 58,
+      "chunks": 1,
+      "covered_content_tokens": 58,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXGTA6ONTIME-26MAY26",
+      "content_tokens": 57,
+      "chunks": 1,
+      "covered_content_tokens": 57,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXGTAONLINE-GTA6ONLINE-27",
+      "content_tokens": 153,
+      "chunks": 1,
+      "covered_content_tokens": 153,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXGTAONLINE-GTA6ONLINE-27B",
+      "content_tokens": 155,
+      "chunks": 1,
+      "covered_content_tokens": 155,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXGTAONLINE-GTA6ONLINE-28",
+      "content_tokens": 153,
+      "chunks": 1,
+      "covered_content_tokens": 153,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P4.5",
+      "content_tokens": 42,
+      "chunks": 1,
+      "covered_content_tokens": 42,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P5",
+      "content_tokens": 40,
+      "chunks": 1,
+      "covered_content_tokens": 40,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P5.5",
+      "content_tokens": 42,
+      "chunks": 1,
+      "covered_content_tokens": 42,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P6.0",
+      "content_tokens": 42,
+      "chunks": 1,
+      "covered_content_tokens": 42,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P6.5",
+      "content_tokens": 42,
+      "chunks": 1,
+      "covered_content_tokens": 42,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXLCPIMAXYOY-27-P7.0",
+      "content_tokens": 42,
+      "chunks": 1,
+      "covered_content_tokens": 42,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q1-2025",
+      "content_tokens": 120,
+      "chunks": 1,
+      "covered_content_tokens": 120,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q1-2026",
+      "content_tokens": 120,
+      "chunks": 1,
+      "covered_content_tokens": 120,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q2-2025",
+      "content_tokens": 120,
+      "chunks": 1,
+      "covered_content_tokens": 120,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q3-2025",
+      "content_tokens": 120,
+      "chunks": 1,
+      "covered_content_tokens": 120,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q4-2024",
+      "content_tokens": 120,
+      "chunks": 1,
+      "covered_content_tokens": 120,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXNBERRECESSQ-Q4-2025",
+      "content_tokens": 120,
+      "chunks": 1,
+      "covered_content_tokens": 120,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1199.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1200.49",
+      "content_tokens": 196,
+      "chunks": 1,
+      "covered_content_tokens": 196,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1200.99",
+      "content_tokens": 196,
+      "chunks": 1,
+      "covered_content_tokens": 196,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1201.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1201.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1202.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1202.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1203.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1203.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1204.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1204.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1205.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1205.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1206.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1206.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1207.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1207.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1208.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1208.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1209.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1209.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1210.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1210.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1211.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1211.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1212.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1212.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1213.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1213.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1214.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1214.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1215.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1215.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1216.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1216.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1217.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1217.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1218.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1218.99",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPALLADIUMH-26SEP2819-T1219.49",
+      "content_tokens": 199,
+      "chunks": 1,
+      "covered_content_tokens": 199,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1704.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1705.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1705.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1706.49",
+      "content_tokens": 195,
+      "chunks": 1,
+      "covered_content_tokens": 195,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1706.99",
+      "content_tokens": 195,
+      "chunks": 1,
+      "covered_content_tokens": 195,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1707.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1707.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1708.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1708.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1709.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1709.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1710.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1710.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1711.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1711.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1712.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1712.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1713.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1713.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1714.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1714.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1715.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1715.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1716.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1716.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1717.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1717.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1718.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1718.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1719.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1719.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1720.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1720.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1721.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1721.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1722.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1722.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1723.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1723.99",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXPLATINUMH-26SEP2819-T1724.49",
+      "content_tokens": 192,
+      "chunks": 1,
+      "covered_content_tokens": 192,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRATEHIKE-2026-1",
+      "content_tokens": 127,
+      "chunks": 1,
+      "covered_content_tokens": 127,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRATEHIKE-2026-2",
+      "content_tokens": 128,
+      "chunks": 1,
+      "covered_content_tokens": 128,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRATEHIKE-2026-3",
+      "content_tokens": 128,
+      "chunks": 1,
+      "covered_content_tokens": 128,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRATEHIKE-2026-4PLUS",
+      "content_tokens": 131,
+      "chunks": 1,
+      "covered_content_tokens": 131,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRECSSNBER-26",
+      "content_tokens": 116,
+      "chunks": 1,
+      "covered_content_tokens": 116,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXRECSSNBER-27",
+      "content_tokens": 168,
+      "chunks": 1,
+      "covered_content_tokens": 168,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXTRUMPOUT27-27-DJT",
+      "content_tokens": 187,
+      "chunks": 1,
+      "covered_content_tokens": 187,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T3.7",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T3.8",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T3.9",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.0",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.1",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.2",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.3",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.4",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.5",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.6",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.7",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.8",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T4.9",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26NOV-T5.0",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T3.7",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T3.8",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T3.9",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.0",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.1",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.2",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.3",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.4",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.5",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.6",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.7",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.8",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T4.9",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26OCT-T5.0",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T3.9",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.0",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.1",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.2",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.3",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.4",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.5",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.6",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.7",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.8",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T4.9",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3-26SEP-T5.0",
+      "content_tokens": 66,
+      "chunks": 1,
+      "covered_content_tokens": 66,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-10",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-12",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-15",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-17",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-20",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-4.5",
+      "content_tokens": 48,
+      "chunks": 1,
+      "covered_content_tokens": 48,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-4.8",
+      "content_tokens": 48,
+      "chunks": 1,
+      "covered_content_tokens": 48,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-5",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-5.5",
+      "content_tokens": 48,
+      "chunks": 1,
+      "covered_content_tokens": 48,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-6",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-6.5",
+      "content_tokens": 48,
+      "chunks": 1,
+      "covered_content_tokens": 48,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-7",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-8",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-27-9",
+      "content_tokens": 44,
+      "chunks": 1,
+      "covered_content_tokens": 44,
+      "discarded_content_tokens": 0
+    },
+    {
+      "id": "KXU3MAX-30-20",
+      "content_tokens": 40,
+      "chunks": 1,
+      "covered_content_tokens": 40,
+      "discarded_content_tokens": 0
+    }
+  ]
+}

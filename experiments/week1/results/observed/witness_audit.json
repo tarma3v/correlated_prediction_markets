@@ -1,0 +1,1118 @@
+[
+  {
+    "case_id": "pair_001",
+    "method": "structured",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_001",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_001",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_001",
+    "method": "repeat",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_001",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_001",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_001",
+    "method": "critic",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_001",
+    "method": "critic",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_001",
+    "method": "critic",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_002",
+    "method": "structured",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_002",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_002",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_002",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_002",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_002",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "structured",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "repeat",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "repeat",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_003",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "structured",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "structured",
+    "state": "10",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "repeat",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "repeat",
+    "state": "10",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "critic",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "critic",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_004",
+    "method": "critic",
+    "state": "10",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "structured",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "structured",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "structured",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "structured",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "repeat",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "repeat",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "repeat",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "repeat",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "critic",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "critic",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_005",
+    "method": "critic",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "structured",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "structured",
+    "state": "01",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "structured",
+    "state": "11",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "repeat",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "repeat",
+    "state": "11",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "critic",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_006",
+    "method": "critic",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "structured",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "repeat",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "repeat",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "critic",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "critic",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_007",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "structured",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "repeat",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "repeat",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "critic",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "critic",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_008",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "structured",
+    "state": "00",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "structured",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "structured",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "structured",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "repeat",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "repeat",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "repeat",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "critic",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_009",
+    "method": "critic",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_010",
+    "method": "repeat",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_010",
+    "method": "repeat",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_010",
+    "method": "repeat",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "structured",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "structured",
+    "state": "01",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "structured",
+    "state": "10",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "repeat",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "repeat",
+    "state": "01",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "repeat",
+    "state": "10",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "repeat",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "critic",
+    "state": "01",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "critic",
+    "state": "10",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_012",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "structured",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "repeat",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "critic",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "critic",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_014",
+    "method": "critic",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "structured",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "repeat",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "repeat",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_015",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "structured",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "repeat",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "critic",
+    "state": "00",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "critic",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_016",
+    "method": "critic",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_017",
+    "method": "repeat",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_017",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_017",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_017",
+    "method": "repeat",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_017",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_017",
+    "method": "critic",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_017",
+    "method": "critic",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_017",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_018",
+    "method": "structured",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_018",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_018",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_018",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_018",
+    "method": "repeat",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_018",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "structured",
+    "state": "00",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "structured",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "structured",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "structured",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "repeat",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "repeat",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "repeat",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "critic",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "critic",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_019",
+    "method": "critic",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_021",
+    "method": "structured",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_021",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_021",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_021",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_021",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_022",
+    "method": "structured",
+    "state": "00",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_022",
+    "method": "structured",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_022",
+    "method": "structured",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_022",
+    "method": "structured",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_022",
+    "method": "repeat",
+    "state": "01",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_022",
+    "method": "repeat",
+    "state": "10",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_022",
+    "method": "repeat",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_022",
+    "method": "critic",
+    "state": "11",
+    "status": "outside_checkable_scope"
+  },
+  {
+    "case_id": "pair_023",
+    "method": "structured",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_023",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_023",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_023",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_023",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_023",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "structured",
+    "state": "00",
+    "status": "valid_witness"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "structured",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "structured",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "structured",
+    "state": "11",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "repeat",
+    "state": "01",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "repeat",
+    "state": "10",
+    "status": "invalid_witness"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "critic",
+    "state": "00",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "critic",
+    "state": "01",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "critic",
+    "state": "10",
+    "status": "unexpected_witness_for_nonpossible_state"
+  },
+  {
+    "case_id": "pair_024",
+    "method": "critic",
+    "state": "11",
+    "status": "invalid_witness"
+  }
+]

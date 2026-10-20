@@ -1,0 +1,113 @@
+{
+  "input_files": {
+    "pilot/manifest.json": {
+      "sha256": "69acb9c161934521c60f3ec26100dac469bc876fa7d4beb6aa02c2ccf6c0241a",
+      "bytes": 5063
+    },
+    "pilot/markets.json": {
+      "sha256": "b563a9b5948e5c7a485db0919d54739afdbed5e6e7cd491620db4a69d7dada97",
+      "bytes": 387269
+    },
+    "pilot/raw/kalshi_KXCPI.json": {
+      "sha256": "564e8382f2843e21d528a5170c302cec700e931363c4f1ecb8448fc72887c73c",
+      "bytes": 95222
+    },
+    "pilot/raw/kalshi_KXCPICORE.json": {
+      "sha256": "529fa1f0fb272ce5bf230a7d885f580c70d73236cfa4e9f5b94a4145fb06759e",
+      "bytes": 98263
+    },
+    "pilot/raw/kalshi_KXCPICOREYOY.json": {
+      "sha256": "93d50d6a23fbf81f544d1fc6a48674f8583ceb02b03f7cc323b5014512e01740",
+      "bytes": 97561
+    },
+    "pilot/raw/kalshi_KXCPIYOY.json": {
+      "sha256": "2511e1270aa8a865fed1fa99aaa22a7455aa62b65444f7ce3f561640876b5f86",
+      "bytes": 94799
+    },
+    "pilot/raw/kalshi_KXLCPIMAXYOY.json": {
+      "sha256": "8660b71f60af973fce078590e8b3d0d03824031b71e8f678bf43fae379a2bf49",
+      "bytes": 12224
+    },
+    "pilot/raw/kalshi_KXU3.json": {
+      "sha256": "7f098dac0ce61274f1e46bf866fe07f5d68b7459786a7def263f33ffc946c77f",
+      "bytes": 80943
+    },
+    "pilot/raw/kalshi_recent.json": {
+      "sha256": "51a276d6a9afdd37243a2651b825109bd48b3696a37606fb6369227cac203eb2",
+      "bytes": 210734
+    },
+    "redesign/discovery/official_probe/gaming_manifest.json": {
+      "sha256": "d98d27ccf8d14a804f657edc4e3cfddf630fd1ec3558f4db16149fe7e54ef599",
+      "bytes": 796
+    },
+    "redesign/discovery/official_probe/gta_historical_manifest.json": {
+      "sha256": "312dc7b308f7b67018f75dda4d0bdb36e0324eecdbc99ea296fc11b7a945663f",
+      "bytes": 374
+    },
+    "redesign/discovery/official_probe/gta_historical_response.json": {
+      "sha256": "0c572a1ab8289f7ce3fba5c404c4c99b570258cbf32ae067704cb1e355832c35",
+      "bytes": 1618
+    },
+    "redesign/discovery/official_probe/gta_online.json": {
+      "sha256": "b7bb0029b798bc22463afb494fecac60255e481ff58a3b48315a02f34c2e2329",
+      "bytes": 6055
+    },
+    "redesign/discovery/official_probe/kalshi_market_manifest.json": {
+      "sha256": "5d4174f976a238986350d3a7bc82cf33465e78e670291e74d21dcd1627d6fb9f",
+      "bytes": 3302
+    },
+    "redesign/discovery/official_probe/markets_KXFEDHIKE.json": {
+      "sha256": "2b4ed787387ca9ebc1746b7ebe5e5aa608974edbc7713f2f218c0576030f16b7",
+      "bytes": 7920
+    },
+    "redesign/discovery/official_probe/markets_KXNBERRECESSQ.json": {
+      "sha256": "2f7fdd48fc0eafb52b7072200ff87862f188fdd4d0e70e36596b7abfc63577f8",
+      "bytes": 10383
+    },
+    "redesign/discovery/official_probe/markets_KXRATEHIKE.json": {
+      "sha256": "e2d80c2eee7af09ab9bf196baffd29f3df9440adac7a17cf6b2fd8a0fa94f95f",
+      "bytes": 7164
+    },
+    "redesign/discovery/official_probe/markets_KXRECSSNBER.json": {
+      "sha256": "480e9a82440dd80a24ff9091806e295a3d1fa23fecac5fe5fc0512ef1d699db3",
+      "bytes": 3821
+    },
+    "redesign/discovery/official_probe/markets_KXU3MAX.json": {
+      "sha256": "face46d2538938782f161456027c2d9a8c296cf304ce794fa85bd7cc7100b982",
+      "bytes": 21498
+    },
+    "redesign/discovery/official_probe/packet_manifest.json": {
+      "sha256": "d8c40a296bd5ffb882ead3c583cf7de016ca48f714d5035790064e7e4bc3d58a",
+      "bytes": 3016
+    },
+    "redesign/discovery/official_probe/polymarket_rule_sources.json": {
+      "sha256": "65a86516dbad79bc345dafa4fc6ee7f5edbeb86cfbb190030d7f75a396534e69",
+      "bytes": 5966
+    },
+    "redesign/discovery/official_probe/web_domains_search.txt": {
+      "sha256": "5829fe8ec71491974da14c14ee90de68cb9ac02ec435bb9ae7a942312563cade",
+      "bytes": 34379
+    },
+    "redesign/discovery/official_probe/web_open_batch.txt": {
+      "sha256": "d6f5af6222384697929ff7da3cb012657ccc1651146cdf6c2196a791b7f8cd7a",
+      "bytes": 24980
+    },
+    "redesign/discovery/official_probe/web_sports_search.txt": {
+      "sha256": "14631bd91441b426b971c6c8909ea72668a28937550ad4de16d00731da719b15",
+      "bytes": 34228
+    },
+    "redesign/discovery/political/kalshi_out.json": {
+      "sha256": "82f2540fba4a2fea87141530593e5145caaa84896ec2e48d8d820c055ceb8fe2",
+      "bytes": 2397
+    },
+    "redesign/discovery/political/manifest.json": {
+      "sha256": "b82d5ace34098352ab14849ca402b1b328a21dab49ba2156bb392ebe33711e3a",
+      "bytes": 582
+    }
+  },
+  "corpus_records_sha256": "97c87426bff0263f905cf88839d4d9fd89af9a18e47a2525b365c912e11c9a0e",
+  "polymarket_inventory_sha256": "3c21b72786421de27e2a87d93cda509f5c623de103d0b2d2fdc8726b23e6488f",
+  "records": 323,
+  "deduplication": "Pilot snapshot first, then explicit official supplemental files; first occurrence by ticker. No overwritten versions.",
+  "duplicate_ids_in_selected_files": []
+}

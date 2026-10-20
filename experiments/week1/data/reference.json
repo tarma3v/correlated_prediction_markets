@@ -1,0 +1,274 @@
+[
+  {
+    "case_id": "pair_001",
+    "kind": "controlled_decidable",
+    "family": "Index Alpha",
+    "pattern": "inclusive_boundary",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_002",
+    "kind": "controlled_decidable",
+    "family": "Index Alpha",
+    "pattern": "reverse_nested",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_003",
+    "kind": "controlled_decidable",
+    "family": "Metal Beta close",
+    "pattern": "different_period",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_004",
+    "kind": "controlled_decidable",
+    "family": "Index Alpha",
+    "pattern": "gap",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    }
+  },
+  {
+    "case_id": "pair_005",
+    "kind": "controlled_scope_guard",
+    "family": "Index Alpha",
+    "pattern": "missing_source",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_006",
+    "kind": "controlled_decidable",
+    "family": "Metal Beta close",
+    "pattern": "complement",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    }
+  },
+  {
+    "case_id": "pair_007",
+    "kind": "controlled_decidable",
+    "family": "Metal Beta close",
+    "pattern": "nested",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_008",
+    "kind": "controlled_decidable",
+    "family": "Index Alpha",
+    "pattern": "nested",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_009",
+    "kind": "controlled_scope_guard",
+    "family": "Index Alpha",
+    "pattern": "nonbinary",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_010",
+    "kind": "real_unlabeled",
+    "family": "politics",
+    "pattern": "resign__out",
+    "states": null,
+    "source": "redesign/cards/political_inputs.json"
+  },
+  {
+    "case_id": "pair_011",
+    "kind": "real_unlabeled",
+    "family": "macro",
+    "pattern": "macro_hike_unit_and_window",
+    "states": null,
+    "source": "redesign/discovery/official_probe/pairs_blind.jsonl"
+  },
+  {
+    "case_id": "pair_012",
+    "kind": "controlled_decidable",
+    "family": "Index Alpha",
+    "pattern": "complement",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    }
+  },
+  {
+    "case_id": "pair_013",
+    "kind": "real_unlabeled",
+    "family": "macro",
+    "pattern": "macro_recession_definition",
+    "states": null,
+    "source": "redesign/discovery/official_probe/pairs_blind.jsonl"
+  },
+  {
+    "case_id": "pair_014",
+    "kind": "controlled_decidable",
+    "family": "Metal Beta close",
+    "pattern": "gap",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "forbidden"
+    }
+  },
+  {
+    "case_id": "pair_015",
+    "kind": "controlled_decidable",
+    "family": "Index Alpha",
+    "pattern": "different_period",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_016",
+    "kind": "controlled_decidable",
+    "family": "Metal Beta close",
+    "pattern": "inclusive_boundary",
+    "states": {
+      "00": "forbidden",
+      "01": "possible",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_017",
+    "kind": "controlled_decidable",
+    "family": "Index Alpha",
+    "pattern": "strict_boundary",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_018",
+    "kind": "controlled_decidable",
+    "family": "Metal Beta close",
+    "pattern": "equivalent",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_019",
+    "kind": "controlled_scope_guard",
+    "family": "Metal Beta close",
+    "pattern": "nonbinary",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_020",
+    "kind": "real_unlabeled",
+    "family": "politics",
+    "pattern": "out__kalshi_out",
+    "states": null,
+    "source": "redesign/cards/political_inputs.json"
+  },
+  {
+    "case_id": "pair_021",
+    "kind": "controlled_decidable",
+    "family": "Index Alpha",
+    "pattern": "equivalent",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_022",
+    "kind": "controlled_scope_guard",
+    "family": "Metal Beta close",
+    "pattern": "missing_source",
+    "states": {
+      "00": "unknown",
+      "01": "unknown",
+      "10": "unknown",
+      "11": "unknown"
+    }
+  },
+  {
+    "case_id": "pair_023",
+    "kind": "controlled_decidable",
+    "family": "Metal Beta close",
+    "pattern": "reverse_nested",
+    "states": {
+      "00": "possible",
+      "01": "forbidden",
+      "10": "possible",
+      "11": "possible"
+    }
+  },
+  {
+    "case_id": "pair_024",
+    "kind": "controlled_decidable",
+    "family": "Metal Beta close",
+    "pattern": "strict_boundary",
+    "states": {
+      "00": "possible",
+      "01": "possible",
+      "10": "forbidden",
+      "11": "possible"
+    }
+  }
+]

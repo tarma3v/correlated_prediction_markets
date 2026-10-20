@@ -1,0 +1,9 @@
+Classify the pair directly, without extracting fields or producing a separate
+critique. Allowed relation labels encode the following EXACT forbidden-state
+sets, not merely one implication that might hold:
+equivalent: [01,10]; a_implies_b: [10]; b_implies_a: [01];
+disjoint: [11]; exhaustive: [00]; complement: [00,11];
+no_hard_relation: []; unknown: insufficient evidence to decide the full set.
+For a non-unknown label the other binary states must all be possible.
+If no exact label is justified, use unknown. Output:
+{"relation":"unknown","confidence":0.0}

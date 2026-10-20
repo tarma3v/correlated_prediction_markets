@@ -1,0 +1,934 @@
+{
+  "scope": "Development diagnostic; reference accuracy only on 16 stipulated scalar pairs",
+  "real_market_accuracy": null,
+  "h1_cross_venue_recall": null,
+  "source_predictions_sha256": "794d0a79588714fd9cc74c2d9c593807cbe8912fb5b1a6052376894af7479214",
+  "methods": {
+    "always_no_constraint": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 64,
+        "state_coverage": 1.0,
+        "complete_pairs": 16,
+        "pair_coverage": 1.0,
+        "exact_pairs": 2,
+        "exact_pair_fraction_all": 0.125,
+        "wrong_assessed_states": 18,
+        "selective_state_error": 0.28125,
+        "predicted_forbidden": 0,
+        "false_forbidden": 0,
+        "forbidden_precision": null,
+        "forbidden_recall": 0.0,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 0,
+        "valid_all_unknown": 0,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 0
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 0,
+        "valid_all_unknown": 0,
+        "format_errors": 0,
+        "asserted_forbidden_states_unvalidated": 0
+      },
+      "format_errors_all_24": {},
+      "evidence_substrings": {
+        "checked": 0,
+        "exact": 0,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {},
+      "cost": {
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "llm_seconds": 0,
+        "checker_seconds": 0
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 1,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 64,
+          "state_coverage": 1.0,
+          "complete_pairs": 16,
+          "pair_coverage": 1.0,
+          "exact_pairs": 2,
+          "exact_pair_fraction_all": 0.125,
+          "wrong_assessed_states": 18,
+          "selective_state_error": 0.28125,
+          "predicted_forbidden": 0,
+          "false_forbidden": 0,
+          "forbidden_precision": null,
+          "forbidden_recall": 0.0,
+          "reference_forbidden": 18
+        }
+      ]
+    },
+    "always_unknown": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 0,
+        "state_coverage": 0.0,
+        "complete_pairs": 0,
+        "pair_coverage": 0.0,
+        "exact_pairs": 0,
+        "exact_pair_fraction_all": 0.0,
+        "wrong_assessed_states": 0,
+        "selective_state_error": null,
+        "predicted_forbidden": 0,
+        "false_forbidden": 0,
+        "forbidden_precision": null,
+        "forbidden_recall": 0.0,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 0
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "asserted_forbidden_states_unvalidated": 0
+      },
+      "format_errors_all_24": {},
+      "evidence_substrings": {
+        "checked": 0,
+        "exact": 0,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {},
+      "cost": {
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "llm_seconds": 0,
+        "checker_seconds": 0
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 1,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 0,
+          "state_coverage": 0.0,
+          "complete_pairs": 0,
+          "pair_coverage": 0.0,
+          "exact_pairs": 0,
+          "exact_pair_fraction_all": 0.0,
+          "wrong_assessed_states": 0,
+          "selective_state_error": null,
+          "predicted_forbidden": 0,
+          "false_forbidden": 0,
+          "forbidden_precision": null,
+          "forbidden_recall": 0.0,
+          "reference_forbidden": 18
+        }
+      ]
+    },
+    "critic": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 64,
+        "state_coverage": 1.0,
+        "complete_pairs": 16,
+        "pair_coverage": 1.0,
+        "exact_pairs": 3,
+        "exact_pair_fraction_all": 0.1875,
+        "wrong_assessed_states": 27,
+        "selective_state_error": 0.421875,
+        "predicted_forbidden": 33,
+        "false_forbidden": 21,
+        "forbidden_precision": 0.36363636363636365,
+        "forbidden_recall": 0.6666666666666666,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 0,
+        "valid_all_unknown": 0,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 7
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "asserted_forbidden_states_unvalidated": 0
+      },
+      "format_errors_all_24": {},
+      "evidence_substrings": {
+        "checked": 40,
+        "exact": 40,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {
+        "invalid_witness": 30,
+        "valid_witness": 1,
+        "unexpected_witness_for_nonpossible_state": 13,
+        "outside_checkable_scope": 9
+      },
+      "cost": {
+        "llm_calls": 48,
+        "input_tokens": 81776,
+        "output_tokens": 12409,
+        "llm_seconds": 555.7968964580214,
+        "checker_seconds": 0
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 0.99,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 28,
+          "state_coverage": 0.4375,
+          "complete_pairs": 7,
+          "pair_coverage": 0.4375,
+          "exact_pairs": 1,
+          "exact_pair_fraction_all": 0.0625,
+          "wrong_assessed_states": 13,
+          "selective_state_error": 0.4642857142857143,
+          "predicted_forbidden": 16,
+          "false_forbidden": 10,
+          "forbidden_precision": 0.375,
+          "forbidden_recall": 0.3333333333333333,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.98,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 60,
+          "state_coverage": 0.9375,
+          "complete_pairs": 15,
+          "pair_coverage": 0.9375,
+          "exact_pairs": 3,
+          "exact_pair_fraction_all": 0.1875,
+          "wrong_assessed_states": 25,
+          "selective_state_error": 0.4166666666666667,
+          "predicted_forbidden": 32,
+          "false_forbidden": 20,
+          "forbidden_precision": 0.375,
+          "forbidden_recall": 0.6666666666666666,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.9,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 64,
+          "state_coverage": 1.0,
+          "complete_pairs": 16,
+          "pair_coverage": 1.0,
+          "exact_pairs": 3,
+          "exact_pair_fraction_all": 0.1875,
+          "wrong_assessed_states": 27,
+          "selective_state_error": 0.421875,
+          "predicted_forbidden": 33,
+          "false_forbidden": 21,
+          "forbidden_precision": 0.36363636363636365,
+          "forbidden_recall": 0.6666666666666666,
+          "reference_forbidden": 18
+        }
+      ]
+    },
+    "critic_checked": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 64,
+        "state_coverage": 1.0,
+        "complete_pairs": 16,
+        "pair_coverage": 1.0,
+        "exact_pairs": 16,
+        "exact_pair_fraction_all": 1.0,
+        "wrong_assessed_states": 0,
+        "selective_state_error": 0.0,
+        "predicted_forbidden": 18,
+        "false_forbidden": 0,
+        "forbidden_precision": 1.0,
+        "forbidden_recall": 1.0,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 0
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "asserted_forbidden_states_unvalidated": 0
+      },
+      "format_errors_all_24": {},
+      "evidence_substrings": {
+        "checked": 0,
+        "exact": 0,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {},
+      "cost": {
+        "llm_calls": 48,
+        "input_tokens": 81776,
+        "output_tokens": 12409,
+        "llm_seconds": 555.7968964580214,
+        "checker_seconds": 0.0003710840828716755
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 0.99,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 28,
+          "state_coverage": 0.4375,
+          "complete_pairs": 7,
+          "pair_coverage": 0.4375,
+          "exact_pairs": 7,
+          "exact_pair_fraction_all": 0.4375,
+          "wrong_assessed_states": 0,
+          "selective_state_error": 0.0,
+          "predicted_forbidden": 9,
+          "false_forbidden": 0,
+          "forbidden_precision": 1.0,
+          "forbidden_recall": 0.5,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.98,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 60,
+          "state_coverage": 0.9375,
+          "complete_pairs": 15,
+          "pair_coverage": 0.9375,
+          "exact_pairs": 15,
+          "exact_pair_fraction_all": 0.9375,
+          "wrong_assessed_states": 0,
+          "selective_state_error": 0.0,
+          "predicted_forbidden": 17,
+          "false_forbidden": 0,
+          "forbidden_precision": 1.0,
+          "forbidden_recall": 0.9444444444444444,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.9,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 64,
+          "state_coverage": 1.0,
+          "complete_pairs": 16,
+          "pair_coverage": 1.0,
+          "exact_pairs": 16,
+          "exact_pair_fraction_all": 1.0,
+          "wrong_assessed_states": 0,
+          "selective_state_error": 0.0,
+          "predicted_forbidden": 18,
+          "false_forbidden": 0,
+          "forbidden_precision": 1.0,
+          "forbidden_recall": 1.0,
+          "reference_forbidden": 18
+        }
+      ]
+    },
+    "direct": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 64,
+        "state_coverage": 1.0,
+        "complete_pairs": 16,
+        "pair_coverage": 1.0,
+        "exact_pairs": 10,
+        "exact_pair_fraction_all": 0.625,
+        "wrong_assessed_states": 10,
+        "selective_state_error": 0.15625,
+        "predicted_forbidden": 20,
+        "false_forbidden": 6,
+        "forbidden_precision": 0.7,
+        "forbidden_recall": 0.7777777777777778,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 0,
+        "valid_all_unknown": 0,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 4
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 3,
+        "valid_all_unknown": 3,
+        "format_errors": 0,
+        "asserted_forbidden_states_unvalidated": 1
+      },
+      "format_errors_all_24": {},
+      "evidence_substrings": {
+        "checked": 0,
+        "exact": 0,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {},
+      "cost": {
+        "llm_calls": 24,
+        "input_tokens": 16055,
+        "output_tokens": 409,
+        "llm_seconds": 64.88492141594179,
+        "checker_seconds": 0
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 1.0,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 52,
+          "state_coverage": 0.8125,
+          "complete_pairs": 13,
+          "pair_coverage": 0.8125,
+          "exact_pairs": 8,
+          "exact_pair_fraction_all": 0.5,
+          "wrong_assessed_states": 8,
+          "selective_state_error": 0.15384615384615385,
+          "predicted_forbidden": 19,
+          "false_forbidden": 5,
+          "forbidden_precision": 0.7368421052631579,
+          "forbidden_recall": 0.7777777777777778,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.999,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 56,
+          "state_coverage": 0.875,
+          "complete_pairs": 14,
+          "pair_coverage": 0.875,
+          "exact_pairs": 8,
+          "exact_pair_fraction_all": 0.5,
+          "wrong_assessed_states": 10,
+          "selective_state_error": 0.17857142857142858,
+          "predicted_forbidden": 20,
+          "false_forbidden": 6,
+          "forbidden_precision": 0.7,
+          "forbidden_recall": 0.7777777777777778,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.0,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 64,
+          "state_coverage": 1.0,
+          "complete_pairs": 16,
+          "pair_coverage": 1.0,
+          "exact_pairs": 10,
+          "exact_pair_fraction_all": 0.625,
+          "wrong_assessed_states": 10,
+          "selective_state_error": 0.15625,
+          "predicted_forbidden": 20,
+          "false_forbidden": 6,
+          "forbidden_precision": 0.7,
+          "forbidden_recall": 0.7777777777777778,
+          "reference_forbidden": 18
+        }
+      ]
+    },
+    "repeat": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 60,
+        "state_coverage": 0.9375,
+        "complete_pairs": 15,
+        "pair_coverage": 0.9375,
+        "exact_pairs": 5,
+        "exact_pair_fraction_all": 0.3125,
+        "wrong_assessed_states": 25,
+        "selective_state_error": 0.4166666666666667,
+        "predicted_forbidden": 23,
+        "false_forbidden": 16,
+        "forbidden_precision": 0.30434782608695654,
+        "forbidden_recall": 0.3888888888888889,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 0,
+        "valid_all_unknown": 0,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 4
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 3,
+        "valid_all_unknown": 2,
+        "format_errors": 1,
+        "asserted_forbidden_states_unvalidated": 2
+      },
+      "format_errors_all_24": {
+        "schema_error": 1
+      },
+      "evidence_substrings": {
+        "checked": 41,
+        "exact": 40,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {
+        "invalid_witness": 34,
+        "valid_witness": 3,
+        "unexpected_witness_for_nonpossible_state": 10,
+        "outside_checkable_scope": 14
+      },
+      "cost": {
+        "llm_calls": 48,
+        "input_tokens": 80960,
+        "output_tokens": 12912,
+        "llm_seconds": 563.6540363359964,
+        "checker_seconds": 0
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 0.99,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 24,
+          "state_coverage": 0.375,
+          "complete_pairs": 6,
+          "pair_coverage": 0.375,
+          "exact_pairs": 2,
+          "exact_pair_fraction_all": 0.125,
+          "wrong_assessed_states": 11,
+          "selective_state_error": 0.4583333333333333,
+          "predicted_forbidden": 10,
+          "false_forbidden": 7,
+          "forbidden_precision": 0.3,
+          "forbidden_recall": 0.16666666666666666,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.98,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 56,
+          "state_coverage": 0.875,
+          "complete_pairs": 14,
+          "pair_coverage": 0.875,
+          "exact_pairs": 5,
+          "exact_pair_fraction_all": 0.3125,
+          "wrong_assessed_states": 23,
+          "selective_state_error": 0.4107142857142857,
+          "predicted_forbidden": 22,
+          "false_forbidden": 15,
+          "forbidden_precision": 0.3181818181818182,
+          "forbidden_recall": 0.3888888888888889,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.9,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 60,
+          "state_coverage": 0.9375,
+          "complete_pairs": 15,
+          "pair_coverage": 0.9375,
+          "exact_pairs": 5,
+          "exact_pair_fraction_all": 0.3125,
+          "wrong_assessed_states": 25,
+          "selective_state_error": 0.4166666666666667,
+          "predicted_forbidden": 23,
+          "false_forbidden": 16,
+          "forbidden_precision": 0.30434782608695654,
+          "forbidden_recall": 0.3888888888888889,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.0,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 60,
+          "state_coverage": 0.9375,
+          "complete_pairs": 15,
+          "pair_coverage": 0.9375,
+          "exact_pairs": 5,
+          "exact_pair_fraction_all": 0.3125,
+          "wrong_assessed_states": 25,
+          "selective_state_error": 0.4166666666666667,
+          "predicted_forbidden": 23,
+          "false_forbidden": 16,
+          "forbidden_precision": 0.30434782608695654,
+          "forbidden_recall": 0.3888888888888889,
+          "reference_forbidden": 18
+        }
+      ]
+    },
+    "rule_only": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 64,
+        "state_coverage": 1.0,
+        "complete_pairs": 16,
+        "pair_coverage": 1.0,
+        "exact_pairs": 16,
+        "exact_pair_fraction_all": 1.0,
+        "wrong_assessed_states": 0,
+        "selective_state_error": 0.0,
+        "predicted_forbidden": 18,
+        "false_forbidden": 0,
+        "forbidden_precision": 1.0,
+        "forbidden_recall": 1.0,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 0
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "asserted_forbidden_states_unvalidated": 0
+      },
+      "format_errors_all_24": {},
+      "evidence_substrings": {
+        "checked": 0,
+        "exact": 0,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {},
+      "cost": {
+        "llm_calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "llm_seconds": 0,
+        "checker_seconds": 0
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 1,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 64,
+          "state_coverage": 1.0,
+          "complete_pairs": 16,
+          "pair_coverage": 1.0,
+          "exact_pairs": 16,
+          "exact_pair_fraction_all": 1.0,
+          "wrong_assessed_states": 0,
+          "selective_state_error": 0.0,
+          "predicted_forbidden": 18,
+          "false_forbidden": 0,
+          "forbidden_precision": 1.0,
+          "forbidden_recall": 1.0,
+          "reference_forbidden": 18
+        }
+      ]
+    },
+    "structured": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 60,
+        "state_coverage": 0.9375,
+        "complete_pairs": 15,
+        "pair_coverage": 0.9375,
+        "exact_pairs": 5,
+        "exact_pair_fraction_all": 0.3125,
+        "wrong_assessed_states": 18,
+        "selective_state_error": 0.3,
+        "predicted_forbidden": 11,
+        "false_forbidden": 6,
+        "forbidden_precision": 0.45454545454545453,
+        "forbidden_recall": 0.2777777777777778,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 0,
+        "valid_all_unknown": 0,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 1
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "asserted_forbidden_states_unvalidated": 0
+      },
+      "format_errors_all_24": {},
+      "evidence_substrings": {
+        "checked": 40,
+        "exact": 40,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {
+        "invalid_witness": 40,
+        "valid_witness": 9,
+        "unexpected_witness_for_nonpossible_state": 8,
+        "outside_checkable_scope": 15
+      },
+      "cost": {
+        "llm_calls": 24,
+        "input_tokens": 36503,
+        "output_tokens": 6346,
+        "llm_seconds": 264.48223570978735,
+        "checker_seconds": 0
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 0.99,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 24,
+          "state_coverage": 0.375,
+          "complete_pairs": 6,
+          "pair_coverage": 0.375,
+          "exact_pairs": 2,
+          "exact_pair_fraction_all": 0.125,
+          "wrong_assessed_states": 8,
+          "selective_state_error": 0.3333333333333333,
+          "predicted_forbidden": 7,
+          "false_forbidden": 4,
+          "forbidden_precision": 0.42857142857142855,
+          "forbidden_recall": 0.16666666666666666,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.98,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 56,
+          "state_coverage": 0.875,
+          "complete_pairs": 14,
+          "pair_coverage": 0.875,
+          "exact_pairs": 5,
+          "exact_pair_fraction_all": 0.3125,
+          "wrong_assessed_states": 16,
+          "selective_state_error": 0.2857142857142857,
+          "predicted_forbidden": 11,
+          "false_forbidden": 6,
+          "forbidden_precision": 0.45454545454545453,
+          "forbidden_recall": 0.2777777777777778,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.95,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 60,
+          "state_coverage": 0.9375,
+          "complete_pairs": 15,
+          "pair_coverage": 0.9375,
+          "exact_pairs": 5,
+          "exact_pair_fraction_all": 0.3125,
+          "wrong_assessed_states": 18,
+          "selective_state_error": 0.3,
+          "predicted_forbidden": 11,
+          "false_forbidden": 6,
+          "forbidden_precision": 0.45454545454545453,
+          "forbidden_recall": 0.2777777777777778,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.9,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 60,
+          "state_coverage": 0.9375,
+          "complete_pairs": 15,
+          "pair_coverage": 0.9375,
+          "exact_pairs": 5,
+          "exact_pair_fraction_all": 0.3125,
+          "wrong_assessed_states": 18,
+          "selective_state_error": 0.3,
+          "predicted_forbidden": 11,
+          "false_forbidden": 6,
+          "forbidden_precision": 0.45454545454545453,
+          "forbidden_recall": 0.2777777777777778,
+          "reference_forbidden": 18
+        }
+      ]
+    },
+    "structured_checked": {
+      "controlled": {
+        "pairs": 16,
+        "reference_states": 64,
+        "assessed_states": 64,
+        "state_coverage": 1.0,
+        "complete_pairs": 16,
+        "pair_coverage": 1.0,
+        "exact_pairs": 16,
+        "exact_pair_fraction_all": 1.0,
+        "wrong_assessed_states": 0,
+        "selective_state_error": 0.0,
+        "predicted_forbidden": 18,
+        "false_forbidden": 0,
+        "forbidden_precision": 1.0,
+        "forbidden_recall": 1.0,
+        "reference_forbidden": 18
+      },
+      "scope_guards": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "unsupported_forbidden_states": 0
+      },
+      "real_unlabeled": {
+        "n": 4,
+        "all_unknown": 4,
+        "valid_all_unknown": 4,
+        "format_errors": 0,
+        "asserted_forbidden_states_unvalidated": 0
+      },
+      "format_errors_all_24": {},
+      "evidence_substrings": {
+        "checked": 0,
+        "exact": 0,
+        "not_semantic_precision": true
+      },
+      "raw_model_witnesses": {},
+      "cost": {
+        "llm_calls": 24,
+        "input_tokens": 36503,
+        "output_tokens": 6346,
+        "llm_seconds": 264.48223570978735,
+        "checker_seconds": 0.0004428321262821555
+      },
+      "risk_coverage": [
+        {
+          "confidence_threshold": 0.99,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 24,
+          "state_coverage": 0.375,
+          "complete_pairs": 6,
+          "pair_coverage": 0.375,
+          "exact_pairs": 6,
+          "exact_pair_fraction_all": 0.375,
+          "wrong_assessed_states": 0,
+          "selective_state_error": 0.0,
+          "predicted_forbidden": 7,
+          "false_forbidden": 0,
+          "forbidden_precision": 1.0,
+          "forbidden_recall": 0.3888888888888889,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.98,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 56,
+          "state_coverage": 0.875,
+          "complete_pairs": 14,
+          "pair_coverage": 0.875,
+          "exact_pairs": 14,
+          "exact_pair_fraction_all": 0.875,
+          "wrong_assessed_states": 0,
+          "selective_state_error": 0.0,
+          "predicted_forbidden": 15,
+          "false_forbidden": 0,
+          "forbidden_precision": 1.0,
+          "forbidden_recall": 0.8333333333333334,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.95,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 60,
+          "state_coverage": 0.9375,
+          "complete_pairs": 15,
+          "pair_coverage": 0.9375,
+          "exact_pairs": 15,
+          "exact_pair_fraction_all": 0.9375,
+          "wrong_assessed_states": 0,
+          "selective_state_error": 0.0,
+          "predicted_forbidden": 17,
+          "false_forbidden": 0,
+          "forbidden_precision": 1.0,
+          "forbidden_recall": 0.9444444444444444,
+          "reference_forbidden": 18
+        },
+        {
+          "confidence_threshold": 0.9,
+          "pairs": 16,
+          "reference_states": 64,
+          "assessed_states": 64,
+          "state_coverage": 1.0,
+          "complete_pairs": 16,
+          "pair_coverage": 1.0,
+          "exact_pairs": 16,
+          "exact_pair_fraction_all": 1.0,
+          "wrong_assessed_states": 0,
+          "selective_state_error": 0.0,
+          "predicted_forbidden": 18,
+          "false_forbidden": 0,
+          "forbidden_precision": 1.0,
+          "forbidden_recall": 1.0,
+          "reference_forbidden": 18
+        }
+      ]
+    }
+  },
+  "transitions": {
+    "direct__structured": {
+      "introduced_known_error": 13,
+      "unchanged": 44,
+      "repaired_known_error": 3,
+      "to_abstain_from_correct": 2,
+      "to_abstain_from_wrong": 2
+    },
+    "structured__structured_checked": {
+      "repaired_known_error": 18,
+      "unchanged": 42,
+      "from_abstain_to_correct": 4
+    },
+    "structured__repeat": {
+      "unchanged": 45,
+      "introduced_known_error": 9,
+      "from_abstain_to_wrong": 2,
+      "from_abstain_to_correct": 2,
+      "repaired_known_error": 2,
+      "to_abstain_from_correct": 2,
+      "to_abstain_from_wrong": 2
+    },
+    "structured__critic": {
+      "unchanged": 39,
+      "introduced_known_error": 14,
+      "repaired_known_error": 7,
+      "from_abstain_to_wrong": 2,
+      "from_abstain_to_correct": 2
+    },
+    "critic__critic_checked": {
+      "repaired_known_error": 27,
+      "unchanged": 37
+    }
+  },
+  "risk_coverage_note": "All equal-confidence items enter together. Scores uncalibrated. No dev threshold optimization, no CI or significance with two constructed families.",
+  "cost_note": "repeat/critic totals include their common structured first call. checked costs are CPU-only additions. Equal caps are not equal actual spend."
+}

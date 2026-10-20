@@ -1,0 +1,27 @@
+{
+  "experiment": "E01",
+  "seed": 20261021,
+  "cases": 24,
+  "controlled_decidable": 16,
+  "controlled_scope_guard": 4,
+  "real_unlabeled": 4,
+  "source_sha256": {
+    "redesign/discovery/official_probe/pairs_blind.jsonl": "0dfa472df53a2d4b5e15d9aad0ada3e2d16fc89c4dcd08c77ae8b10929e4f474",
+    "redesign/cards/political_inputs.json": "00169663e4726a513ae638f65de7c0907de732f426f2f57a4fa848600630ce28"
+  },
+  "inputs_sha256": {
+    "data/packets.json": "147e9377e3ae03c2c597c6e25b1cf50983f7b46da8b969774f9c8c95a0ddee1f",
+    "data/reference.json": "71e15866240a4bef56d1717d7c43e1bdc25ce6cde96c6aac1d93ff8e7d7c0e1e",
+    "config.json": "098fb7fa9aa44179ba501a9b5259562bdb910db91f74f4b56d8a89f5eabe02e8"
+  },
+  "prompt_sha256": {
+    "prompts/common.txt": "019de2155aaca9302afb424513f8fd0e5a10fb792ffe532d3394b71fcc6be967",
+    "prompts/critic.txt": "7f0902afdf2f80ae28bc048a2ebd54915b5f23cb906877d6c49e14afe371f790",
+    "prompts/direct.txt": "45ed5e6e894612a9850126847898da8c52220724fa1a7d81c6331cc4ad16f2b2",
+    "prompts/repeat.txt": "5944206cfb4dcdf36f23e0e36d308756e0ce5d86032910023bc162f857cd15a9",
+    "prompts/structured.txt": "221c2260cc75181abf5e0f50b0634b11c47535ef3c14b2a15c8061eb0c2ad4da"
+  },
+  "reference_origin": "Explicit analyst-declared truth sets for artificial unbounded real scalars; not human market gold.",
+  "source_scope": "Existing frozen development sources; no current venue freshness claim.",
+  "split": "development_only; no train/test split or significance claims"
+}
