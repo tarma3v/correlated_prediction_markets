@@ -1,0 +1,90 @@
+[
+  {
+    "file": "election_TX_kalshi.csv.gz",
+    "repo": "shawnpattersonjr/prediction-markets-archive",
+    "revision": "fe1f084b27695dba1725724f97f60e4c5b06b019",
+    "path": "history/kalshi/SENATETX/SENATETX-26.csv.gz",
+    "git_blob": "4eb7b64b37f16c0892c0f438c285597a83fbd02a",
+    "sha256": "f16de47a1255417864989b8cdf01c8091055ce6d621ab504e45bfddccb0c541f"
+  },
+  {
+    "file": "election_TX_polymarket.csv.gz",
+    "repo": "shawnpattersonjr/prediction-markets-archive",
+    "revision": "fe1f084b27695dba1725724f97f60e4c5b06b019",
+    "path": "history/polymarket/57672.csv.gz",
+    "git_blob": "111f7880800c15dc16d88a6fd3987bd638c3edef",
+    "sha256": "f76ec52a5b88759846a0e7ad174b8f24ae9970ef150b5b9f1acb7ea3ea0c3f33"
+  },
+  {
+    "file": "election_KS_kalshi.csv.gz",
+    "repo": "shawnpattersonjr/prediction-markets-archive",
+    "revision": "fe1f084b27695dba1725724f97f60e4c5b06b019",
+    "path": "history/kalshi/SENATEKS/SENATEKS-26.csv.gz",
+    "git_blob": "fcd6e2b45167896222502d5356b18343181766a5",
+    "sha256": "d14fd0f2df9f51d5e1511826632806c1f11cdb46917205fbae66bb7cfbfaf5ea"
+  },
+  {
+    "file": "election_KS_polymarket.csv.gz",
+    "repo": "shawnpattersonjr/prediction-markets-archive",
+    "revision": "fe1f084b27695dba1725724f97f60e4c5b06b019",
+    "path": "history/polymarket/57648.csv.gz",
+    "git_blob": "7cddfb074ddcd9568e7edcfb2563c10a4f70c4fe",
+    "sha256": "bba738cb029f5bc17a139f0da263ebb2377dcb8576b453dfb17f31ab617f2888"
+  },
+  {
+    "file": "election_GA_kalshi.csv.gz",
+    "repo": "shawnpattersonjr/prediction-markets-archive",
+    "revision": "fe1f084b27695dba1725724f97f60e4c5b06b019",
+    "path": "history/kalshi/SENATEGA/SENATEGA-26.csv.gz",
+    "git_blob": "7435759d71e47377677acf96e0dcb519380fc8b5",
+    "sha256": "6a753d9e1dab630efaba4cf20a1dfb5e2bf81c4b1cf9ea304686f88d0b944b0c"
+  },
+  {
+    "file": "election_GA_polymarket.csv.gz",
+    "repo": "shawnpattersonjr/prediction-markets-archive",
+    "revision": "fe1f084b27695dba1725724f97f60e4c5b06b019",
+    "path": "history/polymarket/57642.csv.gz",
+    "git_blob": "4274023e1d4a6157a37ebdf8defd660af36f3f09",
+    "sha256": "b344ad2c6cfb13205afa2f39f4770e5399d6670ac2a8294c058c009f263c7577"
+  },
+  {
+    "file": "election_ME_kalshi.csv.gz",
+    "repo": "shawnpattersonjr/prediction-markets-archive",
+    "revision": "fe1f084b27695dba1725724f97f60e4c5b06b019",
+    "path": "history/kalshi/SENATEME/SENATEME-26.csv.gz",
+    "git_blob": "4c5e1812c98604c7ee6e5e39fb7006ad92ad52c6",
+    "sha256": "adca2bb4b09ed4c2f0da784d90d9150e7b61ed9819679d7a7edc3018a1fad167"
+  },
+  {
+    "file": "election_ME_polymarket.csv.gz",
+    "repo": "shawnpattersonjr/prediction-markets-archive",
+    "revision": "fe1f084b27695dba1725724f97f60e4c5b06b019",
+    "path": "history/polymarket/57650.csv.gz",
+    "git_blob": "d17fdd616a47cece175e61af2e7a1cc66a3c0f67",
+    "sha256": "78dd77d35380c4f52b64b0200d3b55b91d632916aca442688eaa01b475135408"
+  },
+  {
+    "file": "fomc_no_change.csv",
+    "repo": "aj80457/prediction-markets-arb",
+    "revision": "7b33be919ea7e28a975b39c6a9fd66f6ffda2cd6",
+    "path": "results/pair_fomc_apr_2026_no_change_basis.csv",
+    "git_blob": "1dcee2999cf97595cfd2e06d7304f436afae1dab",
+    "sha256": "26ef6c295b0d021f65c8ed4dc74d3ab2205a562eaf4ed51c1a9a1580a5be361a"
+  },
+  {
+    "file": "fomc_25_bp_cut.csv",
+    "repo": "aj80457/prediction-markets-arb",
+    "revision": "7b33be919ea7e28a975b39c6a9fd66f6ffda2cd6",
+    "path": "results/pair_fomc_apr_2026_25_bp_cut_basis.csv",
+    "git_blob": "6797c5f878d00fe506d7fb1fdb41ef70b55a18e5",
+    "sha256": "2498bdb90cc5bfc92d493fbe6eae90efc6b8f11545d57990ec551c55a5e33a6d"
+  },
+  {
+    "file": "fomc_50plus_bp_cut.csv",
+    "repo": "aj80457/prediction-markets-arb",
+    "revision": "7b33be919ea7e28a975b39c6a9fd66f6ffda2cd6",
+    "path": "results/pair_fomc_apr_2026_50plus_bp_cut_basis.csv",
+    "git_blob": "0cc266e430cd9c16faed8cea05b6acff0f29d8da",
+    "sha256": "8c8973becac6e9fccfc3b3af85cdaf9e9a6a192e137ff7bd2d514c1c3748032c"
+  }
+]

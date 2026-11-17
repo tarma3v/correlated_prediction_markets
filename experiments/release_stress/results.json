@@ -1,0 +1,854 @@
+{
+  "source_sha256": "06cee2df9c21074116c5a8cdad3add0b9598c62fd7caf8a1fb46912c45b2eec3",
+  "difference": "replica payout minus Polymarket payout per unit",
+  "summary": [
+    {
+      "mapping": "ordinary_release",
+      "max_gap_tenths": 0,
+      "buckets": 7,
+      "identical": 7,
+      "replica_can_underpay": 0,
+      "replica_can_overpay": 0
+    },
+    {
+      "mapping": "same_number",
+      "max_gap_tenths": 0,
+      "buckets": 7,
+      "identical": 0,
+      "replica_can_underpay": 7,
+      "replica_can_overpay": 6
+    },
+    {
+      "mapping": "ordinary_release",
+      "max_gap_tenths": 1,
+      "buckets": 7,
+      "identical": 0,
+      "replica_can_underpay": 7,
+      "replica_can_overpay": 7
+    },
+    {
+      "mapping": "same_number",
+      "max_gap_tenths": 1,
+      "buckets": 7,
+      "identical": 0,
+      "replica_can_underpay": 7,
+      "replica_can_overpay": 6
+    },
+    {
+      "mapping": "ordinary_release",
+      "max_gap_tenths": 2,
+      "buckets": 7,
+      "identical": 0,
+      "replica_can_underpay": 7,
+      "replica_can_overpay": 7
+    },
+    {
+      "mapping": "same_number",
+      "max_gap_tenths": 2,
+      "buckets": 7,
+      "identical": 0,
+      "replica_can_underpay": 7,
+      "replica_can_overpay": 7
+    }
+  ],
+  "cases": [
+    {
+      "mapping": "same_number",
+      "bucket": "≤0.1%",
+      "max_gap_tenths": 0,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 0,
+        "kalshi_tenths": 0,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 2,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "≤0.1%",
+      "max_gap_tenths": 0,
+      "min_difference": 0,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 0,
+        "kalshi_tenths": 0,
+        "poly_payout": 1,
+        "replica_payout": 1
+      },
+      "at_max": {
+        "poly_tenths": 0,
+        "kalshi_tenths": 0,
+        "poly_payout": 1,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.2%",
+      "max_gap_tenths": 0,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 2,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 3,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.2%",
+      "max_gap_tenths": 0,
+      "min_difference": 0,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 0,
+        "kalshi_tenths": 0,
+        "poly_payout": 0,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 0,
+        "kalshi_tenths": 0,
+        "poly_payout": 0,
+        "replica_payout": 0
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.3%",
+      "max_gap_tenths": 0,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 3,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 4,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.3%",
+      "max_gap_tenths": 0,
+      "min_difference": 0,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 1,
+        "kalshi_tenths": 1,
+        "poly_payout": 0,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 1,
+        "kalshi_tenths": 1,
+        "poly_payout": 0,
+        "replica_payout": 0
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.4%",
+      "max_gap_tenths": 0,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 4,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 5,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.4%",
+      "max_gap_tenths": 0,
+      "min_difference": 0,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 2,
+        "poly_payout": 0,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 2,
+        "poly_payout": 0,
+        "replica_payout": 0
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.5%",
+      "max_gap_tenths": 0,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 5,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 6,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.5%",
+      "max_gap_tenths": 0,
+      "min_difference": 0,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 3,
+        "poly_payout": 0,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 3,
+        "poly_payout": 0,
+        "replica_payout": 0
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.6%",
+      "max_gap_tenths": 0,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 6,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 7,
+        "kalshi_tenths": 7,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.6%",
+      "max_gap_tenths": 0,
+      "min_difference": 0,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 4,
+        "poly_payout": 0,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 4,
+        "poly_payout": 0,
+        "replica_payout": 0
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.7%+",
+      "max_gap_tenths": 0,
+      "min_difference": -1,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 7,
+        "kalshi_tenths": 7,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 6,
+        "poly_payout": 0,
+        "replica_payout": 0
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.7%+",
+      "max_gap_tenths": 0,
+      "min_difference": 0,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 5,
+        "poly_payout": 0,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 5,
+        "poly_payout": 0,
+        "replica_payout": 0
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "≤0.1%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": -1,
+        "kalshi_tenths": -2,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 2,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "≤0.1%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 1,
+        "kalshi_tenths": 2,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 1,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.2%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 1,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 3,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.2%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 1,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 1,
+        "kalshi_tenths": 2,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.3%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 2,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 4,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.3%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 2,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 3,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.4%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 3,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 5,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.4%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 3,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 4,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.5%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 4,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 6,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.5%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 4,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 5,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.6%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 5,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 7,
+        "kalshi_tenths": 7,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.6%",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 5,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 6,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.7%+",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 0,
+      "at_min": {
+        "poly_tenths": 7,
+        "kalshi_tenths": 6,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 4,
+        "poly_payout": 0,
+        "replica_payout": 0
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.7%+",
+      "max_gap_tenths": 1,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 7,
+        "kalshi_tenths": 6,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 7,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "≤0.1%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": -2,
+        "kalshi_tenths": -4,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 2,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "≤0.1%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 0,
+        "kalshi_tenths": 2,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 0,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.2%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 0,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 1,
+        "kalshi_tenths": 3,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.2%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 0,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 0,
+        "kalshi_tenths": 2,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.3%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 1,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 4,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.3%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 1,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 1,
+        "kalshi_tenths": 3,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.4%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 2,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 5,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.4%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 2,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 2,
+        "kalshi_tenths": 4,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.5%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 3,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 6,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.5%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 3,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 3,
+        "kalshi_tenths": 5,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.6%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 4,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 7,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.6%",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 4,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 4,
+        "kalshi_tenths": 6,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "same_number",
+      "bucket": "0.7%+",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 7,
+        "kalshi_tenths": 5,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 6,
+        "kalshi_tenths": 8,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    },
+    {
+      "mapping": "ordinary_release",
+      "bucket": "0.7%+",
+      "max_gap_tenths": 2,
+      "min_difference": -1,
+      "max_difference": 1,
+      "at_min": {
+        "poly_tenths": 7,
+        "kalshi_tenths": 5,
+        "poly_payout": 1,
+        "replica_payout": 0
+      },
+      "at_max": {
+        "poly_tenths": 5,
+        "kalshi_tenths": 7,
+        "poly_payout": 0,
+        "replica_payout": 1
+      }
+    }
+  ]
+}
