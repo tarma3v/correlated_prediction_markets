@@ -1,0 +1,425 @@
+{
+  "input_sha256": {
+    "pilot/markets.json": "b563a9b5948e5c7a485db0919d54739afdbed5e6e7cd491620db4a69d7dada97",
+    "extension/nlp/corpus_nli_predictions.json": "27800d359835268c8e9ee3147a2b998de00ac4efa4408023df57eb7acd4fa5a2",
+    "extension/retrieval/results/threshold_candidates.json": "97ad95c9d079f320c3ef666e3765ea7efb5b49b8e7fe7208e4856f9cdca802c8"
+  },
+  "thresholds": [
+    {
+      "cutoff": 0.5,
+      "pairs": 839,
+      "calls": 794,
+      "errors": 725,
+      "coverage": 0.9463647199046484,
+      "risk": 0.9130982367758187,
+      "series_with_calls": 8,
+      "macro_series_risk": 0.9115535209951916,
+      "by_series": {
+        "KXCPI": {
+          "pairs": 137,
+          "calls": 130,
+          "errors": 123,
+          "coverage": 0.948905109489051,
+          "risk": 0.9461538461538461
+        },
+        "KXCPICORE": {
+          "pairs": 77,
+          "calls": 74,
+          "errors": 63,
+          "coverage": 0.961038961038961,
+          "risk": 0.8513513513513513
+        },
+        "KXCPICOREYOY": {
+          "pairs": 113,
+          "calls": 104,
+          "errors": 94,
+          "coverage": 0.9203539823008849,
+          "risk": 0.9038461538461539
+        },
+        "KXCPIYOY": {
+          "pairs": 124,
+          "calls": 114,
+          "errors": 96,
+          "coverage": 0.9193548387096774,
+          "risk": 0.8421052631578947
+        },
+        "KXLCPIMAXYOY": {
+          "pairs": 15,
+          "calls": 15,
+          "errors": 14,
+          "coverage": 1.0,
+          "risk": 0.9333333333333333
+        },
+        "KXPALLADIUMH": {
+          "pairs": 137,
+          "calls": 131,
+          "errors": 123,
+          "coverage": 0.9562043795620438,
+          "risk": 0.9389312977099237
+        },
+        "KXPLATINUMH": {
+          "pairs": 125,
+          "calls": 123,
+          "errors": 115,
+          "coverage": 0.984,
+          "risk": 0.9349593495934959
+        },
+        "KXU3": {
+          "pairs": 111,
+          "calls": 103,
+          "errors": 97,
+          "coverage": 0.9279279279279279,
+          "risk": 0.941747572815534
+        }
+      },
+      "leave_one_series_out": {
+        "KXCPI": 0.9066265060240963,
+        "KXCPICORE": 0.9194444444444444,
+        "KXCPICOREYOY": 0.9144927536231884,
+        "KXCPIYOY": 0.925,
+        "KXLCPIMAXYOY": 0.9127086007702182,
+        "KXPALLADIUMH": 0.9079939668174962,
+        "KXPLATINUMH": 0.9090909090909091,
+        "KXU3": 0.9088277858176556
+      },
+      "wrong_by_type": {
+        "equivalence_candidate": 271,
+        "exclusion_candidate": 444,
+        "a_implies_b_candidate": 1,
+        "b_implies_a_candidate": 9
+      }
+    },
+    {
+      "cutoff": 0.8,
+      "pairs": 839,
+      "calls": 555,
+      "errors": 500,
+      "coverage": 0.6615017878426699,
+      "risk": 0.9009009009009009,
+      "series_with_calls": 8,
+      "macro_series_risk": 0.9050351910039587,
+      "by_series": {
+        "KXCPI": {
+          "pairs": 137,
+          "calls": 100,
+          "errors": 98,
+          "coverage": 0.7299270072992701,
+          "risk": 0.98
+        },
+        "KXCPICORE": {
+          "pairs": 77,
+          "calls": 61,
+          "errors": 53,
+          "coverage": 0.7922077922077922,
+          "risk": 0.8688524590163934
+        },
+        "KXCPICOREYOY": {
+          "pairs": 113,
+          "calls": 75,
+          "errors": 70,
+          "coverage": 0.6637168141592921,
+          "risk": 0.9333333333333333
+        },
+        "KXCPIYOY": {
+          "pairs": 124,
+          "calls": 87,
+          "errors": 78,
+          "coverage": 0.7016129032258065,
+          "risk": 0.896551724137931
+        },
+        "KXLCPIMAXYOY": {
+          "pairs": 15,
+          "calls": 14,
+          "errors": 13,
+          "coverage": 0.9333333333333333,
+          "risk": 0.9285714285714286
+        },
+        "KXPALLADIUMH": {
+          "pairs": 137,
+          "calls": 99,
+          "errors": 86,
+          "coverage": 0.7226277372262774,
+          "risk": 0.8686868686868687
+        },
+        "KXPLATINUMH": {
+          "pairs": 125,
+          "calls": 84,
+          "errors": 69,
+          "coverage": 0.672,
+          "risk": 0.8214285714285714
+        },
+        "KXU3": {
+          "pairs": 111,
+          "calls": 35,
+          "errors": 33,
+          "coverage": 0.3153153153153153,
+          "risk": 0.9428571428571428
+        }
+      },
+      "leave_one_series_out": {
+        "KXCPI": 0.8835164835164835,
+        "KXCPICORE": 0.9048582995951417,
+        "KXCPICOREYOY": 0.8958333333333334,
+        "KXCPIYOY": 0.9017094017094017,
+        "KXLCPIMAXYOY": 0.9001848428835489,
+        "KXPALLADIUMH": 0.9078947368421053,
+        "KXPLATINUMH": 0.9150743099787686,
+        "KXU3": 0.8980769230769231
+      },
+      "wrong_by_type": {
+        "b_implies_a_candidate": 24,
+        "equivalence_candidate": 148,
+        "a_implies_b_candidate": 3,
+        "exclusion_candidate": 325
+      }
+    },
+    {
+      "cutoff": 0.9,
+      "pairs": 839,
+      "calls": 346,
+      "errors": 302,
+      "coverage": 0.4123957091775924,
+      "risk": 0.8728323699421965,
+      "series_with_calls": 8,
+      "macro_series_risk": 0.8608283627000632,
+      "by_series": {
+        "KXCPI": {
+          "pairs": 137,
+          "calls": 89,
+          "errors": 89,
+          "coverage": 0.6496350364963503,
+          "risk": 1.0
+        },
+        "KXCPICORE": {
+          "pairs": 77,
+          "calls": 47,
+          "errors": 45,
+          "coverage": 0.6103896103896104,
+          "risk": 0.9574468085106383
+        },
+        "KXCPICOREYOY": {
+          "pairs": 113,
+          "calls": 46,
+          "errors": 46,
+          "coverage": 0.40707964601769914,
+          "risk": 1.0
+        },
+        "KXCPIYOY": {
+          "pairs": 124,
+          "calls": 40,
+          "errors": 36,
+          "coverage": 0.3225806451612903,
+          "risk": 0.9
+        },
+        "KXLCPIMAXYOY": {
+          "pairs": 15,
+          "calls": 14,
+          "errors": 13,
+          "coverage": 0.9333333333333333,
+          "risk": 0.9285714285714286
+        },
+        "KXPALLADIUMH": {
+          "pairs": 137,
+          "calls": 49,
+          "errors": 29,
+          "coverage": 0.35766423357664234,
+          "risk": 0.5918367346938775
+        },
+        "KXPLATINUMH": {
+          "pairs": 125,
+          "calls": 42,
+          "errors": 28,
+          "coverage": 0.336,
+          "risk": 0.6666666666666666
+        },
+        "KXU3": {
+          "pairs": 111,
+          "calls": 19,
+          "errors": 16,
+          "coverage": 0.17117117117117117,
+          "risk": 0.8421052631578947
+        }
+      },
+      "leave_one_series_out": {
+        "KXCPI": 0.8287937743190662,
+        "KXCPICORE": 0.8595317725752508,
+        "KXCPICOREYOY": 0.8533333333333334,
+        "KXCPIYOY": 0.869281045751634,
+        "KXLCPIMAXYOY": 0.8704819277108434,
+        "KXPALLADIUMH": 0.9191919191919192,
+        "KXPLATINUMH": 0.9013157894736842,
+        "KXU3": 0.8746177370030581
+      },
+      "wrong_by_type": {
+        "b_implies_a_candidate": 16,
+        "a_implies_b_candidate": 2,
+        "exclusion_candidate": 231,
+        "equivalence_candidate": 53
+      }
+    },
+    {
+      "cutoff": 0.95,
+      "pairs": 839,
+      "calls": 177,
+      "errors": 157,
+      "coverage": 0.21096543504171633,
+      "risk": 0.8870056497175142,
+      "series_with_calls": 8,
+      "macro_series_risk": 0.7074652777777778,
+      "by_series": {
+        "KXCPI": {
+          "pairs": 137,
+          "calls": 56,
+          "errors": 56,
+          "coverage": 0.40875912408759124,
+          "risk": 1.0
+        },
+        "KXCPICORE": {
+          "pairs": 77,
+          "calls": 40,
+          "errors": 40,
+          "coverage": 0.5194805194805194,
+          "risk": 1.0
+        },
+        "KXCPICOREYOY": {
+          "pairs": 113,
+          "calls": 20,
+          "errors": 20,
+          "coverage": 0.17699115044247787,
+          "risk": 1.0
+        },
+        "KXCPIYOY": {
+          "pairs": 124,
+          "calls": 20,
+          "errors": 20,
+          "coverage": 0.16129032258064516,
+          "risk": 1.0
+        },
+        "KXLCPIMAXYOY": {
+          "pairs": 15,
+          "calls": 12,
+          "errors": 12,
+          "coverage": 0.8,
+          "risk": 1.0
+        },
+        "KXPALLADIUMH": {
+          "pairs": 137,
+          "calls": 9,
+          "errors": 2,
+          "coverage": 0.06569343065693431,
+          "risk": 0.2222222222222222
+        },
+        "KXPLATINUMH": {
+          "pairs": 125,
+          "calls": 4,
+          "errors": 0,
+          "coverage": 0.032,
+          "risk": 0.0
+        },
+        "KXU3": {
+          "pairs": 111,
+          "calls": 16,
+          "errors": 7,
+          "coverage": 0.14414414414414414,
+          "risk": 0.4375
+        }
+      },
+      "leave_one_series_out": {
+        "KXCPI": 0.8347107438016529,
+        "KXCPICORE": 0.8540145985401459,
+        "KXCPICOREYOY": 0.8726114649681529,
+        "KXCPIYOY": 0.8726114649681529,
+        "KXLCPIMAXYOY": 0.8787878787878788,
+        "KXPALLADIUMH": 0.9226190476190477,
+        "KXPLATINUMH": 0.9075144508670521,
+        "KXU3": 0.9316770186335404
+      },
+      "wrong_by_type": {
+        "b_implies_a_candidate": 3,
+        "exclusion_candidate": 152,
+        "equivalence_candidate": 2
+      }
+    },
+    {
+      "cutoff": 0.99,
+      "pairs": 839,
+      "calls": 17,
+      "errors": 17,
+      "coverage": 0.02026221692491061,
+      "risk": 1.0,
+      "series_with_calls": 3,
+      "macro_series_risk": 1.0,
+      "by_series": {
+        "KXCPI": {
+          "pairs": 137,
+          "calls": 2,
+          "errors": 2,
+          "coverage": 0.014598540145985401,
+          "risk": 1.0
+        },
+        "KXCPICORE": {
+          "pairs": 77,
+          "calls": 8,
+          "errors": 8,
+          "coverage": 0.1038961038961039,
+          "risk": 1.0
+        },
+        "KXCPICOREYOY": {
+          "pairs": 113,
+          "calls": 0,
+          "errors": 0,
+          "coverage": 0.0,
+          "risk": null
+        },
+        "KXCPIYOY": {
+          "pairs": 124,
+          "calls": 0,
+          "errors": 0,
+          "coverage": 0.0,
+          "risk": null
+        },
+        "KXLCPIMAXYOY": {
+          "pairs": 15,
+          "calls": 7,
+          "errors": 7,
+          "coverage": 0.4666666666666667,
+          "risk": 1.0
+        },
+        "KXPALLADIUMH": {
+          "pairs": 137,
+          "calls": 0,
+          "errors": 0,
+          "coverage": 0.0,
+          "risk": null
+        },
+        "KXPLATINUMH": {
+          "pairs": 125,
+          "calls": 0,
+          "errors": 0,
+          "coverage": 0.0,
+          "risk": null
+        },
+        "KXU3": {
+          "pairs": 111,
+          "calls": 0,
+          "errors": 0,
+          "coverage": 0.0,
+          "risk": null
+        }
+      },
+      "leave_one_series_out": {
+        "KXCPI": 1.0,
+        "KXCPICORE": 1.0,
+        "KXCPICOREYOY": 1.0,
+        "KXCPIYOY": 1.0,
+        "KXLCPIMAXYOY": 1.0,
+        "KXPALLADIUMH": 1.0,
+        "KXPLATINUMH": 1.0,
+        "KXU3": 1.0
+      },
+      "wrong_by_type": {
+        "exclusion_candidate": 17
+      }
+    }
+  ]
+}

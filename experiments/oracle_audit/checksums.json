@@ -1,0 +1,30 @@
+{
+  "inputs_sha256": {
+    "../../pilot/raw/kalshi_KXCPI.json": "564e8382f2843e21d528a5170c302cec700e931363c4f1ecb8448fc72887c73c",
+    "../../pilot/raw/kalshi_KXCPICORE.json": "529fa1f0fb272ce5bf230a7d885f580c70d73236cfa4e9f5b94a4145fb06759e",
+    "data/blind_features.csv": "496fde66132e030b259e29751da6590559a1c2b20bc07d700c08253bb1a24f88",
+    "data/evidence_inventory.csv": "82a2d3decb71683f9f75aa6fe5bd615a08cc693f2970a9b90132b7803d9cb8b3",
+    "data/exchange_labels.json": "2cc9dfa68a868aa0c87c9789423986b8850e6936ae4ff7617da781ca18f69246",
+    "data/jev_choices.csv": "69d4500029aa351a005b3c20dbb2caa177ed2f598f0e90fc0b22e81e57e47ba6",
+    "data/kota_b_final.csv": "fa41ceea5580fc7faf573d3e662d8796f36dc6fadefc9d981659c3df94892413",
+    "data/kota_votes.csv": "7302e5a321fa3e1ee3e52163b22ff9bbb0bda935d3fdd276e7fba7f24c638199",
+    "data/nel_published.json": "c70ff8cce4032ad2e7bf8cf7d4a20c3b819d92052b383813967644e44c8d846f",
+    "data/nel_votes.csv": "5dd4dc4a06b89674b87ec089bcbcb3a7e655bf9bfa05056d258fc37afb164340",
+    "data/releases.json": "1249f161cf7c254b5a99d61a610f898ae755e6d8cb85d615926b28b2bcf0f0e5",
+    "data/shadow_market.json": "a05dd533f91af48d91225b80dab0750497affd879360ef8ee6c70d30996dfdc7",
+    "data/sources.json": "74648e974f8df1efd2e97402a1f07a95abaa045848a15fd13b4bc601567a8750",
+    "data/team_archive_audit.json": "da3320ba7ffdaaf1ded9b3510ae11178da25dd3268177894315de676a5b34f0e"
+  },
+  "results_sha256": {
+    "results/cpi.json": "7604e7cb9661dbe1e86e2c2b78f889c11c6902020b4b6d486d902fb747eaa4eb",
+    "results/cpi_by_contract.csv": "525665d06e2bfa1a21bc7324ce3f70924fe0489d9958e47149f5435eeb8af322",
+    "results/cpi_exchange_check.csv": "15ac848d393972a7393bc0ab8581b6f00e8eec638185018b761ce5a31f1adf4d",
+    "results/evidence.json": "9921f9d11a69f0bfc9fd65be2e62d90c247d0296f44d6a11754285b619717643",
+    "results/jev.json": "bcf19c0af5e1e00585e770336b475969f559c84088e0cc61fca804a00b7f62f9",
+    "results/jev_reference.jsonl": "6a959aeddc9d3791e314036d4049404bcb7e6d38b768d9ff9bad21b76c4da58e",
+    "results/jev_requests.jsonl": "821763e498e0619b96b3356710a379e15ddc2c6de5bf480dc7293285a385e431",
+    "results/kota.json": "f7021a18e65458c4ecb7b7d63b99dfdcf401f26eec73196e89b1a56d31769adb",
+    "results/nel.json": "50d274601be803abc46468654a2721499a6cfa1cef7c8623c646c8f0e5743e35",
+    "results/text_baseline.json": "3d7beb6d370171e269e2c35be7fa89b748d1f5c82341d4bd1565342762e7adf1"
+  }
+}

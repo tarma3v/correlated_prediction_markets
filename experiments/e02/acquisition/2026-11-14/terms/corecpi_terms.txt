@@ -1,0 +1,105 @@
+CORECPI
+Scope:
+	These	rules	shall	apply	to	this	contract.
+Underlying:
+	The	Underlying	for	this	Contract	is	the	percent	change	in	the	seasonally	adjusted	Consumer	Price	Index	for	All
+
+Urban	Consumers	(CPI-U)	for	all	items	less	food	and	energy	published	by	the	Bureau	of	Labor	Statistics	(“BLS”)	in	the
+
+Consumer	Price	Index	Summary	for	<month>.	Please	note	that	the	Underlying	is	the	single	decimal	point	percent	change
+
+value	(e.g.	0.2)	reported	by	the	BLS.	Revisions	to	the	Underlying	made	after	Expiration	will	not	be	accounted	for	in
+
+determining	the	Expiration	Value.
+Instructions:
+The	Underlying	can	be	accessed
+here
+.
+	A	schedule	of	release	dates	is	available	on	the	BLS	website	(
+here
+),	and
+
+the	data	is	released	at	8:30am	ET.
+	Each	month’s	report	is	available	at
+this
+	stable	URL,	which	automatically	displays	the	latest
+
+available	report.	The	Underlying	for	a	given	month	is	typically	listed	in	the	first	sentence	of	the	third	paragraph	of	the	first
+
+page	of	the	monthly	report	under	the	heading	“CONSUMER	PRICE	INDEX-[Month/Year]”.	For	example,	in	the	CPI	report
+
+for	April	2022,	the	first	sentence	of	the	third	paragraph	is	“The	index	for	all	items	less	food	and	energy	rose	0.6	percent	in
+
+April…”	so	0.6	percent	would	be	the	value	for	the	month	of	April	2022.	Historical	reports	from	prior	months	are	available
+
+on	the	Bureau	of	Labor	Statistics	website
+here
+.	If	you	select	the	year	in	question,	links	to	CPI	reports	from	months	in	that
+
+year	will	be	displayed.	These	instructions	on	how	to	access	the	Underlying	are	provided	for	convenience	only	and	are	not	part
+
+of	the	binding	Terms	and	Conditions	of	the	Contract.	They	may	be	clarified	at	any	time.
+Source	Agency:
+	The	Source	Agency	is	the	Bureau	of	Labor	Statistics.
+Type:
+	The	type	of	Contract	is	a	Binary	Contract.
+Issuance:
+	The	Contract	is	based	on	the	outcome	of	a	recurrent	data	release,	which	is	issued	on	a	monthly	basis.	Thus,
+
+Contract	iterations	will	be	issued	on	a	recurring	basis,	and	future	Contract	iterations	will	generally	correspond	to	a	given
+
+calendar	year.	The	Exchange	may	add	new	strike	values	of	<percent>	as	market	conditions	change.
+<percent>:
+	Kalshi	may	list	iterations	of	the	Contract	with	<percent>	levels	that	fall	within	an	inclusive	range	between	0	and
+
+500	at	consecutive	increments	of	0.1.	Due	to	the	potential	for	variability	in	the	Underlying,	the	Exchange	may	modify
+
+<percent>	levels	in	response	to	suggestions	by	Members.
+<month>
+:	<month>	refers	to	a	calendar	month	specified	by	Kalshi.	Kalshi	may	list	iterations	of	the	Contract	corresponding
+
+to	variations	of	<month>.
+Payout	Criterion:
+	The	Payout	Criterion	for	the	Contract	encompasses	the	Expiration	Values	that	contain	a	value	that	is
+
+<above/below/between>	<percent>.	If	the	value	of	<above/below/between>	is	“between”,	then	<percent>	shall	be	a	pair	of
+
+percents	and	the	Payout	Criterion	encompasses	the	Expiration	Values	that	are	greater	than	or	equal	to	the	lesser	of	the	pair,
+
+and	less	than	or	equal	to	the	greater	of	the	pair.
+Minimum	Tick:
+	The	Minimum	Tick	size	for	the	referred	Contract	shall	be	0.01.
+Position	Accountability	Level:
+	The	Position	Accountability	Level	for	the	$1	referred	Contract	shall	be	$25,000	per
+
+Member.
+Last	Trading	Date:
+	The	Last	Trading	Date	of	the	Contract	will	be	the	date	of	the	scheduled	data	release	for	<month>.	The
+
+Last	Trading	Time	will	be	8:25	AM	ET.
+Settlement	Date:
+	The	Settlement	Date	of	the	Contract	shall	be	no	later	than	the	day	after	the	Expiration	Date,	unless	the
+
+Market	Outcome	is	under	review	pursuant	to	Rule	7.1.
+Expiration	Date:
+	The	Expiration	Date	of	the	Contract	shall	be	the	sooner	of	the	date	of	the	first	10:00	AM	ET	following
+
+the	release	of	data	for	<month>,	or	one	week	after	the	data	release	was	scheduled	to	occur.
+Expiration	time:
+	The	Expiration	time	of	the	Contract	shall	be	10:00	AM	ET.
+Settlement	Value:
+	The	Settlement	Value	for	this	Contract	is	$1.00.
+Expiration	Value:
+	The	Expiration	Value	is	the	value	of	the	Underlying	as	documented	by	the	Source	Agency	on	the
+
+Expiration	Date	at	the	Expiration	time.
+Contingencies:
+	Before	Settlement,	Kalshi	may,	at	its	sole	discretion,	initiate	the	Market	Outcome	Review	Process	pursuant
+
+to	Rule	6.3(c)	of	the	Rulebook.	Additionally,	as	outlined	in	Rule	7.2	of	the	Rulebook,	if	any	event	or	any	circumstance	which
+
+may	have	a	material	impact	on	the	reliability	or	transparency	of	a	Contract’s	Source	Agency	or	the	Underlying	related	to	the
+
+Contract	arises,	Kalshi	retains	the	authority	to	designate	a	new	Source	Agency	and	Underlying	for	that	Contract	and	to
+
+change	any	associated	Contract	specifications	after	the	first	day	of	trading.

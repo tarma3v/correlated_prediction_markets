@@ -1,0 +1,4 @@
+month,polymarket_url,labels_in_order,payouts_in_order,core_cpi_pct,bls_url
+26AUG,https://polymarket.com/event/core-cpi-mom-august-2026-1786474662954,le0.0|eq0.1|eq0.2|eq0.3|eq0.4|eq0.5|ge0.6,0|0|0|1|0|0|0,0.3,https://www.bls.gov/news.release/archives/cpi_11102026.htm
+26SEP,https://polymarket.com/event/core-cpi-mom-september-2026,le0.0|eq0.1|eq0.2|eq0.3|eq0.4|eq0.5|ge0.6,0|0|0|1|0|0|0,0.3,https://www.bls.gov/news.release/archives/cpi_11102026.htm
+26OCT,https://polymarket.com/event/core-cpi-mom-october-2026,le0.0|eq0.1|eq0.2|eq0.3|eq0.4|eq0.5|ge0.6,0|0|0|1|0|0|0,0.3,https://www.bls.gov/news.release/archives/cpi_11102026.htm

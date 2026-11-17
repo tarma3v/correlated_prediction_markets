@@ -1,0 +1,24 @@
+{
+  "packets": 486,
+  "source_counts": {
+    "n_sources": 4844,
+    "empty_text": 4821,
+    "empty_highlights": 23,
+    "missing_pub": 1024,
+    "after_close_day": 82,
+    "after_plus1_day": 28
+  },
+  "packets_with_at_least_one": {
+    "n_sources": 486,
+    "empty_text": 483,
+    "empty_highlights": 3,
+    "missing_pub": 348,
+    "after_close_day": 53,
+    "after_plus1_day": 17
+  },
+  "retrieval_range": [
+    "2026-01-29T18:44:17.053167Z",
+    "2026-02-23T21:49:49.712794Z"
+  ],
+  "retrieved_after_close_day": 486
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "e02-acquisition-v1",
+  "started_at_utc": "2026-11-14T20:03:32.858667+00:00",
+  "status": "development_convenience_sample",
+  "requests": [
+    {
+      "name": "polymarket_event",
+      "url": "https://gamma-api.polymarket.com/events/1366218",
+      "request_started_at_utc": "2026-11-14T20:03:32.858859+00:00",
+      "http_status": 200,
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 19:59:07 GMT"
+      },
+      "received_at_utc": "2026-11-14T20:03:33.167168+00:00",
+      "raw_file": "raw/polymarket_event.json",
+      "raw_sha256": "9e61275e59fd8adaae4a5ac557e6c259b77c1060bc321cc9634b3df5502cf7dc",
+      "bytes": 36339
+    },
+    {
+      "name": "kalshi_markets",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXCPICORE&limit=100",
+      "request_started_at_utc": "2026-11-14T20:03:33.168578+00:00",
+      "http_status": 200,
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 20:03:33 GMT"
+      },
+      "received_at_utc": "2026-11-14T20:03:34.112417+00:00",
+      "raw_file": "raw/kalshi_markets.json",
+      "raw_sha256": "998dd0625b65c266ee01b713c788db20ee31eb15e521ddbe420c2a4b8611e14d",
+      "bytes": 109533
+    },
+    {
+      "name": "kalshi_series",
+      "url": "https://external-api.kalshi.com/trade-api/v2/series/KXCPICORE",
+      "request_started_at_utc": "2026-11-14T20:03:34.114575+00:00",
+      "http_status": 200,
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 20:03:34 GMT"
+      },
+      "received_at_utc": "2026-11-14T20:03:34.828696+00:00",
+      "raw_file": "raw/kalshi_series.json",
+      "raw_sha256": "c8a8d9df309cd47ac2d72accd774719fae4e2b5b426e8a35f03d747ea3c8a1e7",
+      "bytes": 801
+    }
+  ],
+  "polymarket_event_id": "1366218",
+  "kalshi_series": "KXCPICORE",
+  "full_pagination": false,
+  "governing_rules_certified": false,
+  "human_gold": false,
+  "historical_rules_reconstructed": false,
+  "limitations": [
+    "One selected Polymarket event and at most 100 Kalshi markets",
+    "Current API text does not establish historical completeness",
+    "Raw responses include market metadata; model corpus excludes prices, results and volume",
+    "Different fetch times do not constitute synchronized price data"
+  ],
+  "kalshi_has_next_page": false,
+  "counts": {
+    "polymarket": 7,
+    "kalshi": 55
+  },
+  "finished_at_utc": "2026-11-14T20:03:34.831412+00:00",
+  "acquisition_succeeded": true,
+  "corpus_sha256": "b6bda62d924b400ffaa424239bf9bb9ebff2410168a3e54fc178fa432daf50f3"
+}

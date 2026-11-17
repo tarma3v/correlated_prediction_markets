@@ -1,0 +1,37 @@
+{
+  "Claude-Opus-4.5": {
+    "num_samples": 300,
+    "accuracy": 0.6933333333333334,
+    "brier_score": 0.2269326666666667,
+    "avg_latency_ms": 11784.278493333335,
+    "total_cost_usd": 11.6336
+  },
+  "GPT-5.2-XHigh": {
+    "num_samples": 300,
+    "accuracy": 0.6533333333333333,
+    "brier_score": 0.43289069333333335,
+    "avg_latency_ms": 135725.94116333337,
+    "total_cost_usd": 30.3162
+  },
+  "DeepSeek-V3.2": {
+    "num_samples": 300,
+    "accuracy": 0.6433333333333333,
+    "brier_score": 0.33859866666666666,
+    "avg_latency_ms": 7946.728706666666,
+    "total_cost_usd": 0.3649
+  },
+  "Qwen3-235B-Thinking": {
+    "num_samples": 300,
+    "accuracy": 0.6566666666666666,
+    "brier_score": 0.3458623333333333,
+    "avg_latency_ms": 25397.508956666665,
+    "total_cost_usd": 1.1882
+  },
+  "Kimi-K2": {
+    "num_samples": 300,
+    "accuracy": 0.6712328767123288,
+    "brier_score": 0.3472582191780822,
+    "avg_latency_ms": 16206.021659999999,
+    "total_cost_usd": 0.9358
+  }
+}

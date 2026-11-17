@@ -1,0 +1,294 @@
+{
+  "snapshots": {
+    "nov_core_active": {
+      "n": 22,
+      "two_sided": 16,
+      "no_24h_trades": 17,
+      "volume": {
+        "n": 22,
+        "min": 869.33,
+        "p25": 3982.4925,
+        "median": 9669.475,
+        "p75": 23047.09,
+        "max": 45585.27,
+        "sum": 348388.3
+      },
+      "volume24h": {
+        "n": 22,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 1969.43,
+        "sum": 6613.67
+      },
+      "spread_cents": {
+        "n": 16,
+        "min": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "max": 3.0,
+        "sum": 19.0
+      }
+    },
+    "nov_core_pm": {
+      "n": 7,
+      "two_sided": 7,
+      "no_24h_trades": 0,
+      "volume": {
+        "n": 7,
+        "min": 61.53,
+        "p25": 66.7,
+        "median": 256.294405,
+        "p75": 464.5943065,
+        "max": 1421.950001,
+        "sum": 2802.363019
+      },
+      "volume24h": {
+        "n": 5,
+        "min": 5.0,
+        "p25": 9.66,
+        "median": 20.0,
+        "p75": 26.685239,
+        "max": 101.92,
+        "sum": 163.265239
+      },
+      "spread_cents": {
+        "n": 7,
+        "min": 0.2,
+        "p25": 1.5,
+        "median": 2.0,
+        "p75": 4.0,
+        "max": 5.8,
+        "sum": 19.0
+      }
+    },
+    "sep_economics": {
+      "n": 206,
+      "two_sided": 167,
+      "no_24h_trades": 52,
+      "volume": {
+        "n": 206,
+        "min": 0.0,
+        "p25": 1457.0025,
+        "median": 4112.75,
+        "p75": 8007.88,
+        "max": 348291.14,
+        "sum": 2149445.65
+      },
+      "volume24h": {
+        "n": 206,
+        "min": 0.0,
+        "p25": 0.25,
+        "median": 579.465,
+        "p75": 2426.005,
+        "max": 41983.36,
+        "sum": 583343.71
+      },
+      "spread_cents": {
+        "n": 167,
+        "min": 0.1,
+        "p25": 1.15,
+        "median": 5.0,
+        "p75": 13.5,
+        "max": 93.0,
+        "sum": 1923.9
+      }
+    },
+    "sep_recent": {
+      "n": 80,
+      "two_sided": 40,
+      "no_24h_trades": 80,
+      "volume": {
+        "n": 80,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "sum": 0.0
+      },
+      "volume24h": {
+        "n": 80,
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "max": 0.0,
+        "sum": 0.0
+      },
+      "spread_cents": {
+        "n": 40,
+        "min": 13.0,
+        "p25": 17.0,
+        "median": 21.5,
+        "p75": 29.25,
+        "max": 39.0,
+        "sum": 925.0
+      }
+    }
+  },
+  "nesting": {
+    "nov_core_active": {
+      "n": 110,
+      "mid_eligible": 65,
+      "mid_positive": 0,
+      "quote_eligible": 65,
+      "quote_positive": 0
+    },
+    "sep_economics": {
+      "n": 1278,
+      "mid_eligible": 1027,
+      "mid_positive": 41,
+      "quote_eligible": 1030,
+      "quote_positive": 0
+    }
+  },
+  "cross_venue": {
+    "same_number": {
+      "n": 7,
+      "mid_eligible": 4,
+      "mid_positive": 4,
+      "quote_eligible": 7,
+      "quote_positive": 6,
+      "greater_than_1_cent_total_cost": 4,
+      "greater_than_2_cent_total_cost": 4,
+      "greater_than_5_cent_total_cost": 3,
+      "unrounded_net_cents": {
+        "n": 7,
+        "n_positive": 4,
+        "max": 72.6292
+      },
+      "net_if_kalshi_size100_cents": {
+        "n": 6,
+        "n_positive": 2,
+        "max": 18.0352
+      }
+    },
+    "ordinary_release": {
+      "n": 7,
+      "mid_eligible": 4,
+      "mid_positive": 4,
+      "quote_eligible": 6,
+      "quote_positive": 3,
+      "greater_than_1_cent_total_cost": 0,
+      "greater_than_2_cent_total_cost": 0,
+      "greater_than_5_cent_total_cost": 0,
+      "unrounded_net_cents": {
+        "n": 6,
+        "n_positive": 0,
+        "max": -0.023695
+      },
+      "net_if_kalshi_size100_cents": {
+        "n": 4,
+        "n_positive": 0,
+        "max": -0.023695
+      }
+    }
+  },
+  "settlements": {
+    "months": 3,
+    "n": 21,
+    "same_number_mismatch": 12,
+    "mapped_mismatch": 0
+  },
+  "september_forecasts": {
+    "KXCPICORE-26OCT": {
+      "n": 11,
+      "two_sided": 6,
+      "yes": 3,
+      "brier": 0.06635,
+      "always_no": 0.5,
+      "half": 0.25
+    },
+    "KXCPICORE-26SEP": {
+      "n": 7,
+      "two_sided": 0,
+      "yes": 0,
+      "brier": null,
+      "always_no": null,
+      "half": null
+    }
+  },
+  "settlement_input_sha256": "3c83d4b64ae7f3b51b7f9af8e2b7010e735aa26707fdefb70578236674dbdda3",
+  "sources": [
+    {
+      "path": "pilot/raw/kalshi_recent.json",
+      "sha256": "51a276d6a9afdd37243a2651b825109bd48b3696a37606fb6369227cac203eb2",
+      "manifest": "pilot/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=80&status=open&mve_filter=exclude",
+      "fetched": "2026-09-28T21:01:36.358052+00:00"
+    },
+    {
+      "path": "pilot/raw/kalshi_KXCPI.json",
+      "sha256": "564e8382f2843e21d528a5170c302cec700e931363c4f1ecb8448fc72887c73c",
+      "manifest": "pilot/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXCPI",
+      "fetched": "2026-09-28T21:01:37.014920+00:00"
+    },
+    {
+      "path": "pilot/raw/kalshi_KXCPIYOY.json",
+      "sha256": "2511e1270aa8a865fed1fa99aaa22a7455aa62b65444f7ce3f561640876b5f86",
+      "manifest": "pilot/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXCPIYOY",
+      "fetched": "2026-09-28T21:01:37.664100+00:00"
+    },
+    {
+      "path": "pilot/raw/kalshi_KXCPICORE.json",
+      "sha256": "529fa1f0fb272ce5bf230a7d885f580c70d73236cfa4e9f5b94a4145fb06759e",
+      "manifest": "pilot/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXCPICORE",
+      "fetched": "2026-09-28T21:01:38.328363+00:00"
+    },
+    {
+      "path": "pilot/raw/kalshi_KXCPICOREYOY.json",
+      "sha256": "93d50d6a23fbf81f544d1fc6a48674f8583ceb02b03f7cc323b5014512e01740",
+      "manifest": "pilot/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXCPICOREYOY",
+      "fetched": "2026-09-28T21:01:38.995041+00:00"
+    },
+    {
+      "path": "pilot/raw/kalshi_KXU3.json",
+      "sha256": "7f098dac0ce61274f1e46bf866fe07f5d68b7459786a7def263f33ffc946c77f",
+      "manifest": "pilot/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXU3",
+      "fetched": "2026-09-28T21:01:39.642956+00:00"
+    },
+    {
+      "path": "pilot/raw/kalshi_KXFEDRATEMIN.json",
+      "sha256": "cda2c4a204fecd760c72d3414d57443ff94bca8be4e681178676bf88a3f55b8c",
+      "manifest": "pilot/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXFEDRATEMIN",
+      "fetched": "2026-09-28T21:01:40.357086+00:00"
+    },
+    {
+      "path": "pilot/raw/kalshi_KXLCPIMAXYOY.json",
+      "sha256": "8660b71f60af973fce078590e8b3d0d03824031b71e8f678bf43fae379a2bf49",
+      "manifest": "pilot/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?limit=40&status=open&mve_filter=exclude&series_ticker=KXLCPIMAXYOY",
+      "fetched": "2026-09-28T21:01:40.988396+00:00"
+    },
+    {
+      "path": "experiments/e02/acquisition/2026-11-14/raw/polymarket_event.json",
+      "sha256": "9e61275e59fd8adaae4a5ac557e6c259b77c1060bc321cc9634b3df5502cf7dc",
+      "manifest": "experiments/e02/acquisition/2026-11-14/manifest.json",
+      "url": "https://gamma-api.polymarket.com/events/1366218",
+      "fetched": "2026-11-14T20:03:33.167168+00:00"
+    },
+    {
+      "path": "experiments/e02/acquisition/2026-11-14/raw/kalshi_markets.json",
+      "sha256": "998dd0625b65c266ee01b713c788db20ee31eb15e521ddbe420c2a4b8611e14d",
+      "manifest": "experiments/e02/acquisition/2026-11-14/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXCPICORE&limit=100",
+      "fetched": "2026-11-14T20:03:34.112417+00:00"
+    },
+    {
+      "path": "experiments/e02/acquisition/2026-11-14/raw/kalshi_series.json",
+      "sha256": "c8a8d9df309cd47ac2d72accd774719fae4e2b5b426e8a35f03d747ea3c8a1e7",
+      "manifest": "experiments/e02/acquisition/2026-11-14/manifest.json",
+      "url": "https://external-api.kalshi.com/trade-api/v2/series/KXCPICORE",
+      "fetched": "2026-11-14T20:03:34.828696+00:00"
+    }
+  ]
+}

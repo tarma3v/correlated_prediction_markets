@@ -1,0 +1,116 @@
+{
+  "source_labels": {
+    "same": 461,
+    "different": 27,
+    "unsure": 5
+  },
+  "components": 273,
+  "random_acceptance_probability": 0.9,
+  "models": {
+    "e5_small_v2": {
+      "same": {
+        "pairs": 461,
+        "families": 252,
+        "accepted": {
+          "cosine": 412,
+          "margin": 414
+        },
+        "macro_accepted": {
+          "cosine": 0.8979497354497354,
+          "margin": 0.9297811741655727
+        },
+        "macro_margin_minus_cosine": 0.03183143871583721,
+        "interval95_paired_families": [
+          -0.0073428859848032775,
+          0.07499055177626607
+        ],
+        "paired_counts": {
+          "1->1": 372,
+          "1->0": 40,
+          "0->0": 7,
+          "0->1": 42
+        }
+      },
+      "different": {
+        "pairs": 27,
+        "families": 19,
+        "accepted": {
+          "cosine": 11,
+          "margin": 15
+        },
+        "macro_accepted": {
+          "cosine": 0.47368421052631576,
+          "margin": 0.5789473684210527
+        },
+        "macro_margin_minus_cosine": 0.10526315789473684,
+        "interval95_paired_families": [
+          -0.15789473684210525,
+          0.3157894736842105
+        ],
+        "paired_counts": {
+          "1->0": 3,
+          "0->1": 7,
+          "1->1": 8,
+          "0->0": 9
+        }
+      }
+    },
+    "bge_small_en_v1_5": {
+      "same": {
+        "pairs": 461,
+        "families": 252,
+        "accepted": {
+          "cosine": 412,
+          "margin": 414
+        },
+        "macro_accepted": {
+          "cosine": 0.8967813051146385,
+          "margin": 0.9175126556470542
+        },
+        "macro_margin_minus_cosine": 0.020731350532415694,
+        "interval95_paired_families": [
+          -0.020337343026879368,
+          0.060747354497354494
+        ],
+        "paired_counts": {
+          "1->1": 377,
+          "1->0": 35,
+          "0->0": 12,
+          "0->1": 37
+        }
+      },
+      "different": {
+        "pairs": 27,
+        "families": 19,
+        "accepted": {
+          "cosine": 8,
+          "margin": 15
+        },
+        "macro_accepted": {
+          "cosine": 0.42105263157894735,
+          "margin": 0.631578947368421
+        },
+        "macro_margin_minus_cosine": 0.21052631578947367,
+        "interval95_paired_families": [
+          0.05263157894736842,
+          0.42105263157894735
+        ],
+        "paired_counts": {
+          "1->1": 8,
+          "0->1": 7,
+          "0->0": 12
+        }
+      }
+    }
+  },
+  "inputs_sha256": {
+    "redesign/retrieval/reference_pairs.json": "424400dd5cfb0735aea1e6f777ae7367ca2235c1992ac63c1147da66b3687629",
+    "comparison/retrieval/embedding_row_ids.json": "644a43b34205038f5a0f0ed06ebdbca51dd6e3f7a29a96b70b8ac7f85a5d84e3",
+    "comparison/retrieval/e5_small_v2_event_title_scores.npy": "c44f0921c51531e5341347d10bd540cd75077a9d241420231354c0aaf2bd227c",
+    "comparison/retrieval/bge_small_en_v1_5_event_title_scores.npy": "cc9706097b4122fc80f43d6099f34c8a9075009f27dd85f90b5e6b3bfdae872b"
+  },
+  "predictions_sha256": "a17b1a52eba086d49f9dce9e6645071f7011b3565b6c09127c28981cfb147461",
+  "code_sha256": "9b0485f3b501536e6cbd013776e05e1da0183af5a60322a0d1fafd38809e138a",
+  "shared_code_sha256": "1e2f5bd29caf6ff5153fe6e34c219c0400bd36a8c254154500f414ab62d9fc49",
+  "protocol_sha256": "6de0a352945a511be60710859f96c66399cf70422896bd81c83d64f4f061d7ed"
+}

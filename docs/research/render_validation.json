@@ -1,0 +1,14 @@
+{
+  "source_sha256": "f9159e649f1ae8a4449e418e835fdd95771fad36b2dc0a0b672210816d2ecaac",
+  "katex_version": "0.19.1",
+  "formula_count": 24,
+  "rendered_math": 24,
+  "katex_errors": 0,
+  "mobile_document_overflow": false,
+  "sections": 21,
+  "external_font_requests_required": false,
+  "pdf_pages": 18,
+  "visual_review": "All 18 final PDF pages inspected as rendered PNGs, plus full-size formula/table page and final page; desktop/mobile HTML screenshots inspected.",
+  "pdf_sha256": "2546598cd456cf6a0866c28248d2dc81843f8fc0f36689866ce2b66470d91c4d",
+  "html_sha256": "d4c2e54c044488f816709a9e327c7d9e25f93f7a2d7ad8039e527115f36eb808"
+}

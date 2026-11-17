@@ -1,0 +1,385 @@
+{
+  "source_pairs": 493,
+  "same_pairs": 461,
+  "models": {
+    "e5_small_v2": {
+      "competing_outcomes": {
+        "directions": 581,
+        "pairs": 292,
+        "families": 83,
+        "pool_sizes": {
+          "2": 170,
+          "3": 96,
+          "4": 59,
+          "5": 70,
+          "6": 12,
+          "7": 28,
+          "9": 36,
+          "10": 40,
+          "16": 32,
+          "19": 38
+        },
+        "macro_top1": {
+          "global_title": 0.8496291242664895,
+          "global_event_title": 0.9855421686746988,
+          "within_title": 0.9909638554216867,
+          "within_event_title": 0.9939759036144579,
+          "within_event_only": 0.3766835512475969
+        },
+        "paired": {
+          "global_context_gain": {
+            "delta": 0.13591304440820928,
+            "family_interval95": [
+              0.09012991187808879,
+              0.18694216087407273
+            ]
+          },
+          "within_context_gain": {
+            "delta": 0.0030120481927710845,
+            "family_interval95": [
+              0.0,
+              0.009036144578313253
+            ]
+          },
+          "global_minus_within_gain": {
+            "delta": 0.1329009962154382,
+            "family_interval95": [
+              0.08619716963090457,
+              0.1855426090326217
+            ]
+          }
+        }
+      },
+      "competing_by_target": {
+        "poly": {
+          "directions": 289,
+          "pairs": 289,
+          "families": 82,
+          "pool_sizes": {
+            "2": 85,
+            "3": 48,
+            "4": 28,
+            "5": 35,
+            "6": 6,
+            "7": 14,
+            "9": 18,
+            "10": 20,
+            "16": 16,
+            "19": 19
+          },
+          "macro_top1": {
+            "global_title": 0.8097924562422316,
+            "global_event_title": 0.9768292682926829,
+            "within_title": 0.9878048780487805,
+            "within_event_title": 0.9939024390243902,
+            "within_event_only": 0.3777203425229741
+          },
+          "paired": {
+            "global_context_gain": {
+              "delta": 0.16703681205045132,
+              "family_interval95": [
+                0.10596562544572814,
+                0.2345804806732278
+              ]
+            },
+            "within_context_gain": {
+              "delta": 0.006097560975609756,
+              "family_interval95": [
+                0.0,
+                0.018292682926829267
+              ]
+            },
+            "global_minus_within_gain": {
+              "delta": 0.16093925107484158,
+              "family_interval95": [
+                0.10091928245410273,
+                0.22867789392179635
+              ]
+            }
+          }
+        },
+        "kalshi": {
+          "directions": 292,
+          "pairs": 292,
+          "families": 83,
+          "pool_sizes": {
+            "2": 85,
+            "3": 48,
+            "4": 31,
+            "5": 35,
+            "6": 6,
+            "7": 14,
+            "9": 18,
+            "10": 20,
+            "16": 16,
+            "19": 19
+          },
+          "macro_top1": {
+            "global_title": 0.8871741351370394,
+            "global_event_title": 0.9939759036144579,
+            "within_title": 0.9939759036144579,
+            "within_event_title": 0.9939759036144579,
+            "within_event_only": 0.3761815432154684
+          },
+          "paired": {
+            "global_context_gain": {
+              "delta": 0.10680176847741844,
+              "family_interval95": [
+                0.060860107095046856,
+                0.15773092369477912
+              ]
+            },
+            "within_context_gain": {
+              "delta": 0.0,
+              "family_interval95": [
+                0.0,
+                0.0
+              ]
+            },
+            "global_minus_within_gain": {
+              "delta": 0.10680176847741844,
+              "family_interval95": [
+                0.060860107095046856,
+                0.15773092369477912
+              ]
+            }
+          }
+        }
+      },
+      "singleton": {
+        "directions": 341,
+        "pairs": 172,
+        "families": 170,
+        "pool_sizes": {
+          "1": 341
+        },
+        "macro_top1": {
+          "global_title": 0.8588235294117647,
+          "global_event_title": 0.9882352941176471,
+          "within_title": 1.0,
+          "within_event_title": 1.0,
+          "within_event_only": 1.0
+        },
+        "paired": {
+          "global_context_gain": {
+            "delta": 0.12941176470588237,
+            "family_interval95": [
+              0.09117647058823529,
+              0.175
+            ]
+          },
+          "within_context_gain": {
+            "delta": 0.0,
+            "family_interval95": [
+              0.0,
+              0.0
+            ]
+          },
+          "global_minus_within_gain": {
+            "delta": 0.12941176470588237,
+            "family_interval95": [
+              0.09117647058823529,
+              0.175
+            ]
+          }
+        }
+      }
+    },
+    "bge_small_en_v1_5": {
+      "competing_outcomes": {
+        "directions": 581,
+        "pairs": 292,
+        "families": 83,
+        "pool_sizes": {
+          "2": 170,
+          "3": 96,
+          "4": 59,
+          "5": 70,
+          "6": 12,
+          "7": 28,
+          "9": 36,
+          "10": 40,
+          "16": 32,
+          "19": 38
+        },
+        "macro_top1": {
+          "global_title": 0.8330292032792825,
+          "global_event_title": 0.9815261044176706,
+          "within_title": 0.9927710843373494,
+          "within_event_title": 0.9939759036144579,
+          "within_event_only": 0.3766835512475969
+        },
+        "paired": {
+          "global_context_gain": {
+            "delta": 0.14849690113838815,
+            "family_interval95": [
+              0.10060826010810159,
+              0.2003446429829594
+            ]
+          },
+          "within_context_gain": {
+            "delta": 0.0012048192771084334,
+            "family_interval95": [
+              0.0,
+              0.0036144578313253004
+            ]
+          },
+          "global_minus_within_gain": {
+            "delta": 0.1472920818612797,
+            "family_interval95": [
+              0.09975616752725187,
+              0.19873595258225887
+            ]
+          }
+        }
+      },
+      "competing_by_target": {
+        "poly": {
+          "directions": 289,
+          "pairs": 289,
+          "families": 82,
+          "pool_sizes": {
+            "2": 85,
+            "3": 48,
+            "4": 28,
+            "5": 35,
+            "6": 6,
+            "7": 14,
+            "9": 18,
+            "10": 20,
+            "16": 16,
+            "19": 19
+          },
+          "macro_top1": {
+            "global_title": 0.7891771476455366,
+            "global_event_title": 0.9768292682926829,
+            "within_title": 0.9914634146341463,
+            "within_event_title": 0.9939024390243902,
+            "within_event_only": 0.3777203425229741
+          },
+          "paired": {
+            "global_context_gain": {
+              "delta": 0.18765212064714631,
+              "family_interval95": [
+                0.12323695417405302,
+                0.26058540660594576
+              ]
+            },
+            "within_context_gain": {
+              "delta": 0.002439024390243902,
+              "family_interval95": [
+                0.0,
+                0.007317073170731706
+              ]
+            },
+            "global_minus_within_gain": {
+              "delta": 0.1852130962569024,
+              "family_interval95": [
+                0.12065548780487804,
+                0.2581708972634839
+              ]
+            }
+          }
+        },
+        "kalshi": {
+          "directions": 292,
+          "pairs": 292,
+          "families": 83,
+          "pool_sizes": {
+            "2": 85,
+            "3": 48,
+            "4": 31,
+            "5": 35,
+            "6": 6,
+            "7": 14,
+            "9": 18,
+            "10": 20,
+            "16": 16,
+            "19": 19
+          },
+          "macro_top1": {
+            "global_title": 0.874341224547312,
+            "global_event_title": 0.9859437751004017,
+            "within_title": 0.9939759036144579,
+            "within_event_title": 0.9939759036144579,
+            "within_event_only": 0.3761815432154684
+          },
+          "paired": {
+            "global_context_gain": {
+              "delta": 0.11160255055308956,
+              "family_interval95": [
+                0.06519410977242301,
+                0.16183682096808286
+              ]
+            },
+            "within_context_gain": {
+              "delta": 0.0,
+              "family_interval95": [
+                0.0,
+                0.0
+              ]
+            },
+            "global_minus_within_gain": {
+              "delta": 0.11160255055308956,
+              "family_interval95": [
+                0.06519410977242301,
+                0.16183682096808286
+              ]
+            }
+          }
+        }
+      },
+      "singleton": {
+        "directions": 341,
+        "pairs": 172,
+        "families": 170,
+        "pool_sizes": {
+          "1": 341
+        },
+        "macro_top1": {
+          "global_title": 0.8852941176470588,
+          "global_event_title": 0.9852941176470589,
+          "within_title": 1.0,
+          "within_event_title": 1.0,
+          "within_event_only": 1.0
+        },
+        "paired": {
+          "global_context_gain": {
+            "delta": 0.1,
+            "family_interval95": [
+              0.06666666666666667,
+              0.1411764705882353
+            ]
+          },
+          "within_context_gain": {
+            "delta": 0.0,
+            "family_interval95": [
+              0.0,
+              0.0
+            ]
+          },
+          "global_minus_within_gain": {
+            "delta": 0.1,
+            "family_interval95": [
+              0.06666666666666667,
+              0.1411764705882353
+            ]
+          }
+        }
+      }
+    }
+  },
+  "inputs_sha256": {
+    "redesign/retrieval/reference_pairs.json": "424400dd5cfb0735aea1e6f777ae7367ca2235c1992ac63c1147da66b3687629",
+    "redesign/retrieval/markets.json": "730b5a504dae16ea5fe620e1354aa2120c97b5ad5770095f2fa529cc9b90e152",
+    "comparison/retrieval/embedding_row_ids.json": "644a43b34205038f5a0f0ed06ebdbca51dd6e3f7a29a96b70b8ac7f85a5d84e3",
+    "comparison/retrieval/e5_small_v2_title_scores.npy": "62aeae6c57a588da06ed974632bb7bdd0591a5f71f7f023a838c8e096e2f31fd",
+    "comparison/retrieval/e5_small_v2_event_title_scores.npy": "c44f0921c51531e5341347d10bd540cd75077a9d241420231354c0aaf2bd227c",
+    "comparison/retrieval/bge_small_en_v1_5_title_scores.npy": "2786be59c25c684f32f4f932d044ffb8a605ef8bfbc1ee1e7a15339716dd8c9b",
+    "comparison/retrieval/bge_small_en_v1_5_event_title_scores.npy": "cc9706097b4122fc80f43d6099f34c8a9075009f27dd85f90b5e6b3bfdae872b"
+  },
+  "code_sha256": "de3e3a35f0270c61a9e1836de09f8465e4545cc2615e897d57c6cd758872e04d",
+  "shared_code_sha256": "1e2f5bd29caf6ff5153fe6e34c219c0400bd36a8c254154500f414ab62d9fc49",
+  "protocol_sha256": "f1c95ee41b60bb7760dda164b08df7a71f5a5e8b8dc6735e3324e6304fb00847",
+  "directions_sha256": "9085c21348ebcd8fdedd0e062777053ee21911909b1040d2f3478dd0514685f6"
+}

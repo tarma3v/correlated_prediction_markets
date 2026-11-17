@@ -1,0 +1,96 @@
+{
+  "checked_at_utc": "2026-11-14T20:24:56.137170+00:00",
+  "base_commit": "9fb8935",
+  "new_model_inference_performed": false,
+  "paid_api_calls": 0,
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "experiments/week1/prepare.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "Verified 24 development pairs\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/week1",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_abstention_has_no_precision_and_no_recall (test_evaluate.EvaluationTests.test_abstention_has_no_precision_and_no_recall) ... ok\ntest_abstention_is_not_a_repair (test_evaluate.EvaluationTests.test_abstention_is_not_a_repair) ... ok\ntest_checker_repairs_only_text_supported_extractions (test_evaluate.EvaluationTests.test_checker_repairs_only_text_supported_extractions) ... ok\ntest_false_constraint_denominator (test_evaluate.EvaluationTests.test_false_constraint_denominator) ... ok\ntest_formal_solver_cannot_certify_real_packet (test_evaluate.EvaluationTests.test_formal_solver_cannot_certify_real_packet) ... ok\ntest_format_repair_is_not_semantic_repair_or_abstention (test_evaluate.EvaluationTests.test_format_repair_is_not_semantic_repair_or_abstention) ... ok\ntest_invalid_response_is_abstention (test_evaluate.EvaluationTests.test_invalid_response_is_abstention) ... ok\ntest_known_repair_and_new_error (test_evaluate.EvaluationTests.test_known_repair_and_new_error) ... ok\ntest_no_constraints_is_not_perfect (test_evaluate.EvaluationTests.test_no_constraints_is_not_perfect) ... ok\ntest_witness_must_match_the_requested_joint_state (test_evaluate.EvaluationTests.test_witness_must_match_the_requested_joint_state) ... ok\ntest_all_phrases_and_exact_evidence (test_logic.ParserTests.test_all_phrases_and_exact_evidence) ... ok\ntest_parsed_records_work_without_gold_fields (test_logic.ParserTests.test_parsed_records_work_without_gold_fields) ... ok\ntest_reject_incomplete_nonbinary_and_extra_clauses (test_logic.ParserTests.test_reject_incomplete_nonbinary_and_extra_clauses) ... ok\ntest_reject_nonfinite_and_nonstandard_number_text (test_logic.ParserTests.test_reject_nonfinite_and_nonstandard_number_text) ... ok\ntest_all_operator_pairs_against_integer_scaled_oracle (test_logic.SolverTests.test_all_operator_pairs_against_integer_scaled_oracle) ... ok\ntest_caller_rounding_and_traps_do_not_change_solver (test_logic.SolverTests.test_caller_rounding_and_traps_do_not_change_solver) ... ok\ntest_context_is_exact_not_normalized (test_logic.SolverTests.test_context_is_exact_not_normalized) ... ok\ntest_identical_predicates (test_logic.SolverTests.test_identical_predicates) ... ok\ntest_independent_context_fields (test_logic.SolverTests.test_independent_context_fields) ... ok\ntest_labels_use_exact_forbidden_sets (test_logic.SolverTests.test_labels_use_exact_forbidden_sets) ... ok\ntest_negative_thresholds_and_interiors (test_logic.SolverTests.test_negative_thresholds_and_interiors) ... ok\ntest_numeric_types_and_signed_zero (test_logic.SolverTests.test_numeric_types_and_signed_zero) ... ok\ntest_opposite_comparisons (test_logic.SolverTests.test_opposite_comparisons) ... ok\ntest_precision_beyond_default_context (test_logic.SolverTests.test_precision_beyond_default_context) ... ok\ntest_reject_invalid_contracts (test_logic.SolverTests.test_reject_invalid_contracts) ... ok\ntest_reject_nonfinite_or_malformed_thresholds (test_logic.SolverTests.test_reject_nonfinite_or_malformed_thresholds) ... ok\ntest_strictness_at_shared_boundary (test_logic.SolverTests.test_strictness_at_shared_boundary) ... ok\ntest_tiny_interval_and_large_exponent_span (test_logic.SolverTests.test_tiny_interval_and_large_exponent_span) ... ok\n\n----------------------------------------------------------------------\nRan 28 tests in 0.008s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "experiments/week1/verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: frozen source inputs, 24 packets, 96 unique calls, complete offline metric reproduction\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/e02",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_kalshi_prices_and_results_excluded (test_collect_public.NormalizationTests.test_kalshi_prices_and_results_excluded) ... ok\ntest_malformed_response_is_preserved_for_audit (test_collect_public.NormalizationTests.test_malformed_response_is_preserved_for_audit) ... ok\ntest_no_invented_market_id (test_collect_public.NormalizationTests.test_no_invented_market_id) ... ok\ntest_polymarket_keeps_verified_ids_and_text_only (test_collect_public.NormalizationTests.test_polymarket_keeps_verified_ids_and_text_only) ... ok\ntest_duplicate_missing_extra_and_invalid_states_rejected (test_workflow.MetricTests.test_duplicate_missing_extra_and_invalid_states_rejected) ... ok\ntest_format_failure_is_not_deliberate_abstention (test_workflow.MetricTests.test_format_failure_is_not_deliberate_abstention) ... ok\ntest_impossible_reference_rejected_model_error_retained (test_workflow.MetricTests.test_impossible_reference_rejected_model_error_retained) ... ok\ntest_no_constraint_constant_has_no_forbidden_precision (test_workflow.MetricTests.test_no_constraint_constant_has_no_forbidden_precision) ... ok\ntest_perfect_fully_known_pair (test_workflow.MetricTests.test_perfect_fully_known_pair) ... ok\ntest_same_rules_with_different_or_missing_task_scope_rejected (test_workflow.MetricTests.test_same_rules_with_different_or_missing_task_scope_rejected) ... ok\ntest_stale_packet_cannot_be_compared_by_case_id_only (test_workflow.MetricTests.test_stale_packet_cannot_be_compared_by_case_id_only) ... ok\ntest_unknown_reference_never_counts_as_exact_correct (test_workflow.MetricTests.test_unknown_reference_never_counts_as_exact_correct) ... ok\ntest_unsupported_assertion_is_separate_from_known_error (test_workflow.MetricTests.test_unsupported_assertion_is_separate_from_known_error) ... ok\ntest_components_include_indirect_event_connections (test_workflow.ReadinessTests.test_components_include_indirect_event_connections) ... ok\ntest_duplicate_queue_ids_rejected (test_workflow.ReadinessTests.test_duplicate_queue_ids_rejected) ... ok\ntest_event_and_contract_overlap_across_splits (test_workflow.ReadinessTests.test_event_and_contract_overlap_across_splits) ... ok\ntest_template_overlap_without_shared_events (test_workflow.ReadinessTests.test_template_overlap_without_shared_events) ... ok\ntest_venue_qualifies_identity (test_workflow.ReadinessTests.test_venue_qualifies_identity) ... ok\ntest_version_change_does_not_allow_same_contract_in_both_splits (test_workflow.ReadinessTests.test_version_change_does_not_allow_same_contract_in_both_splits) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.003s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "comparison/retrieval/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 1,972 scores; 3,944 directional ranks; known-link metrics; retained original artifacts unchanged.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "relations/verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS:32 records;27different+5unsure;ID/provenance linkage;candidate truth-table encoding;human_gold=false.\nOriginal-fixture linkage: all32 selected ID pairs and original source hash match\nPASS:Decimal rounding boundary diagnostics and NFL seed-set consistency.\nThis verifier checks integrity/schema/math only; it does not certify settlement relations or empirical correlation.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "experiments/e02/workflow.py",
+        "check-splits",
+        "--pairs",
+        "experiments/e02/preparation/reviewer_a.jsonl"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"conflicts\": [],\n  \"template_isolation_verified\": false\n}\n",
+      "stderr": ""
+    }
+  ],
+  "source_hash_checks": {
+    "api_raw": 3,
+    "normalized_records": 62,
+    "terms_pdf": 2,
+    "all_passed": true
+  },
+  "preparation_reproduction": "12 identical blank packets for each of two reviewers; hashes and null task scope retained"
+}

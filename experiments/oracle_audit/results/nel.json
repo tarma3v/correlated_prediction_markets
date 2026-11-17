@@ -1,0 +1,142 @@
+{
+  "Claude-Opus-4.5": {
+    "archive_reported": {
+      "num_samples": 300,
+      "accuracy": 0.6933333333333334,
+      "brier_score": 0.2269326666666667,
+      "avg_latency_ms": 11784.278493333335,
+      "total_cost_usd": 11.6336
+    },
+    "n_rows": 300,
+    "n_tagged": 300,
+    "raw_disagrees_with_answer": 177,
+    "stored_disagrees_with_answer": 26,
+    "same_id_label_unambiguous": 221,
+    "distinct_groups": 187,
+    "stored": {
+      "n": 221,
+      "correct": 153,
+      "accuracy": 0.6923076923076923,
+      "brier": 0.20790497737556562
+    },
+    "literal_tag": {
+      "n": 221,
+      "correct": 98,
+      "accuracy": 0.4434389140271493,
+      "brier": 0.36319909502262443
+    },
+    "explicit_answer_correct": 160
+  },
+  "GPT-5.2-XHigh": {
+    "archive_reported": {
+      "num_samples": 300,
+      "accuracy": 0.6533333333333333,
+      "brier_score": 0.43289069333333335,
+      "avg_latency_ms": 135725.94116333337,
+      "total_cost_usd": 30.3162
+    },
+    "n_rows": 300,
+    "n_tagged": 300,
+    "raw_disagrees_with_answer": 1,
+    "stored_disagrees_with_answer": 230,
+    "same_id_label_unambiguous": 221,
+    "distinct_groups": 187,
+    "stored": {
+      "n": 221,
+      "correct": 86,
+      "accuracy": 0.3891402714932127,
+      "brier": 0.44670003619909504
+    },
+    "literal_tag": {
+      "n": 221,
+      "correct": 148,
+      "accuracy": 0.669683257918552,
+      "brier": 0.23831994570135748
+    },
+    "explicit_answer_correct": 149
+  },
+  "DeepSeek-V3.2": {
+    "archive_reported": {
+      "num_samples": 300,
+      "accuracy": 0.6433333333333333,
+      "brier_score": 0.33859866666666666,
+      "avg_latency_ms": 7946.728706666666,
+      "total_cost_usd": 0.3649
+    },
+    "n_rows": 300,
+    "n_tagged": 300,
+    "raw_disagrees_with_answer": 43,
+    "stored_disagrees_with_answer": 162,
+    "same_id_label_unambiguous": 221,
+    "distinct_groups": 187,
+    "stored": {
+      "n": 221,
+      "correct": 101,
+      "accuracy": 0.45701357466063347,
+      "brier": 0.3400497737556561
+    },
+    "literal_tag": {
+      "n": 221,
+      "correct": 135,
+      "accuracy": 0.6108597285067874,
+      "brier": 0.24928054298642535
+    },
+    "explicit_answer_correct": 151
+  },
+  "Qwen3-235B-Thinking": {
+    "archive_reported": {
+      "num_samples": 300,
+      "accuracy": 0.6566666666666666,
+      "brier_score": 0.3458623333333333,
+      "avg_latency_ms": 25397.508956666665,
+      "total_cost_usd": 1.1882
+    },
+    "n_rows": 300,
+    "n_tagged": 300,
+    "raw_disagrees_with_answer": 120,
+    "stored_disagrees_with_answer": 111,
+    "same_id_label_unambiguous": 221,
+    "distinct_groups": 187,
+    "stored": {
+      "n": 221,
+      "correct": 113,
+      "accuracy": 0.5113122171945701,
+      "brier": 0.34492217194570135
+    },
+    "literal_tag": {
+      "n": 221,
+      "correct": 119,
+      "accuracy": 0.5384615384615384,
+      "brier": 0.3538814479638009
+    },
+    "explicit_answer_correct": 147
+  },
+  "Kimi-K2": {
+    "archive_reported": {
+      "num_samples": 300,
+      "accuracy": 0.6712328767123288,
+      "brier_score": 0.3472582191780822,
+      "avg_latency_ms": 16206.021659999999,
+      "total_cost_usd": 0.9358
+    },
+    "n_rows": 300,
+    "n_tagged": 290,
+    "raw_disagrees_with_answer": 74,
+    "stored_disagrees_with_answer": 143,
+    "same_id_label_unambiguous": 213,
+    "distinct_groups": 180,
+    "stored": {
+      "n": 213,
+      "correct": 104,
+      "accuracy": 0.48826291079812206,
+      "brier": 0.3539676056338028
+    },
+    "literal_tag": {
+      "n": 213,
+      "correct": 123,
+      "accuracy": 0.5774647887323944,
+      "brier": 0.3111507042253521
+    },
+    "explicit_answer_correct": 147
+  }
+}

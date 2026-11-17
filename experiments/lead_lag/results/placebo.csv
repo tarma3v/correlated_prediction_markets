@@ -1,0 +1,5 @@
+cohort,target,measured_pp,placebo_draws,placebo_median_pp,placebo_q025_pp,placebo_q975_pp,placebo_ge_actual
+fomc,kalshi,0.03447523,199,-0.17747511,-0.46519068,0.06336505,6
+fomc,polymarket,0.09463287,199,-0.12945555,-0.34734166,0.07127535,1
+senate,kalshi,-0.00560632,199,-0.03253102,-0.08733539,0.01305483,31
+senate,polymarket,-0.11828911,199,-0.04178233,-0.11340237,0.00319974,196
