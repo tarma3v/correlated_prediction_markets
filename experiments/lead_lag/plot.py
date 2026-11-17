@@ -31,5 +31,5 @@ for ax, name, low, high, title in [
         ax.spines[side].set_visible(False)
     ax.tick_params(axis="y", length=0)
 fig.suptitle("Улучшает ли цена другой площадки прогноз на следующий день?", weight="bold")
-fig.supxlabel("MAE базы минус MAE межплощадочной модели, п.п. Положительное значение — улучшение.", fontsize=10)
+fig.supxlabel("MAE базы минус MAE межплощадочной модели, п.п. Выигрыш при значении выше нуля.", fontsize=10)
 fig.savefig(root / "results" / "mae_gain.png", dpi=180, bbox_inches="tight")
