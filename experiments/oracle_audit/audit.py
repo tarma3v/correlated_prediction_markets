@@ -44,6 +44,31 @@ def weighted_decision(row):
     return int(yes >= no)
 
 
+def paired_rounds(expected_n, expected_final_correct):
+    team = json.loads((DATA / "team_archive_audit.json").read_text())
+    counts = team["paired"]["B_round1_majority_vs_B_final"]
+    both = counts["both_correct"]
+    first_only = counts["a_only_correct"]
+    final_only = counts["b_only_correct"]
+    neither = counts["both_wrong"]
+    total = both + first_only + final_only + neither
+    if total != counts["valid_pairs"] or total != expected_n:
+        raise ValueError("Paired round counts disagree with the archived sample size")
+    if both + final_only != expected_final_correct:
+        raise ValueError("Paired final-round total disagrees with the archived curve")
+    return dict(
+        source="data/team_archive_audit.json",
+        pairs=total,
+        both_correct=both,
+        first_only_correct=first_only,
+        final_only_correct=final_only,
+        both_wrong=neither,
+        first_correct=both + first_only,
+        final_correct=both + final_only,
+        net_correct_change=final_only - first_only,
+    )
+
+
 def kota():
     rows = read_csv(DATA / "kota_votes.csv")
     b_final = read_csv(DATA / "kota_b_final.csv")
@@ -110,17 +135,27 @@ def kota():
 
     threshold = median(conf(r) for r in train)
     unanimity = [len({r[m] for m in MODELS}) == 1 for r in test]
-    gate = select(
-        test,
-        [weighted_decision(r) for r in test],
-        [u and conf(r) >= threshold for r, u in zip(test, unanimity)],
-    )
+    high_confidence = [conf(r) >= threshold for r in test]
+    intersection = [u and h for u, h in zip(unanimity, high_confidence)]
+    decisions = [weighted_decision(r) for r in test]
+    ablations = {}
+    for name, mask in (
+        ("all", [True] * len(test)),
+        ("unanimity_only", unanimity),
+        ("confidence_only", high_confidence),
+        ("intersection", intersection),
+    ):
+        metrics = select(test, decisions, mask)
+        metrics["correct"] = metrics["accepted"] - metrics["errors"]
+        metrics["deferred"] = len(test) - metrics["accepted"]
+        ablations[name] = metrics
+    gate = ablations["intersection"].copy()
     blocks = defaultdict(list)
     for j, row in enumerate(test):
         blocks[row["group"]].append(j)
     block_stats = []
     for indices in blocks.values():
-        accepted = [j for j in indices if unanimity[j] and conf(test[j]) >= threshold]
+        accepted = [j for j in indices if intersection[j]]
         block_stats.append(
             (
                 len(accepted),
@@ -155,6 +190,8 @@ def kota():
         heldout=scores,
         training_confidence_median=threshold,
         heldout_gate=gate,
+        heldout_selection_ablations=ablations,
+        archive_B_rounds=paired_rounds(len(b_final), paper["curve_B_final"]),
         archive_A_wall_ms=dict(n=len(lat), median=median(lat), mean=mean(lat)),
     )
 

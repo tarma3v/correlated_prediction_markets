@@ -12,7 +12,8 @@
     "data/nel_votes.csv": "5dd4dc4a06b89674b87ec089bcbcb3a7e655bf9bfa05056d258fc37afb164340",
     "data/releases.json": "1249f161cf7c254b5a99d61a610f898ae755e6d8cb85d615926b28b2bcf0f0e5",
     "data/shadow_market.json": "a05dd533f91af48d91225b80dab0750497affd879360ef8ee6c70d30996dfdc7",
-    "data/sources.json": "74648e974f8df1efd2e97402a1f07a95abaa045848a15fd13b4bc601567a8750"
+    "data/sources.json": "74648e974f8df1efd2e97402a1f07a95abaa045848a15fd13b4bc601567a8750",
+    "data/team_archive_audit.json": "da3320ba7ffdaaf1ded9b3510ae11178da25dd3268177894315de676a5b34f0e"
   },
   "results_sha256": {
     "results/cpi.json": "7604e7cb9661dbe1e86e2c2b78f889c11c6902020b4b6d486d902fb747eaa4eb",
@@ -22,7 +23,7 @@
     "results/jev.json": "bcf19c0af5e1e00585e770336b475969f559c84088e0cc61fca804a00b7f62f9",
     "results/jev_reference.jsonl": "6a959aeddc9d3791e314036d4049404bcb7e6d38b768d9ff9bad21b76c4da58e",
     "results/jev_requests.jsonl": "821763e498e0619b96b3356710a379e15ddc2c6de5bf480dc7293285a385e431",
-    "results/kota.json": "0157b4f6721403a5f20de4c0c16f62d7a336a1e047f4fbb750ec41f795eb3749",
+    "results/kota.json": "f7021a18e65458c4ecb7b7d63b99dfdcf401f26eec73196e89b1a56d31769adb",
     "results/nel.json": "50d274601be803abc46468654a2721499a6cfa1cef7c8623c646c8f0e5743e35",
     "results/text_baseline.json": "3d7beb6d370171e269e2c35be7fa89b748d1f5c82341d4bd1565342762e7adf1"
   }

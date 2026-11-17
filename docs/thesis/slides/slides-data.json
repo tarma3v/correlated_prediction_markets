@@ -498,6 +498,8 @@
       "coverage": 0.4491017964071856,
       "errors": 8,
       "accuracy": 0.9733333333333334,
+      "correct": 292,
+      "deferred": 368,
       "series_bootstrap_percentile_95": [
         0.9527027027027027,
         0.9901639344262295
@@ -526,7 +528,7 @@
     "experiments/confidence_audit/results.json": "e73923dc329fe9a8e76e74576cff391c510158f2b80cb0b145d5fb6b54c0c269",
     "experiments/semantic_audit/results.json": "3736e73e4a69a6fd8228c9a510f2e29addd276b8c7e27a5b9d4c6c1c65b41db5",
     "experiments/market_audit/summary.json": "cfbe9bc78f05c657769d2a9adb303e744336f2d13ebb7ac741f9e6505cbf3d86",
-    "experiments/oracle_audit/results/kota.json": "0157b4f6721403a5f20de4c0c16f62d7a336a1e047f4fbb750ec41f795eb3749",
+    "experiments/oracle_audit/results/kota.json": "f7021a18e65458c4ecb7b7d63b99dfdcf401f26eec73196e89b1a56d31769adb",
     "experiments/oracle_audit/results/cpi.json": "7604e7cb9661dbe1e86e2c2b78f889c11c6902020b4b6d486d902fb747eaa4eb",
     "experiments/oracle_audit/results/evidence.json": "9921f9d11a69f0bfc9fd65be2e62d90c247d0296f44d6a11754285b619717643",
     "experiments/oracle_audit/results/jev.json": "bcf19c0af5e1e00585e770336b475969f559c84088e0cc61fca804a00b7f62f9",
