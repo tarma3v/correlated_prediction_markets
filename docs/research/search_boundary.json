@@ -1,0 +1,31 @@
+{
+  "schema_version": "2.0",
+  "search_boundary_id": "ITMO-2026-11-14",
+  "searched_on": "2026-11-14",
+  "searched_by": "Authorized AI research assistant; human final review pending",
+  "purpose": "Targeted narrative review of the supplied diploma context and nearest competing methods, not a systematic review",
+  "databases_or_indexes": [
+    "arXiv direct versioned full text",
+    "Web index supplementary discovery",
+    "GitHub source repositories",
+    "Supplied Notion pages/export via authorized session"
+  ],
+  "queries": [
+    "prediction markets resolution semantic benchmark 2026",
+    "prediction markets contract entailment 2026",
+    "site:github.com K-Dense-AI scientific-critical-thinking literature-review",
+    "site:github.com Orchestra-Research AI-Research-SKILLs ml-experiment-tracking"
+  ],
+  "date_limits": "Available as of 2026-11-14; explicit versions pinned where assessed",
+  "language_limits": "Russian project materials and English primary research",
+  "inclusion_scope": "Four supplied studies, methods and limitations; cited direct predecessors; one newly discovered direct October competitor",
+  "exclusion_scope": "Trading advice, broad forecasting leaderboards, nonprimary summaries as evidence, unverified universal novelty claims",
+  "known_limitations": [
+    "No exhaustive bibliographic-database search",
+    "One AI synthesis with internal agent review; no independent human full-text screening",
+    "External oracle implementation audit not reproduced",
+    "Supplementary papers assessed selectively; not a full replication"
+  ],
+  "last_result_screened_or_stop_rule": "Four supplied full texts and their version differences; nearest supplied predecessors; one directly relevant new primary result verified on arXiv; no claim of exhaustive screening",
+  "novelty_status": "requires_supervisor_and_full_comparison"
+}

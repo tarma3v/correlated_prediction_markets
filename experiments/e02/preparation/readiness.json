@@ -1,0 +1,45 @@
+{
+  "pairs": 40,
+  "unique_contracts": 56,
+  "unique_events": 29,
+  "cross_venue_pairs": 0,
+  "completed_annotations": 0,
+  "empty_secondary_occurrences": 22,
+  "contract_occurrences": 80,
+  "event_component_sizes": [
+    15,
+    6,
+    4,
+    4
+  ],
+  "split_conflicts": [],
+  "confirmatory_benchmark_ready": false,
+  "blockers": [
+    "Independent blind annotations and adjudication not verified",
+    "Complete governing documents and version scopes not certified",
+    "Existing inspected queue is development, not untouched holdout",
+    "Template-family grouping requires manual review",
+    "Cross-venue retrieval recall needs an opposing corpus and exhaustive blocks"
+  ],
+  "note": "Empty secondary is a recorded field value, not proof of missing or complete governing terms.",
+  "schema_version": "e02-preparation-v1",
+  "status": "development_preparation_only",
+  "created_at_utc": "2026-11-14T20:02:15.312581+00:00",
+  "source_queue": "experiments/week1/h1_queue/blind_queue.jsonl",
+  "source_sha256": "1008706a6bd98697c343980610de6689c1703e93c8de6689afd40855169f067a",
+  "calibration_pair_ids": [
+    "h1q_004",
+    "h1q_007",
+    "h1q_010",
+    "h1q_014",
+    "h1q_018",
+    "h1q_020",
+    "h1q_025",
+    "h1q_028",
+    "h1q_031",
+    "h1q_034",
+    "h1q_037",
+    "h1q_039"
+  ],
+  "calibration_selection": "Deliberate development contrasts; not random or representative"
+}

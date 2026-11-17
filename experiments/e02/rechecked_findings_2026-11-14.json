@@ -1,0 +1,114 @@
+{
+  "checked_at_utc": "2026-11-14T19:57:36.768646+00:00",
+  "all_assertions_passed": true,
+  "method": "Independent probability-to-type reconstruction plus direct source predicate parsing and Decimal witness evaluation; no model rerun.",
+  "deberta": {
+    "pairs": 1188,
+    "directional_inferences": 2376,
+    "reported_truncations": 0,
+    "mapping_recomputed": 1188,
+    "conditional_pairs": 839,
+    "template_groups": 19,
+    "exclusion_conflicts": 325,
+    "conflict_fraction_among_conditional_pairs": 0.3873659117997616,
+    "both_yes_witnesses_checked": 839,
+    "examples": [
+      {
+        "a": "KXLCPIMAXYOY-27-P6.5",
+        "b": "KXLCPIMAXYOY-27-P5",
+        "operator_a": ">=",
+        "threshold_a": "6.5",
+        "operator_b": ">=",
+        "threshold_b": "5",
+        "x_both_yes": "7.5",
+        "mean_contradiction_score": 0.9813401103019714
+      },
+      {
+        "a": "KXCPI-26OCT-T0.4",
+        "b": "KXCPI-26OCT-T0.1",
+        "operator_a": ">",
+        "threshold_a": "0.4",
+        "operator_b": ">",
+        "threshold_b": "0.1",
+        "x_both_yes": "1.4",
+        "mean_contradiction_score": 0.9183368384838104
+      },
+      {
+        "a": "KXCPI-26OCT-T0.5",
+        "b": "KXCPI-26OCT-T0.4",
+        "operator_a": ">",
+        "threshold_a": "0.5",
+        "operator_b": ">",
+        "threshold_b": "0.4",
+        "x_both_yes": "1.5",
+        "mean_contradiction_score": 0.810829758644104
+      }
+    ],
+    "scope": "Common unrestricted scalar, matched templates, lower-bound predicates, binary rule-following settlement. Not human-gold accuracy or unconditional contract certification."
+  },
+  "title_containment": {
+    "status": "verified",
+    "restore_command": null,
+    "positive_pairs": 461,
+    "counts": {
+      "literal_case_sensitive": 278,
+      "literal_lowercase": 285,
+      "nfkc_casefold_whitespace": 285,
+      "lowercase_word_tokens": 296
+    },
+    "headline_formula": "poly_title.lower() in kalshi_title.lower(), restricted to label == 'same'",
+    "headline_fraction": 0.6182212581344902,
+    "scope": "Text overlap in an author-selected snapshot; not retrieval accuracy, equivalence or absence of difficult negatives."
+  },
+  "source_clauses": {
+    "pdf_hash_checks": {
+      "KXCPIYOY_terms.pdf": "matches_saved_download_manifest",
+      "KXLCPIMAXYOY_terms.pdf": "matches_saved_download_manifest",
+      "KXCPI_terms.pdf": "matches_saved_download_manifest"
+    },
+    "terms_text_checks": {
+      "KXCPIYOY_terms.txt": {
+        "status": "phrases_verified",
+        "phrase_checks": 3
+      },
+      "KXLCPIMAXYOY_terms.txt": {
+        "status": "phrases_verified",
+        "phrase_checks": 4
+      },
+      "KXCPI_terms.txt": {
+        "status": "phrases_verified",
+        "phrase_checks": 1
+      }
+    },
+    "cpi_api_0825_vs_template_0829": true,
+    "yoy_strict_above_vs_annual_at_least_api": true,
+    "kalshi_departure_nonbinary_branch_in_saved_text": true,
+    "scope": "Textual discrepancies and explicit branch verified; current documents not proved to be the historical governing version; no unconditional payout counterexample inferred."
+  },
+  "terms_audit_editorial_update": {
+    "historical_manifest_sha256": "d595676a0d0fcd577d9c65066e5cc7262196fdaf1906a29a2ade1d370260d97e",
+    "current_markdown_sha256": "bc56af68e9c140c4086de90e608ddf609fd31caa8b7bcb915670f13e07f604b0",
+    "note": "Concluding section updated; source documents and historical manifest remain unchanged."
+  },
+  "input_sha256": {
+    "pilot/markets.json": "b563a9b5948e5c7a485db0919d54739afdbed5e6e7cd491620db4a69d7dada97",
+    "extension/nlp/corpus_nli_predictions.json": "27800d359835268c8e9ee3147a2b998de00ac4efa4408023df57eb7acd4fa5a2",
+    "extension/nlp/corpus_run_manifest.json": "5b5c94f7b6520f5c0825528e32669f6d8998a03dffb0103e181b12f338525a66",
+    "pilot/results/candidates.json": "82eb1fbd580a8c03032f1e283d873583afda3d2a6e4a4a88beb2ac1c15f7015b",
+    "extension/nlp/conditional_consistency.json": "0599498e6e322b3b806b162d49ba5f22dc7629f7c79541e205e1121cfdc4d769",
+    "extension/retrieval/results/threshold_candidates.json": "97ad95c9d079f320c3ef666e3765ea7efb5b49b8e7fe7208e4856f9cdca802c8",
+    "extension/retrieval/results/extractions.json": "6251b334511d81c5c3edbcfd313282993d332c1d738d8395a03ea7c289c38750",
+    "redesign/retrieval/reference_pairs.json": "424400dd5cfb0735aea1e6f777ae7367ca2235c1992ac63c1147da66b3687629",
+    "redesign/retrieval/markets.json": "730b5a504dae16ea5fe620e1354aa2120c97b5ad5770095f2fa529cc9b90e152",
+    "extension/terms/manifest.json": "67ea020679b503e1cccee0f612426a3238dc4fc103b6b4f8f484c6897e8472da",
+    "extension/terms/KXCPIYOY_terms.pdf": "00b843ff816f06fc397c1482d05c1164247cf186392269749c29ed3722c3a7ee",
+    "extension/terms/KXLCPIMAXYOY_terms.pdf": "f8a64819443472654eb410242791b24f3210987afb06faa098d04d72d485d977",
+    "extension/terms/KXCPI_terms.pdf": "2317b1d8e823082b409f6ff3415fb135804d9682681f9f92f640b3681b29a872",
+    "extension/terms/KXCPIYOY_terms.txt": "7901d24faf232d9a8046035ed67ca644e0df7cdcd847a3f037dab8227d97c302",
+    "extension/terms/KXLCPIMAXYOY_terms.txt": "3a32eadddfa4bf062e29cdbdac59a7aef9e02a22f8a3c66a424857dc27c96082",
+    "extension/terms/KXCPI_terms.txt": "e04a1b891133f588525eadcc7ab6ad015924622babab036b5226429e8bf62df4",
+    "redesign/cards/political_inputs.json": "00169663e4726a513ae638f65de7c0907de732f426f2f57a4fa848600630ce28",
+    "redesign/discovery/political/kalshi_out.json": "82f2540fba4a2fea87141530593e5145caaa84896ec2e48d8d820c055ceb8fe2"
+  },
+  "validator_sha256": "925bdece00cbff9810a69c0bc4a01fe671ba67c7343c13c0b2de561cb608d86d"
+}

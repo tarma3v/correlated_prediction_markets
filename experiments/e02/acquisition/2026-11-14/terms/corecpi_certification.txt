@@ -1,0 +1,247 @@
+KalshiEX LLC
+KalshiEX LLC
+06/29/2022
+SUBMITTED VIA CFTC PORTAL
+Secretary of the Commission
+Office of the Secretariat
+U.S. Commodity Futures Trading Commission
+Three Lafayette Centre
+1155 21st Street, N.W.
+Washington, D.C. 20581
+Re: KalshiEX LLC – CFTC Regulation 40.2(a) Notification Regarding the Initial Listing
+of the “Will core CPI growth be <above/below/between> <percent> in <month>?”
+Contract
+Dear Sir or Madam,
+Pursuant to Section 5c(c) of the Commodity Exchange Act and Section 40.2(a) of the regulations of the
+Commodity Futures Trading Commission, KalshiEX LLC (Kalshi) hereby notifies the Commission that
+it is self-certifying the “Will core CPI growth be <above/below/between> <percent> in <month>?”
+contract (Contract). The initial iteration will be listed in May. The Contract’s terms and conditions
+(Appendix A) includes the following strike conditions:
+● <above/below/between>
+● <percent> (the target core CPI growth)
+● <month> (the target month)
+
+Along with this letter, Kalshi submitted the following documents:
+● A concise explanation and analysis of the Contract;
+● Certification;
+● Appendix A with the Contract’s Terms and Conditions;
+● Confidential Appendices with further information; and
+● A request for FOIA confidential treatment.
+If you have any questions, please do not hesitate to contact me.
+Sincerely,
+Elie Mishory
+Chief Regulatory Officer
+KalshiEX LLC
+emishory@kalshi.com
+
+
+
+
+KalshiEX LLC
+KalshiEX LLC
+KalshiEX LLC
+Official Product Name: Will core CPI growth be <above/below/between> <percent> in <month>?
+Rulebook: CORECPI
+Kalshi Contract Category: Economic/Demographic Data – U.S. Government
+Core CPI
+06/29/2022
+
+
+CONCISE EXPLANATION AND ANALYSIS OF THE PRODUCT AND ITS
+COMPLIANCE WITH APPLICABLE PROVISIONS OF THE ACT, INCLUDING
+CORE PRINCIPLES AND THE COMMISSION'S REGULATIONS THEREUNDER
+Pursuant to Commission Rule 40.2(a)(3)(v), the following is a concise explanation and analysis
+of the product and its compliance with the Act, including the relevant Core Principles, and the
+Commission's regulations thereunder.
+I. Introduction
+
+The “Will core CPI growth be <above/below/between> <percent> in <month>?”
+Contract is a contract relating the inflation rate in the United States. After careful
+analysis, Kalshi (hereafter referred to as “Exchange”) has determined that the Contract
+complies with its vetting framework, which has been reviewed by the CFTC and formed
+part of the Exchange’s application for designation as a Contract Market (“DCM”) that
+was approved by the Commission.
+
+The consumer price index (CPI) is the most common metric of measuring inflation.
+Inflation is an economic phenomenon whereby the value of money is reduced. “Core”
+CPI excludes food and energy from the index, which are considered more volatile than
+most sectors of the economy. As a result, core CPI could be a better indicator of
+inflationary pressure and its likely path forward.
+
+Further information about the Contract, including an analysis of its risk mitigation and
+price basing utility, as well as additional considerations related to the Contract, is
+included in Confidential Appendices B, C, and D.
+
+Pursuant to Section 5c(c) of the Act and CFTC Regulations 40.2(a), the Exchange hereby
+certifies that the listing of the Contract complies with the Act and Commission
+regulations under the Act.
+
+General Contract Terms and Conditions: The Contract operates similar to other binary
+contracts that the Exchange lists for trading. The minimum price fluctuation is $0.01 (one
+cent). Price bands will apply so that Contracts may only be listed at values of at least
+KalshiEX LLC
+KalshiEX LLC
+$0.01 and at most $0.99. Further, the Contract is sized with a one-dollar notional value
+and has a minimum price fluctuation of $0.01 to enable Members to match the size of the
+contracts purchased to their economic risks. The Exchange has further imposed position
+limits (defined as maximum loss exposure) of $25,000 USD on the Contract. As outlined
+in Rule 5.12 of the Rulebook, trading shall be available at all times outside of any
+maintenance windows, which will be announced in advance by the Exchange. Members
+will be charged fees in accordance with Rule 3.6 of the Rulebook. Fees are charged in
+such amounts as may be revised from time to time to be reflected on the Exchange’s
+Website. Additionally, as outlined in Rule 7.2 of the Rulebook, if any event or any
+circumstance which may have a material impact on the reliability or transparency of a
+Contract’s Source Agency or the Underlying related to the Contract arises, Kalshi retains
+the authority to designate a new Source Agency and Underlying for that Contract and to
+change any associated Contract specifications after the first day of trading. That new
+Source Agency and Underlying would be objective and verifiable. Kalshi would
+announce any such decision on its website. All instructions on how to access the
+Underlying are non-binding and are provided for convenience only and are not part of the
+binding Terms and Conditions of the Contract. They may be clarified at any time.
+Furthermore, the Contract’s payout structure is characterized by the payment of an
+absolute amount to the holder of one side of the option and no payment to the
+counterparty. During the time that trading on the Contract is open, Members are able to
+adjust their positions and trade freely. After trading on the Contract has closed, the
+Expiration Value and Market Outcome are determined. The market is then settled by the
+Exchange, and the long position holders and short position holders are paid according to
+the Market Outcome. In this case, “long position holders” refers to Members who
+purchased the “Yes” side of the Contract and “short position holders” refers to Members
+who purchased the “No” side of the Contract. If the Market Outcome is “Yes,” meaning
+that U.S. core CPI growth in <month> is <above/below/between> <percent>, then the
+long position holders are paid an absolute amount proportional to the size of their
+position and the short position holders receive no payment. If the Market Outcome is
+“No,” then the short position holders are paid an absolute amount proportional to the size
+of their position and the long position holders receive no payment. Specification of the
+circumstances that would trigger a Market Outcome of “Yes” are included below in the
+section titled “Payout Criterion” in Appendix A.
+
+
+
+
+KalshiEX LLC
+KalshiEX LLC
+CERTIFICATIONS PURSUANT TO SECTION 5c OF THE COMMODITY
+EXCHANGE ACT, 7 U.S.C. § 7A-2 AND COMMODITY FUTURES TRADING
+COMMISSION RULE 40.2, 17 C.F.R. § 40.2
+
+Based on the above analysis, the Exchange certifies that:
+❏ The Contract complies with the Act and Commission regulations thereunder.
+❏ This submission (other than those appendices for which confidential treatment has been
+requested) has been concurrently posted on the Exchange’s website at
+https://kalshi.com/regulatory/filings.
+
+Should you have any questions concerning the above, please contact the exchange at
+ProductFilings@kalshi.com.
+
+
+
+
+______________________
+
+By: Eliezer Mishory
+Title: Chief Regulatory Officer
+Date: 06/29/2022
+
+KalshiEX LLC
+KalshiEX LLC
+Attachments:
+Appendix A - Contract Terms and Conditions
+Appendix B (Confidential) - Further Considerations
+Appendix C (Confidential) - Source Agency
+Appendix D (Confidential) - Compliance with Core Principles
+
+
+
+KalshiEX LLC
+KalshiEX LLC
+APPENDIX A – CONTRACT TERMS AND CONDITIONS
+
+TERMS OF CONTRACTS TRADED ON KALSHI
+
+Official Product Name: Will core CPI growth be <above/below/between> <percent> in
+<month>?
+Rulebook: CORECPI
+
+
+KalshiEX LLC
+KalshiEX LLC
+CORECPI
+
+Scope: These rules shall apply to this contract.
+
+Underlying: The Underlying for this Contract is the percent change in the seasonally adjusted
+Consumer Price Index for All Urban Consumers (CPI-U) for all items less food and energy
+published by the Bureau of Labor Statistics (“BLS”) in the Consumer Price Index Summary for
+<month>. Please note that the Underlying is the single decimal point percent change value (e.g.
+0.2) reported by the BLS. Revisions to the Underlying made after Expiration will not be
+accounted for in determining the Expiration Value.
+
+Instructions: The Underlying can be accessed here.1 A schedule of release dates is available on
+the BLS website (here), and the data is released at 8:30am ET.2 Each month’s report is available
+at this stable URL, which automatically displays the latest available report. The Underlying for a
+given month is typically listed in the first sentence of the third paragraph of the first page of the
+monthly report under the heading “CONSUMER PRICE INDEX-[Month/Year]”. For example,
+in the CPI report for April 2022, the first sentence of the third paragraph is “The index for all
+items less food and energy rose 0.6 percent in April…” so 0.6 percent would be the value for the
+month of April 2022. Historical reports from prior months are available on the Bureau of Labor
+Statistics website here. If you select the year in question, links to CPI reports from months in that
+year will be displayed. These instructions on how to access the Underlying are provided for
+convenience only and are not part of the binding Terms and Conditions of the Contract. They
+may be clarified at any time.
+
+Source Agency: The Source Agency is the Bureau of Labor Statistics.
+
+Type: The type of Contract is a Binary Contract.
+
+Issuance: The Contract is based on the outcome of a recurrent data release, which is issued on a
+monthly basis. Thus, Contract iterations will be issued on a recurring basis, and future Contract
+iterations will generally correspond to a given calendar year. The Exchange may add new strike
+values of <percent> as market conditions change.
+
+<percent>: Kalshi may list iterations of the Contract with <percent> levels that fall within an
+inclusive range between 0 and 500 at consecutive increments of 0.1. Due to the potential for
+variability in the Underlying, the Exchange may modify <percent> levels in response to
+suggestions by Members.
+
+
+1 https://www.bls.gov/cpi/
+2 https://www.bls.gov/schedule/news_release/cpi.htm
+KalshiEX LLC
+KalshiEX LLC
+<month>: <month> refers to a calendar month specified by Kalshi. Kalshi may list iterations of
+the Contract corresponding to variations of <month>.
+
+Payout Criterion: The Payout Criterion for the Contract encompasses the Expiration Values
+that contain a value that is <above/below/between> <percent>. If the value of
+<above/below/between> is “between”, then <percent> shall be a pair of percents and the Payout
+Criterion encompasses the Expiration Values that are greater than or equal to the lesser of the
+pair, and less than or equal to the greater of the pair.
+
+Minimum Tick: The Minimum Tick size for the referred Contract shall be $0.01.
+
+Position Limit: The Position Limit for the $1 referred Contract shall be $25,000 per Member.
+
+Last Trading Date: The Last Trading Date of the Contract will be the date of the scheduled data
+release for <month>. The Last Trading Time will be 8:25 AM ET.
+
+Settlement Date: The Settlement Date of the Contract shall be no later than the day after the
+Expiration Date, unless the Market Outcome is under review pursuant to Rule 7.1.
+
+Expiration Date: The Expiration Date of the Contract shall be the sooner of the date of the first
+10:00 AM ET following the release of data for <month>, or one week after the data release was
+scheduled to occur.
+
+Expiration time: The Expiration time of the Contract shall be 10:00 AM ET.
+
+Settlement Value: The Settlement Value for this Contract is $1.00.
+
+Expiration Value: The Expiration Value is the value of the Underlying as documented by the
+Source Agency on the Expiration Date at the Expiration time.
+
+Contingencies: Before Settlement, Kalshi may, at its sole discretion, initiate the Market
+Outcome Review Process pursuant to Rule 6.3(c) of the Rulebook. Additionally, as outlined in
+Rule 7.2 of the Rulebook, if any event or any circumstance which may have a material impact on
+the reliability or transparency of a Contract’s Source Agency or the Underlying related to the
+Contract arises, Kalshi retains the authority to designate a new Source Agency and Underlying
+for that Contract and to change any associated Contract specifications after the first day of
+trading.

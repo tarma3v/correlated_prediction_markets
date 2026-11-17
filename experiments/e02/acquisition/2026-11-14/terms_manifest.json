@@ -1,0 +1,32 @@
+{
+  "documents": [
+    {
+      "file": "terms/corecpi_terms.pdf",
+      "url": "https://assets.kalshi.com/contract_terms/CORECPI.pdf",
+      "fetched_at_utc": "2026-11-14T20:05:02.312997+00:00",
+      "sha256": "36970d7caff50fa74820206c17b8b44eaaedbcd7621ee7fdea8733ed333a9394",
+      "bytes": 30608,
+      "text_extraction": {
+        "file": "terms/corecpi_terms.txt",
+        "tool": "pypdf 6.21.4",
+        "normalization": "Trailing whitespace removed from extracted text lines; original PDF bytes retained.",
+        "sha256": "842d1dc6ed91f0a2e19e90941dd58cf4077a9f6ce31ba773de276d7ab692904b"
+      }
+    },
+    {
+      "file": "terms/corecpi_certification.pdf",
+      "url": "https://assets.kalshi.com/regulatory/product-certifications/CORECPI.pdf",
+      "fetched_at_utc": "2026-11-14T20:05:03.112286+00:00",
+      "sha256": "04808a22c9a1d98693cf5db89ae961c26b5c2026b74eabf00f55079783c24211",
+      "bytes": 201045,
+      "text_extraction": {
+        "file": "terms/corecpi_certification.txt",
+        "tool": "pypdf 6.21.4",
+        "normalization": "Trailing whitespace removed from extracted text lines; original PDF bytes retained.",
+        "sha256": "15fbb1aad896d310d9192a88ba677b7f076bfe16292920cc91042aa89210b306"
+      }
+    }
+  ],
+  "governing_rules_certified": false,
+  "note": "Current linked documents; applicability and historical priority require human review."
+}
