@@ -1,0 +1,45 @@
+{
+  "python": "3.11.8",
+  "input_sha256": {
+    "comparison/retrieval/bge_small_en_v1_5_event_title_pair_ranks.json": "a70a3c8187c024c575a999e04383b6f0a9994b001907d2331313c31f84a0e63e",
+    "comparison/retrieval/bge_small_en_v1_5_title_pair_ranks.json": "01d9d258f95e034e2930a3807a7aea0c275ade4f875c6ee37d40ba7e821ea4b6",
+    "comparison/retrieval/e5_small_v2_event_title_pair_ranks.json": "5e7bad6bc701a8c472d2f0653d54d2e906fc721c7cf09a24ae6634e735dee59e",
+    "comparison/retrieval/e5_small_v2_title_pair_ranks.json": "b4654571b1b2f8eb829b4b74429244947e6c204da7c41dd28d56cf44ba2c28e3",
+    "experiments/e02/acquisition/2026-11-14/corpus.jsonl": "b6bda62d924b400ffaa424239bf9bb9ebff2410168a3e54fc178fa432daf50f3",
+    "experiments/e02/acquisition/2026-11-14/raw/kalshi_markets.json": "998dd0625b65c266ee01b713c788db20ee31eb15e521ddbe420c2a4b8611e14d",
+    "experiments/e02/acquisition/2026-11-14/raw/polymarket_event.json": "9e61275e59fd8adaae4a5ac557e6c259b77c1060bc321cc9634b3df5502cf7dc",
+    "experiments/week1/config.json": "d9dc9c71931c9af1d54cd74769a2e3b2e2f195d290295ca192d7fbdce5cec01b",
+    "experiments/week1/data/packets.json": "147e9377e3ae03c2c597c6e25b1cf50983f7b46da8b969774f9c8c95a0ddee1f",
+    "experiments/week1/data/reference.json": "71e15866240a4bef56d1717d7c43e1bdc25ce6cde96c6aac1d93ff8e7d7c0e1e",
+    "experiments/week1/results/observed/checker_audit.json": "97aa27f15db59c3f3fb3d393ee2dc0628c40c676eb2680ce7d46e9f3ad87e75d",
+    "experiments/week1/results/observed/evaluated.json": "e9cfa16c2e37d2e994326cb83c0f7438e5a8d400cee824786d538ffda9ec27fa",
+    "experiments/week1/results/observed/predictions.jsonl": "794d0a79588714fd9cc74c2d9c593807cbe8912fb5b1a6052376894af7479214",
+    "experiments/week1/results/observed/summary.json": "96e89095479e39a9d00f3500a9b43b1d144f99f9bf2f19fa6654e9e73b14b6ab",
+    "extension/nlp/conditional_consistency.json": "0599498e6e322b3b806b162d49ba5f22dc7629f7c79541e205e1121cfdc4d769",
+    "extension/nlp/corpus_nli_predictions.json": "27800d359835268c8e9ee3147a2b998de00ac4efa4408023df57eb7acd4fa5a2",
+    "extension/nlp/corpus_run_manifest.json": "5b5c94f7b6520f5c0825528e32669f6d8998a03dffb0103e181b12f338525a66",
+    "extension/retrieval/results/extractions.json": "6251b334511d81c5c3edbcfd313282993d332c1d738d8395a03ea7c289c38750",
+    "extension/retrieval/results/threshold_candidates.json": "97ad95c9d079f320c3ef666e3765ea7efb5b49b8e7fe7208e4856f9cdca802c8",
+    "pilot/markets.json": "b563a9b5948e5c7a485db0919d54739afdbed5e6e7cd491620db4a69d7dada97",
+    "redesign/retrieval/reference_pairs.json": "424400dd5cfb0735aea1e6f777ae7367ca2235c1992ac63c1147da66b3687629"
+  },
+  "code_sha256": {
+    "common.py": "eedab3b526c8ead7446b2d28515b4f2cf21380b2b06fd7554f5a21e55c9e7b2e",
+    "graph.py": "5f30c89559c15b34b9eb44be030f10a37ddbbd74a582e580898f6683f6463f0e",
+    "llm.py": "5bce6771d0736efea3553fbb691bdc11ad6d760161a5053dcde33527fff18659",
+    "mutations.py": "81ab6c7320e011824f7edd7422d614e46a4b3988e5b4531d830e459b414c0aa9",
+    "run.py": "f3706f6abc8da08177d8745b4a4aa88a2c5ea6a4dea8d038c189661c813f3c91",
+    "search.py": "1e2f5bd29caf6ff5153fe6e34c219c0400bd36a8c254154500f414ab62d9fc49",
+    "test_audit.py": "2ef65a06912e0a624a1f8548d46866df8f62af43d9ea5d9a896d6b3068538c0b"
+  },
+  "output_sha256": {
+    "results.json": "3736e73e4a69a6fd8228c9a510f2e29addd276b8c7e27a5b9d4c6c1c65b41db5",
+    "author_ranks.jsonl": "c0c6c469bb3b5e561080d1eb6fd7f032573c06ee9a2891ceae5a3fdeb7712b3b",
+    "cpi_pairs.jsonl": "d2b354b13380e3169bac75ae30841a7235a3446c8c0e01edc79bae02a5feed5d",
+    "graph_edges.jsonl": "a61672cdfd543c2b1fd47482ead2a9579e6f2fd96de05ecd45609f8834aaa310",
+    "mutation_cases.jsonl": "131743dba22adfdbf15bb907eee4a12b10fbef067e092c92ee6d861d28911b17"
+  },
+  "protocol_sha256": "2cf13fabdd0cd92fb967c435ef06ac332f337b1531a05d07ef9592da2a3408fd",
+  "mutation_protocol_sha256": "5bbb62fb4348f8341dccd35f72ffd8d7a384eedc678be7133ae2f73b5dd816b2",
+  "model_inference_this_run": false
+}
