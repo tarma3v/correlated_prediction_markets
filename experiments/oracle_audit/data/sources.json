@@ -1,0 +1,56 @@
+{
+  "a.csv": {
+    "repository": "Tkota10/Senior-Thesis-Multi-LLM-Resolution",
+    "revision": "f76754b5bcff1a1d7a50c2f1073a4b6d44bd985c",
+    "path": "results/Final_Architecture_A_results.csv",
+    "git_blob": "f37d6436f4dc0872da0e3e6566a8ae8565568a46"
+  },
+  "dataset.csv": {
+    "repository": "Tkota10/Senior-Thesis-Multi-LLM-Resolution",
+    "revision": "f76754b5bcff1a1d7a50c2f1073a4b6d44bd985c",
+    "path": "data/kalshibench_v2_evaluation_Filtered.csv",
+    "git_blob": "f48800a2e4e76d7926ed47a276bba63626108bf8"
+  },
+  "b_curve.csv": {
+    "repository": "Tkota10/Senior-Thesis-Multi-LLM-Resolution",
+    "revision": "f76754b5bcff1a1d7a50c2f1073a4b6d44bd985c",
+    "path": "results/escalation_analysis/architecture_b_coverage_accuracy_curve.csv",
+    "git_blob": "ee24b49fc8077ed1467a45bcb81da7d22701889e"
+  },
+  "jev.jsonl": {
+    "repository": "priorbench/jev",
+    "revision": "92e0a55586177df869b919b1ec92bb86de2b7329",
+    "path": "probes/raw/t6_banc_20260920T190625Z.jsonl",
+    "git_blob": "dd42bf870536a4dbb12c8daa12b294e7f53ed33f"
+  },
+  "nel0.json": {
+    "repository": "LukasNel/kalshibench",
+    "revision": "d42f8f7201693df723d2eec68e05b39a1f3826af",
+    "path": "kalshibench_v2_2025-12-17_20-54-58/tier1_flagships/claude_opus_4.5_20251217_023819.json",
+    "git_blob": "f3c17abfd271c1f87a1e521fa837b78e227823fd"
+  },
+  "nel1.json": {
+    "repository": "LukasNel/kalshibench",
+    "revision": "d42f8f7201693df723d2eec68e05b39a1f3826af",
+    "path": "kalshibench_v2_2025-12-17_20-54-58/tier1_flagships/gpt_5.2_xhigh_20251217_023819.json",
+    "git_blob": "3ddcc77d98d4df3f7fb38603d19a64722bd5f666"
+  },
+  "nel2.json": {
+    "repository": "LukasNel/kalshibench",
+    "revision": "d42f8f7201693df723d2eec68e05b39a1f3826af",
+    "path": "kalshibench_v2_2025-12-17_20-54-58/tier1_flagships/deepseek_v3.2_20251217_201128.json",
+    "git_blob": "322d479fd02887e6e3686299d606b7767de52c78"
+  },
+  "nel3.json": {
+    "repository": "LukasNel/kalshibench",
+    "revision": "d42f8f7201693df723d2eec68e05b39a1f3826af",
+    "path": "kalshibench_v2_2025-12-17_20-54-58/tier1_flagships/qwen3_235b_thinking_20251217_023819.json",
+    "git_blob": "5440cf930fca2334548aa5f2c41f69cc29d67c8b"
+  },
+  "nel4.json": {
+    "repository": "LukasNel/kalshibench",
+    "revision": "d42f8f7201693df723d2eec68e05b39a1f3826af",
+    "path": "kalshibench_v2_2025-12-17_20-54-58/tier1_flagships/kimi_k2_20251217_205502.json",
+    "git_blob": "21f461fc5e2db0335c8ae11bf4e2fd00c4f876ce"
+  }
+}

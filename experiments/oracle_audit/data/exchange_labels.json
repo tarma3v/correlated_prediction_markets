@@ -1,0 +1,6 @@
+[
+  {"event":"KXCPI-26SEP","labels":{"0.4":1,"0.5":1,"0.6":0},"url":"https://kalshi.com/markets/kxcpi/cpi/kxcpi-26sep"},
+  {"event":"KXCPICORE-26SEP","labels":{"0.1":1,"0.2":1,"0.3":0},"url":"https://kalshi.com/markets/kxcpicore/cpi-core/kxcpicore-26sep"},
+  {"event":"KXCPI-26OCT","labels":{"0.0":1,"0.1":1,"0.2":1},"url":"https://kalshi.com/markets/kxcpi/cpi-in-october/kxcpi-26oct"},
+  {"event":"KXCPICORE-26OCT","labels":{"0.0":1,"0.1":1,"0.2":1},"url":"https://kalshi.com/markets/kxcpicore/core-cpi-in-october/kxcpicore-26oct"}
+]

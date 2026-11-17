@@ -1,0 +1,31 @@
+{
+  "method": "binary-term multinomial NB, 8192 fixed hash buckets, alpha=1",
+  "train": 455,
+  "test": 668,
+  "test_groups": 379,
+  "text_only": {
+    "n": 668,
+    "correct": 400,
+    "accuracy": 0.5988023952095808,
+    "brier": 0.38048076200756686
+  },
+  "macro_group_accuracy": 0.5949868073878628,
+  "training_prevalence": {
+    "n": 668,
+    "correct": 425,
+    "accuracy": 0.6362275449101796,
+    "brier": 0.24100024802466075
+  },
+  "artificial_positive_control": {
+    "n": 668,
+    "correct": 664,
+    "accuracy": 0.9940119760479041,
+    "brier": 0.005988025380938199
+  },
+  "flipped_canary": {
+    "n": 668,
+    "correct": 10,
+    "accuracy": 0.014970059880239521,
+    "brier": 0.9849973425476063
+  }
+}

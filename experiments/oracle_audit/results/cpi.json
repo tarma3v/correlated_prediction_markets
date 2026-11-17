@@ -1,0 +1,64 @@
+{
+  "n_rows": 40,
+  "events": 4,
+  "release_dates": 2,
+  "yes": 14,
+  "forecast_sensitivity_market_weight": {
+    "0": {
+      "n": 40,
+      "correct": 38,
+      "accuracy": 0.95,
+      "brier": 0.05
+    },
+    "0.25": {
+      "n": 40,
+      "correct": 38,
+      "accuracy": 0.95,
+      "brier": 0.0343705859375
+    },
+    "0.5": {
+      "n": 40,
+      "correct": 38,
+      "accuracy": 0.95,
+      "brier": 0.02585734375
+    },
+    "0.75": {
+      "n": 40,
+      "correct": 38,
+      "accuracy": 0.95,
+      "brier": 0.0244602734375
+    },
+    "1": {
+      "n": 40,
+      "correct": 39,
+      "accuracy": 0.975,
+      "brier": 0.030179375
+    }
+  },
+  "release_before_deferred": 40,
+  "release_at_decided": 40,
+  "exchange_checked": 12,
+  "exchange_correct": 12,
+  "exchange_overlap_with_quotes": 9,
+  "isolation": {
+    "file_read": "denied",
+    "socket_creation": "denied",
+    "environment_contains_canary": false,
+    "at_minus_one": "DEFER",
+    "after_valid_then_previous": "DEFER",
+    "changed_visible_value_changes_decision": [
+      "NO",
+      "YES"
+    ],
+    "mutated_future_packet_identical": true
+  },
+  "prospective_shadow": {
+    "-0.2": "DEFER",
+    "-0.1": "DEFER",
+    "0.0": "DEFER"
+  },
+  "snapshot_sha256": {
+    "kalshi_KXCPI.json": "564e8382f2843e21d528a5170c302cec700e931363c4f1ecb8448fc72887c73c",
+    "kalshi_KXCPICORE.json": "529fa1f0fb272ce5bf230a7d885f580c70d73236cfa4e9f5b94a4145fb06759e"
+  }
+}

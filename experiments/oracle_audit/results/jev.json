@@ -1,0 +1,16 @@
+{
+  "raw_calls": 800,
+  "unique_inputs": 400,
+  "first_repeat": {
+    "n": 400,
+    "correct": 384,
+    "accuracy": 0.96
+  },
+  "threshold_095": {
+    "n": 289,
+    "correct": 281,
+    "accuracy": 0.972318339100346
+  },
+  "mean_recorded_usd": 1.666896e-05,
+  "median_observed_ms": 432.9887494677678
+}
